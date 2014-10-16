@@ -1,0 +1,19 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Jacob Emcken
+tagline:          'There is no silver bullet'
+url:              http://emcken.dk
+baseurl:          /
+
+author:
+  name:           'Jacob Emcken'
+  url:            https://twitter.com/mdo
+
+paginate:         5

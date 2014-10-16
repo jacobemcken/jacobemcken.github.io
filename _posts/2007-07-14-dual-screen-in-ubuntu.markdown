@@ -1,0 +1,106 @@
+---
+layout: post
+status: publish
+published: true
+title: Dual screen in Ubuntu
+author:
+  display_name: Jacob Emcken
+  login: je
+  email: jacob@emcken.dk
+  url: http://www.emcken.dk/
+author_login: je
+author_email: jacob@emcken.dk
+author_url: http://www.emcken.dk/
+wordpress_id: 198
+wordpress_url: http://emcken.dk/wp/archives/198-dual-screen-in-ubuntu.html
+date: '2007-07-14 12:42:40 +0200'
+date_gmt: '2007-07-14 12:42:40 +0200'
+categories:
+- Ubuntu
+- Games
+tags: []
+comments:
+- id: 174
+  author: dimi3
+  author_email: dimitar.valov@gmail.com
+  author_url: ''
+  date: '2008-06-24 08:29:57 +0200'
+  date_gmt: '2008-06-24 07:29:57 +0200'
+  content: "Hi Jacob,\r\n\r\nI have an ATI card, but after your how-to I think I'll
+    by a nVidia one - maybe FX 1100 second hand. \r\n\r\nIn my setup I have one monitor
+    with resolution 1680x1050 and a second LCD TV with resolution 1360x768. I noticed
+    that you have different resolutions on both displays and I have only one question
+    - do you have any 'dead zones' on the displays (sections that are not visible
+    on the monitor but you can drag something in them). \r\n\r\nRegards :)"
+- id: 175
+  author: dimi3
+  author_email: dimitar.valov@gmail.com
+  author_url: ''
+  date: '2008-06-24 09:38:17 +0200'
+  date_gmt: '2008-06-24 08:38:17 +0200'
+  content: "Hi Jacob,\r\n\r\nI wonder do you have 'dead zones' like areas where you
+    can drag something but you can't see it on the display with the lower resolution.
+    Because I read some articles that had this problem.\r\n\r\nFrom your screenshot
+    I didn't understand if your displays are with different resoulution - why does
+    the second one (with firefox on it) has the same Vertical Resolution as the first
+    one?\r\n\r\nRegards."
+- id: 177
+  author: Jacob Emcken
+  author_email: jacob@emcken.dk
+  author_url: http://www.emcken.dk/weblog/
+  date: '2008-08-24 11:29:32 +0200'
+  date_gmt: '2008-08-24 10:29:32 +0200'
+  content: "Hi dimi3.\r\n\r\nI might have had so called \"dead zones\"... but I think
+    it was due to the fact that I was using screens with different resolutions. If
+    its a bug or by design I don't know... I didn't feel the way it worked was a problem
+    for me.\r\n\r\nAbout the screenshot: I did have different resolutions but the
+    screenshot application can't make screenshots in non-retangular shapes so it just
+    use the background there... on the monitors that part just isn't visible.\r\n\r\nI
+    don't have this clear in mind because I haven't bothered with this in Ubuntu for
+    a while now after the setup broke after an update. Anyways I'm pretty sure that
+    maximizing windows worked as it should (not using dead zone space,which you can
+    also see in the screenshot where Firefox is maximized)."
+---
+<p>Today I got dual screen in Ubuntu working... I have been fiddling around with it a few times before but nothing seriously. Never got it working the way I wanted. Earlier I edited the `xorg.conf` by hand while following guides from the internet and yesterday I stumbled upon a graphical Nvidia X configuration tool by accident... the solution was a bit of both.</p>
+<p>The tool is called `nvidia-settings` and looks something like the image below.<br />
+<!-- s9ymdb:42 --><img width='758' height='729' style="padding:5px" src="&#47;weblog&#47;uploads&#47;NVIDIAXServerSettings.png" alt="" &#47;></p>
+<p>As far as I know there are 2 ways of doing dual screen in Linux. Either you can use Xinerama or the Nvidia built-in feature called TwinView (I might be wrong here :D). Anyways I chose TviewView because that was the default in the Nvidia config tool. After making X aware of my second monitor with the Nvidia tool I saved the X configuration and restarted the X server with the new (Nvidia generated) configuration. The Nvidia generated configuration had 2 problems:</p>
+<p>*   It removed my danish keyboard<br />
+*   It made my old monitor and the VGA outled the default monitor.<br />
+    I want my new monitor on the DVI outled to be the default.</p>
+<p>By hand I added the danish keyboard configuration which I copy-pasted from the old `xorg.conf`:</p>
+<p>    Section "InputDevice"<br />
+        Identifier     "Keyboard0"<br />
+        Driver         "kbd"<br />
+        Option         "CoreKeyboard"<br />
+        Option         "XkbRules"      "xorg"<br />
+        Option         "XkbModel"      "pc104"<br />
+        Option         "XkbLayout"     "dk"<br />
+    EndSection</p>
+<p>To force the DVI to be the primary monitor I used the following:</p>
+<p>    Section "Device"<br />
+        Identifier     "NVIDIA Corporation NV43 [GeForce 6600]"<br />
+        Driver         "nvidia"<br />
+        VendorName     "NVIDIA Corporation"<br />
+        BoardName      "GeForce 6600"<br />
+        BusID          "PCI:1:0:0"<br />
+        Option         "NoLogo" "1"<br />
+        Option         "TwinView" "1"<br />
+        Option         "TwinViewXineramaInfoOrder" "DFP, CRT"<br />
+        Option         "TwinViewOrientation" "LeftOf"<br />
+        Option         "MetaModes" "DFP: 1600x1200, CRT: 1280x1024"<br />
+    EndSection</p>
+<p>    Section "Screen"<br />
+        Identifier     "Screen0"<br />
+        Device         "NVIDIA Corporation NV43 [GeForce 6600]"<br />
+        Monitor        "Monitor0"<br />
+        DefaultDepth    24<br />
+        SubSection     "Display"<br />
+            Depth       24<br />
+            Modes      "1600x1200" "1280x1024" "1024x768" "800x600" "640x480"<br />
+        EndSubSection<br />
+    EndSection</p>
+<p>First I don't want to see the Nvidia Logo when X is started... it is a nice logo though :)<br />
+`TwinViewXineramaInfoOrder` is the important part because this makes sure that the DVI is the default monitor. You can read more about all the possible [options for the Nvidia driver][1] on Nvidias homepage.</p>
+<p><a class='serendipity_image_link' href='&#47;weblog&#47;uploads&#47;Dualscreen.png'><!-- s9ymdb:41 --><img width='110' height='46' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;Dualscreen.thumb.png" alt="" &#47;><&#47;a> My only "problem" is that the background image is streched out on both monitors, but I guess I have to make a custom background image for my dual screen setup. Now I can play World of Warcraft in a dual screen setup in Linux as well which was one of the only things that kept me booting into Windows. To bad performance drops a bit in Linux :( But I have a strong feeling that we are to blame Nvidia for that rather than Wine... but its just a gut feeling. :D</p>
+<p>[1]: http:&#47;&#47;us.download.nvidia.com&#47;XFree86&#47;Linux-x86&#47;1.0-9755&#47;README&#47;appendix-d.html</p>

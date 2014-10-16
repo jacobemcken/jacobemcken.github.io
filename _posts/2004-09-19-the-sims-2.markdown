@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: The Sims 2
+author:
+  display_name: Jacob Emcken
+  login: je
+  email: jacob@emcken.dk
+  url: http://www.emcken.dk/
+author_login: je
+author_email: jacob@emcken.dk
+author_url: http://www.emcken.dk/
+wordpress_id: 74
+wordpress_url: http://emcken.dk/wp/archives/74-the-sims-2.html
+date: '2004-09-19 22:43:18 +0200'
+date_gmt: '2004-09-19 22:43:18 +0200'
+categories:
+- Computer
+tags: []
+comments:
+- id: 12
+  author: Kristoffer
+  author_email: ''
+  author_url: ''
+  date: '2004-09-20 18:10:53 +0200'
+  date_gmt: '2004-09-20 17:10:53 +0200'
+  content: hehe... can I  borrow it then? *g*
+---
+<p>I have bought The Sims 2, and I must say that I'm not dissapointed (at least not yet). It has a lot of new twists to it which makes it differ from the original and a lot more fun and variated. The only bad thing about it is that I don't have the time to play the game :)</p>

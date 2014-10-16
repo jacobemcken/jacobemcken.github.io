@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: x86 emulator
+author:
+  display_name: Jacob Emcken
+  login: je
+  email: jacob@emcken.dk
+  url: http://www.emcken.dk/
+author_login: je
+author_email: jacob@emcken.dk
+author_url: http://www.emcken.dk/
+wordpress_id: 19
+wordpress_url: http://emcken.dk/wp/archives/19-x86-emulator.html
+date: '2004-03-22 11:25:48 +0100'
+date_gmt: '2004-03-22 11:25:48 +0100'
+categories:
+- Computer
+tags: []
+comments: []
+---
+<p>Just found out about this x86 emulator: <a href="http:&#47;&#47;bochs.sourceforge.net">Bochs<&#47;a>. Now I can try the new Debian installer and perhapes test Debian Woody things without messing around with my desktop machine (Debian unstable).</p>
+<p>This is a <a href="http:&#47;&#47;linuxin.dk&#47;artikler&#47;index.php?id=2728">guide in danish<&#47;a> about Bochs</p>
