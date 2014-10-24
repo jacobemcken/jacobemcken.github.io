@@ -84,6 +84,13 @@ html {
   background-color: #202020;
   background-image: url('/public/vertical_cloth.png');
 }
+
+.sidebar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -109,11 +116,24 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
 }
 
 .logo {
+  margin: 0;
+  padding: 0;
   width: 25%;
+  float: left;
+}
+.sidebar-sticky {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  float: left;
 }
 @media (min-width: 48em) {
   .logo {
     width: 100%;
+  }
+  .sidebar-sticky {
+    width: 100%;
+    float: left;
   }
 }
 
