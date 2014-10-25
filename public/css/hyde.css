@@ -37,6 +37,50 @@
     margin: 0.3em;
 }
 
+.sidebar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidebar {
+  background-image: url('/public/vertical_cloth.png');
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 48em),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 48em),
+only screen and (   -min-moz-device-pixel-ratio: 2)      and (min-width: 48em),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 48em),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 48em),
+only screen and (                min-resolution: 192dpi) and (min-width: 48em),
+only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
+  .sidebar {
+    background-image: url('/public/vertical_cloth_@2X.png');
+  }
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float: left;
+}
+
+.sidebar-sticky {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  float: left;
+}
+@media (min-width: 48em) {
+  .logo {
+    width: 100%;
+  }
+  .sidebar-sticky {
+    width: 100%;
+  }
+}
+
 
 /*
  * Contents
@@ -82,15 +126,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  background-image: url('/public/vertical_cloth.png');
 }
-
-.sidebar:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -99,41 +135,6 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
-  }
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (   -min-moz-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 48em),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (                min-resolution: 192dpi) and (min-width: 48em),
-only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
-  .sidebar {
-    background-image: url('/public/vertical_cloth_@2X.png');
-  }
-}
-
-.logo {
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  float: left;
-}
-.sidebar-sticky {
-  margin: 0;
-  padding: 0;
-  width: 75%;
-  float: left;
-}
-@media (min-width: 48em) {
-  .logo {
-    width: 100%;
-  }
-  .sidebar-sticky {
-    width: 100%;
-    float: left;
   }
 }
 
@@ -172,9 +173,6 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-.sidebar-sticky {
-  width: 70%;
-}
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
