@@ -18,7 +18,9 @@ date_gmt: '2004-03-22 11:25:48 +0100'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>Just found out about this x86 emulator: <a href="http:&#47;&#47;bochs.sourceforge.net">Bochs<&#47;a>. Now I can try the new Debian installer and perhapes test Debian Woody things without messing around with my desktop machine (Debian unstable).</p>
-<p>This is a <a href="http:&#47;&#47;linuxin.dk&#47;artikler&#47;index.php?id=2728">guide in danish<&#47;a> about Bochs</p>
+Just found out about this x86 emulator: <a href="http://bochs.sourceforge.net">Bochs</a>. Now I can try the new Debian installer and perhapes test Debian Woody things without messing around with my desktop machine (Debian unstable).
+
+This is a <a href="http://linuxin.dk/artikler/index.php?id=2728">guide in danish</a> about Bochs
+

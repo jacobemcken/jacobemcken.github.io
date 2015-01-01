@@ -18,10 +18,13 @@ date_gmt: '2004-06-26 19:17:17 +0200'
 categories:
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p>Today I worked on a design for the upcomming <a href="http:&#47;&#47;www.debianart.dk&#47;">debianart.dk<&#47;a> site. The domain name isn't enabled yet but on linux your don't need <abbr title="Dynamic Name Service">DNS<&#47;abbr> to access the site. Put something like the following in your &#47;etc&#47;hosts file like this:</p>
-<div class="code">80.196.151.225 debianart.dk www.debianart.dk<&#47;div><br />
-...and access it anyway.<br />
-I don't know if there is a similar way on Windows?!</p>
-<p>I think it lookss pretty good so far.</p>
+Today I worked on a design for the upcomming <a href="http://www.debianart.dk/">debianart.dk</a> site. The domain name isn't enabled yet but on linux your don't need <abbr title="Dynamic Name Service">DNS</abbr> to access the site. Put something like the following in your /etc/hosts file like this:
+
+<div class="code">80.196.151.225 debianart.dk www.debianart.dk</div>
+...and access it anyway.
+I don't know if there is a similar way on Windows?!
+
+I think it lookss pretty good so far.
+

@@ -19,8 +19,11 @@ categories:
 - Debian
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p>I have been battling with Ubuntu to create a Debian package with my wallpapers from <a href="http:&#47;&#47;www.debianart.dk&#47;">Debian Art<&#47;a>.</p>
-<p>I ran <a href="https:&#47;&#47;bugzilla.ubuntu.com&#47;show_bug.cgi?id=6024">into a bug<&#47;a> which I was a log time to realize. I have reported it in the <a href="https:&#47;&#47;bugzilla.ubuntu.com&#47;">Ubuntu Bugzilla<&#47;a>.</p>
-<p>Well finally I got the damn package created and you can <a href="http:&#47;&#47;www.debianart.dk&#47;wallpaper-modern-swirl_1.0_all.deb">download it from here<&#47;a>.</p>
+I have been battling with Ubuntu to create a Debian package with my wallpapers from <a href="http://www.debianart.dk/">Debian Art</a>.
+
+I ran <a href="https://bugzilla.ubuntu.com/show_bug.cgi?id=6024">into a bug</a> which I was a log time to realize. I have reported it in the <a href="https://bugzilla.ubuntu.com/">Ubuntu Bugzilla</a>.
+
+Well finally I got the damn package created and you can <a href="http://www.debianart.dk/wallpaper-modern-swirl_1.0_all.deb">download it from here</a>.
+

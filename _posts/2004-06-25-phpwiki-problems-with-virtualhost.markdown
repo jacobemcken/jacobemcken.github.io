@@ -18,11 +18,16 @@ date_gmt: '2004-06-25 22:47:01 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>I tried installing the package <b>phpwiki<&#47;b> and the installation went (like almost always with Debian) smooth. But I use severel `VirtualHost`'s and when i tried to access phpwiki I was met with an error 404 :(</p>
-<p>After googling around I found that RewriteRules isn't inheritet from the default apache settings into a VirtualHost neither is the RewriteEngine setting.</p>
-<p>Put this in each VirtualHost which should have phpwiki enabled:</p>
-<p>    RewriteEngine on<br />
-    RewriteOptions inherit</p>
-<p>Note if you have more global RewriteRules than phpwiki these will also be enabled.</p>
+I tried installing the package <b>phpwiki</b> and the installation went (like almost always with Debian) smooth. But I use severel `VirtualHost`'s and when i tried to access phpwiki I was met with an error 404 :(
+
+After googling around I found that RewriteRules isn't inheritet from the default apache settings into a VirtualHost neither is the RewriteEngine setting.
+
+Put this in each VirtualHost which should have phpwiki enabled:
+
+    RewriteEngine on
+    RewriteOptions inherit
+
+Note if you have more global RewriteRules than phpwiki these will also be enabled.
+

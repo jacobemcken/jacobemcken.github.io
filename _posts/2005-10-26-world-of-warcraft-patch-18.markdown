@@ -66,7 +66,7 @@ comments:
   date_gmt: '2007-01-31 10:35:19 +0100'
   content: "With the latest version of Wine no patches is needed. I'm running Ubuntu
     Edgy and [Wine Ubuntu packages from Wine HQ's site][1]. Still a few quirks with
-    sound and mouse buttons... but its running alright.\r\n\r\n\r\n[1]: http:&#47;&#47;winehq.com&#47;site&#47;download-deb"
+    sound and mouse buttons... but its running alright.\r\n\r\n\r\n[1]: http://winehq.com/site/download-deb"
 - id: 100
   author: Jacob Emcken
   author_email: jacob@emcken.dk
@@ -74,9 +74,13 @@ comments:
   date: '2007-01-31 11:57:29 +0100'
   date_gmt: '2007-01-31 10:57:29 +0100'
   content: "btw on winehq.org you can find guides for different applications including
-    [a guide to get World of Warcraft to work with Wine][1].\r\n\r\n[1]: http:&#47;&#47;appdb.winehq.org&#47;appview.php?iAppId=1922"
+    [a guide to get World of Warcraft to work with Wine][1].\r\n\r\n[1]: http://appdb.winehq.org/appview.php?iAppId=1922"
 ---
-<p>After the 1.8.0 patch World of Warcraft doesn't work for me again. I'm unable to click on things ingame :-( (This applies to the latest 1.8.1 patch too).</p>
-<p>This sucks because now I have to boot into Windows again.</p>
-<p>Anyways, I have played alot the last few weeks and have become level 53. I might hit level 60 before Christmas... YEAH! I'm not going to set higher goals... my girlfriend might not like it ;-)</p>
-<p>I have been reading more on the items and quests in the game, and I'm begining to realize that I wont ever get near some of the really cool stuff :-(</p>
+After the 1.8.0 patch World of Warcraft doesn't work for me again. I'm unable to click on things ingame :-( (This applies to the latest 1.8.1 patch too).
+
+This sucks because now I have to boot into Windows again.
+
+Anyways, I have played alot the last few weeks and have become level 53. I might hit level 60 before Christmas... YEAH! I'm not going to set higher goals... my girlfriend might not like it ;-)
+
+I have been reading more on the items and quests in the game, and I'm begining to realize that I wont ever get near some of the really cool stuff :-(
+

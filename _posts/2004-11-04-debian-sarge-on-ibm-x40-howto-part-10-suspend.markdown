@@ -18,8 +18,11 @@ date_gmt: '2004-11-04 00:16:10 +0100'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>I have just installed a <a href="http:&#47;&#47;kernel.org&#47;">2.6.9 kernel<&#47;a> and now my laptop wakes after suspend with acpi. But as soon it has awoken it stats to shutdown :(</p>
-<p>I have to find out why this happens... but it is getting there YE YE :-D</p>
-<p>**Update:** Suspend actually works now. Just me who thinks you have to wake the computer up with the power button. (I had disabled lid-suspend because it didn't work with earlier kernels).</p>
+I have just installed a <a href="http://kernel.org/">2.6.9 kernel</a> and now my laptop wakes after suspend with acpi. But as soon it has awoken it stats to shutdown :(
+
+I have to find out why this happens... but it is getting there YE YE :-D
+
+**Update:** Suspend actually works now. Just me who thinks you have to wake the computer up with the power button. (I had disabled lid-suspend because it didn't work with earlier kernels).
+

@@ -35,7 +35,11 @@ comments:
   date_gmt: '2009-02-05 18:54:27 +0100'
   content: I'm not sure I can help you... you'll have to be more specific.
 ---
-<p>As of right now I have moved my website to new server out in town on a 100MBit line, so it should be fairly fast. This is the first step in shutting down my server at home entirely. Lets see how it works out.</p>
-<p>*crossing my fingers and praying to the internet gods*</p>
-<p>**Update:** Now [debianart.dk][1] have been moved as well.</p>
-<p>[1]: http:&#47;&#47;www.debianart.dk&#47;</p>
+As of right now I have moved my website to new server out in town on a 100MBit line, so it should be fairly fast. This is the first step in shutting down my server at home entirely. Lets see how it works out.
+
+*crossing my fingers and praying to the internet gods*
+
+**Update:** Now [debianart.dk][1] have been moved as well.
+
+[1]: http://www.debianart.dk/
+

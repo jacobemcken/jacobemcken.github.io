@@ -22,18 +22,28 @@ categories:
 tags:
 - gnome-do
 - bug
-comments: []
+comments: false
 ---
-<p>I like my desktop to look good (cool effects not needed) and I'm a heavy Gnome-Do user so it has been annoying me for quite some time that when starting Pidgin it looks like this:</p>
-<p><img src="http:&#47;&#47;emcken.dk&#47;weblog&#47;files&#47;2009&#47;03&#47;pidgin-gnome-do-before.png" alt="pidgin-gnome-do-before" width="394" height="219" class="alignnone size-full wp-image-258" &#47;></p>
-<p>So I started searching Launchpad for a bugreport and actually found 2:</p>
-<p>  * [216460][bug 1]<br />
-  * [337374][bug 2]</p>
-<p>Thos bugs led me to [a bug report in Pidgins own trac][bug 3] about the same issue. Which led me to download the source code and an usable svg file which I manually copied to my system:</p>
-<p>    sudo cp .&#47;pidgin-2.5.5&#47;pidgin&#47;pixmaps&#47;icons&#47;hicolor&#47;48x48&#47;apps&#47;scalable&#47;pidgin.svg &#47;usr&#47;share&#47;icons&#47;hicolor&#47;scalable&#47;apps&#47;</p>
-<p>Long story short... now launching Piding from Gnome-Do looks like this:</p>
-<p><img src="http:&#47;&#47;emcken.dk&#47;weblog&#47;files&#47;2009&#47;03&#47;pidgin-gnome-do-after.png" alt="pidgin-gnome-do-after" width="396" height="221" class="alignnone size-full wp-image-259" &#47;></p>
-<p>YAY :D</p>
-<p>[bug 1]: https:&#47;&#47;bugs.launchpad.net&#47;ubuntu&#47;+source&#47;pidgin&#47;+bug&#47;216460<br />
-[bug 2]: https:&#47;&#47;bugs.launchpad.net&#47;ubuntu&#47;+source&#47;pidgin&#47;+bug&#47;337374<br />
-[bug 3]: http:&#47;&#47;developer.pidgin.im&#47;ticket&#47;8556</p>
+I like my desktop to look good (cool effects not needed) and I'm a heavy Gnome-Do user so it has been annoying me for quite some time that when starting Pidgin it looks like this:
+
+<img src="http://emcken.dk/weblog/files/2009/03/pidgin-gnome-do-before.png" alt="pidgin-gnome-do-before" width="394" height="219" class="alignnone size-full wp-image-258" />
+
+So I started searching Launchpad for a bugreport and actually found 2:
+
+  * [216460][bug 1]
+  * [337374][bug 2]
+
+Thos bugs led me to [a bug report in Pidgins own trac][bug 3] about the same issue. Which led me to download the source code and an usable svg file which I manually copied to my system:
+
+    sudo cp ./pidgin-2.5.5/pidgin/pixmaps/icons/hicolor/48x48/apps/scalable/pidgin.svg /usr/share/icons/hicolor/scalable/apps/
+
+Long story short... now launching Piding from Gnome-Do looks like this:
+
+<img src="http://emcken.dk/weblog/files/2009/03/pidgin-gnome-do-after.png" alt="pidgin-gnome-do-after" width="396" height="221" class="alignnone size-full wp-image-259" />
+
+YAY :D
+
+[bug 1]: https://bugs.launchpad.net/ubuntu/+source/pidgin/+bug/216460
+[bug 2]: https://bugs.launchpad.net/ubuntu/+source/pidgin/+bug/337374
+[bug 3]: http://developer.pidgin.im/ticket/8556
+

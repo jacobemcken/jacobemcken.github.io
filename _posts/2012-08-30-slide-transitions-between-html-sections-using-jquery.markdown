@@ -18,7 +18,7 @@ date_gmt: '2012-08-30 22:12:10 +0200'
 categories:
 - Random hacks
 tags: []
-comments: []
+comments: false
 ---
 I needed to make the picture in my head of the interface and workflow for my pet project [clojure-blog][] more concrete.
 

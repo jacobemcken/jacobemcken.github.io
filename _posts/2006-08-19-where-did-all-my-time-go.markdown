@@ -59,15 +59,22 @@ comments:
   date_gmt: '2006-09-29 19:19:24 +0200'
   content: Which realm are you playing at Jacob? :)
 ---
-<p>... down a drain called World of Warcraft.</p>
-<p>As a few people have pointed out, I havn't blogged for some time now. I spend most my evenings playing World of Warcraft and havn't really used my spare time on all sorts Open Source stuff as I used to.</p>
-<p>This is [my character][1] so far. It is actually now pretty easy to get WoW running under Linux with WINE.</p>
-<p>But at work I have tried to update our [Instiki][2] installation to the newest 0.11 version which wasn't as easy as it may sound. I finally got all the old stuff migrated and all seemed to work until we tried to proxy from our DMZ to the internal Instiki wiki. Instiki didn't like that... I is some time ago now so I dont have the error message. But if I stumble upon it I'll put it here.</p>
-<p>Instead I found a Media Wiki altered by [MindTouch][3] called [dekiwiki][4].</p>
-<p>The cool thing about that wiki is they made a page where you can get you [own public readable wiki][5], I already made my own at [emcken.wiki.com][6]. Not much for you guys, but now have a place for all my notes and shit which usually just lie around on my disk until it dissappears in all the other mess.</p>
-<p>[1]: http:&#47;&#47;ctprofiles.net&#47;90803<br />
-[2]: http:&#47;&#47;www.instiki.org&#47;<br />
-[3]: http:&#47;&#47;mindtouch.com&#47;<br />
-[4]: http:&#47;&#47;doc.opengarden.org&#47;<br />
-[5]: http:&#47;&#47;www.wiki.com&#47;<br />
-[6]: http:&#47;&#47;emcken.wiki.com&#47;</p>
+... down a drain called World of Warcraft.
+
+As a few people have pointed out, I havn't blogged for some time now. I spend most my evenings playing World of Warcraft and havn't really used my spare time on all sorts Open Source stuff as I used to.
+
+This is [my character][1] so far. It is actually now pretty easy to get WoW running under Linux with WINE.
+
+But at work I have tried to update our [Instiki][2] installation to the newest 0.11 version which wasn't as easy as it may sound. I finally got all the old stuff migrated and all seemed to work until we tried to proxy from our DMZ to the internal Instiki wiki. Instiki didn't like that... I is some time ago now so I dont have the error message. But if I stumble upon it I'll put it here.
+
+Instead I found a Media Wiki altered by [MindTouch][3] called [dekiwiki][4].
+
+The cool thing about that wiki is they made a page where you can get you [own public readable wiki][5], I already made my own at [emcken.wiki.com][6]. Not much for you guys, but now have a place for all my notes and shit which usually just lie around on my disk until it dissappears in all the other mess.
+
+[1]: http://ctprofiles.net/90803
+[2]: http://www.instiki.org/
+[3]: http://mindtouch.com/
+[4]: http://doc.opengarden.org/
+[5]: http://www.wiki.com/
+[6]: http://emcken.wiki.com/
+

@@ -53,28 +53,40 @@ comments:
   date_gmt: '2008-11-18 07:15:46 +0100'
   content: The decision was not so difficult as i thinked, thank you very very much.
 ---
-<p>You can [download smbldap-tools from their homepage][1]... **don't!**</p>
-<p>If have searched yast for `smbldap-tools`, you will probably (like me) have found nothing. I tried to install the platform independent RPM package. Only to find that I was missing:</p>
-<p>    perl(Unicode::MapUTF8) is needed by smbldap-tools</p>
-<p>Well there is not specific package for smbldap-tools for SLES 10... but I found that the perl scrips is included in the `samba-doc` package. After you have installed the `samba-doc` package, you will be able to find somewhere like this:</p>
-<p>    &#47;usr&#47;share&#47;doc&#47;packages&#47;samba&#47;examples&#47;LDAP&#47;smbldap-tools-0.9.1</p>
-<p>The version might vary when new service packs arrive.</p>
-<p>Now copy the the following files to `&#47;usr&#47;local&#47;sbin&#47;`:</p>
-<p>    smbldap-groupadd<br />
-    smbldap-groupmod<br />
-    smbldap-passwd<br />
-    smbldap-tools.spec<br />
-    smbldap-userdel<br />
-    smbldap-usermod<br />
-    smbldap_tools.pm<br />
-    smbldap-groupdel<br />
-    smbldap-groupshow<br />
-    smbldap-populate<br />
-    smbldap-useradd<br />
-    smbldap-userinfo<br />
-    smbldap-usershow</p>
-<p>And copy the following configuration files to `&#47;etc&#47;smbldap-tools`:</p>
-<p>    smbldap.conf<br />
-    smbldap_bind.conf</p>
-<p>From here you are on your own :)</p>
-<p>[1]: http:&#47;&#47;sourceforge.net&#47;projects&#47;smbldap-tools&#47;</p>
+You can [download smbldap-tools from their homepage][1]... **don't!**
+
+If have searched yast for `smbldap-tools`, you will probably (like me) have found nothing. I tried to install the platform independent RPM package. Only to find that I was missing:
+
+    perl(Unicode::MapUTF8) is needed by smbldap-tools
+
+Well there is not specific package for smbldap-tools for SLES 10... but I found that the perl scrips is included in the `samba-doc` package. After you have installed the `samba-doc` package, you will be able to find somewhere like this:
+
+    /usr/share/doc/packages/samba/examples/LDAP/smbldap-tools-0.9.1
+
+The version might vary when new service packs arrive.
+
+Now copy the the following files to `/usr/local/sbin/`:
+
+    smbldap-groupadd
+    smbldap-groupmod
+    smbldap-passwd
+    smbldap-tools.spec
+    smbldap-userdel
+    smbldap-usermod
+    smbldap_tools.pm
+    smbldap-groupdel
+    smbldap-groupshow
+    smbldap-populate
+    smbldap-useradd
+    smbldap-userinfo
+    smbldap-usershow
+
+And copy the following configuration files to `/etc/smbldap-tools`:
+
+    smbldap.conf
+    smbldap_bind.conf
+
+From here you are on your own :)
+
+[1]: http://sourceforge.net/projects/smbldap-tools/
+

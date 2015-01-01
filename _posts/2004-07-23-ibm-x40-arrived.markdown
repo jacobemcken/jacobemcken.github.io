@@ -40,7 +40,10 @@ comments:
   date_gmt: '2004-07-23 21:09:30 +0200'
   content: Right on!
 ---
-<p>Today (or yesterday because it is early morning) my IBM X40 laptop arrived. There is no CD-ROM drive within it so I used an USB stick to install Debian Sarge which installed with no problems. I used <a href="http:&#47;&#47;d-i.pascal.at&#47;">a guide<&#47;a> on found on <a href="http:&#47;&#47;www.debian.org&#47;devel&#47;debian-installer&#47;">Debian-Installer<&#47;a> website.<br />
-I have also checked on <a href="http:&#47;&#47;www.linux-on-laptops.com&#47;ibm.html">http:&#47;&#47;linux-laptop.net&#47;<&#47;a> for info about my new laptop.</p>
-<p>I deletede Windows XP and the IBM rescue partition... though no CD-ROM's with this software came along with the laptop. I'll have to find out how to get it back... not because I'm going to use it but now that I payed for it I'll like to have it :)</p>
-<p>No I'm off to bed... got a though day tomorrow. I'm on a crappy organized assignment (partly my own fault) and I think I'm starting to grow grey hair because I'm missed my beauty sleep for some days now.</p>
+Today (or yesterday because it is early morning) my IBM X40 laptop arrived. There is no CD-ROM drive within it so I used an USB stick to install Debian Sarge which installed with no problems. I used <a href="http://d-i.pascal.at/">a guide</a> on found on <a href="http://www.debian.org/devel/debian-installer/">Debian-Installer</a> website.
+I have also checked on <a href="http://www.linux-on-laptops.com/ibm.html">http://linux-laptop.net/</a> for info about my new laptop.
+
+I deletede Windows XP and the IBM rescue partition... though no CD-ROM's with this software came along with the laptop. I'll have to find out how to get it back... not because I'm going to use it but now that I payed for it I'll like to have it :)
+
+No I'm off to bed... got a though day tomorrow. I'm on a crappy organized assignment (partly my own fault) and I think I'm starting to grow grey hair because I'm missed my beauty sleep for some days now.
+

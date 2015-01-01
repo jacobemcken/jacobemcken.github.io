@@ -18,6 +18,7 @@ date_gmt: '2004-08-13 23:01:42 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>Yesterday I went to the movies with a friend of mine to see "King Arthur". It had been a while since we last met. We went to the big movie theatre in Copenhage (Imperial) where we spend some time before the movie to catch up. I had a great time and the movie was good, not like Braveheart or Gladiator but okay entertainment no doubt.</p>
+Yesterday I went to the movies with a friend of mine to see "King Arthur". It had been a while since we last met. We went to the big movie theatre in Copenhage (Imperial) where we spend some time before the movie to catch up. I had a great time and the movie was good, not like Braveheart or Gladiator but okay entertainment no doubt.
+

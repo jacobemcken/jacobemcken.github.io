@@ -18,7 +18,9 @@ date_gmt: '2004-03-30 09:34:46 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>On my way to work I got a crazy thought. IIRC at least 3 questions about how to set time and date has been asked on <a href="http:&#47;&#47;www.debianforum.dk&#47;">the danish Debian help forum<&#47;a>. This should be addressed with writing a section about how to set date and time on a Debian box. The section should contain a little info about <i>date<&#47;i>, <i>rdate<&#47;i> with cron and a third command to set the date (which I can't remember the name).</p>
-<p><i>NOTE TO MYSELF: GET IT DONE!<&#47;i></p>
+On my way to work I got a crazy thought. IIRC at least 3 questions about how to set time and date has been asked on <a href="http://www.debianforum.dk/">the danish Debian help forum</a>. This should be addressed with writing a section about how to set date and time on a Debian box. The section should contain a little info about <i>date</i>, <i>rdate</i> with cron and a third command to set the date (which I can't remember the name).
+
+<i>NOTE TO MYSELF: GET IT DONE!</i>
+

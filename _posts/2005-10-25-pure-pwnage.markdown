@@ -18,11 +18,15 @@ date_gmt: '2005-10-25 17:15:12 +0200'
 categories:
 - Games
 tags: []
-comments: []
+comments: false
 ---
-<p>Some time ago a [friend of mine][2] introduced me to [Pure Pwnage][1], and yesterday I took the time to watch all episodes.</p>
-<p>It is a video show about a "pro" gamer who totally own noobs... and stuff, LOL. First I was like, okay I'll watch, but I know he dosn't own as much as me - rite, then I'm okay he is cool and all - you know.</p>
-<p>Okay enought of the wierd Pure Pwnage thounge :-D<br />
-If you are just a tiny bit into computer games, I'm sure you will find this worth while watching - ENJOY.</p>
-<p>[1]: http:&#47;&#47;www.purepwnage.com&#47;<br />
-[2]: http:&#47;&#47;www.kokott.dk&#47;</p>
+Some time ago a [friend of mine][2] introduced me to [Pure Pwnage][1], and yesterday I took the time to watch all episodes.
+
+It is a video show about a "pro" gamer who totally own noobs... and stuff, LOL. First I was like, okay I'll watch, but I know he dosn't own as much as me - rite, then I'm okay he is cool and all - you know.
+
+Okay enought of the wierd Pure Pwnage thounge :-D
+If you are just a tiny bit into computer games, I'm sure you will find this worth while watching - ENJOY.
+
+[1]: http://www.purepwnage.com/
+[2]: http://www.kokott.dk/
+

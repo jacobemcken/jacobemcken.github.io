@@ -18,7 +18,8 @@ date_gmt: '2005-05-24 22:32:00 +0200'
 categories:
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>I really wanted to attend <a href="http:&#47;&#47;2005.guadec.org&#47;">GUADEC<&#47;a> but the trip gets to expensive because I don't have a car. I'm really interested in the GNOME development not to mention Ubuntu which uses GNOME as base for the desktop.<br />
-I had planned to go with 2 friends (and colleauges) of mine, and I know the trip would have been awsome. My boss even gave me 2 free days off so I could attend the conference in worktime. I really hope the GUADEC people do something extra for all of us who wont be able to attend on location.</p>
+I really wanted to attend <a href="http://2005.guadec.org/">GUADEC</a> but the trip gets to expensive because I don't have a car. I'm really interested in the GNOME development not to mention Ubuntu which uses GNOME as base for the desktop.
+I had planned to go with 2 friends (and colleauges) of mine, and I know the trip would have been awsome. My boss even gave me 2 free days off so I could attend the conference in worktime. I really hope the GUADEC people do something extra for all of us who wont be able to attend on location.
+

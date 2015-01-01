@@ -18,7 +18,8 @@ date_gmt: '2004-06-21 22:58:29 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>Today I found <a href="http:&#47;&#47;diveintomark.org&#47;archives&#47;rooms&#47;30-days-to-a-more-accessible-weblog&#47;">an article<&#47;a> covering things to keep in mind when you creates weblogs or just websites.<br />
-I hope I get the time to take a closer look... I only read about half the entries.</p>
+Today I found <a href="http://diveintomark.org/archives/rooms/30-days-to-a-more-accessible-weblog/">an article</a> covering things to keep in mind when you creates weblogs or just websites.
+I hope I get the time to take a closer look... I only read about half the entries.
+

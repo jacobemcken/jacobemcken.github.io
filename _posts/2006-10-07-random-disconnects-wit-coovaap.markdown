@@ -56,7 +56,10 @@ comments:
     been running mine without much trouble for a while now. It is an interesting way
     to get to know the neighbors."
 ---
-<p>Through the last week I have played around with CoovaAP on my Linksys WRT54GL... I was just too curious to try it out after my colleague Tomas told me about it :D<br />
-CoovaAP is a slightly customized version of OpenWRT to make it easy to setup a wireless HotSpot like the one you can connect to on caf&eacute;s, hotels and such.</p>
-<p>CoovaAP comes with pretty much everything out of the box except the FreeRADIUS server. There are some free RADIUS servers around the net which seems to be Coovas intention that people should use. It seems like a really nice pice of software, but for me it was a NO GO.</p>
-<p>After installing Coova on my access point I would get randomly kicked off World of Warcraft, even though I was using a wired connection on that machine. Teamspeak and other things seems to be unaffected. I haven't been digging into what caused this problem, I don't really have the experience or the time to do anything about it.</p>
+Through the last week I have played around with CoovaAP on my Linksys WRT54GL... I was just too curious to try it out after my colleague Tomas told me about it :D
+CoovaAP is a slightly customized version of OpenWRT to make it easy to setup a wireless HotSpot like the one you can connect to on caf&eacute;s, hotels and such.
+
+CoovaAP comes with pretty much everything out of the box except the FreeRADIUS server. There are some free RADIUS servers around the net which seems to be Coovas intention that people should use. It seems like a really nice pice of software, but for me it was a NO GO.
+
+After installing Coova on my access point I would get randomly kicked off World of Warcraft, even though I was using a wired connection on that machine. Teamspeak and other things seems to be unaffected. I haven't been digging into what caused this problem, I don't really have the experience or the time to do anything about it.
+

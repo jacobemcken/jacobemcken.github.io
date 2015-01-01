@@ -34,10 +34,13 @@ comments:
   date_gmt: '2004-10-06 11:21:43 +0200'
   content: nice.... finally you get one whitout pixel errors!!... hopefully :)
 ---
-<p>Starting from September, I have been employed at <a href="http:&#47;&#47;www.casalogic.com&#47;">Casalogic<&#47;a> where I until now have been working freelance. My first paycheck has reached my bank account and I'm now surfing the web for the best way to spend it :)</p>
-<p>I have ordered the following:</p>
+Starting from September, I have been employed at <a href="http://www.casalogic.com/">Casalogic</a> where I until now have been working freelance. My first paycheck has reached my bank account and I'm now surfing the web for the best way to spend it :)
+
+I have ordered the following:
+
 <ul>
-<li>Nintendo Wave Bird controller (for GameCube)<&#47;li>
-<li>Sid Meier's Pirates (no - not the old classic... but this remake will probably be a classic too)<&#47;li>
-<li>Samsung 172X TFT (please no pixel errors this time!!!)<&#47;li>
-<li>DVI cable (for the monitor)<&#47;li><&#47;ul></p>
+<li>Nintendo Wave Bird controller (for GameCube)</li>
+<li>Sid Meier's Pirates (no - not the old classic... but this remake will probably be a classic too)</li>
+<li>Samsung 172X TFT (please no pixel errors this time!!!)</li>
+<li>DVI cable (for the monitor)</li></ul>
+

@@ -27,4 +27,5 @@ comments:
   date_gmt: '2004-09-25 21:26:59 +0200'
   content: very nice look!!.. :)
 ---
-<p>My weblog have been updated to Serendipity 0.7-beta3.</p>
+My weblog have been updated to Serendipity 0.7-beta3.
+

@@ -18,7 +18,8 @@ date_gmt: '2007-08-13 17:53:21 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>I was cleaning my (computer) desktop and found this video about a helpdesk from medieval times ( sadly it is in Norwegian :( ).<br />
-I had saved it on purpose because I though it was so funny. Now I found it on YouTube... deleted :P</p>
+I was cleaning my (computer) desktop and found this video about a helpdesk from medieval times ( sadly it is in Norwegian :( ).
+I had saved it on purpose because I though it was so funny. Now I found it on YouTube... deleted :P
+

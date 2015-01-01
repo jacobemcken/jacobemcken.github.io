@@ -18,7 +18,9 @@ date_gmt: '2004-09-06 10:32:01 +0200'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>I found a promising GAIM plugin, <a href="http:&#47;&#47;guifications.sourceforge.net&#47;">Guifications<&#47;a> recommended by a friend. It displays buddy states similar to MSN with a popup box in the cornor of the screen, which disappears after a few seconds.</p>
-<p>It comes in Debian packages too :)</p>
+I found a promising GAIM plugin, <a href="http://guifications.sourceforge.net/">Guifications</a> recommended by a friend. It displays buddy states similar to MSN with a popup box in the cornor of the screen, which disappears after a few seconds.
+
+It comes in Debian packages too :)
+

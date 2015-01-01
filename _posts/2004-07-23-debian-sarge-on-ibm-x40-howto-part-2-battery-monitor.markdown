@@ -18,14 +18,20 @@ date_gmt: '2004-07-23 23:36:04 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>After I had a console which worked correctly I installed the usual stuf like:<br />
-ssh less modconf emacs21</p>
-<p>Then I installed GNOME with the following</p>
-<pre>apt-get install x-windows-system gnome-core gdm<&#47;pre><br />
-... and waited a little.</p>
-<p>Autoconfiguring my harware didn't work but after replacing the &#47;etc&#47;X11&#47;XF86Config-4 with the content from <a href="http:&#47;&#47;www.maths.warwick.ac.uk&#47;~wcasey&#47;LINUX&#47;IBMx40.htm">a guide<&#47;a> found on linux-laptop.net it worked like a charm.</p>
-<p>Now I wanted a graphical battery indicator and I added "Utility" -> "Battery Charge Monitor" to my GNOME panel. But an error occured after adding it to my panel: <b>"Can't access ACPI events in &#47;var&#47;run&#47;acpid.socket!"<&#47;b></p>
-<pre>apt-get install acpid<&#47;pre><br />
-Solved the problem.</p>
+After I had a console which worked correctly I installed the usual stuf like:
+ssh less modconf emacs21
+
+Then I installed GNOME with the following
+
+<pre>apt-get install x-windows-system gnome-core gdm</pre>
+... and waited a little.
+
+Autoconfiguring my harware didn't work but after replacing the /etc/X11/XF86Config-4 with the content from <a href="http://www.maths.warwick.ac.uk/~wcasey/LINUX/IBMx40.htm">a guide</a> found on linux-laptop.net it worked like a charm.
+
+Now I wanted a graphical battery indicator and I added "Utility" -> "Battery Charge Monitor" to my GNOME panel. But an error occured after adding it to my panel: <b>"Can't access ACPI events in /var/run/acpid.socket!"</b>
+
+<pre>apt-get install acpid</pre>
+Solved the problem.
+

@@ -25,10 +25,12 @@ comments:
   author_url: ''
   date: '2004-03-08 14:28:32 +0100'
   date_gmt: '2004-03-08 13:28:32 +0100'
-  content: "Perhapes this site could have som inspiration:\r\nhttp:&#47;&#47;www.linuks.mine.nu&#47;volkany&#47;"
+  content: "Perhapes this site could have som inspiration:\r\nhttp://www.linuks.mine.nu/volkany/"
 ---
-<p>Well I better go to bed now... just had to see <i>24 Hours<&#47;i> with Jack Bauer :)<br />
-But before I give my computer a rest I'll post my latest work on my Debian DVD cover.<br />
-<a href="&#47;graphics&#47;Debian Sarge DVD cover 0.2.png">PNG format<&#47;a> for preview.<br />
-<a href="&#47;graphics&#47;Debian Sarge DVD cover 0.2.svg">SVG format<&#47;a></p>
-<p>I'm beginning to learn how this SVG shit works... sadly the tools for Linux are limited (as far as I know). Half the time I have to use a text editor to edit the SVG image. Both because some things aren't supported and because the the output from the tools are far from optimized.</p>
+Well I better go to bed now... just had to see <i>24 Hours</i> with Jack Bauer :)
+But before I give my computer a rest I'll post my latest work on my Debian DVD cover.
+<a href="/graphics/Debian Sarge DVD cover 0.2.png">PNG format</a> for preview.
+<a href="/graphics/Debian Sarge DVD cover 0.2.svg">SVG format</a>
+
+I'm beginning to learn how this SVG shit works... sadly the tools for Linux are limited (as far as I know). Half the time I have to use a text editor to edit the SVG image. Both because some things aren't supported and because the the output from the tools are far from optimized.
+

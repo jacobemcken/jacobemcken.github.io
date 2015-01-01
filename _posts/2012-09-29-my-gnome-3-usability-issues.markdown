@@ -21,11 +21,11 @@ categories:
 tags:
 - gnome-shell
 - gnome3
-comments: []
+comments: false
 ---
 I've just installed Gnome 3.6 (some packages might still be 3.5.9x) on my laptop by upgrading to Ubuntu 12.10 beta2 together with the Gnome 3 PPA for a few missing things like the updated Nautilus.
 
-I'm a dedicated Gnome user and generally love the alternative focus Gnome 3.x has put on the desktop.<br />
+I'm a dedicated Gnome user and generally love the alternative focus Gnome 3.x has put on the desktop.
 But as with all software, no matter how mature (no - Gnome 2.x wasn't perfect either) there is room for improvement. The following is some of my usability issues, I've come across during my daily use of Gnome since 3.0. Some of this might be due to Ubuntu breaking the intended Gnome 3 behavior.
 
 

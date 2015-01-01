@@ -31,9 +31,13 @@ comments:
     server domains. The\r\nscripts should be easier to use as an xm command line and\r\nsimply
     take the parameter start and stop."
 ---
-<p>This week I've been on a course to prepare for the Novell Certified Linux Engineer (CLE) which is required (and payed) by my employer.<br />
-But to take the CLE certification test you need to be [CLP certified][1] first, so today I took the CLP certification.<br />
-Now I'm ready to do the CLE tomorrow.</p>
-<p>I've been working with Linux for some years now so the test wasn't really that hard. Actually I was disappointed that I only got 718 points, I would have expected more. Anyways it is passed so who cares :D Don't know what to expect from tomorrows test, I hope it is as easy as this one.</p>
-<p>(Ubuntu is still my preferred Linux distro... but don't tell Novell :P sssshhh)</p>
-<p>[1]: http:&#47;&#47;www.novell.com&#47;training&#47;certinfo&#47;clp&#47;</p>
+This week I've been on a course to prepare for the Novell Certified Linux Engineer (CLE) which is required (and payed) by my employer.
+But to take the CLE certification test you need to be [CLP certified][1] first, so today I took the CLP certification.
+Now I'm ready to do the CLE tomorrow.
+
+I've been working with Linux for some years now so the test wasn't really that hard. Actually I was disappointed that I only got 718 points, I would have expected more. Anyways it is passed so who cares :D Don't know what to expect from tomorrows test, I hope it is as easy as this one.
+
+(Ubuntu is still my preferred Linux distro... but don't tell Novell :P sssshhh)
+
+[1]: http://www.novell.com/training/certinfo/clp/
+

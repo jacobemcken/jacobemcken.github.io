@@ -20,10 +20,15 @@ categories:
 - Linux
 - Windows
 tags: []
-comments: []
+comments: false
 ---
-<p>With the latest version of Windows Server 2003 R2 it is no longer needed to install Windows Services for UNIX, since this is now a part of Windows Server 2003, though not enabled by default.</p>
-<p><a class='serendipity_image_link' href='&#47;weblog&#47;uploads&#47;EnableUnixSettingsonActiveDirectory.png'><img width='110' height='83' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;EnableUnixSettingsonActiveDirectory.thumb.png" alt="" &#47;><&#47;a> To enable it open `Control Panel -> Add or Remove Programs`. Now click on `Add&#47;Remove Windows Components`. Double click on `Active Directory Services` and select `Identity Management for Unix`.</p>
-<p>After this... surprise... you have to restart the Windows Server :-D</p>
-<p>Now you should be able to see the "Unix Attributes"-tab when looking on properties for a user.</p>
-<p><a class='serendipity_image_link' href='&#47;weblog&#47;uploads&#47;Unixsettingsforusers.png'><img width='89' height='110' style="border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;Unixsettingsforusers.thumb.png" alt="" &#47;><&#47;a></p>
+With the latest version of Windows Server 2003 R2 it is no longer needed to install Windows Services for UNIX, since this is now a part of Windows Server 2003, though not enabled by default.
+
+<a class='serendipity_image_link' href='/weblog/uploads/EnableUnixSettingsonActiveDirectory.png'><img width='110' height='83' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/EnableUnixSettingsonActiveDirectory.thumb.png" alt="" /></a> To enable it open `Control Panel -> Add or Remove Programs`. Now click on `Add/Remove Windows Components`. Double click on `Active Directory Services` and select `Identity Management for Unix`.
+
+After this... surprise... you have to restart the Windows Server :-D
+
+Now you should be able to see the "Unix Attributes"-tab when looking on properties for a user.
+
+<a class='serendipity_image_link' href='/weblog/uploads/Unixsettingsforusers.png'><img width='89' height='110' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Unixsettingsforusers.thumb.png" alt="" /></a>
+

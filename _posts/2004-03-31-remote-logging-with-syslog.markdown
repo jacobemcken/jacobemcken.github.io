@@ -18,16 +18,26 @@ date_gmt: '2004-03-31 13:48:35 +0200'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>Today i played around with syslogd and here is what I learned:</p>
-<p>To enable syslog to recieve logs from remote machines you have to give the syslogd an <i>-r<&#47;i> parameter. I Debian you have edit &#47;etc&#47;inet.d&#47;syslogd to enable remote logging. A bug has allready been filed about this <a href="http:&#47;&#47;bugs.debian.org&#47;cgi-bin&#47;bugreport.cgi?bug=205239">#205239<&#47;a></p>
-<p>On other systems like RedHat you can configure it in <i>&#47;etc&#47;sysconfig&#47;syslog<&#47;i> where you set SYSLOGD_PARAMS="-r"</p>
-<p>Now restart syslog with:</p>
-<p>    machine:~# &#47;etc&#47;init.d&#47;sysklogd restart</p>
-<p>To configure the clients edit `&#47;etc&#47;syslog.conf`:</p>
-<p>    #Remote logging to 10.0.0.5<br />
-    *.* @10.0.0.5</p>
-<p>And restart syslog like above (now on you client).</p>
-<p><i>NOTE - You can only have comments on newlines. This example is WRONG!!<&#47;i></p>
-<p>    *.* @10.0.0.5 #My log machine<</p>
+Today i played around with syslogd and here is what I learned:
+
+To enable syslog to recieve logs from remote machines you have to give the syslogd an <i>-r</i> parameter. I Debian you have edit /etc/inet.d/syslogd to enable remote logging. A bug has allready been filed about this <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=205239">#205239</a>
+
+On other systems like RedHat you can configure it in <i>/etc/sysconfig/syslog</i> where you set SYSLOGD_PARAMS="-r"
+
+Now restart syslog with:
+
+    machine:~# /etc/init.d/sysklogd restart
+
+To configure the clients edit `/etc/syslog.conf`:
+
+    #Remote logging to 10.0.0.5
+    *.* @10.0.0.5
+
+And restart syslog like above (now on you client).
+
+<i>NOTE - You can only have comments on newlines. This example is WRONG!!</i>
+
+    *.* @10.0.0.5 #My log machine<
+

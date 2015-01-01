@@ -37,16 +37,22 @@ comments:
     same video card, but it was impossible to me to run Jedi Academy or Dungeon Siege
     2 with WINE\r\n\r\nZaiden."
 ---
-<p>I installed [Dapper Drake][1] on my laptop and it went pretty well. At the time of writing it isn't released as stable yet. I didn't make a clean install but jut upgraded my current Breezy installation.</p>
-<p>The first thing I noticed was the my SD card reader started working. YAY - kudos to the developer(s) how made that happen. Even if you dont use Ubuntu you should be able make it work on you machine too, because it was an addition in kernel 2.6.15 which now supports the SD card reader in IBM's X40 (which is a  Ricoh R5C822). I dunno which other SD card readers now work but take a look at [this site][4]</p>
-<p>The reason I upgraded to Dapper was because I hoped that the problems with using an external monitor (or projector) would be solved. As you might have guessed they where not. Instead I found a SourceForge project: [intel 855GM crt video out driver][5]. This is a small program which can enable ad disable the extarnal monitor port. I works very well, and I can now use my laptop for presentations now that I can have both my laptop screen and the extarnal monitor enbaled at the same time.</p>
-<p>A little bonus I got from upgrading Ubuntu was:</p>
-<p>*   Speedups in GNOME which I can feel (not much, but they are there)<br />
-*   Firefox 1.5, yay - tab reordering<br />
-*   Gedit can now save files to remote locations trasparent via gnome-vfs (ie. ssh)<br />
-*   Better performance with gnome-terminal<br />
-*   Quicker startup time (I dont use that much because I usually just suspends my laptop to RAM)<br />
-    **Important:** Right now suspend doesn't work right. It seems alot faster to suspend and resume but redraws of the screen totally fucks up after resume. Ie. scrolling on a homepage or moveing windows is behaving very weird. I'm planning to try installing from the flight 5 CD's to test if it has something to do with my upgrade from Breezy.</p>
-<p>[1]: http:&#47;&#47;ubuntu.com&#47;<br />
-[4]: http:&#47;&#47;mmc.drzeus.cx&#47;wiki&#47;Controllers<br />
-[5]: http:&#47;&#47;sourceforge.net&#47;projects&#47;i855crt</p>
+I installed [Dapper Drake][1] on my laptop and it went pretty well. At the time of writing it isn't released as stable yet. I didn't make a clean install but jut upgraded my current Breezy installation.
+
+The first thing I noticed was the my SD card reader started working. YAY - kudos to the developer(s) how made that happen. Even if you dont use Ubuntu you should be able make it work on you machine too, because it was an addition in kernel 2.6.15 which now supports the SD card reader in IBM's X40 (which is a  Ricoh R5C822). I dunno which other SD card readers now work but take a look at [this site][4]
+
+The reason I upgraded to Dapper was because I hoped that the problems with using an external monitor (or projector) would be solved. As you might have guessed they where not. Instead I found a SourceForge project: [intel 855GM crt video out driver][5]. This is a small program which can enable ad disable the extarnal monitor port. I works very well, and I can now use my laptop for presentations now that I can have both my laptop screen and the extarnal monitor enbaled at the same time.
+
+A little bonus I got from upgrading Ubuntu was:
+
+*   Speedups in GNOME which I can feel (not much, but they are there)
+*   Firefox 1.5, yay - tab reordering
+*   Gedit can now save files to remote locations trasparent via gnome-vfs (ie. ssh)
+*   Better performance with gnome-terminal
+*   Quicker startup time (I dont use that much because I usually just suspends my laptop to RAM)
+    **Important:** Right now suspend doesn't work right. It seems alot faster to suspend and resume but redraws of the screen totally fucks up after resume. Ie. scrolling on a homepage or moveing windows is behaving very weird. I'm planning to try installing from the flight 5 CD's to test if it has something to do with my upgrade from Breezy.
+
+[1]: http://ubuntu.com/
+[4]: http://mmc.drzeus.cx/wiki/Controllers
+[5]: http://sourceforge.net/projects/i855crt
+

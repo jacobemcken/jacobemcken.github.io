@@ -28,7 +28,7 @@ comments:
   content: "I dont remember where I bought it... but I searched for the type of RAM
     needed on IBMs homepage and then I used a danish site called EDBpriser[1], which
     is a site that collects prices on hardware on danish hardware dealers.\r\n\r\n[1]:
-    http:&#47;&#47;www.edbpriser.dk&#47;"
+    http://www.edbpriser.dk/"
 - id: 31
   author: matt
   author_email: prummo@hotmail.com
@@ -47,4 +47,5 @@ comments:
     , slllooowwwwwwwwww..as ....i'v seen dead ppl mooving faster than that...Fiuckkk.
     please help...az fare az i know it runz about 50 euro fo 1G. iz that right?
 ---
-<p>I have bought 1GB RAM for my laptop and it now has a total of 1.5GB RAM.... it really rocks!</p>
+I have bought 1GB RAM for my laptop and it now has a total of 1.5GB RAM.... it really rocks!
+

@@ -35,18 +35,24 @@ comments:
   date_gmt: '2007-02-17 00:08:48 +0100'
   content: Works Perfect!! thanks!!
 ---
-<p>Today I wanted to install Suse Linux Enterprise Server 10 (SLES10) from my USB DVD drive on my VMware Server (the free edition). I went though the wizard and powered on the machine but when the SUSE installer started to read the initial ramdisk it never got any further.</p>
-<p>Troubleshooting VMware issues...<br />
-First I seached Google but didn't really found anything usefull. My problem was to generic. Then I found that each VMware machine has its own log file at the same location as the vmx files etc. I found that when the machine stopped responding the log file would say something like this:</p>
-<p>    Jan 19 12:04:22: vcpu-0| VIDE: (0x170) Rep INSW ATAPI Unknown Cmd 0x52 Data len 8<br />
-    Jan 19 12:04:22: vcpu-0| VIDE: (0x170) Rep INSW ATAPI Unknown Cmd 0x52 Data len 28<br />
-    Jan 19 12:04:22: vmx| CDROM_SG: AIOCallbackSGIO: Unexpected errno: Input&#47;output error (5)<br />
-    Jan 19 12:04:22: vmx| VIDE: ATAPI DMA 0x28 Failed: key 0x2, asc 0x0, ascq 0x0</p>
-<p>Okay now this seems to be a CD&#47;DVD drive problem. I found another working version of SLES 10 on VMware and compared the 2 vmx files.</p>
-<p>    diff working.vmx not_working.vmx<br />
-    ...<br />
-    11,12c10,11<br />
-    < ide1:0.fileName = "&#47;dev&#47;cdrom"<br />
-     ide1:0.fileName = "&#47;dev&#47;scd0"<br />
-    > ide1:0.deviceType = "cdrom-raw"</p>
-<p>Now shut down the virtual machine and edited the vmx fil to use `atapi-cdrom` and now I was able to install.</p>
+Today I wanted to install Suse Linux Enterprise Server 10 (SLES10) from my USB DVD drive on my VMware Server (the free edition). I went though the wizard and powered on the machine but when the SUSE installer started to read the initial ramdisk it never got any further.
+
+Troubleshooting VMware issues...
+First I seached Google but didn't really found anything usefull. My problem was to generic. Then I found that each VMware machine has its own log file at the same location as the vmx files etc. I found that when the machine stopped responding the log file would say something like this:
+
+    Jan 19 12:04:22: vcpu-0| VIDE: (0x170) Rep INSW ATAPI Unknown Cmd 0x52 Data len 8
+    Jan 19 12:04:22: vcpu-0| VIDE: (0x170) Rep INSW ATAPI Unknown Cmd 0x52 Data len 28
+    Jan 19 12:04:22: vmx| CDROM_SG: AIOCallbackSGIO: Unexpected errno: Input/output error (5)
+    Jan 19 12:04:22: vmx| VIDE: ATAPI DMA 0x28 Failed: key 0x2, asc 0x0, ascq 0x0
+
+Okay now this seems to be a CD/DVD drive problem. I found another working version of SLES 10 on VMware and compared the 2 vmx files.
+
+    diff working.vmx not_working.vmx
+    ...
+    11,12c10,11
+    < ide1:0.fileName = "/dev/cdrom"
+     ide1:0.fileName = "/dev/scd0"
+    > ide1:0.deviceType = "cdrom-raw"
+
+Now shut down the virtual machine and edited the vmx fil to use `atapi-cdrom` and now I was able to install.
+

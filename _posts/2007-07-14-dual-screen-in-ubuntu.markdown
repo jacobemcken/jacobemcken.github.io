@@ -61,46 +61,58 @@ comments:
     maximizing windows worked as it should (not using dead zone space,which you can
     also see in the screenshot where Firefox is maximized)."
 ---
-<p>Today I got dual screen in Ubuntu working... I have been fiddling around with it a few times before but nothing seriously. Never got it working the way I wanted. Earlier I edited the `xorg.conf` by hand while following guides from the internet and yesterday I stumbled upon a graphical Nvidia X configuration tool by accident... the solution was a bit of both.</p>
-<p>The tool is called `nvidia-settings` and looks something like the image below.<br />
-<!-- s9ymdb:42 --><img width='758' height='729' style="padding:5px" src="&#47;weblog&#47;uploads&#47;NVIDIAXServerSettings.png" alt="" &#47;></p>
-<p>As far as I know there are 2 ways of doing dual screen in Linux. Either you can use Xinerama or the Nvidia built-in feature called TwinView (I might be wrong here :D). Anyways I chose TviewView because that was the default in the Nvidia config tool. After making X aware of my second monitor with the Nvidia tool I saved the X configuration and restarted the X server with the new (Nvidia generated) configuration. The Nvidia generated configuration had 2 problems:</p>
-<p>*   It removed my danish keyboard<br />
-*   It made my old monitor and the VGA outled the default monitor.<br />
-    I want my new monitor on the DVI outled to be the default.</p>
-<p>By hand I added the danish keyboard configuration which I copy-pasted from the old `xorg.conf`:</p>
-<p>    Section "InputDevice"<br />
-        Identifier     "Keyboard0"<br />
-        Driver         "kbd"<br />
-        Option         "CoreKeyboard"<br />
-        Option         "XkbRules"      "xorg"<br />
-        Option         "XkbModel"      "pc104"<br />
-        Option         "XkbLayout"     "dk"<br />
-    EndSection</p>
-<p>To force the DVI to be the primary monitor I used the following:</p>
-<p>    Section "Device"<br />
-        Identifier     "NVIDIA Corporation NV43 [GeForce 6600]"<br />
-        Driver         "nvidia"<br />
-        VendorName     "NVIDIA Corporation"<br />
-        BoardName      "GeForce 6600"<br />
-        BusID          "PCI:1:0:0"<br />
-        Option         "NoLogo" "1"<br />
-        Option         "TwinView" "1"<br />
-        Option         "TwinViewXineramaInfoOrder" "DFP, CRT"<br />
-        Option         "TwinViewOrientation" "LeftOf"<br />
-        Option         "MetaModes" "DFP: 1600x1200, CRT: 1280x1024"<br />
-    EndSection</p>
-<p>    Section "Screen"<br />
-        Identifier     "Screen0"<br />
-        Device         "NVIDIA Corporation NV43 [GeForce 6600]"<br />
-        Monitor        "Monitor0"<br />
-        DefaultDepth    24<br />
-        SubSection     "Display"<br />
-            Depth       24<br />
-            Modes      "1600x1200" "1280x1024" "1024x768" "800x600" "640x480"<br />
-        EndSubSection<br />
-    EndSection</p>
-<p>First I don't want to see the Nvidia Logo when X is started... it is a nice logo though :)<br />
-`TwinViewXineramaInfoOrder` is the important part because this makes sure that the DVI is the default monitor. You can read more about all the possible [options for the Nvidia driver][1] on Nvidias homepage.</p>
-<p><a class='serendipity_image_link' href='&#47;weblog&#47;uploads&#47;Dualscreen.png'><!-- s9ymdb:41 --><img width='110' height='46' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;Dualscreen.thumb.png" alt="" &#47;><&#47;a> My only "problem" is that the background image is streched out on both monitors, but I guess I have to make a custom background image for my dual screen setup. Now I can play World of Warcraft in a dual screen setup in Linux as well which was one of the only things that kept me booting into Windows. To bad performance drops a bit in Linux :( But I have a strong feeling that we are to blame Nvidia for that rather than Wine... but its just a gut feeling. :D</p>
-<p>[1]: http:&#47;&#47;us.download.nvidia.com&#47;XFree86&#47;Linux-x86&#47;1.0-9755&#47;README&#47;appendix-d.html</p>
+Today I got dual screen in Ubuntu working... I have been fiddling around with it a few times before but nothing seriously. Never got it working the way I wanted. Earlier I edited the `xorg.conf` by hand while following guides from the internet and yesterday I stumbled upon a graphical Nvidia X configuration tool by accident... the solution was a bit of both.
+
+The tool is called `nvidia-settings` and looks something like the image below.
+<!-- s9ymdb:42 --><img width='758' height='729' style="padding:5px" src="/weblog/uploads/NVIDIAXServerSettings.png" alt="" />
+
+As far as I know there are 2 ways of doing dual screen in Linux. Either you can use Xinerama or the Nvidia built-in feature called TwinView (I might be wrong here :D). Anyways I chose TviewView because that was the default in the Nvidia config tool. After making X aware of my second monitor with the Nvidia tool I saved the X configuration and restarted the X server with the new (Nvidia generated) configuration. The Nvidia generated configuration had 2 problems:
+
+*   It removed my danish keyboard
+*   It made my old monitor and the VGA outled the default monitor.
+    I want my new monitor on the DVI outled to be the default.
+
+By hand I added the danish keyboard configuration which I copy-pasted from the old `xorg.conf`:
+
+    Section "InputDevice"
+        Identifier     "Keyboard0"
+        Driver         "kbd"
+        Option         "CoreKeyboard"
+        Option         "XkbRules"      "xorg"
+        Option         "XkbModel"      "pc104"
+        Option         "XkbLayout"     "dk"
+    EndSection
+
+To force the DVI to be the primary monitor I used the following:
+
+    Section "Device"
+        Identifier     "NVIDIA Corporation NV43 [GeForce 6600]"
+        Driver         "nvidia"
+        VendorName     "NVIDIA Corporation"
+        BoardName      "GeForce 6600"
+        BusID          "PCI:1:0:0"
+        Option         "NoLogo" "1"
+        Option         "TwinView" "1"
+        Option         "TwinViewXineramaInfoOrder" "DFP, CRT"
+        Option         "TwinViewOrientation" "LeftOf"
+        Option         "MetaModes" "DFP: 1600x1200, CRT: 1280x1024"
+    EndSection
+
+    Section "Screen"
+        Identifier     "Screen0"
+        Device         "NVIDIA Corporation NV43 [GeForce 6600]"
+        Monitor        "Monitor0"
+        DefaultDepth    24
+        SubSection     "Display"
+            Depth       24
+            Modes      "1600x1200" "1280x1024" "1024x768" "800x600" "640x480"
+        EndSubSection
+    EndSection
+
+First I don't want to see the Nvidia Logo when X is started... it is a nice logo though :)
+`TwinViewXineramaInfoOrder` is the important part because this makes sure that the DVI is the default monitor. You can read more about all the possible [options for the Nvidia driver][1] on Nvidias homepage.
+
+<a class='serendipity_image_link' href='/weblog/uploads/Dualscreen.png'><!-- s9ymdb:41 --><img width='110' height='46' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Dualscreen.thumb.png" alt="" /></a> My only "problem" is that the background image is streched out on both monitors, but I guess I have to make a custom background image for my dual screen setup. Now I can play World of Warcraft in a dual screen setup in Linux as well which was one of the only things that kept me booting into Windows. To bad performance drops a bit in Linux :( But I have a strong feeling that we are to blame Nvidia for that rather than Wine... but its just a gut feeling. :D
+
+[1]: http://us.download.nvidia.com/XFree86/Linux-x86/1.0-9755/README/appendix-d.html
+

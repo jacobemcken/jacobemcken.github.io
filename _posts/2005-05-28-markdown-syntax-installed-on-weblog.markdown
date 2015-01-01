@@ -18,8 +18,11 @@ date_gmt: '2005-05-28 12:29:04 +0200'
 categories:
 - Uncategorized
 tags: []
-comments: []
+comments: false
 ---
-<p>*YEAH!*</p>
-<p>I found a [Markdown serendipity plugin][], and I have now installed it!</p>
-<p>[Markdown serendipity plugin]: http:&#47;&#47;cvs.sourceforge.net&#47;viewcvs.py&#47;php-blog&#47;additional_plugins&#47;serendipity_event_markdown&#47;</p>
+*YEAH!*
+
+I found a [Markdown serendipity plugin][], and I have now installed it!
+
+[Markdown serendipity plugin]: http://cvs.sourceforge.net/viewcvs.py/php-blog/additional_plugins/serendipity_event_markdown/
+

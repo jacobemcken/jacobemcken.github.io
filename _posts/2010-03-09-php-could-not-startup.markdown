@@ -19,9 +19,12 @@ categories:
 - Linux
 tags:
 - php-gtk
-comments: []
+comments: false
 ---
-<p>Informative error message... NOT.</p>
-<p>I've installed php-gtk on a machine and got the above error when trying to start php from cli via ssh.</p>
-<p>After a while it suddenly hit me that I hadn't forwarded X when I logged in via ssh. After that I was able to use php again.<br />
-php with php-gtk is unable to start without a X server.</p>
+Informative error message... NOT.
+
+I've installed php-gtk on a machine and got the above error when trying to start php from cli via ssh.
+
+After a while it suddenly hit me that I hadn't forwarded X when I logged in via ssh. After that I was able to use php again.
+php with php-gtk is unable to start without a X server.
+

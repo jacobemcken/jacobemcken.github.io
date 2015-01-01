@@ -19,8 +19,10 @@ categories:
 - Graphics
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>Well Jakub Steiner thinks so... I dunno if I'm a weak person easily subjected to others opinion but I think he is on to something here :-)</p>
-<p><a href="http:&#47;&#47;www.gimp.org&#47;contest&#47;gallery.cgi?display=image&amp;name=2005022618020717887">Splash screen bringing the truth<&#47;a><br />
-<a href="http:&#47;&#47;www.gimp.org&#47;contest&#47;gallery.cgi?display=image&amp;name=2005022617545317607">Splash screen bringing the horrible truth<&#47;a></p>
+Well Jakub Steiner thinks so... I dunno if I'm a weak person easily subjected to others opinion but I think he is on to something here :-)
+
+<a href="http://www.gimp.org/contest/gallery.cgi?display=image&amp;name=2005022618020717887">Splash screen bringing the truth</a>
+<a href="http://www.gimp.org/contest/gallery.cgi?display=image&amp;name=2005022617545317607">Splash screen bringing the horrible truth</a>
+

@@ -28,31 +28,48 @@ comments:
   content: As I mentioned in an earlier post, I found out that I had been using a
     completly wrong driver for my wireless card. The juice for my card
 ---
-<p>I was really nerveus about getting wireless to work...</p>
-<p>**Update**, 24. July 2004, an hour later: Well it was bound to be an impossible mission from the start. The computer dosn't even have an Intel fucker of not supported death wireless card I thought it had :)<br />
-What a waste of time.</p>
-<p>I have an <a href="http:&#47;&#47;madwifiwiki.thewebhost.de&#47;wiki&#47;IBM80211aBGWirelessLANMiniPCIAdapter">Atheros (AR5212 802.11abg)<&#47;a> card instead.<&#47;i></p>
-<p>After googeling I found that my wireless card is an Intel 2200BG which at the time of the writing of the guides I found wasn't supported very well, but the linked to the <a href="http:&#47;&#47;ipw2200.sourceforge.net&#47;">ipw2200 site on SourceForge<&#47;a> developing the Linux driver.<br />
-But what the hell - I'll give it a try... it might work.</p>
-<p>There is a few requirements for the driver to work:</p>
-<p>*   The kernel have to be a 2.6 kernel and have "CONFIG_NET_RADIO" enabled (`CONFIG_NET_RADIO=y`).<br />
-    This is all okay if you are using a precompiled kernel from the Debian Sarge archive.<br />
-    I used kernel-image-2.6.7-1-686 and the corresponding kernel headers.<br />
-*   Wireless tools is needed an is apt-getable with the following:</p>
-<p>        apt-get install wireless-tools<br />
-*   <a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;ipw2200&#47;">Source code for the driver<&#47;a> downloadable from SourceForge<br />
-*   <a href="http:&#47;&#47;ipw2200.sourceforge.net&#47;firmware.php">Firmware for the wireless card<&#47;a> downloadable from the projects website</p>
-<p>To compile the source code you also need the packages gcc and make.<br />
-For a more detailed howto consult the project website.</p>
-<p>Now compile the source code:</p>
-<p>    debian:~# tar xzvf ipw2200-0.2.tgz<br />
-    debian:~# cd ipw2200-0.2<br />
-    debian:~# make</p>
-<p>Unpack the firmware files to &#47;usr&#47;lib&#47;hotplug&#47;firmware:</p>
-<p>    moprobe firmware_class</p>
-<p>If this isn't loaded you will get an error like this "<i>-1 Unknown symbol in module<&#47;i>"</p>
-<p>and finally run :</p>
-<p>    insmod ipw2200.ko</p>
-<p>Well I didn't get any errors... now I have to figure out how this works :)<br />
-Step 2... test that it is actually working.</p>
-<p>dmesg dosn't detect any new ahrdware when I load the modules, so I don't think that it is working?!</p>
+I was really nerveus about getting wireless to work...
+
+**Update**, 24. July 2004, an hour later: Well it was bound to be an impossible mission from the start. The computer dosn't even have an Intel fucker of not supported death wireless card I thought it had :)
+What a waste of time.
+
+I have an <a href="http://madwifiwiki.thewebhost.de/wiki/IBM80211aBGWirelessLANMiniPCIAdapter">Atheros (AR5212 802.11abg)</a> card instead.</i>
+
+After googeling I found that my wireless card is an Intel 2200BG which at the time of the writing of the guides I found wasn't supported very well, but the linked to the <a href="http://ipw2200.sourceforge.net/">ipw2200 site on SourceForge</a> developing the Linux driver.
+But what the hell - I'll give it a try... it might work.
+
+There is a few requirements for the driver to work:
+
+*   The kernel have to be a 2.6 kernel and have "CONFIG_NET_RADIO" enabled (`CONFIG_NET_RADIO=y`).
+    This is all okay if you are using a precompiled kernel from the Debian Sarge archive.
+    I used kernel-image-2.6.7-1-686 and the corresponding kernel headers.
+*   Wireless tools is needed an is apt-getable with the following:
+
+        apt-get install wireless-tools
+*   <a href="http://sourceforge.net/projects/ipw2200/">Source code for the driver</a> downloadable from SourceForge
+*   <a href="http://ipw2200.sourceforge.net/firmware.php">Firmware for the wireless card</a> downloadable from the projects website
+
+To compile the source code you also need the packages gcc and make.
+For a more detailed howto consult the project website.
+
+Now compile the source code:
+
+    debian:~# tar xzvf ipw2200-0.2.tgz
+    debian:~# cd ipw2200-0.2
+    debian:~# make
+
+Unpack the firmware files to /usr/lib/hotplug/firmware:
+
+    moprobe firmware_class
+
+If this isn't loaded you will get an error like this "<i>-1 Unknown symbol in module</i>"
+
+and finally run :
+
+    insmod ipw2200.ko
+
+Well I didn't get any errors... now I have to figure out how this works :)
+Step 2... test that it is actually working.
+
+dmesg dosn't detect any new ahrdware when I load the modules, so I don't think that it is working?!
+

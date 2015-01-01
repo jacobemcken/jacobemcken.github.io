@@ -18,7 +18,9 @@ date_gmt: '2006-09-23 13:16:02 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p><img width='373' height='480' style="border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;storm_trooper_on_toilet.jpg" alt="" &#47;></p>
-<p>I guess Storm Troopers need to take a dump sometimes also... or what he is doing :-D</p>
+<img width='373' height='480' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/storm_trooper_on_toilet.jpg" alt="" />
+
+I guess Storm Troopers need to take a dump sometimes also... or what he is doing :-D
+

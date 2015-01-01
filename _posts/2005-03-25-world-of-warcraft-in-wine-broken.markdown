@@ -19,7 +19,9 @@ categories:
 - Linux
 - Games
 tags: []
-comments: []
+comments: false
 ---
-<p>After the World of Warcraft patch update today WINE 20050310 no longer runs WoW. Though it seems that there are already patches out there to correct the problem.</p>
-<p>I'm no patch guy so I'll await the next WINE release with patientce.</p>
+After the World of Warcraft patch update today WINE 20050310 no longer runs WoW. Though it seems that there are already patches out there to correct the problem.
+
+I'm no patch guy so I'll await the next WINE release with patientce.
+

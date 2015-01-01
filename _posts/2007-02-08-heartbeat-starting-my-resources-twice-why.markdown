@@ -20,14 +20,21 @@ categories:
 - Work
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>While working on implementing failover for a JBoss application in heartbeat I had it sometimes fail miserably. After examining the logs files for a while I noticed that it tried to start my service twice.. why?</p>
-<p>This was due to multiple errors from my side:</p>
-<p>1.  I hadn't implemented the status call for my heartbeat resource script<br />
-2.  My script didn't return true when asked to start and it was already started.</p>
-<p>According to LSB standard your start &#47; stop scripts should return true even though your service is already started.</p>
-<p>**Note to self:** Learn to read the documentation and not just assume you know how it works (especially not with failover clusters... they are meant to have uptime you know.</p>
-<p>Good readings about heartbeat and the [resouces][1] [scripts][2].</p>
-<p>[1]: http:&#47;&#47;www.linux-ha.org&#47;OCFResourceAgent<br />
-[2]: http:&#47;&#47;wiki.linux-ha.org&#47;HeartbeatResourceAgent</p>
+While working on implementing failover for a JBoss application in heartbeat I had it sometimes fail miserably. After examining the logs files for a while I noticed that it tried to start my service twice.. why?
+
+This was due to multiple errors from my side:
+
+1.  I hadn't implemented the status call for my heartbeat resource script
+2.  My script didn't return true when asked to start and it was already started.
+
+According to LSB standard your start / stop scripts should return true even though your service is already started.
+
+**Note to self:** Learn to read the documentation and not just assume you know how it works (especially not with failover clusters... they are meant to have uptime you know.
+
+Good readings about heartbeat and the [resouces][1] [scripts][2].
+
+[1]: http://www.linux-ha.org/OCFResourceAgent
+[2]: http://wiki.linux-ha.org/HeartbeatResourceAgent
+

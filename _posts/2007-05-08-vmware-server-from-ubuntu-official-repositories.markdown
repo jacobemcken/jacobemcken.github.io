@@ -19,14 +19,20 @@ categories:
 - Ubuntu
 - Virtualization
 tags: []
-comments: []
+comments: false
 ---
-<p>I think its kinda hidden. You might have wondered why vmware-server kernel modules was available from the repositories but no vmware-server? The answer is: It is available!</p>
-<p>Just like Real Player, Opera and other commercial software you can install VMware-server from the following repository, which you add to `System -> Administration -> Software Sources` and `Third-Party Software`:</p>
-<p>    deb http:&#47;&#47;archive.canonical.com&#47;ubuntu feisty-commercial main</p>
-<p>After that you run:</p>
-<p>    sudo apt-get update<br />
-    sudo apt-get install vmware-server</p>
-<p>A colleague pointed me a page about adding [Adding Canonical Commercial Repositories][1] in Ubuntu, which is actually referenced from the [page about  Installtion VMware Server in Ubuntu][2]<br />
-[1]: https:&#47;&#47;help.ubuntu.com&#47;community&#47;Repositories&#47;Ubuntu#head-b75a0c6c7e357640731529980d3f3ad3614b9a76<br />
-[2]: https:&#47;&#47;help.ubuntu.com&#47;community&#47;VMware&#47;Server</p>
+I think its kinda hidden. You might have wondered why vmware-server kernel modules was available from the repositories but no vmware-server? The answer is: It is available!
+
+Just like Real Player, Opera and other commercial software you can install VMware-server from the following repository, which you add to `System -> Administration -> Software Sources` and `Third-Party Software`:
+
+    deb http://archive.canonical.com/ubuntu feisty-commercial main
+
+After that you run:
+
+    sudo apt-get update
+    sudo apt-get install vmware-server
+
+A colleague pointed me a page about adding [Adding Canonical Commercial Repositories][1] in Ubuntu, which is actually referenced from the [page about  Installtion VMware Server in Ubuntu][2]
+[1]: https://help.ubuntu.com/community/Repositories/Ubuntu#head-b75a0c6c7e357640731529980d3f3ad3614b9a76
+[2]: https://help.ubuntu.com/community/VMware/Server
+

@@ -35,16 +35,23 @@ comments:
   author_url: http://www.casinoproffen.com
   date: '2014-07-02 21:27:04 +0200'
   date_gmt: '2014-07-02 20:27:04 +0200'
-  content: "<p>It's impressive that you are getting ideas from this paragraph as \nwell
-    as from our dialogue made here.<&#47;p>\n"
+  content: "It's impressive that you are getting ideas from this paragraph as \nwell
+    as from our dialogue made here.
+\n"
 ---
-<p>Today I looked into converting EPS to SVG because it seems that EPS is the only vector graphic format the OpenOffice.org logos can be found in... sad but true :'(</p>
-<p>I found that the tool `pstoedit` can do the job so I tested it:</p>
-<p>    pstoedit -f plot-svg my.eps my.svg</p>
-<p>The result was not to my satisfaction!<br />
-At least `Sodipodi` and `Inkscape` can't display the SVG result - I'll find out when I get to try out Batik. If it's a bad conversion (as I suspect) I'll find a way to try if Adobe Illustrator is any better.</p>
-<p>Another workaround was to remake the logo myself. It's only the name and two gulls - come on give me a challenge.<br />
-How about this:<br />
-Buy the font used for the logo for 22$ WTF?!?<br />
-(did I mention that the logo uses two different fonts?)</p>
-<p>Hmmm it seems that I'm back at trying to convert the damn EPS.</p>
+Today I looked into converting EPS to SVG because it seems that EPS is the only vector graphic format the OpenOffice.org logos can be found in... sad but true :'(
+
+I found that the tool `pstoedit` can do the job so I tested it:
+
+    pstoedit -f plot-svg my.eps my.svg
+
+The result was not to my satisfaction!
+At least `Sodipodi` and `Inkscape` can't display the SVG result - I'll find out when I get to try out Batik. If it's a bad conversion (as I suspect) I'll find a way to try if Adobe Illustrator is any better.
+
+Another workaround was to remake the logo myself. It's only the name and two gulls - come on give me a challenge.
+How about this:
+Buy the font used for the logo for 22$ WTF?!?
+(did I mention that the logo uses two different fonts?)
+
+Hmmm it seems that I'm back at trying to convert the damn EPS.
+

@@ -18,9 +18,12 @@ date_gmt: '2004-05-19 06:41:00 +0200'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>The reason for the break down was not big (at least not in gigabyte). It was an old IDE 1.8GB Maxtor harddisk which contained my server OS, homepages and databases. Thank god I have recovered all my data. It is impossible to boot from the harddisk and data transfers are very slow sometimes unstable. It has now been replaced by two 200GB Seagate disks. They are supposed to run RAID1 but so far only a data drive with the websites and the databases is a RAID partition.</p>
-<p>For the RAID I used the following debian packages: `mdadm` and `raidtools2.<br />
-Use google to find some guides...</p>
-<p>Stay tuned for updates... I have been away for while ;)</p>
+The reason for the break down was not big (at least not in gigabyte). It was an old IDE 1.8GB Maxtor harddisk which contained my server OS, homepages and databases. Thank god I have recovered all my data. It is impossible to boot from the harddisk and data transfers are very slow sometimes unstable. It has now been replaced by two 200GB Seagate disks. They are supposed to run RAID1 but so far only a data drive with the websites and the databases is a RAID partition.
+
+For the RAID I used the following debian packages: `mdadm` and `raidtools2.
+Use google to find some guides...
+
+Stay tuned for updates... I have been away for while ;)
+

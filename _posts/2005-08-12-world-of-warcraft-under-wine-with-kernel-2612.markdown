@@ -35,10 +35,15 @@ comments:
   date: '2006-11-03 20:58:12 +0100'
   date_gmt: '2006-11-03 19:58:12 +0100'
   content: "You might wanna take a look at the [appdb on winehq.org][1]\r\n\r\n[1]:
-    http:&#47;&#47;appdb.winehq.org&#47;appview.php?iVersionId=5606"
+    http://appdb.winehq.org/appview.php?iVersionId=5606"
 ---
-<p>After reading a post on some Gentoo forum where someone said that they didn't need the memory hack for Cadega to run World of Warcraft after using kernel 2.6.12, I gave it another shot.</p>
-<p>The annoying not-beeing-able-to-click-on-anything-in-game-bug is now gone. So far I havn't played more than 10 minutes but it seems the game just runs as it should :-D</p>
-<p>My danish characters has stopped working again, though. But I think it has something to do with Breezy because it worked in Hoary.</p>
-<p>Well, running WoW with the newest WINE release and a 2.6.12 kernel in opengl works!</p>
-<p>Over and out!</p>
+After reading a post on some Gentoo forum where someone said that they didn't need the memory hack for Cadega to run World of Warcraft after using kernel 2.6.12, I gave it another shot.
+
+The annoying not-beeing-able-to-click-on-anything-in-game-bug is now gone. So far I havn't played more than 10 minutes but it seems the game just runs as it should :-D
+
+My danish characters has stopped working again, though. But I think it has something to do with Breezy because it worked in Hoary.
+
+Well, running WoW with the newest WINE release and a 2.6.12 kernel in opengl works!
+
+Over and out!
+

@@ -28,9 +28,15 @@ comments:
   content: "One could use someting like\r\n\r\nchmod ug+X instead \r\n\r\n:)\r\n\r\nnotice
     the capital letter X."
 ---
-<p>I hate having execute bit set on files not supposed to be executable. But I have always found it a lot easier to set it to keep directories browseable when chmod'ing a directory recursive. Now I thrown a little bash line together to easily only chmod files or directories.</p>
-<p>This only chmod's files:</p>
-<p>    debian:~# find -type f  | xargs -i chmod 640 {}</p>
-<p>This only chmod's directories:</p>
-<p>    debian:~#find -name '*' -type d  | xargs -i chmod 750 {}</p>
-<p>The <b>-name '*'<&#47;b> makes sure that it is only sub directories is processed (and not the current directory).</p>
+I hate having execute bit set on files not supposed to be executable. But I have always found it a lot easier to set it to keep directories browseable when chmod'ing a directory recursive. Now I thrown a little bash line together to easily only chmod files or directories.
+
+This only chmod's files:
+
+    debian:~# find -type f  | xargs -i chmod 640 {}
+
+This only chmod's directories:
+
+    debian:~#find -name '*' -type d  | xargs -i chmod 750 {}
+
+The <b>-name '*'</b> makes sure that it is only sub directories is processed (and not the current directory).
+

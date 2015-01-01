@@ -18,14 +18,20 @@ date_gmt: '2006-10-01 13:52:15 +0200'
 categories:
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>I've bought a Linksys wireless access point some time ago from [FON][1], because I like the concept and it was really easy to setup also. Underneath is an embedded Linux controlling it all. Which is cool in itself.</p>
-<p>But I have an IP phone which needs a big port range to be forwarded to it through the firewall. I wasn't able to define port ranges in the FON webinterface, so to day I finally got the time to try install the software FON have build there product upon: [Open Wrt][2].</p>
-<p>What I'm really missing is: The Radius thing FON used. It was a really cool way of securing your wireless connection. I can see OpenWrt have optional packages for this support, but I would rather want it just to work.</p>
-<p>Then a colleague pointed me to [Coova][3], which like FON builds upon OpenWrt but it seems it focus on the Radius support. I'll try that next week... if I got the time.<br />
-One of Coova's "Key Features" is traffic shaping, which I would like to play around with now that I have a ip-phone.</p>
-<p>For now I'll just enjoy that I finally got my ip-phone working againg after several months.</p>
-<p>[1]: http:&#47;&#47;en.fon.com&#47;<br />
-[2]: http:&#47;&#47;openwrt.org&#47;<br />
-[3]: http:&#47;&#47;www.coova.org&#47;</p>
+I've bought a Linksys wireless access point some time ago from [FON][1], because I like the concept and it was really easy to setup also. Underneath is an embedded Linux controlling it all. Which is cool in itself.
+
+But I have an IP phone which needs a big port range to be forwarded to it through the firewall. I wasn't able to define port ranges in the FON webinterface, so to day I finally got the time to try install the software FON have build there product upon: [Open Wrt][2].
+
+What I'm really missing is: The Radius thing FON used. It was a really cool way of securing your wireless connection. I can see OpenWrt have optional packages for this support, but I would rather want it just to work.
+
+Then a colleague pointed me to [Coova][3], which like FON builds upon OpenWrt but it seems it focus on the Radius support. I'll try that next week... if I got the time.
+One of Coova's "Key Features" is traffic shaping, which I would like to play around with now that I have a ip-phone.
+
+For now I'll just enjoy that I finally got my ip-phone working againg after several months.
+
+[1]: http://en.fon.com/
+[2]: http://openwrt.org/
+[3]: http://www.coova.org/
+

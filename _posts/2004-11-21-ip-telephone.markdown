@@ -20,7 +20,7 @@ categories:
 tags: []
 comments:
 - id: 38
-  author: Klaus Hansen&#47;Sconk
+  author: Klaus Hansen/Sconk
   author_email: ''
   author_url: http://sconk.se
   date: '2004-11-28 18:20:30 +0100'
@@ -28,4 +28,5 @@ comments:
   content: "Husk og installer asterisk p&aring; en computer det er totalt geek toy!!\r\n\r\nhvis
     du har problemer med den henvender du dig bare til mig :)"
 ---
-<p>Today I signed up for IP telephony at <a href="http:&#47;&#47;www.musimi.dk&#47;">Musimi<&#47;a> - a danish IP telephony provider. I also bought a IP telephone  analog telephone converter. Last thuesday I reseeved a ZyXEL wireless access point with build in router and LAN&#47;WAN interface. I'm getting prepared to move to my new appartment, now I'm only missing a internet connection (the most important). Who needs food when they have all their geek toys, heh. :-D</p>
+Today I signed up for IP telephony at <a href="http://www.musimi.dk/">Musimi</a> - a danish IP telephony provider. I also bought a IP telephone  analog telephone converter. Last thuesday I reseeved a ZyXEL wireless access point with build in router and LAN/WAN interface. I'm getting prepared to move to my new appartment, now I'm only missing a internet connection (the most important). Who needs food when they have all their geek toys, heh. :-D
+

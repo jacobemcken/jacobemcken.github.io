@@ -18,6 +18,7 @@ date_gmt: '2004-03-22 11:38:40 +0100'
 categories:
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p>I also found this alternative to GIMP today named <a href="http:&#47;&#47;pixel32.box.sk&#47;">Pixel32<&#47;a>... it looks alot like Photoshop and the screenshots are promising.</p>
+I also found this alternative to GIMP today named <a href="http://pixel32.box.sk/">Pixel32</a>... it looks alot like Photoshop and the screenshots are promising.
+

@@ -18,34 +18,36 @@ date_gmt: '2012-07-21 21:48:46 +0200'
 categories:
 - Random hacks
 tags: []
-comments: []
+comments: false
 ---
 In order to support different syntax for posts, smileys and hook-ins in general I searched the web for inspiration and found the following link which have some cool info:
 
 http://stackoverflow.com/questions/10272559/how-best-to-structure-and-build-clojure-apps-with-plugins
 
-I've started small and decided to support changing the post content via a hook-in before handing it over to the html generator Enlive. The way it works is by registering any number of functions which can transform post content in a chain (vector).<br />
+I've started small and decided to support changing the post content via a hook-in before handing it over to the html generator Enlive. The way it works is by registering any number of functions which can transform post content in a chain (vector).
 Zero functions means no transformation and the post content is serves as-is.
 
 Here is some example code which can demo the thoughts behind the design so far:
 
-    (defonce changes (atom []))
 
-    (defn reg-change<br />
-      "Registers a fn (change) to a hook"<br />
-      [hook-name f]<br />
-      (swap! hook-name conj f))
+``` clojure
+(defonce changes (atom []))
 
-    (defn apply-changes<br />
-      "Applies all changes in the vector to the input"<br />
-      [change-vec input]<br />
-      (reduce #(%2 %1) input @change-vec))
+(defn reg-change
+  "Registers a fn (change) to a hook"
+  [hook-name f]
+  (swap! hook-name conj f))
 
-    (apply-changes changes "Test is good")
+(defn apply-changes
+  "Applies all changes in the vector to the input"
+  [change-vec input]
+  (reduce #(%2 %1) input @change-vec))
 
-    (defn good-is-bad [text] (clojure.string/replace text "good" "bad"))
+(apply-changes changes "Test is good")
 
-    (reg-change changes good-is-bad)
+(defn good-is-bad [text] (clojure.string/replace text "good" "bad"))
 
-    (apply-changes changes "Test is good")
+(reg-change changes good-is-bad)
 
+(apply-changes changes "Test is good")
+```

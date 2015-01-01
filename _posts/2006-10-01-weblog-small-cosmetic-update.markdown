@@ -18,10 +18,15 @@ date_gmt: '2006-10-01 01:55:40 +0200'
 categories:
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p>I just updated my style sheet so pre-tags containing long lines doesn't mess with the layout. Pre-tags surrounds all code &#47; terminal examples. I just added the the following line to my pre definition:</p>
-<p>    overflow: auto;</p>
-<p>Stole the idea from [Planet Gnome][1]</p>
-<p>Really I should update the software soon... I hope there isn't to many security holes in this shit.</p>
-<p>[1]: http:&#47;&#47;planet.gnome.org&#47;</p>
+I just updated my style sheet so pre-tags containing long lines doesn't mess with the layout. Pre-tags surrounds all code / terminal examples. I just added the the following line to my pre definition:
+
+    overflow: auto;
+
+Stole the idea from [Planet Gnome][1]
+
+Really I should update the software soon... I hope there isn't to many security holes in this shit.
+
+[1]: http://planet.gnome.org/
+

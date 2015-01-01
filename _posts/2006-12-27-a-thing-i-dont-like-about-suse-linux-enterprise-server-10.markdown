@@ -36,8 +36,11 @@ comments:
   date_gmt: '2007-01-09 18:50:51 +0100'
   content: "Sorry for not being clear... I know about the dependencies ;)\r\n\r\nWhat
     I dont understand is why Suse have made the choice to make hb_gui an integral
-    part of their package and not just an optional&#47;recommended package."
+    part of their package and not just an optional/recommended package."
 ---
-<p>When I install a server I usually make a minimal install and put on the software which is needed for the task the machine is to perform. Less packages which needs security updates the better IMO. Today I was setting up a heartbeat cluster on a SLES10. When the heartbeat package is installed the system also installs shaitloads of other packages like gtk pango and some X-libs... and I simply dont get why?!?</p>
-<p>It feels so Windows like.... eeeeekkk.</p>
-<p>Sorry just had to get it out.</p>
+When I install a server I usually make a minimal install and put on the software which is needed for the task the machine is to perform. Less packages which needs security updates the better IMO. Today I was setting up a heartbeat cluster on a SLES10. When the heartbeat package is installed the system also installs shaitloads of other packages like gtk pango and some X-libs... and I simply dont get why?!?
+
+It feels so Windows like.... eeeeekkk.
+
+Sorry just had to get it out.
+

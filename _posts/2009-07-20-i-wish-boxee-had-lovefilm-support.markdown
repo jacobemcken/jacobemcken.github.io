@@ -22,16 +22,22 @@ tags:
 - lovefilm
 - python
 - emacs
-comments: []
+comments: false
 ---
-<p>After using [Boxee][1] for some time now I tried to find an European alternative and landed on [Lovefilm][2]. Sadly Lovefilm isn't accessible through Boxee.</p>
-<p>Lovefilm at least supports Firefox users... if I would ever find the time to try write a plugin myself this is the links I would use:</p>
-<p>First of I'm not alone thinking [Lovefilm for Boxee would a great idea][3] :D</p>
-<p>Next I would need some [information about developing plugins for Boxee (incl. a tutorial)][4].</p>
-<p>Lastly I would probably need [some][5] [stuff][6] for Emacs which I've been using for a while now.</p>
-<p>[1]: http:&#47;&#47;boxee.tv&#47;<br />
-[2]: http:&#47;&#47;www.lovefilm.com&#47;<br />
-[3]: http:&#47;&#47;getsatisfaction.com&#47;boxee&#47;topics&#47;lovefilm_app<br />
-[4]: http:&#47;&#47;developer.boxee.tv&#47;<br />
-[5]: https:&#47;&#47;launchpad.net&#47;python-mode<br />
-[6]: http:&#47;&#47;python.about.com&#47;b&#47;2007&#47;09&#47;24&#47;emacs-tips-for-python-programmers.htm</p>
+After using [Boxee][1] for some time now I tried to find an European alternative and landed on [Lovefilm][2]. Sadly Lovefilm isn't accessible through Boxee.
+
+Lovefilm at least supports Firefox users... if I would ever find the time to try write a plugin myself this is the links I would use:
+
+First of I'm not alone thinking [Lovefilm for Boxee would a great idea][3] :D
+
+Next I would need some [information about developing plugins for Boxee (incl. a tutorial)][4].
+
+Lastly I would probably need [some][5] [stuff][6] for Emacs which I've been using for a while now.
+
+[1]: http://boxee.tv/
+[2]: http://www.lovefilm.com/
+[3]: http://getsatisfaction.com/boxee/topics/lovefilm_app
+[4]: http://developer.boxee.tv/
+[5]: https://launchpad.net/python-mode
+[6]: http://python.about.com/b/2007/09/24/emacs-tips-for-python-programmers.htm
+

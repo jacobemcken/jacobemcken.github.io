@@ -53,6 +53,9 @@ comments:
   content: "Hi, \r\n\r\n   Do you know any Linux driver available for Samsung SnycMaster
     172X LCD monitor?\r\n\r\n  Thanks in advance.\r\n\r\nYanming"
 ---
-<p>Finnaly I pulled myself together and found a TFT monitor. I have looked on severel but I ended up buying a Samsung 172X because it think it was the best preforming and looking monitor I could find for the price. The Samsung 710T was also a candidate with slightly better specs but it looked ugly <abbr title="In My Opinion">IMO<&#47;abbr>.</p>
-<p>My new TFT monitor is to replace my old CRT Samsung SyncMaster 959NF which still works. But it is quite big and after the last netparty I attended it got a scratch :-(</p>
-<p>I'm looking forward to friday where it should arrive :-D</p>
+Finnaly I pulled myself together and found a TFT monitor. I have looked on severel but I ended up buying a Samsung 172X because it think it was the best preforming and looking monitor I could find for the price. The Samsung 710T was also a candidate with slightly better specs but it looked ugly <abbr title="In My Opinion">IMO</abbr>.
+
+My new TFT monitor is to replace my old CRT Samsung SyncMaster 959NF which still works. But it is quite big and after the last netparty I attended it got a scratch :-(
+
+I'm looking forward to friday where it should arrive :-D
+

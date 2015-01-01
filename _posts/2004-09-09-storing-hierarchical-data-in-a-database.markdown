@@ -18,8 +18,10 @@ date_gmt: '2004-09-09 09:42:56 +0200'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>I'm going to implement types&#47;categories on sumbissions for Debianart.dk to classify them. I friend send me this great link on how to implement this and at the same time think of performance.</p>
-<p>Take a look at this:<br />
-<a href="http:&#47;&#47;www.sitepoint.com&#47;article&#47;hierarchical-data-database&#47;">Storing Hierarchical Data in a Database<&#47;a></p>
+I'm going to implement types/categories on sumbissions for Debianart.dk to classify them. I friend send me this great link on how to implement this and at the same time think of performance.
+
+Take a look at this:
+<a href="http://www.sitepoint.com/article/hierarchical-data-database/">Storing Hierarchical Data in a Database</a>
+

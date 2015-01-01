@@ -18,6 +18,7 @@ date_gmt: '2004-03-23 01:22:26 +0100'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>Here you can see the <a href="http:&#47;&#47;pkg-gnome.alioth.debian.org&#47;package-status.html">GNOME 2.6 package status page<&#47;a>. The packages will fist hit experimental and later unstable.</p>
+Here you can see the <a href="http://pkg-gnome.alioth.debian.org/package-status.html">GNOME 2.6 package status page</a>. The packages will fist hit experimental and later unstable.
+

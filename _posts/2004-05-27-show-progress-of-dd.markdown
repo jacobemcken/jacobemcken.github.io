@@ -53,7 +53,10 @@ comments:
   date: '2011-08-07 17:15:26 +0200'
   date_gmt: '2011-08-07 16:15:26 +0200'
   content: |
-    <p>it causes redirect stderr to the same file handle as stdout.<&#47;p>
+    it causes redirect stderr to the same file handle as stdout.
+
 ---
-<p>Here is a perl code example which shows progress of dd made by my friend <a href="http:&#47;&#47;www.dreier.nu&#47;">Thor Dreier<&#47;a>:</p>
-<p>    sdd if=&#47;boot.img.gz of=&#47;dev&#47;sda -pg bs=1M 2>&1 | perl -e 'print $i++." MB\n" while(read(STDIN,$c,3));'</p>
+Here is a perl code example which shows progress of dd made by my friend <a href="http://www.dreier.nu/">Thor Dreier</a>:
+
+    sdd if=/boot.img.gz of=/dev/sda -pg bs=1M 2>&1 | perl -e 'print $i++." MB\n" while(read(STDIN,$c,3));'
+

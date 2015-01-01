@@ -19,6 +19,7 @@ categories:
 - Debian
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p>I have packaged the TIFF CMYK GIMP plugin <a href="http:&#47;&#47;www.emcken.dk&#47;weblog&#47;archives&#47;88-Lack-of-CMYK-support-in-GIMP-2.0.html">i found a while back<&#47;a>. I got Frank, a collauge, to help me take te first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)</p>
+I have packaged the TIFF CMYK GIMP plugin <a href="http://www.emcken.dk/weblog/archives/88-Lack-of-CMYK-support-in-GIMP-2.0.html">i found a while back</a>. I got Frank, a collauge, to help me take te first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)
+

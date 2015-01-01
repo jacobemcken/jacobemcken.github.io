@@ -27,8 +27,11 @@ comments:
   date_gmt: '2004-08-06 05:00:15 +0200'
   content: Thanks again for the feedback to FileDB
 ---
-<p>I have been planing to put a file section on my website for some time now. Earlier I just posted files in my weblog but evntually they dissapear into the archives of the weblog and therefore not easily accessable. From now on I will put files in my new <a href="http:&#47;&#47;www.emcken.dk&#47;files&#47;">file section<&#47;a> if their relevance is beyond a single post in my blog.</p>
-<p>For the file section I have found some code on <a href="http:&#47;&#47;www.phpclasses.org&#47;">phpclasses<&#47;a>.<br />
-The <a href="http:&#47;&#47;www.phpclasses.org&#47;browse.html&#47;package&#47;930.html">FileDB<&#47;a> class stores and retrives files from a database and the class uses the <a href="http:&#47;&#47;www.phpclasses.org&#47;browse&#47;package&#47;846.html">AnyDB<&#47;a> class which is a compatibility layer which allows you to use all sorts of databases (I use MySQL).</p>
-<p>To celebrate the opening of my new section I have posted my first file...<br />
-The OpenOffice.org logo in svg. After spending many hours looking for this logo in the SVG format I got the EPS version taken from <a href="http:&#47;&#47;www.ooodocs.org&#47;graphics&#47;1.1&#47;index.html">Version 1.1 Logos and CD Materials<&#47;a> converted by a friend in Adobe Illustrator (AI). AI was capeable of doing this without errors unlike pstoedit. Se my post: <a href="http:&#47;&#47;www.emcken.dk&#47;weblog&#47;archives&#47;17_OpenOffice.org_logo.html">OpenOffice.org logo<&#47;a>.</p>
+I have been planing to put a file section on my website for some time now. Earlier I just posted files in my weblog but evntually they dissapear into the archives of the weblog and therefore not easily accessable. From now on I will put files in my new <a href="http://www.emcken.dk/files/">file section</a> if their relevance is beyond a single post in my blog.
+
+For the file section I have found some code on <a href="http://www.phpclasses.org/">phpclasses</a>.
+The <a href="http://www.phpclasses.org/browse.html/package/930.html">FileDB</a> class stores and retrives files from a database and the class uses the <a href="http://www.phpclasses.org/browse/package/846.html">AnyDB</a> class which is a compatibility layer which allows you to use all sorts of databases (I use MySQL).
+
+To celebrate the opening of my new section I have posted my first file...
+The OpenOffice.org logo in svg. After spending many hours looking for this logo in the SVG format I got the EPS version taken from <a href="http://www.ooodocs.org/graphics/1.1/index.html">Version 1.1 Logos and CD Materials</a> converted by a friend in Adobe Illustrator (AI). AI was capeable of doing this without errors unlike pstoedit. Se my post: <a href="http://www.emcken.dk/weblog/archives/17_OpenOffice.org_logo.html">OpenOffice.org logo</a>.
+

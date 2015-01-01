@@ -18,7 +18,8 @@ date_gmt: '2005-07-29 23:12:39 +0200'
 categories:
 - Ubuntu
 tags: []
-comments: []
+comments: false
 ---
-<p>I have to try this [applet][1] out for size.<br />
-[1]: http:&#47;&#47;ubuntuforums.org&#47;showthread.php?t=49148</p>
+I have to try this [applet][1] out for size.
+[1]: http://ubuntuforums.org/showthread.php?t=49148
+

@@ -29,6 +29,9 @@ comments:
     - its very nice and I am very happy with it - did you ever find out what this
     bug was all about?  If so would you tell me.  Thanks a bunch,\r\nbest"
 ---
-<p>A few days ago I updated my Ubuntu Breezy (developer preview of the new Ubuntu Linux), and the next day X (The grapical environment) wasn't able to start. It suddenly didn't automatically find my mouse at startup.</p>
-<p>It seems I have beenhit by [this bug][1].</p>
-<p>[1]: http:&#47;&#47;bugzilla.ubuntu.com&#47;show_bug.cgi?id=12915</p>
+A few days ago I updated my Ubuntu Breezy (developer preview of the new Ubuntu Linux), and the next day X (The grapical environment) wasn't able to start. It suddenly didn't automatically find my mouse at startup.
+
+It seems I have beenhit by [this bug][1].
+
+[1]: http://bugzilla.ubuntu.com/show_bug.cgi?id=12915
+

@@ -18,8 +18,10 @@ date_gmt: '2005-09-21 19:50:26 +0200'
 categories:
 - Uncategorized
 tags: []
-comments: []
+comments: false
 ---
-<p>Today I recieved my Ubuntu Hoary CD's YAY...<br />
-To bad I have been running Breezy for almost a month now :-D</p>
-<p>Anyways - I got a version for Power PC and for AMD 64... I know just for whom ;)</p>
+Today I recieved my Ubuntu Hoary CD's YAY...
+To bad I have been running Breezy for almost a month now :-D
+
+Anyways - I got a version for Power PC and for AMD 64... I know just for whom ;)
+

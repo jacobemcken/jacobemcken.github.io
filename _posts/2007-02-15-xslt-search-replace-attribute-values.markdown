@@ -40,7 +40,8 @@ comments:
   date: '2010-04-22 08:55:49 +0200'
   date_gmt: '2010-04-22 07:55:49 +0200'
   content: |
-    <p>I have a similar problem, but I can't seem to find you xslt code in the post.<&#47;p>
+    I have a similar problem, but I can't seem to find you xslt code in the post.
+
 - id: 420
   author: Jacob Emcken
   author_email: jacob@emcken.dk
@@ -48,10 +49,12 @@ comments:
   date: '2010-06-11 08:50:31 +0200'
   date_gmt: '2010-06-11 07:50:31 +0200'
   content: |
-    <p>I'm sorry about that.<&#47;p>
+    I'm sorry about that.
 
-    <p>Wordpress keeps f****** me over when I want to display html and xml.
-    I've updated the post so you should be able to figure out whats happening :)<&#47;p>
+
+    Wordpress keeps f****** me over when I want to display html and xml.
+    I've updated the post so you should be able to figure out whats happening :)
+
 - id: 829
   author: r_a_a
   author_email: ask@me.com
@@ -59,29 +62,37 @@ comments:
   date: '2013-12-30 10:27:09 +0100'
   date_gmt: '2013-12-30 09:27:09 +0100'
   content: |
-    <p>Thanks! Helped me a lot!<&#47;p>
+    Thanks! Helped me a lot!
+
 ---
-<p>Yesterday I needed an xsl transformation which could replace a specific attribute value in a xml file and keep the rest intact. The following code is put together by pieces I found around the net (copy-paste FTW :) ):</p>
-<p>    <?xml version="1.0" encoding="UTF-8"?><br />
-    <xsl:stylesheet version="1.0" xmlns:xsl="http:&#47;&#47;www.w3.org&#47;1999&#47;XSL&#47;Transform"><br />
-        <xsl:param name="attribute"&#47;><br />
-        <xsl:param name="oldvalue"&#47;><br />
-        <xsl:param name="newvalue"&#47;></p>
-<p>        <xsl:template match="node()|@*"><br />
-        <xsl:copy><br />
-            <xsl:apply-templates select="@*|node()"&#47;><br />
-        <&#47;xsl:copy><br />
-        <&#47;xsl:template></p>
-<p>        <!-- This is a generic search replace of attribute values --><br />
-        <xsl:template match="@*" priority="10"><br />
-            <xsl:attribute name="{name()}"><br />
-                <xsl:choose><br />
-                    <xsl:when test="(name()=$attribute) and (. = $oldvalue)"><xsl:value-of select="$newvalue"&#47;><&#47;xsl:when><br />
-                    <xsl:otherwise><xsl:value-of select="."&#47;><&#47;xsl:otherwise><br />
-                <&#47;xsl:choose><br />
-            <&#47;xsl:attribute><br />
-        <&#47;xsl:template><br />
-    <&#47;xsl:stylesheet></p>
-<p>Lets say that the above code is saved in a file called `attribute_replace.xslt`. Now with `xsltproc` you would be able to replace the vaule `5011` with `5015` in all attributes called `port`:</p>
-<p>    xsltproc --stringparam attribute port --stringparam oldvalue 5011 --stringparam newvalue 5015 attribute_replace.xslt server_config.xml > new_server_config.xml</p>
-<p>I used this to manupulate with some JBoss configuration files.</p>
+Yesterday I needed an xsl transformation which could replace a specific attribute value in a xml file and keep the rest intact. The following code is put together by pieces I found around the net (copy-paste FTW :) ):
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:param name="attribute"/>
+        <xsl:param name="oldvalue"/>
+        <xsl:param name="newvalue"/>
+
+        <xsl:template match="node()|@*">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+        </xsl:template>
+
+        <!-- This is a generic search replace of attribute values -->
+        <xsl:template match="@*" priority="10">
+            <xsl:attribute name="{name()}">
+                <xsl:choose>
+                    <xsl:when test="(name()=$attribute) and (. = $oldvalue)"><xsl:value-of select="$newvalue"/></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                </xsl:choose>
+            </xsl:attribute>
+        </xsl:template>
+    </xsl:stylesheet>
+
+Lets say that the above code is saved in a file called `attribute_replace.xslt`. Now with `xsltproc` you would be able to replace the vaule `5011` with `5015` in all attributes called `port`:
+
+    xsltproc --stringparam attribute port --stringparam oldvalue 5011 --stringparam newvalue 5015 attribute_replace.xslt server_config.xml > new_server_config.xml
+
+I used this to manupulate with some JBoss configuration files.
+

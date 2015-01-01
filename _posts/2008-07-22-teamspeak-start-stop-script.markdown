@@ -20,24 +20,33 @@ categories:
 - Linux
 - Games
 tags: []
-comments: []
+comments: false
 ---
-<p>After my server was restarted twice by my hosting center I decided to make sure [Teamspeak][1] would start automatically.<br />
-I read a few posts on how other people did it but in the end I decided that I created my own minimal script.</p>
-<p>My two goals with this init script was:</p>
-<p>  * Run the Teamspeak server as an unprivileged user.<br />
-  * Make sure the Teamspeak server starts up after reboot even though it wasn't shut down properly<br />
-  * A little bonus was that it reuses much of the init script that is bundled with the installation</p>
-<p>Init script (&#47;etc&#47;init.d&#47;teamspeak):</p>
-<p>    #!&#47;bin&#47;sh</p>
-<p>    TEAMSPEAK_DIR=&#47;usr&#47;local&#47;teamspeak<br />
-    TEAMSPEAK_USER=teamspeak</p>
-<p>    # Make sure that Teamspeak starts even though it wasn't closed nicely last time (ie. by a power cut)<br />
-    if [ $(su - $TEAMSPEAK_USER -c "ps ux" |grep tsserver2.pid|grep -v grep|wc -l) -eq 0 ] &amp;&amp; [ -f ${TEAMSPEAK_DIR}&#47;tsserver2.pid ]<br />
-    then<br />
-        rm ${TEAMSPEAK_DIR}&#47;tsserver2.pid<br />
-    fi</p>
-<p>    cd ${TEAMSPEAK_DIR}<br />
-    su - $TEAMSPEAK_USER -c ".&#47;teamspeak2-server_startscript $1"<br />
-    cd -</p>
-<p>[1]: http:&#47;&#47;www.teamspeak.com&#47;</p>
+After my server was restarted twice by my hosting center I decided to make sure [Teamspeak][1] would start automatically.
+I read a few posts on how other people did it but in the end I decided that I created my own minimal script.
+
+My two goals with this init script was:
+
+  * Run the Teamspeak server as an unprivileged user.
+  * Make sure the Teamspeak server starts up after reboot even though it wasn't shut down properly
+  * A little bonus was that it reuses much of the init script that is bundled with the installation
+
+Init script (/etc/init.d/teamspeak):
+
+    #!/bin/sh
+
+    TEAMSPEAK_DIR=/usr/local/teamspeak
+    TEAMSPEAK_USER=teamspeak
+
+    # Make sure that Teamspeak starts even though it wasn't closed nicely last time (ie. by a power cut)
+    if [ $(su - $TEAMSPEAK_USER -c "ps ux" |grep tsserver2.pid|grep -v grep|wc -l) -eq 0 ] &amp;&amp; [ -f ${TEAMSPEAK_DIR}/tsserver2.pid ]
+    then
+        rm ${TEAMSPEAK_DIR}/tsserver2.pid
+    fi
+
+    cd ${TEAMSPEAK_DIR}
+    su - $TEAMSPEAK_USER -c "./teamspeak2-server_startscript $1"
+    cd -
+
+[1]: http://www.teamspeak.com/
+

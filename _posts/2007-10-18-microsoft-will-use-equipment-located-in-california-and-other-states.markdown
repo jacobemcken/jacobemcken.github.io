@@ -35,18 +35,28 @@ comments:
   date_gmt: '2008-02-27 21:35:25 +0100'
   content: Cool nice to know...I still think that last sentence is a bit weird :)
 ---
-<p>I have been meaning to blog about this for a while now. When contacting the Hotmail mail servers to send email your mail server will be presented with strange message in my opinion.</p>
-<p>First find the servers which receives email for the hotmail.com domain:</p>
-<p>    dig mx hotmail.com</p>
-<p>which will return something like the following:</p>
-<p>    hotmail.com.            3600    IN      MX      5 mx1.hotmail.com.<br />
-    hotmail.com.            3600    IN      MX      5 mx2.hotmail.com.<br />
-    hotmail.com.            3600    IN      MX      5 mx3.hotmail.com.<br />
-    hotmail.com.            3600    IN      MX      5 mx4.hotmail.com.</p>
-<p>Now try contact one of these on port 25 (just like mail servers does):</p>
-<p>    telnet mx1.hotmail.com 25</p>
-<p>Notice the greetings message from the server:</p>
-<p>    Sending unsolicited commercial or bulk e-mail to Microsoft's computer network is prohibited.<br />
-    Other restrictions are found at http:&#47;&#47;privacy.msn.com&#47;Anti-spam&#47;.<br />
-    Violations will result in use of equipment located in California and other states. </p>
-<p>Bringing it to peoples attention that sending unsolicited commercial or bulk e-mails is prohibited is fair enought even though I doubt many will read it :) But is it really nessesary to threat to use equipment, and why is California emphasised?</p>
+I have been meaning to blog about this for a while now. When contacting the Hotmail mail servers to send email your mail server will be presented with strange message in my opinion.
+
+First find the servers which receives email for the hotmail.com domain:
+
+    dig mx hotmail.com
+
+which will return something like the following:
+
+    hotmail.com.            3600    IN      MX      5 mx1.hotmail.com.
+    hotmail.com.            3600    IN      MX      5 mx2.hotmail.com.
+    hotmail.com.            3600    IN      MX      5 mx3.hotmail.com.
+    hotmail.com.            3600    IN      MX      5 mx4.hotmail.com.
+
+Now try contact one of these on port 25 (just like mail servers does):
+
+    telnet mx1.hotmail.com 25
+
+Notice the greetings message from the server:
+
+    Sending unsolicited commercial or bulk e-mail to Microsoft's computer network is prohibited.
+    Other restrictions are found at http://privacy.msn.com/Anti-spam/.
+    Violations will result in use of equipment located in California and other states. 
+
+Bringing it to peoples attention that sending unsolicited commercial or bulk e-mails is prohibited is fair enought even though I doubt many will read it :) But is it really nessesary to threat to use equipment, and why is California emphasised?
+

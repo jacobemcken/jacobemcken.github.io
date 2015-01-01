@@ -18,8 +18,10 @@ date_gmt: '2004-02-24 23:46:00 +0100'
 categories:
 - FriFinans
 tags: []
-comments: []
+comments: false
 ---
-<p>Tonight I talked about [FriFinans][] at a [DKUUG][]-gettogether. FriFinans is a danish accounting tool written in Java... Open Source ofcourse.</p>
-<p>[FriFinans]: http:&#47;&#47;www.frifinans.dk&#47;<br />
-[DKUUG]: http:&#47;&#47;www.dkuug.dk&#47;</p>
+Tonight I talked about [FriFinans][] at a [DKUUG][]-gettogether. FriFinans is a danish accounting tool written in Java... Open Source ofcourse.
+
+[FriFinans]: http://www.frifinans.dk/
+[DKUUG]: http://www.dkuug.dk/
+

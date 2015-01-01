@@ -18,9 +18,12 @@ date_gmt: '2004-06-25 21:31:17 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>Still can't get Postfix to save my mail in Maildir format :-(<br />
-It seems that Postfix don't have permission to save the emails where I directed it to, even though it should. And of top of it all Courier-IMAP won't authendicate via MySQL.</p>
-<p>But this sucker ain't going to get me down... I will fight to the end. Eventualy I will get reinforcements :)</p>
-<p>Thor, Per, Steffen... HELP!</p>
+Still can't get Postfix to save my mail in Maildir format :-(
+It seems that Postfix don't have permission to save the emails where I directed it to, even though it should. And of top of it all Courier-IMAP won't authendicate via MySQL.
+
+But this sucker ain't going to get me down... I will fight to the end. Eventualy I will get reinforcements :)
+
+Thor, Per, Steffen... HELP!
+

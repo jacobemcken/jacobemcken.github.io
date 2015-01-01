@@ -28,7 +28,7 @@ comments:
   date: '2006-12-26 23:13:51 +0100'
   date_gmt: '2006-12-26 22:13:51 +0100'
   content: "Merry Christmas too,  to you and your family.\r\n\r\nA Wii... Wuhu!. I
-    envy you.\r\nHow are your first impressions?\r\n\r\n&#47;Daniel"
+    envy you.\r\nHow are your first impressions?\r\n\r\n/Daniel"
 - id: 87
   author: Jacob Emcken
   author_email: jacob@emcken.dk
@@ -47,9 +47,14 @@ comments:
   date_gmt: '2007-12-05 13:15:08 +0100'
   content: how do u compleat level 6 on raving rabbits
 ---
-<p>This have been an awesome Christmas. I didn't really realize that Christmas was upon us until December the 22. when my and my girlfriend headed for Jutland to spend Christmas with my side of the family. Work have been stressing in December, so when I got home I didn't have the energy to think of Christmas. Anyways...now it is over :)</p>
-<p>My girlfriend gave me one of the best gifts ever: [Nintendo Wii][1]</p>
-<p>And my little sister and her boyfriend gave me: [Rayman Raving Rabbits][2]</p>
-<p>Just wanted to wish my readers a merry Christmas. MERRY CHRISTMAS GUYS.</p>
-<p>[1]: http:&#47;&#47;www.nintendo.com&#47;channel&#47;wii<br />
-[2]: http:&#47;&#47;www.gamespot.com&#47;wii&#47;action&#47;rayman4&#47;index.html</p>
+This have been an awesome Christmas. I didn't really realize that Christmas was upon us until December the 22. when my and my girlfriend headed for Jutland to spend Christmas with my side of the family. Work have been stressing in December, so when I got home I didn't have the energy to think of Christmas. Anyways...now it is over :)
+
+My girlfriend gave me one of the best gifts ever: [Nintendo Wii][1]
+
+And my little sister and her boyfriend gave me: [Rayman Raving Rabbits][2]
+
+Just wanted to wish my readers a merry Christmas. MERRY CHRISTMAS GUYS.
+
+[1]: http://www.nintendo.com/channel/wii
+[2]: http://www.gamespot.com/wii/action/rayman4/index.html
+

@@ -35,7 +35,9 @@ comments:
   content: "which club ? :) hehe..\r\nI want one my self ... please lotto be good
     to me on saturday!"
 ---
-<p>I'm a happy owner of a new Samsung 172X.... WITH NO PIXEL ERRORS.<br />
-Did I mention that I'm very happy.</p>
-<p><i>Update: I have added a few low quality pictures<&#47;i><br />
-<a href='&#47;weblog&#47;uploads&#47;samsung172x_1.jpg'><img width='110' height='83' border='0' hspace='5' src='&#47;weblog&#47;uploads&#47;samsung172x_1.thumb.jpg' alt='' &#47;><&#47;a> <a href='&#47;weblog&#47;uploads&#47;samsung172x_2.jpg'><img width='110' height='83' border='0' hspace='5' src='&#47;weblog&#47;uploads&#47;samsung172x_2.thumb.jpg' alt='' &#47;><&#47;a></p>
+I'm a happy owner of a new Samsung 172X.... WITH NO PIXEL ERRORS.
+Did I mention that I'm very happy.
+
+<i>Update: I have added a few low quality pictures</i>
+<a href='/weblog/uploads/samsung172x_1.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/samsung172x_1.thumb.jpg' alt='' /></a> <a href='/weblog/uploads/samsung172x_2.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/samsung172x_2.thumb.jpg' alt='' /></a>
+

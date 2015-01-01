@@ -18,7 +18,7 @@ date_gmt: '2012-08-31 21:54:30 +0200'
 categories:
 - Random hacks
 tags: []
-comments: []
+comments: false
 ---
 I've transformed the example from my blog post yesterday to a [jQuery plugin and pushed it GitHub][1].
 This removed some of the previous nessesary manuel added css. Also this opens up for adding different initialization options in the future.

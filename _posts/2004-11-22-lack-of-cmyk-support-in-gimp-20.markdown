@@ -20,16 +20,25 @@ categories:
 - Graphics
 - Work
 tags: []
-comments: []
+comments: false
 ---
-<p>At work I have been working on some graphics for an OpenOffice.org CD production. But the graphics for print needs to be delivered in TIFF CMYK format. For this I found a <a href="http:&#47;&#47;www.blackfiveservices.co.uk&#47;separate.shtml">CMYK plug-in for GIMP<&#47;a>.</p>
-<p>The installation is a bit tricky for GIMP 2.0 under Linux (haven't tried the other versions&#47;platforms).<br />
-First the installation guide doesn't mention GIMP 2.0 for Linux second it differs from the 1.2 installation guide.</p>
-<p>The binary provided in the file for GIMP 2.0 under Linux isn't compiled for GIMP 2.0 but for the development version 1.3. This means that you either have to make symlinks on your system for the plug-in to hit the correct libs, or compile yourself.</p>
-<p>I compiled the source myself and installed the plug-in i my .gimp-2.0&#47;plug-ins&#47;-dir because I don't like to tinker to much with filesystem outside &#47;home.</p>
-<p>To compile you need the following dev-libs:</p>
-<p>    rohan:~# apt-get install libgimp2.0-dev liblcms1-dev libtiff4-dev</p>
-<p>I also had to modify the Makefile to use GIMP 2.0 libs instead of 1.3.</p>
-<p>The GIMP 1.2 installation also mentions the file: <i>sRGB Color Space Profile.icm<&#47;i><br />
-But this file isn't provided by the GIMP 2.0 files you can download on the homepage. I found the file in the download for GIMP 1.2 instead.</p>
-<p>I would be nice if the plug-in was provided by a Debian package.</p>
+At work I have been working on some graphics for an OpenOffice.org CD production. But the graphics for print needs to be delivered in TIFF CMYK format. For this I found a <a href="http://www.blackfiveservices.co.uk/separate.shtml">CMYK plug-in for GIMP</a>.
+
+The installation is a bit tricky for GIMP 2.0 under Linux (haven't tried the other versions/platforms).
+First the installation guide doesn't mention GIMP 2.0 for Linux second it differs from the 1.2 installation guide.
+
+The binary provided in the file for GIMP 2.0 under Linux isn't compiled for GIMP 2.0 but for the development version 1.3. This means that you either have to make symlinks on your system for the plug-in to hit the correct libs, or compile yourself.
+
+I compiled the source myself and installed the plug-in i my .gimp-2.0/plug-ins/-dir because I don't like to tinker to much with filesystem outside /home.
+
+To compile you need the following dev-libs:
+
+    rohan:~# apt-get install libgimp2.0-dev liblcms1-dev libtiff4-dev
+
+I also had to modify the Makefile to use GIMP 2.0 libs instead of 1.3.
+
+The GIMP 1.2 installation also mentions the file: <i>sRGB Color Space Profile.icm</i>
+But this file isn't provided by the GIMP 2.0 files you can download on the homepage. I found the file in the download for GIMP 1.2 instead.
+
+I would be nice if the plug-in was provided by a Debian package.
+

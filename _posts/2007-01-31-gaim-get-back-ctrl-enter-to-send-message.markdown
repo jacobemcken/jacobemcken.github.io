@@ -18,16 +18,21 @@ date_gmt: '2007-01-31 11:57:45 +0100'
 categories:
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>Some time ago I think it was when I made the switch from Gaim 1.x to 2.x sending my instant messages with Ctrl + Enter stopped working. I have lived with it for along time but it kept annoying me...  a good friend of mine found [the solution on another website][1] and today I took the time to actually do it.</p>
-<p>The thing beneath is kinda ripoff &#47; copy-paste :D</p>
-<p>Create the file `.gtkrc-2.0` in your home directory with the following content:</p>
-<p>    gtk-key-theme-name = "Emacs"<br />
-    gtk-can-change-accels = 1<br />
-    binding "gaim" {<br />
-        bind "Return" { "message_send" () }<br />
-        bind "Return" { "insert-at-cursor" ("\n") }<br />
-    }<br />
-    widget "*gaim_gtkconv_entry" binding "gaim"</p>
-<p>[1]: http:&#47;&#47;thened.net&#47;gaim-2.0-ctrl-enter-2006-11-07-16-40</p>
+Some time ago I think it was when I made the switch from Gaim 1.x to 2.x sending my instant messages with Ctrl + Enter stopped working. I have lived with it for along time but it kept annoying me...  a good friend of mine found [the solution on another website][1] and today I took the time to actually do it.
+
+The thing beneath is kinda ripoff / copy-paste :D
+
+Create the file `.gtkrc-2.0` in your home directory with the following content:
+
+    gtk-key-theme-name = "Emacs"
+    gtk-can-change-accels = 1
+    binding "gaim" {
+        bind "Return" { "message_send" () }
+        bind "Return" { "insert-at-cursor" ("\n") }
+    }
+    widget "*gaim_gtkconv_entry" binding "gaim"
+
+[1]: http://thened.net/gaim-2.0-ctrl-enter-2006-11-07-16-40
+

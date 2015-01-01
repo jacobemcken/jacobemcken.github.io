@@ -18,9 +18,13 @@ date_gmt: '2004-07-31 10:39:25 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>I have experienced that my mouse isn't working after a reboot a few times. I think it happens after a system update... and this morning I was hit again. When starting X the mouse pointer wouldn't move.</p>
-<p>After googleing around for a while I found out that the `psmouse` module wasn't loaded. I compared an `lsmod` output I had found on the net with my own and discovered that the above module wasn't loaded:</p>
-<p>    modprobe psmouse</p>
-<p>Did the trick and even without reloading X.</p>
+I have experienced that my mouse isn't working after a reboot a few times. I think it happens after a system update... and this morning I was hit again. When starting X the mouse pointer wouldn't move.
+
+After googleing around for a while I found out that the `psmouse` module wasn't loaded. I compared an `lsmod` output I had found on the net with my own and discovered that the above module wasn't loaded:
+
+    modprobe psmouse
+
+Did the trick and even without reloading X.
+

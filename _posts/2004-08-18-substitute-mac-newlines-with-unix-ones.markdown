@@ -37,7 +37,11 @@ comments:
   content: 'Ohh and by the way: It converts both mac and dos line endings into unix
     line endings. :-D'
 ---
-<p>At work we have been struggling with bad newlines in php-pages created with dreamweaver on a Mac. The newlines screwed up `grep` results and was mainly just one big pain in the ***. This is a little note to my self about how to solve it.</p>
-<p>This solution (parsed around by one of the guys at work, thanks [Frank][1]) should be carved in stone to be remember for eternity. The second best would be writing it on the Internet and I don't have any stones not already written on at the moment:</p>
-<p>    tr '\r\n' '\n'  OUTPUTFILE</p>
-<p>[1]: http:&#47;&#47;frank-bille.dk&#47;</p>
+At work we have been struggling with bad newlines in php-pages created with dreamweaver on a Mac. The newlines screwed up `grep` results and was mainly just one big pain in the ***. This is a little note to my self about how to solve it.
+
+This solution (parsed around by one of the guys at work, thanks [Frank][1]) should be carved in stone to be remember for eternity. The second best would be writing it on the Internet and I don't have any stones not already written on at the moment:
+
+    tr '\r\n' '\n'  OUTPUTFILE
+
+[1]: http://frank-bille.dk/
+

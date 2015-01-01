@@ -18,8 +18,11 @@ date_gmt: '2004-07-03 10:12:31 +0200'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>Yesterday I recieved my my TFT monitor which I had been looking forward to all day. While I unwrapped this super slim eight wonder of the world I thought: "This really rocks"!</p>
-<p>And I did... until I discovered a pixel error on the monitor :(</p>
-<p>Monday I will send it back and order a new one :-&#47;</p>
+Yesterday I recieved my my TFT monitor which I had been looking forward to all day. While I unwrapped this super slim eight wonder of the world I thought: "This really rocks"!
+
+And I did... until I discovered a pixel error on the monitor :(
+
+Monday I will send it back and order a new one :-/
+

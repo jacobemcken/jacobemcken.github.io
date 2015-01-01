@@ -18,7 +18,9 @@ date_gmt: '2004-03-01 10:53:10 +0100'
 categories:
 - Computer
 tags: []
-comments: []
+comments: false
 ---
-<p>I have been looking for this little fun movie for a long time now. Wanted to show my girlfriend it :) The terrible reality of true life... "<i>Alien Song<&#47;i>"</p>
-<p>It can be downloaded at <a href="http:&#47;&#47;www.navone.org&#47;">Navone<&#47;a></p>
+I have been looking for this little fun movie for a long time now. Wanted to show my girlfriend it :) The terrible reality of true life... "<i>Alien Song</i>"
+
+It can be downloaded at <a href="http://www.navone.org/">Navone</a>
+

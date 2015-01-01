@@ -57,7 +57,8 @@ comments:
   date: '2010-09-19 16:56:18 +0200'
   date_gmt: '2010-09-19 15:56:18 +0200'
   content: |
-    <p>Very nice, clear, concise instructions. Thanks greatly! -bob<&#47;p>
+    Very nice, clear, concise instructions. Thanks greatly! -bob
+
 - id: 456
   author: 'Notas sobre programaci&oacute;n de aplicaciones de escritorio en python:
     teor&iacute;a y pr&aacute;ctica'
@@ -66,58 +67,87 @@ comments:
   date: '2010-10-21 14:17:35 +0200'
   date_gmt: '2010-10-21 13:17:35 +0200'
   content: |
-    <p>[...] Bazaar para la gesti&oacute;n del c&oacute;digo&nbsp;http:&#47;&#47;www.emcken.dk&#47;weblog&#47;archives&#47;200-bazaar-bzr-howto-creating-your-own-branch.html [...]<&#47;p>
+    [...] Bazaar para la gesti&oacute;n del c&oacute;digo&nbsp;http://www.emcken.dk/weblog/archives/200-bazaar-bzr-howto-creating-your-own-branch.html [...]
+
 ---
-<p>I have been learning a bit of [Mono][] over the last couple of months and yesterday I decided that I wanted my code in a verison control system. The choice fell on [Bazaar][] for various reasons which is unimportant and uninteresting at this point. Right now I just wanna write down how I did :D</p>
-<p>First off you tell Bazaar who you are with:</p>
-<p>    bzr whoami "Jacob Emcken "</p>
-<p>To test it is set correct just type:</p>
-<p>    bzr whoami<br />
-    Jacob Emcken </p>
-<p>For the sake of it, lets imagine my project I want to version control is called `Starfire`.<br />
-Go to the directory with the project and initialze the directory as a Bazaar branch:</p>
-<p>    cd Projects&#47;Starfire<br />
-    bzr init</p>
-<p>Within that directory a new directory called `.bzr` will be created:</p>
-<p>    ls -la<br />
-    drwxr-xr-x 5 je je 4096 2007-09-01 23:56 .<br />
-    drwxr-xr-x 3 je je 4096 2007-09-01 23:37 ..<br />
-    drwxr-xr-x 6 je je 4096 2007-09-01 23:37 .bzr<br />
-    drwxr-xr-x 2 je je 4096 2007-09-01 23:37 Glade<br />
-    -rw-r--r-- 1 je je 5342 2007-09-01 23:37 Starfire.cs<br />
-    -rw-r-xr-x 1 je je 5342 2007-09-01 23:40 Starfire.exe</p>
-<p>Now tell Bazaar which files your branch consist of. In the following example we'll tell Bazaar to ignore `Starfire.exe` because we dont need the compiled file within our version control:</p>
-<p>    bzr ignore Starfire.exe<br />
-    bzr add .<br />
-    added Glade<br />
-    added Starfire.cs<br />
-    added Glade&#47;gui.glade<br />
-    ignored 1 file(s).<br />
-    If you wish to add some of these files, please add them by name.</p>
-<p>Ignored files is found in the file `.bzrignore`, just try run `ls -la` if you wont take my word for it :P</p>
-<p>And finally to actual save the code in the branch repository commit your files:</p>
-<p>    bzr commit -m "Initial revision"<br />
-    added .bzrignore<br />
-    added Glade<br />
-    added Starfire.cs<br />
-    added Glade&#47;gui.glade<br />
-    Committed revision 1. </p>
-<p>By supplying commit with the parameter `-m` you avoid a text editor popping up asking you for a commit message.</p>
-<p>Now you can just hack away and you can check changes with:</p>
-<p>    bzr diff</p>
-<p>Whenever you want to save you changes to the branch, just do a commit again. In the following example I change a line in Starfire.cs:</p>
-<p>    bzr commit -m "Fixed small typo"<br />
-    modified Starfire.cs<br />
-    Committed revision 2. </p>
-<p>Now if you want to make your code available on the another machine ie. a server on the internet you can push you code out there through ssh (and ftp). Place yourself in the root directory of your project. The following example will push the branch out to my server (emcken.dk) where I have a ssh key so I dont need to write a password when logging in:</p>
-<p>    bzr push sftp:&#47;&#47;emcken.dk&#47;~&#47;development&#47;Starfire</p>
-<p>Now a copy of my branch is available in my home directory on my server (`&#47;home&#47;je&#47;development&#47;Starfire`).</p>
-<p>As a last thing I would like my server to be central for my development. From the root directory of my project I tell Bazaar that my current branch is a checkout of the branch on my server:</p>
-<p>    bzr bind sftp:&#47;&#47;emcken.dk&#47;~&#47;development&#47;Starfire</p>
-<p>Now whenever I commit changes they will be committed to the server as well so I don't need to push the copy of the branch out there every time. You can test the settings with:</p>
-<p>    bzr info</p>
-<p>My experience with version control systems are very limited to say the least which was why some of the above wasn't obvious to me before I made a few tests and read the man pages. But the above was what I needed to get started and I hope that this might help someone else. You can find more inspiration [here][1] and [here][2].</p>
-<p>[Mono]: http:&#47;&#47;www.mono-project.org&#47;<br />
-[Bazaar]: http:&#47;&#47;bazaar-vcs.org&#47;<br />
-[1]: http:&#47;&#47;bazaar-vcs.org&#47;QuickHackingWithBzr<br />
-[2]: http:&#47;&#47;russell.rucus.net&#47;blog&#47;Geek&#47;bzr-etc-howto</p>
+I have been learning a bit of [Mono][] over the last couple of months and yesterday I decided that I wanted my code in a verison control system. The choice fell on [Bazaar][] for various reasons which is unimportant and uninteresting at this point. Right now I just wanna write down how I did :D
+
+First off you tell Bazaar who you are with:
+
+    bzr whoami "Jacob Emcken "
+
+To test it is set correct just type:
+
+    bzr whoami
+    Jacob Emcken 
+
+For the sake of it, lets imagine my project I want to version control is called `Starfire`.
+Go to the directory with the project and initialze the directory as a Bazaar branch:
+
+    cd Projects/Starfire
+    bzr init
+
+Within that directory a new directory called `.bzr` will be created:
+
+    ls -la
+    drwxr-xr-x 5 je je 4096 2007-09-01 23:56 .
+    drwxr-xr-x 3 je je 4096 2007-09-01 23:37 ..
+    drwxr-xr-x 6 je je 4096 2007-09-01 23:37 .bzr
+    drwxr-xr-x 2 je je 4096 2007-09-01 23:37 Glade
+    -rw-r--r-- 1 je je 5342 2007-09-01 23:37 Starfire.cs
+    -rw-r-xr-x 1 je je 5342 2007-09-01 23:40 Starfire.exe
+
+Now tell Bazaar which files your branch consist of. In the following example we'll tell Bazaar to ignore `Starfire.exe` because we dont need the compiled file within our version control:
+
+    bzr ignore Starfire.exe
+    bzr add .
+    added Glade
+    added Starfire.cs
+    added Glade/gui.glade
+    ignored 1 file(s).
+    If you wish to add some of these files, please add them by name.
+
+Ignored files is found in the file `.bzrignore`, just try run `ls -la` if you wont take my word for it :P
+
+And finally to actual save the code in the branch repository commit your files:
+
+    bzr commit -m "Initial revision"
+    added .bzrignore
+    added Glade
+    added Starfire.cs
+    added Glade/gui.glade
+    Committed revision 1. 
+
+By supplying commit with the parameter `-m` you avoid a text editor popping up asking you for a commit message.
+
+Now you can just hack away and you can check changes with:
+
+    bzr diff
+
+Whenever you want to save you changes to the branch, just do a commit again. In the following example I change a line in Starfire.cs:
+
+    bzr commit -m "Fixed small typo"
+    modified Starfire.cs
+    Committed revision 2. 
+
+Now if you want to make your code available on the another machine ie. a server on the internet you can push you code out there through ssh (and ftp). Place yourself in the root directory of your project. The following example will push the branch out to my server (emcken.dk) where I have a ssh key so I dont need to write a password when logging in:
+
+    bzr push sftp://emcken.dk/~/development/Starfire
+
+Now a copy of my branch is available in my home directory on my server (`/home/je/development/Starfire`).
+
+As a last thing I would like my server to be central for my development. From the root directory of my project I tell Bazaar that my current branch is a checkout of the branch on my server:
+
+    bzr bind sftp://emcken.dk/~/development/Starfire
+
+Now whenever I commit changes they will be committed to the server as well so I don't need to push the copy of the branch out there every time. You can test the settings with:
+
+    bzr info
+
+My experience with version control systems are very limited to say the least which was why some of the above wasn't obvious to me before I made a few tests and read the man pages. But the above was what I needed to get started and I hope that this might help someone else. You can find more inspiration [here][1] and [here][2].
+
+[Mono]: http://www.mono-project.org/
+[Bazaar]: http://bazaar-vcs.org/
+[1]: http://bazaar-vcs.org/QuickHackingWithBzr
+[2]: http://russell.rucus.net/blog/Geek/bzr-etc-howto
+

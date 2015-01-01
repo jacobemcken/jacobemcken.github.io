@@ -20,16 +20,20 @@ categories:
 - Work
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>Sometimes you have to get primitive ... duh.</p>
-<p>Today I got really annoyed about the "Package Management" tool on Red Hat EL 4 update 4. When I tried to install the "Development tools" I just got an error that krb5-libs could not be found which was a dependencie of krb5-workstation (1.3.4, 33). Both krb5-libs and krb5-workstation was installed...?!? I'm not Red Hat expert... and that is probably my biggest problem here :)</p>
-<p>Back to the commandline... it always works.<br />
-I had to search the CD'es (afterwards I found that all the packages I needed was on CD3). I made a little search script... dont think anyone can use it... just thought it was fun:</p>
-<p>    for i in 1 2 3 4 5<br />
-    do<br />
-        mount -o loop &#47;root&#47;RHEL4-U4-i386-ES-disc$i.iso  &#47;mnt&#47;<br />
-        echo "Results on cd $i"<br />
-        find &#47;mnt&#47;RedHat&#47;RPMS&#47; -iname $1\*<br />
-        umount &#47;mnt&#47;<br />
-    done</p>
+Sometimes you have to get primitive ... duh.
+
+Today I got really annoyed about the "Package Management" tool on Red Hat EL 4 update 4. When I tried to install the "Development tools" I just got an error that krb5-libs could not be found which was a dependencie of krb5-workstation (1.3.4, 33). Both krb5-libs and krb5-workstation was installed...?!? I'm not Red Hat expert... and that is probably my biggest problem here :)
+
+Back to the commandline... it always works.
+I had to search the CD'es (afterwards I found that all the packages I needed was on CD3). I made a little search script... dont think anyone can use it... just thought it was fun:
+
+    for i in 1 2 3 4 5
+    do
+        mount -o loop /root/RHEL4-U4-i386-ES-disc$i.iso  /mnt/
+        echo "Results on cd $i"
+        find /mnt/RedHat/RPMS/ -iname $1\*
+        umount /mnt/
+    done
+

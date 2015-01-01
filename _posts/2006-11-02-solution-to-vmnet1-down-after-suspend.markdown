@@ -35,12 +35,21 @@ comments:
   date_gmt: '2006-12-30 17:24:58 +0100'
   content: "Thank you very much for this tip !\r\n\r\nA Ubuntu and Archlinux lover."
 ---
-<p>I rarely shut down my laptop, but I use suspend all the time. Right now I have like 14 days of "uptime" which would have been a lot more if it wasn't because I just installed Edgy :) I have VMware Server installed on it which I use for my work. I have all the machines on a `host only` network which works just great. But every time I suspend my laptop the virtually device `vmnet1` seems to "go down" and I have to make a:</p>
-<p>    sudo ip link set vmnet1 up</p>
-<p>to be able to connect from my laptop to the VMware machines again.</p>
-<p>Now I created a file at the following location:</p>
-<p>    &#47;etc&#47;acpi&#47;resume.d&#47;89-enable-vmware-host-only-net.sh</p>
-<p>With the following content:</p>
-<p>    #!&#47;bin&#47;sh</p>
-<p>    ip link set vmnet1 up</p>
-<p>Now I don't have do it manually any more, horay :-D</p>
+I rarely shut down my laptop, but I use suspend all the time. Right now I have like 14 days of "uptime" which would have been a lot more if it wasn't because I just installed Edgy :) I have VMware Server installed on it which I use for my work. I have all the machines on a `host only` network which works just great. But every time I suspend my laptop the virtually device `vmnet1` seems to "go down" and I have to make a:
+
+    sudo ip link set vmnet1 up
+
+to be able to connect from my laptop to the VMware machines again.
+
+Now I created a file at the following location:
+
+    /etc/acpi/resume.d/89-enable-vmware-host-only-net.sh
+
+With the following content:
+
+    #!/bin/sh
+
+    ip link set vmnet1 up
+
+Now I don't have do it manually any more, horay :-D
+

@@ -26,9 +26,9 @@ comments:
   date: '2005-08-01 16:35:43 +0200'
   date_gmt: '2005-08-01 15:35:43 +0200'
   content: "here's what I did\r\n\r\nsudo gnome-audio-profiles-properties\r\n(add
-    the stuff mentioned above)\r\nsudo gconf-editor\r\n - navigate to &#47;system&#47;gstreamer&#47;audio&#47;global
+    the stuff mentioned above)\r\nsudo gconf-editor\r\n - navigate to /system/gstreamer/audio/global
     and make the setting there default (from the right-click menu)\r\n - navigate
-    to &#47;system&#47;gstreamer&#47;audio&#47;profiles&#47;CD%....&#47; and make
+    to /system/gstreamer/audio/profiles/CD%..../ and make
     all the settings default (from the right-click menu)"
 - id: 19
   author: thieumf
@@ -65,8 +65,8 @@ comments:
   date: '2005-07-02 15:57:09 +0200'
   date_gmt: '2005-07-02 14:57:09 +0200'
   content: "I dunno how but I have 2 profiles named 'CD Quality, Lossy'. One defined
-    global (in `&#47;etc&#47;gconf&#47;schemas&#47;gnome-audio-profiles.schemas`)
-    and one local for my user (in `~&#47;.gconf&#47;system&#47;gstreamer&#47;audio&#47;profiles&#47;mp3&#47;%gconf.xml`).\r\n."
+    global (in `/etc/gconf/schemas/gnome-audio-profiles.schemas`)
+    and one local for my user (in `~/.gconf/system/gstreamer/audio/profiles/mp3/%gconf.xml`).\r\n."
 - id: 24
   author: Jacob Emcken
   author_email: jacob@emcken.dk
@@ -105,7 +105,7 @@ comments:
   date: '2006-01-19 20:27:02 +0100'
   date_gmt: '2006-01-19 19:27:02 +0100'
   content: "Hey, for everyone looking to make CBR MP3s, I found this on the Fedora
-    Forums.\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc vbr=0
+    Forums.\r\n\r\naudio/x-raw-int,rate=44100,channels=2 ! lame name=enc vbr=0
     bitrate=128\r\n\r\nChange bitrate to whatever number you'd like. I like 192 myself,
     it's a nice balance between size and quality."
 - id: 39
@@ -136,7 +136,7 @@ comments:
   date: '2005-11-16 22:05:12 +0100'
   date_gmt: '2005-11-16 21:05:12 +0100'
   content: "The `gstreamer-lame` package isn't in Ubuntus repositories put you can
-    fetch them here at [Marillat's Debian repository][1]\r\n\r\n[1]: http:&#47;&#47;www.las.ic.unicamp.br&#47;pub&#47;debian-marillat&#47;"
+    fetch them here at [Marillat's Debian repository][1]\r\n\r\n[1]: http://www.las.ic.unicamp.br/pub/debian-marillat/"
 - id: 44
   author: Alberto
   author_email: ''
@@ -177,7 +177,7 @@ comments:
   date: '2006-11-08 14:13:24 +0100'
   date_gmt: '2006-11-08 13:13:24 +0100'
   content: "As of Ubuntu Edgy 6.10, the mp3 (lame) encoding comes in the gstreamer0.10
-    plugins.  \r\nI installed those using these instructions:\r\nhttp:&#47;&#47;ubuntuguide.org&#47;wiki&#47;Ubuntu_Edgy#How_to_install_Multimedia_Codecs\r\nAfter
+    plugins.  \r\nI installed those using these instructions:\r\nhttp://ubuntuguide.org/wiki/Ubuntu_Edgy#How_to_install_Multimedia_Codecs\r\nAfter
     installing the above, followed your instructions on setting up gnome-audio-profiles-properties,
     and it worked!  Thanks!"
 - id: 59
@@ -219,7 +219,7 @@ comments:
   content: "GStreamer is a pain in the ass.\r\n\r\nInstall grip.\r\nInstall lame and
     liblame0.\r\n\r\nRead the lame man page to see what options you would like to
     use for encoding your MPs and tell Grip to use these with lame.\r\n\r\nMyself,
-    I tell Grip to have the following Encoder command line  under Config&#47;Encode&#47;Encoder:\r\n\r\n-q0
+    I tell Grip to have the following Encoder command line  under Config/Encode/Encoder:\r\n\r\n-q0
     -v -V0 -b 160 -B 320 \"%w\" \"%m\"\r\n\r\n(highest quality, variable bit rate,
     highest quality variable bit rate, minimum bit rate 160, maximum bit rate 320,
     wav file, mp3 file).\r\n\r\nTry this, you'll be happy."
@@ -260,7 +260,7 @@ comments:
     in its Help>Preferences section:\r\n\r\n\"If you need to store tracks in the MP3
     format (for example, because your portable music player only supports MP3 and
     not Ogg Vorbis), you will need to create a new profile. To do this, run gnome-audio-profiles-properties,
-    press New and name it MP3. Then press Edit and set GStreamer Pipeline to audio&#47;x-raw-int,rate=44100,channels=2
+    press New and name it MP3. Then press Edit and set GStreamer Pipeline to audio/x-raw-int,rate=44100,channels=2
     ! lame name=enc, the File Extenstion to mp3, and check Active. Then start Sound
     Juicer and select the MP3 format.\r\n\r\nThis profile uses the LAME MP3 encoder,
     so you will need to have the GStreamer LAME plugin installed.\"\r\n\r\nAnd now
@@ -298,7 +298,7 @@ comments:
   date_gmt: '2006-11-20 07:29:45 +0100'
   content: "I'm a gentoo user and this does not work for me. The registry doesn't
     have the 'x-raw-int' option. I got it work by changing the gnome-audio settings
-    to:\r\n\r\nGStreamer Pipeline: audio&#47;mpeg, mpegversion=1 layer=3 rate=44100,channels=2
+    to:\r\n\r\nGStreamer Pipeline: audio/mpeg, mpegversion=1 layer=3 rate=44100,channels=2
     ! lame name=enc\r\n\r\nI don't know why x-raw-int should even be a value..."
 - id: 77
   author: Hansi
@@ -327,7 +327,7 @@ comments:
   date_gmt: '2006-12-17 06:59:10 +0100'
   content: "Here is a patch for gnome-media to fix this upstream if anyone is interested..
     I prefer to do it this way rather than on a per user basis... Probably only usefull
-    for people who compile Gnome themselves, like I do...\r\n\r\nhttp:&#47;&#47;www.angelfire.com&#47;linux&#47;madpenguin1&#47;misc&#47;gnome-media-2.16.1-add_mp3_profile.patch"
+    for people who compile Gnome themselves, like I do...\r\n\r\nhttp://www.angelfire.com/linux/madpenguin1/misc/gnome-media-2.16.1-add_mp3_profile.patch"
 - id: 88
   author: Andy
   author_email: ''
@@ -351,7 +351,7 @@ comments:
   date_gmt: '2007-01-08 17:39:43 +0100'
   content: "Yeah...same here. Fresh ubuntu edgy, and making sound juicer do the right
     thing was too much of a hassle atm (ok, I only spent 10 mins on it, but got bored
-    of the fiddling&#47;version intermezzos).\r\n\r\nsudo apt-get install grip lame"
+    of the fiddling/version intermezzos).\r\n\r\nsudo apt-get install grip lame"
 - id: 94
   author: Aron van Ammers
   author_email: aron@multitof.com
@@ -359,11 +359,11 @@ comments:
   date: '2007-01-09 12:31:26 +0100'
   date_gmt: '2007-01-09 11:31:26 +0100'
   content: "I'm a Ubuntu Edgy (6.10) user. I followed the suggestions from the Sound
-    Juicer help file and used the following pipeline:\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+    Juicer help file and used the following pipeline:\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc vbr=0 bitrate=196 ! id3v2mux\r\n\r\nThis caused Sound Juicer to
     hang every time upon pressing the Extract button. Only a 0-byte file was written.\r\n\r\nAfter
     tinkering with the options I found out the option \"vbr=0\" caused it to hang.
-    When I removed that, it worked flawlessly. So the following line worked for me:\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+    When I removed that, it worked flawlessly. So the following line worked for me:\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc bitrate=196 ! id3v2mux\r\n\r\nCheers,\r\nAron"
 - id: 102
   author: dogs
@@ -374,9 +374,9 @@ comments:
   content: "Second that vote for *grip* -- I tried for a couple of hours to get Sound
     Juicer to rip at 192kbps, but it just wouldn't play ball & I ain't that bright
     :(\r\n\r\nInstalled grip in a couple of minutes, _finally_ managed to get lame
-    library downloaded from:\r\nhttp:&#47;&#47;www.rarewares.org&#47;mp3.html\r\nhttp:&#47;&#47;www.rarewares.org&#47;files&#47;mp3&#47;lame-3.97b-Linux86.tar.gz\r\n\r\nPut
-    the library in &#47;usr&#47;bin&#47; , and then made sure the Config->Encode->Encoder
-    executable was pointing at &#47;usr&#47;bin&#47;lame\r\n\r\nIt would be nice if
+    library downloaded from:\r\nhttp://www.rarewares.org/mp3.html\r\nhttp://www.rarewares.org/files/mp3/lame-3.97b-Linux86.tar.gz\r\n\r\nPut
+    the library in /usr/bin/ , and then made sure the Config->Encode->Encoder
+    executable was pointing at /usr/bin/lame\r\n\r\nIt would be nice if
     there was an easier way for it to \"just work\" ;)"
 - id: 104
   author: Vladimir Prieto
@@ -388,8 +388,8 @@ comments:
     change \"mode\" of my encoded mp3 files.\r\n\r\ni want them with stereo mode and
     not with joint stereo mode.  and even with the lame preset to insane i get joint
     stereo.\r\n\r\nafters hours searching i finally found that with this command:\r\n\r\ngst-inspect-0.8
-    lame\r\n\r\ni can see all options&#47;parameters that can be passed to the gstreamer
-    pipeline.  so i finally use this one :\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+    lame\r\n\r\ni can see all options/parameters that can be passed to the gstreamer
+    pipeline.  so i finally use this one :\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc bitrate=320 mode=0\r\n\r\nhope this helps someone..."
 - id: 107
   author: Chris
@@ -406,7 +406,7 @@ comments:
   date: '2006-04-21 23:28:45 +0200'
   date_gmt: '2006-04-21 22:28:45 +0200'
   content: "128.  As mentioned above, use this line in gnome-audio-profiles-properties
-    to change it:\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc
+    to change it:\r\n\r\naudio/x-raw-int,rate=44100,channels=2 ! lame name=enc
     vbr=0 bitrate=128\r\n\r\nAnd change '128' to whatever you want."
 - id: 110
   author: Andy Kennedy
@@ -433,7 +433,7 @@ comments:
   content: "i have let say same problem with sound juicer \r\nwhen i whant to ripp
     some cd to mp3 program give me this message \"could not create gstreamer encoder
     (null)\" ,\r\ni create mp3 profile, but i when i run sudo gconf-editor - navigate
-    to run&#47;system&#47;gstreamer&#47;audio&#47;global i don`t have mp3 profile
+    to run/system/gstreamer/audio/global i don`t have mp3 profile
     folder it`s that normal  help"
 - id: 115
   author: Tim LePes
@@ -442,9 +442,9 @@ comments:
   date: '2007-02-20 07:05:09 +0100'
   date_gmt: '2007-02-20 06:05:09 +0100'
   content: "I finally got this working on Edgy (6.10) by installing the 0.10 ugly
-    package and using the \"audio&#47;mpeg, mpegversion=1 layer=3 rate=44100,channels=2
+    package and using the \"audio/mpeg, mpegversion=1 layer=3 rate=44100,channels=2
     ! lame name=enc ! id3v2mux\" pipeline.\r\n\r\nThis made sense since the \"gst-inspect-0.10
-    lame\" command showed me that lame is audio&#47;mpeg on my setup.  I can't seem
+    lame\" command showed me that lame is audio/mpeg on my setup.  I can't seem
     to get it to work with the bitrate= or vbr= settings, though.  My default is 128bps,
     which is fine for the task at hand.  But how do I get them changed for future
     reference?  Is there a way to modify the default of 128 CBR (I presume it is CBR),
@@ -467,7 +467,7 @@ comments:
   date_gmt: '2007-02-28 20:02:40 +0100'
   content: "Your pipeline is what worked for me as well.\r\n\r\nHere are my steps:\r\n\r\nInstall
     lame\r\nInstall gstreamer8.0-lame\r\nInstall gstreamer0.10-plugins-ugly\r\nInstall
-    gstreamer0.10-plugins-ugly-multiverse\r\n\r\n\"audio&#47;mpeg, mpegversion=1 layer=3
+    gstreamer0.10-plugins-ugly-multiverse\r\n\r\n\"audio/mpeg, mpegversion=1 layer=3
     rate=44100,channels=2 ! lame name=enc bitrate=192 ! id3v2mux\"\r\n\r\nThis encodes
     at 192 bitrate. It worked for me on an Edgy 6.10 system. Hope this helps!\r\n\r\n(BTW,
     I did the original instructions, but the lame plugin wasn't successfully installed
@@ -522,7 +522,7 @@ comments:
     really happy with Sound Juicer so far. I have badly scratched CD's that I'm making
     .flac backups of, and so far I've tried the following:\r\n1. Grip\r\n2. Rubyripper\r\n3.
     wine + exact audio copy (yes, it works if installed correctly. This guide helps:
-    http:&#47;&#47;www.teqnilogik.com&#47;tutorials&#47;eac.htm#CompressionOptionsFLAC\r\n4.
+    http://www.teqnilogik.com/tutorials/eac.htm#CompressionOptionsFLAC\r\n4.
     Sound Juicer\r\n\r\nThey all work but I found that Sound Juicer was not only the
     fastest, but I have yet to detect any errors with the rips. Oddly enough, Grip
     (which I think is an awesome tool!) took about 40 minutes on one cd that had a
@@ -538,12 +538,12 @@ comments:
   author_url: ''
   date: '2007-04-30 10:05:28 +0200'
   date_gmt: '2007-04-30 09:05:28 +0200'
-  content: "I am using Ubuntu 7.04 and these two variations work for me:\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+  content: "I am using Ubuntu 7.04 and these two variations work for me:\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc mode=0 vbr=4 vbr-quality=2 ! id3v2mux\r\n\r\nthis is for vbr-encoded
     files. Good quality, but not insanely large files. For heavy metal it produces
     something like 7,1 MB for a 4.08 minute song (average of 234 kbps) and 7,7 MB
     for a 4.35 minute song (230 kbps). Little less for something like Alexia - Summer
-    is Crazy (199 kbps).\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc
+    is Crazy (199 kbps).\r\n\r\naudio/x-raw-int,rate=44100,channels=2 ! lame name=enc
     mode=0 bitrate=192 ! id3v2mux\r\n\r\nThe latter uses cbr of 192 kbps which is
     also rather good quality.\r\n\r\nBy the way, the id3v2mux makes the id3tags to
     the files, but they aren't compatible with my SE W850i phone. So I had to install
@@ -566,7 +566,7 @@ comments:
   date_gmt: '2007-07-08 16:21:12 +0200'
   content: "Hi i found this site, by searching a way to configure Sound-Juicer.\r\n\r\nI
     currently use the following to make vbr mp3s. This i use since a long time with
-    lame. Its the best kompromiss.\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+    lame. Its the best kompromiss.\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc vbr=new  b=128 B=320 k\r\n\r\nthe lowest used bitrate is 128 the
     highest 320, so i get te best optimum i think.\r\n\r\nlame normal cut highs and
     lows, on Pop-Musik wtih \"k\", lame dont cut them. On some Musik with a wide range
@@ -606,7 +606,7 @@ comments:
   author_url: ''
   date: '2007-08-05 17:43:06 +0200'
   date_gmt: '2007-08-05 16:43:06 +0200'
-  content: 'Update: i set the executable line to "usr&#47;bin&#47;lame" like dogs
+  content: 'Update: i set the executable line to "usr/bin/lame" like dogs
     did, and it just... worked. i didn''t tell the library to go there; i guess it
     just knew to.'
 - id: 148
@@ -624,7 +624,7 @@ comments:
   author_url: ''
   date: '2007-08-29 20:46:28 +0200'
   date_gmt: '2007-08-29 19:46:28 +0200'
-  content: '"audio&#47;mpeg..." also works on Ubuntu 6.06. The string "audio&#47;x-raw-int..."
+  content: '"audio/mpeg..." also works on Ubuntu 6.06. The string "audio/x-raw-int..."
     from the reference produced 50 mb files.'
 - id: 159
   author: Epibeta
@@ -642,7 +642,7 @@ comments:
   author_url: ''
   date: '2008-05-14 09:09:57 +0200'
   date_gmt: '2008-05-14 08:09:57 +0200'
-  content: "Having luck with the following in Arch using Sound Juicer 2.22.0:\r\n\r\naudio&#47;x-raw-int,rate=44100,channels=2
+  content: "Having luck with the following in Arch using Sound Juicer 2.22.0:\r\n\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc mode=0 quality=2 vbr=4 vbr-quality=0 ! id3v2mux\r\n\r\nI found
     that using \"gst-inspect-0.10 lame\" in conjunction with \"man lame\" helped me
     -greatly- in figuring out which options I wanted to setup for SJ!\r\n\r\nThanks
@@ -657,7 +657,7 @@ comments:
   content: "This was my problem for some time:\r\nI edited an existing & created a
     new mp3 profile (which wasn't needed) but Sound Juicer would not show the mp3
     profile for applying.\r\n(Working with Ubuntu 7.04 on AMD_64.)\r\n\r\nSolution:
-    sudo apt-get install gstreamer0.10-plugins-ugly-multiverse\r\nSee: http:&#47;&#47;ubuntuforums.org&#47;showthread.php?t=581306"
+    sudo apt-get install gstreamer0.10-plugins-ugly-multiverse\r\nSee: http://ubuntuforums.org/showthread.php?t=581306"
 - id: 172
   author: Kehan H
   author_email: kehanharman@gmail.com
@@ -697,10 +697,10 @@ comments:
   author_url: ''
   date: '2009-02-22 20:33:39 +0100'
   date_gmt: '2009-02-22 19:33:39 +0100'
-  content: "I had a lot of trouble getting high-quality mp3s out of sound-juicer&#47;gstreamer.
+  content: "I had a lot of trouble getting high-quality mp3s out of sound-juicer/gstreamer.
     \ Using the version installed from the repository from Ubuntu 8.10, it seems the
     only way to get gstreamer to work the way you want is to override every one of
-    its default settings with something you want. I was finally able to use this pipeline:\r\naudio&#47;x-raw-int,rate=44100,channels=2
+    its default settings with something you want. I was finally able to use this pipeline:\r\naudio/x-raw-int,rate=44100,channels=2
     ! lame name=enc mode=0 vbr=4 vbr-quality=0 quality=0 vbr-min-bitrate=32 vbr-max-bitrate=320
     lowpass-freq=25000 ath-lower=0 ! id3v2mux\r\n\r\nto get insane-quality VBR files
     equivalent to\r\nlame -m stereo -q 0 --vbr-new -V0 --add-id3v2 {infile} {outfile}\r\n\r\nI
@@ -713,7 +713,7 @@ comments:
   author_url: ''
   date: '2009-03-03 18:53:54 +0100'
   date_gmt: '2009-03-03 17:53:54 +0100'
-  content: "your suggest:\r\naudio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc
+  content: "your suggest:\r\naudio/x-raw-int,rate=44100,channels=2 ! lame name=enc
     mode=0 vbr=4 vbr-quality=0 quality=0 vbr-min-bitrate=32 vbr-max-bitrate=320 lowpass-freq=25000
     ath-lower=0 ! id3v2mux\r\nworks great, thanks it helps"
 - id: 356
@@ -723,15 +723,20 @@ comments:
   date: '2009-12-04 16:06:41 +0100'
   date_gmt: '2009-12-04 15:06:41 +0100'
   content: |
-    <p>Can i suggest for high quality MP3's using:<&#47;p>
+    Can i suggest for high quality MP3's using:
 
-    <p>audio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc mode=0 preset=extreme<&#47;p>
 
-    <p>This uses the lame preset for extreme which is variable bitrate at a high bitrate. FOr more info just type<&#47;p>
+    audio/x-raw-int,rate=44100,channels=2 ! lame name=enc mode=0 preset=extreme
 
-    <p>lame --preset help.<&#47;p>
 
-    <p>Just create a new preset in sounds juicer with the settings as above.<&#47;p>
+    This uses the lame preset for extreme which is variable bitrate at a high bitrate. FOr more info just type
+
+
+    lame --preset help.
+
+
+    Just create a new preset in sounds juicer with the settings as above.
+
 - id: 369
   author: Gregg Lebovitz
   author_email: gregg@lebovitz.net
@@ -739,9 +744,11 @@ comments:
   date: '2010-01-31 01:18:32 +0100'
   date_gmt: '2010-01-31 00:18:32 +0100'
   content: |
-    <p>Sound Juicer sounds great on paper (blog pages?), but 20% of the time I get the error message that it can't read the track listing.<&#47;p>
+    Sound Juicer sounds great on paper (blog pages?), but 20% of the time I get the error message that it can't read the track listing.
 
-    <p>Grip, on the other hand, always works. I think clean and mean is great, but if it doesn't work then it isn't a very good piece of software.<&#47;p>
+
+    Grip, on the other hand, always works. I think clean and mean is great, but if it doesn't work then it isn't a very good piece of software.
+
 - id: 418
   author: Pablo
   author_email: me.argentino@gmail.com
@@ -749,11 +756,14 @@ comments:
   date: '2010-05-31 12:01:03 +0200'
   date_gmt: '2010-05-31 11:01:03 +0200'
   content: |
-    <p>Hi, I used:<&#47;p>
+    Hi, I used:
 
-    <p>audio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc mode=0 vbr=3 vbr-quality=0 quality=0 vbr-min-bitrate=256 vbr-max-bitrate=320 lowpass-freq=25000 ath-lower=0 ! id3v2mux<&#47;p>
 
-    <p>And its gives me 256kbps! I'm a big audio fan so 5MB audio files is fine by me. Taking it up to 320kbps would be nicer, but this will do. Thanks.<&#47;p>
+    audio/x-raw-int,rate=44100,channels=2 ! lame name=enc mode=0 vbr=3 vbr-quality=0 quality=0 vbr-min-bitrate=256 vbr-max-bitrate=320 lowpass-freq=25000 ath-lower=0 ! id3v2mux
+
+
+    And its gives me 256kbps! I'm a big audio fan so 5MB audio files is fine by me. Taking it up to 320kbps would be nicer, but this will do. Thanks.
+
 - id: 439
   author: Hamadi
   author_email: hamadi.mess@gmail.com
@@ -761,24 +771,36 @@ comments:
   date: '2010-07-15 14:45:50 +0200'
   date_gmt: '2010-07-15 13:45:50 +0200'
   content: |
-    <p>Hi,<&#47;p>
+    Hi,
 
-    <p>gst-launch filesrc location=Bureau&#47;test.ts ! mpegtsdemux name=demux program-number=12041 ! queue ! mpeg2dec ! ffmpegcolorspace ! xvimagesink demux. ! queue ! mad ! audioconvert ! audioresample ! alsasink <&#47;p>
 
-    <p>I like to play audio in mode stereo but audio is encoded in mono mode.<&#47;p>
+    gst-launch filesrc location=Bureau/test.ts ! mpegtsdemux name=demux program-number=12041 ! queue ! mpeg2dec ! ffmpegcolorspace ! xvimagesink demux. ! queue ! mad ! audioconvert ! audioresample ! alsasink 
 
-    <p>someone help me to add a caps or any plugin to set audio mode?
-    thanks<&#47;p>
+
+    I like to play audio in mode stereo but audio is encoded in mono mode.
+
+
+    someone help me to add a caps or any plugin to set audio mode?
+    thanks
+
 ---
-<p>Countless times have I struggled with MP3 encoding under Linux. I seems for an eternity now. Every single time I had to fall back on the same #&curren;@?-ing console based ripping with `abcde`. And if it hadn't been that abcde is a great ripping tool, the pain that this problem have caused me wouldn't be describable.</p>
-<p>Well now for the good news.... Sound-Juicer finally works (using Sound-Juicer 2.10 from Ubuntu Hoary)!<br />
-First I had to install the `gstreamer8.0-lame` package to encode audio to MP3 (gstreamer8.0-mad is needed for playback).</p>
-<p>Then i ran `gnome-audio-profiles-properties` and created a new profile with the following values:</p>
-<p>    Profile name: CD Quality, Lossy<br />
-    Profile Description: Test<br />
-    GStreamer Pipeline: audio&#47;x-raw-int,rate=44100,channels=2 ! lame name=enc<br />
-    File Extension: mp3</p>
-<p>Profile description and name is up to you. Dont worry, even though you have 2 profile with the same name i.e. "CD Quality, Lossy", Sound-Juicer will tell the difference between them because it also displays the extension.</p>
-<p>I cant remember which package provided gnome-audio-profiles-properties.</p>
-<p>**Update:** Glad to see this info actually helped people out there on the [Ubuntu forums][] :-D</p>
-<p>[Ubuntu forums]: http:&#47;&#47;www.ubuntuforums.org&#47;showthread.php?t=22010</p>
+Countless times have I struggled with MP3 encoding under Linux. I seems for an eternity now. Every single time I had to fall back on the same #&curren;@?-ing console based ripping with `abcde`. And if it hadn't been that abcde is a great ripping tool, the pain that this problem have caused me wouldn't be describable.
+
+Well now for the good news.... Sound-Juicer finally works (using Sound-Juicer 2.10 from Ubuntu Hoary)!
+First I had to install the `gstreamer8.0-lame` package to encode audio to MP3 (gstreamer8.0-mad is needed for playback).
+
+Then i ran `gnome-audio-profiles-properties` and created a new profile with the following values:
+
+    Profile name: CD Quality, Lossy
+    Profile Description: Test
+    GStreamer Pipeline: audio/x-raw-int,rate=44100,channels=2 ! lame name=enc
+    File Extension: mp3
+
+Profile description and name is up to you. Dont worry, even though you have 2 profile with the same name i.e. "CD Quality, Lossy", Sound-Juicer will tell the difference between them because it also displays the extension.
+
+I cant remember which package provided gnome-audio-profiles-properties.
+
+**Update:** Glad to see this info actually helped people out there on the [Ubuntu forums][] :-D
+
+[Ubuntu forums]: http://www.ubuntuforums.org/showthread.php?t=22010
+

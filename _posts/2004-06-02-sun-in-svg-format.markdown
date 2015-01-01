@@ -18,8 +18,10 @@ date_gmt: '2004-06-02 15:14:28 +0200'
 categories:
 - Graphics
 tags: []
-comments: []
+comments: false
 ---
-<p><img border='0' hspace='5' align='right' src='&#47;weblog&#47;uploads&#47;sun.thumb.png' alt='' &#47;>Today I made a sun i <abbr title="Scalable Vector Graphics">SVG<&#47;abbr> very simple but also cool IMO.<br />
-Well you can see a small sample to the right or download it i my <a href="http:&#47;&#47;www.emcken.dk&#47;files&#47;">files section<&#47;a>.</p>
-<p>The other day I also found this link to a few <a href="http:&#47;&#47;programmer-art.org&#47;?page=inkscape">tutorials for Inkscape<&#47;a>.</p>
+<img border='0' hspace='5' align='right' src='/weblog/uploads/sun.thumb.png' alt='' />Today I made a sun i <abbr title="Scalable Vector Graphics">SVG</abbr> very simple but also cool IMO.
+Well you can see a small sample to the right or download it i my <a href="http://www.emcken.dk/files/">files section</a>.
+
+The other day I also found this link to a few <a href="http://programmer-art.org/?page=inkscape">tutorials for Inkscape</a>.
+

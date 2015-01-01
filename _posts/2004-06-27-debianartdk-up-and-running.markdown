@@ -18,8 +18,10 @@ date_gmt: '2004-06-27 18:05:55 +0200'
 categories:
 - Debian
 tags: []
-comments: []
+comments: false
 ---
-<p>Well the <a href="http:&#47;&#47;www.debianart.dk&#47;">Debian Art<&#47;a> site is online. It still needs a lot of work but now we have a base to work on :)<br />
-My three first wallpapers is ready for download.</p>
-<p>What are you waiting for?</p>
+Well the <a href="http://www.debianart.dk/">Debian Art</a> site is online. It still needs a lot of work but now we have a base to work on :)
+My three first wallpapers is ready for download.
+
+What are you waiting for?
+

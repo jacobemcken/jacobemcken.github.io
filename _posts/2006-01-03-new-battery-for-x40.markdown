@@ -18,9 +18,12 @@ date_gmt: '2006-01-03 16:45:00 +0100'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>The last 4 months my battery life on my laptop has becomming really bad. Mid december it died after a year and four months of good service.<br />
-Last week I ordered and recieved a new one - yay!</p>
-<p>Right now I'm sitting in the train on my way home from work. Just finished watching the movie "[You got served][1]" on my laptop - a street dance movie. I can only say one thing... they surely know how to move :-)</p>
-<p>[1]: http:&#47;&#47;imdb.com&#47;title&#47;tt0365957&#47;</p>
+The last 4 months my battery life on my laptop has becomming really bad. Mid december it died after a year and four months of good service.
+Last week I ordered and recieved a new one - yay!
+
+Right now I'm sitting in the train on my way home from work. Just finished watching the movie "[You got served][1]" on my laptop - a street dance movie. I can only say one thing... they surely know how to move :-)
+
+[1]: http://imdb.com/title/tt0365957/
+

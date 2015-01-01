@@ -40,13 +40,19 @@ comments:
     if you may check it out for me. Thank you in advance.\r\n\r\nsincerely, \r\nstarryalley,
     Taiwan."
 ---
-<p>I found `gnome-blog` a while back which is a small application from which you can add entries to you weblog. It also integrates with your GNOME panel so a blog entry is only one click away. At least it should integrate with the gnome-panel (running Ubuntu Hoary) but everytime I try to add it get this error:</p>
-<p>> The panel encountered a problem while loading "OAFIID:GNOME_BlogApplet".</p>
-<p>At the time of finding, I though it would be great if it actually worked with Serendipity (my weblog), and maybe just maybe if I had actually taken the time to look into it, I would have found that is does.<br />
-In `gnome-blog` Preferences you have to set XML-RPC URL to point on the `serendipity_xmlrpc.php`.</p>
-<p>I have testet it now - but I'm not that impressed :-(<br />
-It puts in html tags around paragraphs which I'm not interested in, since I want the markdown post-processor to do that for me.<br />
-Also when using BloggerAPI protocol the title of the post wasn't saved in the title field as supposed to, but instead saved as the first line in the entry body. Last but not least my new post wasn't activated (only saved as draft), so I have to open the webinterface anyways to activate it after posting. So much for trying to go around the webinterface...<br />
-I dunno if it is `gnome-blog` or Serendipity that fucks it up.</p>
-<p>Using the MetaWeblog protocol seems to work okay... now if it would just stop adding html tags!</p>
-<p>Yeah yeah Frank I know it is Open Source :-D</p>
+I found `gnome-blog` a while back which is a small application from which you can add entries to you weblog. It also integrates with your GNOME panel so a blog entry is only one click away. At least it should integrate with the gnome-panel (running Ubuntu Hoary) but everytime I try to add it get this error:
+
+> The panel encountered a problem while loading "OAFIID:GNOME_BlogApplet".
+
+At the time of finding, I though it would be great if it actually worked with Serendipity (my weblog), and maybe just maybe if I had actually taken the time to look into it, I would have found that is does.
+In `gnome-blog` Preferences you have to set XML-RPC URL to point on the `serendipity_xmlrpc.php`.
+
+I have testet it now - but I'm not that impressed :-(
+It puts in html tags around paragraphs which I'm not interested in, since I want the markdown post-processor to do that for me.
+Also when using BloggerAPI protocol the title of the post wasn't saved in the title field as supposed to, but instead saved as the first line in the entry body. Last but not least my new post wasn't activated (only saved as draft), so I have to open the webinterface anyways to activate it after posting. So much for trying to go around the webinterface...
+I dunno if it is `gnome-blog` or Serendipity that fucks it up.
+
+Using the MetaWeblog protocol seems to work okay... now if it would just stop adding html tags!
+
+Yeah yeah Frank I know it is Open Source :-D
+

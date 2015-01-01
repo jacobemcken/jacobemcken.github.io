@@ -28,5 +28,8 @@ comments:
   content: Wait a minute... so is EVERYBODY ELSE! Oh... So close to Aragorn or Yoda.  Oh
     well.
 ---
-<p>This is who I am... I wonder if anyone ended up beeing Darth Vader.</p>
-<p><a href="http:&#47;&#47;www.tk421.net&#47;character&#47;"><img src="http:&#47;&#47;www.tk421.net&#47;character&#47;samwise.jpg" width="262" height="211" border="2" alt="Which Fantasy&#47;SciFi Character Are You?" &#47;><&#47;a><&#47;p></p>
+This is who I am... I wonder if anyone ended up beeing Darth Vader.
+
+<a href="http://www.tk421.net/character/"><img src="http://www.tk421.net/character/samwise.jpg" width="262" height="211" border="2" alt="Which Fantasy/SciFi Character Are You?" /></a>
+
+

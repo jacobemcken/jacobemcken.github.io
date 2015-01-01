@@ -18,10 +18,12 @@ date_gmt: '2005-07-15 22:45:00 +0200'
 categories:
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>Today I implemented a strage server at a customer... the result wasn't satisfying.<br />
-I shared the files with NFS to the other servers. Samba shares of NFS mounted filesystems are NOT recommendable!<br />
-It makes Outlook fuck up if you have your pst files on a samba share and the finacial system C5 can only have one user logged in because NFS make some locks on files (at least I think that is the reason).</p>
-<p>Anyways... just wanted to tell you all to test twice (or some more) before you do something like that.<br />
-I have't looked further into it, to see if it is possible to optimize on some settings.</p>
+Today I implemented a strage server at a customer... the result wasn't satisfying.
+I shared the files with NFS to the other servers. Samba shares of NFS mounted filesystems are NOT recommendable!
+It makes Outlook fuck up if you have your pst files on a samba share and the finacial system C5 can only have one user logged in because NFS make some locks on files (at least I think that is the reason).
+
+Anyways... just wanted to tell you all to test twice (or some more) before you do something like that.
+I have't looked further into it, to see if it is possible to optimize on some settings.
+

@@ -18,12 +18,16 @@ date_gmt: '2005-07-15 18:33:56 +0200'
 categories:
 - FriFinans
 tags: []
-comments: []
+comments: false
 ---
-<p>Yesterday I [translated the danish "getting started coding" guide into english][1]. One less excuse for not contributing to [FriFinans][2]. It is all pretty straight forward but if you should get stuck you are more than welcome to contact me.</p>
-<p>For those how don know what FriFinans is...<br />
-It's an open source multiuser accounting system soon to take over the world ;-)<br />
-We have put alot of thoughts in the design fase until now and I'm really proud of the outcome... Frank has been great. I really think FriFinans has a solid and thought through base for the application.</p>
-<p>Right now Frank is working on the foundation af advanced history logging, and through that the ability to roll back changes made to objects (ie. a debtor).</p>
-<p>[1]: http:&#47;&#47;wiki.frifinans.dk&#47;GettingStartedCoding<br />
-[2]: http:&#47;&#47;www.frifinans.dk&#47;</p>
+Yesterday I [translated the danish "getting started coding" guide into english][1]. One less excuse for not contributing to [FriFinans][2]. It is all pretty straight forward but if you should get stuck you are more than welcome to contact me.
+
+For those how don know what FriFinans is...
+It's an open source multiuser accounting system soon to take over the world ;-)
+We have put alot of thoughts in the design fase until now and I'm really proud of the outcome... Frank has been great. I really think FriFinans has a solid and thought through base for the application.
+
+Right now Frank is working on the foundation af advanced history logging, and through that the ability to roll back changes made to objects (ie. a debtor).
+
+[1]: http://wiki.frifinans.dk/GettingStartedCoding
+[2]: http://www.frifinans.dk/
+

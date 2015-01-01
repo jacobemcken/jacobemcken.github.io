@@ -30,8 +30,10 @@ comments:
     but SuSE, starting with a late 4.X version in 1996, but I was never really happy
     with it: many pr..."
 ---
-<p>I have migratet my Debian user profilen to Ubuntu and it is now officially my primary home workstation distribution.<br />
-Since my last post I have installed Flash support, NVIDIA drivers, gstreamer MP3 encoder (used by Sound-Juicer) and WINE.</p>
-<p><a href='&#47;weblog&#47;uploads&#47;IE_under_Ubuntu.png'><img width='110' height='88' border='0' hspace='5' align='left' src='&#47;weblog&#47;uploads&#47;IE_under_Ubuntu.thumb.png' alt='' &#47;><&#47;a> And just now I have installed Internet Explorer with <a href="http:&#47;&#47;sidenet.ddo.jp&#47;winetips&#47;config.html">a script<&#47;a> which did it all itself.<br />
-As you might allready have noticed I have made a<br />
-<a href='&#47;weblog&#47;uploads&#47;IE_under_Ubuntu.png'>screenshot<&#47;a> of this isolated manifistation of "web designers hell" that I have allowed to be present on my Linux system.</p>
+I have migratet my Debian user profilen to Ubuntu and it is now officially my primary home workstation distribution.
+Since my last post I have installed Flash support, NVIDIA drivers, gstreamer MP3 encoder (used by Sound-Juicer) and WINE.
+
+<a href='/weblog/uploads/IE_under_Ubuntu.png'><img width='110' height='88' border='0' hspace='5' align='left' src='/weblog/uploads/IE_under_Ubuntu.thumb.png' alt='' /></a> And just now I have installed Internet Explorer with <a href="http://sidenet.ddo.jp/winetips/config.html">a script</a> which did it all itself.
+As you might allready have noticed I have made a
+<a href='/weblog/uploads/IE_under_Ubuntu.png'>screenshot</a> of this isolated manifistation of "web designers hell" that I have allowed to be present on my Linux system.
+

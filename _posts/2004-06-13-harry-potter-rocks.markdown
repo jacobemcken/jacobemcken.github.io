@@ -29,4 +29,5 @@ comments:
     series is maturing a lot and fast. I can't wait to see the fourth film.\r\n\r\n--Munkejens
     (djk)"
 ---
-<p>Today I went to the movies to see <i>Harry Potter and the Prisoner of Azkaban<&#47;i>. I found the movie really good and I'm looking forward to all the next ones. I have read all the books and both the books and the movies keeps getting better... hope it stays that way.</p>
+Today I went to the movies to see <i>Harry Potter and the Prisoner of Azkaban</i>. I found the movie really good and I'm looking forward to all the next ones. I have read all the books and both the books and the movies keeps getting better... hope it stays that way.
+

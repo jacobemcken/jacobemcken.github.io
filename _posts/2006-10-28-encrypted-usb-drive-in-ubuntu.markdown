@@ -29,9 +29,9 @@ comments:
     on the drive overwrite it with random data in order to slow down an eventually
     attack on the encryption. The vise zealot would also perform a bad blocks scan
     to make sure the hard drive is not going to die too soon ;-) Do this in a single
-    command:\r\n\r\n\r\n      badblocks -c 10240 -s -w -t random -v &#47;dev&#47;sda\r\n\r\n\r\nParanoid
+    command:\r\n\r\n\r\n      badblocks -c 10240 -s -w -t random -v /dev/sda\r\n\r\n\r\nParanoid
     beyond regular self toture? Willing to spend one or two days on the extra security?
-    Do this:\r\n\r\n\r\n      dd if=&#47;dev&#47;urandom of=&#47;dev&#47;sda\r\n\r\n\r\nWarning:
+    Do this:\r\n\r\n\r\n      dd if=/dev/urandom of=/dev/sda\r\n\r\n\r\nWarning:
     This wil definitely make your cpu and harddisk  temprature rise and be in the
     high range the whole time!"
 - id: 58
@@ -58,7 +58,7 @@ comments:
     non-LUKS volumes work fine, the same key just formatted with mkntfs gets mounted
     as ntfs-3g).  Any hints on where I could say \"prefer ntfs-3g over ntfs\"?\r\n\r\nI
     have Ubuntu Edgy Eft installed with packages ntfs-3g and pmount from \r\n\r\ndeb
-    http:&#47;&#47;flomertens.keo.in&#47;ubuntu&#47; dapper main main-all"
+    http://flomertens.keo.in/ubuntu/ dapper main main-all"
 - id: 121
   author: Fil
   author_email: ''
@@ -140,11 +140,11 @@ comments:
   date_gmt: '2008-08-24 10:34:54 +0200'
   content: "Hi Kalle\r\n\r\nI dont know how this is supposed to work in KDE but if
     you wanna do this manually I guess it would look something like this:\r\n\r\nFirst
-    attach the encrypted partition:\r\n\r\n    $ sudo cryptsetup luksOpen &#47;dev&#47;sda1
+    attach the encrypted partition:\r\n\r\n    $ sudo cryptsetup luksOpen /dev/sda1
     sda1\r\n    Enter LUKS passphrase:\r\n    key slot 0 unlocked\r\n    Command successful.\r\n\r\n\r\nNow
-    mount the encryptet filesystem:\r\n\r\n    sudo mount &#47;dev&#47;mapper&#47;sda1
-    &#47;mnt\r\n\r\n\r\nWhen you are done unmount it again:\r\n\r\n    sudo umount
-    &#47;mnt\r\n\r\nand remove the tempoary device mapped to the encrypted partition:\r\n\r\n
+    mount the encryptet filesystem:\r\n\r\n    sudo mount /dev/mapper/sda1
+    /mnt\r\n\r\n\r\nWhen you are done unmount it again:\r\n\r\n    sudo umount
+    /mnt\r\n\r\nand remove the tempoary device mapped to the encrypted partition:\r\n\r\n
     \   sudo cryptsetup luksClose sda1"
 - id: 187
   author: Sunadrad
@@ -154,12 +154,12 @@ comments:
   date_gmt: '2008-12-02 14:41:37 +0100'
   content: "I just set up an external USB hard drive with this guide, and it worked
     great. \r\n\r\nOnly one thing - when I now connect the USB drive, i get prompted
-    for a password, but the drive doesn't get mounted.\r\n\r\nA &#47;dev&#47;mapper
-    entry is set up:\r\n<pre><code>\r\nls -l &#47;dev&#47;mapper\r\ntotal 0\r\ncrw-rw----
+    for a password, but the drive doesn't get mounted.\r\n\r\nA /dev/mapper
+    entry is set up:\r\n<pre><code>\r\nls -l /dev/mapper\r\ntotal 0\r\ncrw-rw----
     1 root root  10, 63 2008-12-01 11:40 control\r\nbrw-rw---- 1 root disk 254,  0
-    2008-12-02 09:07 luks_crypto_4e09dc8f-e411-4a34-b54c-326e7104a8ed\r\n<&#47;code><&#47;pre>\r\n\r\nany
+    2008-12-02 09:07 luks_crypto_4e09dc8f-e411-4a34-b54c-326e7104a8ed\r\n</code></pre>\r\n\r\nany
     suggestions on how to get it to be mounted automatically?  there's nothing useful
-    in &#47;var&#47;log&#47;messages.  i suppose i can add an entry to &#47;etc&#47;fstab,
+    in /var/log/messages.  i suppose i can add an entry to /etc/fstab,
     but that still won't make it mount automatically when it's connected.  i'm running
     ubuntu gutsy.  thanks,"
 - id: 195
@@ -201,7 +201,7 @@ comments:
   date: '2009-04-23 17:18:04 +0200'
   date_gmt: '2009-04-23 16:18:04 +0200'
   content: "Anyway of changing the default path it mounts the encrypted drive to,
-    because now it mounts the drive to &#47;media&#47;disk which I need for something
+    because now it mounts the drive to /media/disk which I need for something
     else.\r\n\r\nOr maybe is there a way of disabling the auto-mount pass-phrase prompt,
     'cause then I could manually mount it to a better path."
 - id: 311
@@ -211,7 +211,7 @@ comments:
   date: '2009-04-24 14:14:58 +0200'
   date_gmt: '2009-04-24 13:14:58 +0200'
   content: "The mount point Ubuntu chooses is based on the label of the filesystem.
-    Which means that if the label is ie. \"WD 1TB\" it will be mounted in &#47;media&#47;WD
+    Which means that if the label is ie. \"WD 1TB\" it will be mounted in /media/WD
     1TB\r\n\r\nSince the label cannot be read before the partition is actually decrypted
     I'm not sure Ubuntu can figure out to mount encrypted partitions using labels.\r\n\r\nI'm
     not aware of anything you can do to disable auto mounting of encrypted partitions."
@@ -225,7 +225,7 @@ comments:
     without compunction, but when I re-inserted the drive, and it prompted me for
     my passphrase (which I provided), it seemingly mounted but is inaccessible to
     me.  It populates as a device but generates the error \"Unable eto set up crypto
-    device Error org.freedesktop.Hal.Device.Volume.Crypto.SetupError  &#47;dev&#47;sdc
+    device Error org.freedesktop.Hal.Device.Volume.Crypto.SetupError  /dev/sdc
     is already setup?\".  What have I done wrong?"
 - id: 317
   author: Jacob Emcken
@@ -245,7 +245,8 @@ comments:
   date: '2009-08-27 11:47:10 +0200'
   date_gmt: '2009-08-27 10:47:10 +0200'
   content: |
-    <p>Just a note. If you encrypt a USB stick you should use ext2 and not ext3 as the latter is very slow on sticks due to the journalling system.<&#47;p>
+    Just a note. If you encrypt a USB stick you should use ext2 and not ext3 as the latter is very slow on sticks due to the journalling system.
+
 - id: 340
   author: A. James Lewis (netlore) 's status on Monday, 19-Oct-09 14:51:21 UTC - Identi.ca
   author_email: ''
@@ -253,7 +254,8 @@ comments:
   date: '2009-10-19 15:51:39 +0200'
   date_gmt: '2009-10-19 14:51:39 +0200'
   content: |
-    <p>[...]  http:&#47;&#47;emcken.dk&#47;weblog&#47;archives&#47;164-encrypted-usb-drive-in-ubuntu.html        a few seconds ago  from  Gwibber   in context [...]<&#47;p>
+    [...]  http://emcken.dk/weblog/archives/164-encrypted-usb-drive-in-ubuntu.html        a few seconds ago  from  Gwibber   in context [...]
+
 - id: 380
   author: Free Your Inner Penguin &raquo; Blog Archive &raquo; Drive Encryption
   author_email: ''
@@ -261,7 +263,8 @@ comments:
   date: '2010-03-27 20:38:48 +0100'
   date_gmt: '2010-03-27 19:38:48 +0100'
   content: |
-    <p>[...] Encrypted USB drive in Ubuntu Posted by Jacob Emcken [...]<&#47;p>
+    [...] Encrypted USB drive in Ubuntu Posted by Jacob Emcken [...]
+
 - id: 421
   author: Klass Pappa
   author_email: klasspappa@hotmail.com
@@ -269,10 +272,12 @@ comments:
   date: '2010-06-11 21:45:23 +0200'
   date_gmt: '2010-06-11 20:45:23 +0200'
   content: |
-    <p>I tryed this, everything is ok.
-    Exept I cant copy files to the drive, Access denied!<&#47;p>
+    I tryed this, everything is ok.
+    Exept I cant copy files to the drive, Access denied!
 
-    <p>I run Ubuntu 9.04<&#47;p>
+
+    I run Ubuntu 9.04
+
 - id: 426
   author: Chris
   author_email: chrisspen@gmail.com
@@ -280,10 +285,12 @@ comments:
   date: '2010-06-23 16:32:00 +0200'
   date_gmt: '2010-06-23 15:32:00 +0200'
   content: |
-    <p>Great guide. Your instructions worked nearly perfectly. The only  problem I ran into was that the mounted drive had root-only permissions, which is fixed with:
-    sudo chown -R myuser:myuser &#47;dev&#47;usbdevicemountpoint<&#47;p>
+    Great guide. Your instructions worked nearly perfectly. The only  problem I ran into was that the mounted drive had root-only permissions, which is fixed with:
+    sudo chown -R myuser:myuser /dev/usbdevicemountpoint
 
-    <p>After that, Gnome's default mount icon was fully accessible.<&#47;p>
+
+    After that, Gnome's default mount icon was fully accessible.
+
 - id: 436
   author: Ubuntu Storage Medium Encryption Script | chrisspenblog
   author_email: ''
@@ -291,7 +298,8 @@ comments:
   date: '2010-07-08 23:44:03 +0200'
   date_gmt: '2010-07-08 22:44:03 +0200'
   content: |
-    <p>[...] flash drives, to protect personal data in the event they&#8217;re lost or stolen, and I found a few good write-ups on the subject using tools available in Ubuntu. Although the current distribution of [...]<&#47;p>
+    [...] flash drives, to protect personal data in the event they&#8217;re lost or stolen, and I found a few good write-ups on the subject using tools available in Ubuntu. Although the current distribution of [...]
+
 - id: 453
   author: Herr Furher
   author_email: herrfurher@gmail.com
@@ -299,7 +307,8 @@ comments:
   date: '2010-09-28 12:03:55 +0200'
   date_gmt: '2010-09-28 11:03:55 +0200'
   content: |
-    <p>Very nice post still works on Ubuntu 10.04 x64 system. Thanks<&#47;p>
+    Very nice post still works on Ubuntu 10.04 x64 system. Thanks
+
 - id: 552
   author: TechLW
   author_email: kyonke42@hotmail.com
@@ -307,46 +316,71 @@ comments:
   date: '2012-02-06 19:42:44 +0100'
   date_gmt: '2012-02-06 18:42:44 +0100'
   content: |
-    <p>Really nice,
+    Really nice,
     very cool sharing.
-    better on Ubuntu 10.04 lts<&#47;p>
+    better on Ubuntu 10.04 lts
+
 ---
-<p>Today I went to the [Linuxforum BOF day][1] where I attended a session about encrypting your personal files. This made me remember [a post][2] read some time ago (check out the screen cast). I guessed that this functionality would be in Ubuntu Edgy by now so I just went ahead and tried to make my USB pen drive encrypted.</p>
-<p>This is how I did it:</p>
-<p>1.  First install the needed software</p>
-<p>        sudo apt-get install cryptsetup</p>
-<p>2.  Make sure your USB disk isn't mounted. Then partition the USB pendrive<br />
-    the way you want it, if it isn't already partitioned (I made one big<br />
-    partition on mine `&#47;dev&#47;sda1`).<br />
-    **Note:** Don't mount the disk afterwards!<br />
-3.  If you havn't rebooted your computer since you installed the `cryptsetup` package,<br />
-    you might have to load the device mapper crypt module manually:</p>
-<p>        sudo modprobe dm-crypt</p>
-<p>4.  Now make the partition encrypted:</p>
-<p>        $ sudo cryptsetup --verbose --verify-passphrase luksFormat &#47;dev&#47;sda1</p>
-<p>        WARNING!<br />
-        ========<br />
-        This will overwrite data on &#47;dev&#47;sda1 irrevocably.</p>
-<p>        Are you sure? (Type uppercase yes): YES<br />
-        Enter LUKS passphrase:<br />
-        Verify passphrase:<br />
-        Command successful.</p>
-<p>    If you get the error:</p>
-<p>        Failed to setup dm-crypt key mapping.<br />
-        Check kernel for support for the aes-cbc-essiv:sha256 cipher spec and verify that &#47;dev&#47;sda1 contains at least 133 sectors.</p>
-<p>    Make sure that the disk isn't mounted. And make sure you are using the right device. You can use `dmesg` to check which device the disk have been assigned. You might also wanna check that the the module `dm-crypt` is loaded (`lsmod | grep dm`).</p>
-<p>5.  Now attach the encrypted partition.:</p>
-<p>        $ sudo cryptsetup luksOpen &#47;dev&#47;sda1 sda1<br />
-        Enter LUKS passphrase:<br />
-        key slot 0 unlocked<br />
-        Command successful.</p>
-<p>6.  Now create a filesystem on the new encryptet device:</p>
-<p>        sudo mkfs.ext3 &#47;dev&#47;mapper&#47;sda1</p>
-<p>7.  Remove the tempoary device mapped to the encrypted partition:</p>
-<p>        sudo cryptsetup luksClose sda1</p>
-<p>8.  Now remove the your usbdisk from the USB plug, and reinsert it and Ubuntu should find it and ask for the passphrase.</p>
-<p><img width='441' height='171' style="border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;Screenshot-Encryptedvolumedetected.png" alt="" &#47;></p>
-<p>**Update:** I tried to insert my USB pen into a Ubuntu Dapper (which this guide also would work on I guess). I just thought it was cool that is atcually told me which package it needed to for it to work:</p>
-<p><img width='425' height='151' style="border: 0px;padding-left: 5px;padding-right: 5px" src="&#47;weblog&#47;uploads&#47;Encrypteddevicesnotsupported.png" alt="" &#47;></p>
-<p>[1]: http:&#47;&#47;bof.linuxforum.dk&#47;2006&#47;<br />
-[2]: http:&#47;&#47;blog.fubar.dk&#47;?p=64</p>
+Today I went to the [Linuxforum BOF day][1] where I attended a session about encrypting your personal files. This made me remember [a post][2] read some time ago (check out the screen cast). I guessed that this functionality would be in Ubuntu Edgy by now so I just went ahead and tried to make my USB pen drive encrypted.
+
+This is how I did it:
+
+1.  First install the needed software
+
+        sudo apt-get install cryptsetup
+
+2.  Make sure your USB disk isn't mounted. Then partition the USB pendrive
+    the way you want it, if it isn't already partitioned (I made one big
+    partition on mine `/dev/sda1`).
+    **Note:** Don't mount the disk afterwards!
+3.  If you havn't rebooted your computer since you installed the `cryptsetup` package,
+    you might have to load the device mapper crypt module manually:
+
+        sudo modprobe dm-crypt
+
+4.  Now make the partition encrypted:
+
+        $ sudo cryptsetup --verbose --verify-passphrase luksFormat /dev/sda1
+
+        WARNING!
+        ========
+        This will overwrite data on /dev/sda1 irrevocably.
+
+        Are you sure? (Type uppercase yes): YES
+        Enter LUKS passphrase:
+        Verify passphrase:
+        Command successful.
+
+    If you get the error:
+
+        Failed to setup dm-crypt key mapping.
+        Check kernel for support for the aes-cbc-essiv:sha256 cipher spec and verify that /dev/sda1 contains at least 133 sectors.
+
+    Make sure that the disk isn't mounted. And make sure you are using the right device. You can use `dmesg` to check which device the disk have been assigned. You might also wanna check that the the module `dm-crypt` is loaded (`lsmod | grep dm`).
+
+5.  Now attach the encrypted partition.:
+
+        $ sudo cryptsetup luksOpen /dev/sda1 sda1
+        Enter LUKS passphrase:
+        key slot 0 unlocked
+        Command successful.
+
+6.  Now create a filesystem on the new encryptet device:
+
+        sudo mkfs.ext3 /dev/mapper/sda1
+
+7.  Remove the tempoary device mapped to the encrypted partition:
+
+        sudo cryptsetup luksClose sda1
+
+8.  Now remove the your usbdisk from the USB plug, and reinsert it and Ubuntu should find it and ask for the passphrase.
+
+<img width='441' height='171' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Screenshot-Encryptedvolumedetected.png" alt="" />
+
+**Update:** I tried to insert my USB pen into a Ubuntu Dapper (which this guide also would work on I guess). I just thought it was cool that is atcually told me which package it needed to for it to work:
+
+<img width='425' height='151' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Encrypteddevicesnotsupported.png" alt="" />
+
+[1]: http://bof.linuxforum.dk/2006/
+[2]: http://blog.fubar.dk/?p=64
+

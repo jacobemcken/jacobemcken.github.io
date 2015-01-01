@@ -18,8 +18,10 @@ date_gmt: '2004-07-18 16:59:32 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>Saturday was spent working the entire day (and some of the night too). I wasn't home until 1.00 AM sunday morning. Even thought you should think so I didn't sleep that well. I wasn't sure if I would be called to work again today.<br />
-Nobody have called me yet telling me 'the house' is on fire so I'm beginning to relax.</p>
-<p>A few hours of Metriod Prime has also helped :)</p>
+Saturday was spent working the entire day (and some of the night too). I wasn't home until 1.00 AM sunday morning. Even thought you should think so I didn't sleep that well. I wasn't sure if I would be called to work again today.
+Nobody have called me yet telling me 'the house' is on fire so I'm beginning to relax.
+
+A few hours of Metriod Prime has also helped :)
+

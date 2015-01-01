@@ -31,10 +31,14 @@ comments:
     but SuSE, starting with a late 4.X version in 1996, but I was never really happy
     with it: many pr..."
 ---
-<p>Yesterday I installed <a href="http:&#47;&#47;www.ubuntulinux.org&#47;">Ubuntu Linux<&#47;a> - at first view a great distribution. I havn't replaced my Debian installation (yet), but I must say that Ubuntu seems to have excatly what I have missed in Debian.</p>
-<p> * Release cycle that I can use (every six months)<br />
- * GNOME focus<br />
- * A slick finish</p>
-<p>I resized an NTFS partition from my harddrive to release 8GB of space. I rarely use Windows and if I took the time, I could release alot of unused space locked to a NTFS partition.<br />
-The Ubuntu installation went smooth and tonight I will try to upgrade the <i>Warty Warthog<&#47;i> to <i>Hoary Hedgehog<&#47;i></p>
-<p>I'm looking forward to se how GNOME 2.10 is comming up.</p>
+Yesterday I installed <a href="http://www.ubuntulinux.org/">Ubuntu Linux</a> - at first view a great distribution. I havn't replaced my Debian installation (yet), but I must say that Ubuntu seems to have excatly what I have missed in Debian.
+
+ * Release cycle that I can use (every six months)
+ * GNOME focus
+ * A slick finish
+
+I resized an NTFS partition from my harddrive to release 8GB of space. I rarely use Windows and if I took the time, I could release alot of unused space locked to a NTFS partition.
+The Ubuntu installation went smooth and tonight I will try to upgrade the <i>Warty Warthog</i> to <i>Hoary Hedgehog</i>
+
+I'm looking forward to se how GNOME 2.10 is comming up.
+

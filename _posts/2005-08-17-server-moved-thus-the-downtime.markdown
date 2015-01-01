@@ -18,6 +18,7 @@ date_gmt: '2005-08-17 18:30:59 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>I have moved my server from my parents low bandwith to my own low bandwidth DSL connection... so I'm the only one (when I'm at home) who enjoys my speedy weblog :-D</p>
+I have moved my server from my parents low bandwith to my own low bandwidth DSL connection... so I'm the only one (when I'm at home) who enjoys my speedy weblog :-D
+

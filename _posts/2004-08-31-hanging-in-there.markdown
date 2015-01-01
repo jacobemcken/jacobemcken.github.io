@@ -18,6 +18,7 @@ date_gmt: '2004-08-31 19:24:19 +0200'
 categories:
 - Other
 tags: []
-comments: []
+comments: false
 ---
-<p>The limited number of posts the last month is evidence that work have been taking too much of my time lately. Now I'm really looking forward to my vacation. I'm going to look closer on the code for <a href="http:&#47;&#47;art.gnome.org&#47;">art.gnome.org<&#47;a> and see if I can reuse it for debianart.dk.</p>
+The limited number of posts the last month is evidence that work have been taking too much of my time lately. Now I'm really looking forward to my vacation. I'm going to look closer on the code for <a href="http://art.gnome.org/">art.gnome.org</a> and see if I can reuse it for debianart.dk.
+

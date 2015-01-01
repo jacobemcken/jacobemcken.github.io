@@ -18,8 +18,10 @@ date_gmt: '2005-07-26 18:56:28 +0200'
 categories:
 - Linux
 tags: []
-comments: []
+comments: false
 ---
-<p>[My GNOME bugs][1] - only 2 so far... not much.<br />
-Just wanted to save the link somewhere where I can always find it :)</p>
-<p>[1]: http:&#47;&#47;bugzilla.gnome.org&#47;buglist.cgi?email1=jacob%40emcken.dk&amp;emailtype1=exact&amp;emailassigned_to1=1&amp;emailreporter1=1</p>
+[My GNOME bugs][1] - only 2 so far... not much.
+Just wanted to save the link somewhere where I can always find it :)
+
+[1]: http://bugzilla.gnome.org/buglist.cgi?email1=jacob%40emcken.dk&amp;emailtype1=exact&amp;emailassigned_to1=1&amp;emailreporter1=1
+
