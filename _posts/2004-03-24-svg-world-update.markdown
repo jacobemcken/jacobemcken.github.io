@@ -22,7 +22,7 @@ comments: false
 ---
 Today I found this article: '<i><a href="http://www.osnews.com/story.php?news_id=6460">SVG and its Path into the Linux Desktop</a></i>' on <a href="http://www.osnews.com/">osnews.com </a>. I is pretty exiting reading if you think SVG is cool.
 
-<a href="/weblog/uploads/OOo_dvd_cover.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: left;vertical-align: top' src='/weblog/uploads/OOo_dvd_cover.thumb.png' alt='' /></a> At work I continued improving the layout on a DVD size cover for a danish production of OpenOffice.org which I have been working on for some time now.
+<a href="/public/media/OOo_dvd_cover.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: left;vertical-align: top' src='/public/media/OOo_dvd_cover.thumb.png' alt='' /></a> At work I continued improving the layout on a DVD size cover for a danish production of OpenOffice.org which I have been working on for some time now.
 
 I added the pen and paper on the front today. The art is taken from a really cool icon theme called <a href="http://zeus.qballcow.nl/icons.php">Gartoon</a> made by Zeus (realname Kuswanto). Take a look at <a href="http://zeus.qballcow.nl/">Zeus' homepage</a> for a lot of great stuff. I will write him an email later to ask if it is okay to use this :)
 I sure hope so because I really looks good.

@@ -30,10 +30,9 @@ comments:
     avatars online.\r\nBUT we NEED YOUR TALENT!\r\nIt would be great if you added
     your own pieces for the avatar!\r\ncontact me, even with gtalk/jabber\r\nencompass@gmail.com"
 ---
-<img width='80' height='77' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/ubuntu_forum_avatar.gif" alt="" />Last week I found this Avatar while browsing the Ubuntu community forums.  I really like the style and decided to make one myself which should also look kinda like me.
-<div>&nbsp;</div>
+<img width='80' height='77' style="float: left;" src="/public/media/ubuntu_forum_avatar.gif" alt="" />Last week I found this Avatar while browsing the Ubuntu community forums.  I really like the style and decided to make one myself which should also look kinda like me.<div>&nbsp;</div>
 
-<img width='100' height='100' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/hackergotchi.png" alt="" />The result is my own personal "hand drawed" hackergotchi. I used a picture taken at work and [Inkscape][1] to do the magic. It might look even better if I applied an uneven stroke like the one from the Ubuntu forums. Right now Inkscape does the stroke which is kinda dull. But it will suffice for now.
+<img width='100' height='100' style="float: left;" src="/public/media/hackergotchi.png" alt="" />The result is my own personal "hand drawed" hackergotchi. I used a picture taken at work and [Inkscape][1] to do the magic. It might look even better if I applied an uneven stroke like the one from the Ubuntu forums. Right now Inkscape does the stroke which is kinda dull. But it will suffice for now.
 
 [1]: http://www.inkscape.org/
 

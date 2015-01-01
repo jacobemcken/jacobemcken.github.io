@@ -26,7 +26,7 @@ Yesterday I updated my kernel on my laptop after a record uptime (for me on my l
 
 42 days without an update to the kernel in Ubuntu... I dunno if thats good or bad. But one thing that is really cool is that in all this time I used my suspend to ram function, and the laptop haven't died on me once. It occasionally did in all the previous versions of Ubuntu. So I just wanna send a kudos to the developers.
 
-<img width='262' height='304' style="float: right;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/mmcdisk.png" alt="" />Whenever the update manager notifies me about upgrades I usually just install it, though with a kernel update I try to push it to avoid rebooting. But this time I was excited because I noticed that the kernel apparently had a fix for the [bug reading large SD cards][1] I mentioned in [an earlier post][2].
+<img width='262' height='304' style="float: right;border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/mmcdisk.png" alt="" />Whenever the update manager notifies me about upgrades I usually just install it, though with a kernel update I try to push it to avoid rebooting. But this time I was excited because I noticed that the kernel apparently had a fix for the [bug reading large SD cards][1] I mentioned in [an earlier post][2].
 
 I can confirm that this is now fixed... YAY!
 

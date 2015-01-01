@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: false
 ---
-<a href="/weblog/uploads/OpenOffice_autorun_sketch.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: right;vertical-align: top' src='/weblog/uploads/OpenOffice_autorun_sketch.thumb.png' alt='' /></a> I had a friend over today and we talked about a welcome splash for a danish OpenOffice.org CD-rom (for Windows). I have made a sketch of my thoughts and my friend will try realize it in Flash (hopefully this week so we can have it ready for <a href="http://www.linuxforum.dk/">LinuxForum</a> 2004).
+<a href="/public/media/OpenOffice_autorun_sketch.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: right;vertical-align: top' src='/public/media/OpenOffice_autorun_sketch.thumb.png' alt='' /></a> I had a friend over today and we talked about a welcome splash for a danish OpenOffice.org CD-rom (for Windows). I have made a sketch of my thoughts and my friend will try realize it in Flash (hopefully this week so we can have it ready for <a href="http://www.linuxforum.dk/">LinuxForum</a> 2004).
 
 Instead of starting the OpenOffice.org installer (which can take forever on slow machines and it is not always the action people want) we want a little splash screen to popup when Autorun is activated. Basicly you have 2 options:
 

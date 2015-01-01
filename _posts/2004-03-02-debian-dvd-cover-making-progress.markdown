@@ -29,8 +29,8 @@ comments:
 ---
 Well I better go to bed now... just had to see <i>24 Hours</i> with Jack Bauer :)
 But before I give my computer a rest I'll post my latest work on my Debian DVD cover.
-<a href="/graphics/Debian Sarge DVD cover 0.2.png">PNG format</a> for preview.
-<a href="/graphics/Debian Sarge DVD cover 0.2.svg">SVG format</a>
+<a href="/public/media/Debian Sarge DVD cover 0.2.png">PNG format</a> for preview.
+<a href="/public/media/Debian Sarge DVD cover 0.2.svg">SVG format</a>
 
 I'm beginning to learn how this SVG shit works... sadly the tools for Linux are limited (as far as I know). Half the time I have to use a text editor to edit the SVG image. Both because some things aren't supported and because the the output from the tools are far from optimized.
 

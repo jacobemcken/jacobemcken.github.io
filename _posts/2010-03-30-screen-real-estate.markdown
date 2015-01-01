@@ -36,9 +36,9 @@ comments:
     Lau
 
 ---
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
-[caption id="attachment_320" align="alignleft" width="300" caption="Gnome global menu and Gnome Do in action"]<a href="http://www.emcken.dk/weblog/files/2010/03/yes.png"><img src="http://www.emcken.dk/weblog/files/2010/03/yes-300x187.png" alt="" title="gnome-global-menu-gnome-do" width="300" height="187" class="size-medium wp-image-320" /></a>[/caption]
-My last laptop was the IBM Thinkpad x40 with a 12" screen and a resolution of 1024x768. I used it both private and for work for over five years several hours a day and wore down three batteries in that time. With such a little screen you find yourself exploring ways to get the most out of your screen. Since I prefer the keyboard over the mouse any day I'm not forced to have big icons and menus all over the place. 
+{% include image-caption.html src="/public/media/yes-300x187.png" link="/public/media/yes.png" description="Gnome global menu and Gnome Do in action" %}
+
+My last laptop was the IBM Thinkpad x40 with a 12" screen and a resolution of 1024x768. I used it both private and for work for over five years several hours a day and wore down three batteries in that time. With such a little screen you find yourself exploring ways to get the most out of your screen. Since I prefer the keyboard over the mouse any day I'm not forced to have big icons and menus all over the place.
 
 Here are the steps I've taken (things I've removed) and how get things done (without them).
 

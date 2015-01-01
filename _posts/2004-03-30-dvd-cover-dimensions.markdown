@@ -85,12 +85,12 @@ comments:
     thaaanksss broooo!!!!!!
 
 ---
-I also found that the size (dimensions) og a DVD cover should be: 272mm x 184mm.
-<img style='border: 0px;margin:5px' src='/weblog/uploads/dvd_dimensions.png' alt='' />
+I also found that the size (dimensions) of a DVD cover should be: 272mm x 184mm.
+<img style='border: 0px;margin:5px' src='/public/media/dvd_dimensions.png' alt='' />
 When giving the cover 3mm overfill the size is 278mm x 190mm.
 
 I also found this for a booklet:
-<a href="/weblog/uploads/dvd_booklet.png"><img style='border: 0px;margin:5px;float: left;vertical-align: top' src='/weblog/uploads/dvd_booklet.thumb.png' alt='' /></a>
+<a href="/public/media/dvd_booklet.png"><img style='border: 0px;margin:5px;float: left;vertical-align: top' src='/public/media/dvd_booklet.thumb.png' alt='' /></a>
 
 The pictures above is taken from <a href="http://www.a1cds.co.uk/">A1cds</a> (but not directly linked to).
 

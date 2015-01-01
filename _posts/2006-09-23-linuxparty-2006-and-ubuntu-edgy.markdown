@@ -27,7 +27,7 @@ with which I experienced a problem with suspend (or resume). After I resumed my 
 
 The new power manager is soo cool :-D
 
-<a href='/weblog/uploads/Screenshot-PowerInformation.png'><img width='110' height='84' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Screenshot-PowerInformation.thumb.png" alt="" /></a>
+<img src="/public/media/Screenshot-PowerInformation.png" alt="" />
 
 When I'm on battery, LCD dimmed down and Bluetooth and Wireless turned of I only use 6-7W. Really fun to tru out different stuff and watch the graph.
 

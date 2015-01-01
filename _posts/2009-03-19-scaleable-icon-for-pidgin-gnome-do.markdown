@@ -26,7 +26,7 @@ comments: false
 ---
 I like my desktop to look good (cool effects not needed) and I'm a heavy Gnome-Do user so it has been annoying me for quite some time that when starting Pidgin it looks like this:
 
-<img src="http://emcken.dk/weblog/files/2009/03/pidgin-gnome-do-before.png" alt="pidgin-gnome-do-before" width="394" height="219" class="alignnone size-full wp-image-258" />
+<img src="/public/media/pidgin-gnome-do-before.png" alt="pidgin-gnome-do-before" width="394" height="219" class="alignnone size-full wp-image-258" />
 
 So I started searching Launchpad for a bugreport and actually found 2:
 
@@ -39,7 +39,7 @@ Thos bugs led me to [a bug report in Pidgins own trac][bug 3] about the same iss
 
 Long story short... now launching Piding from Gnome-Do looks like this:
 
-<img src="http://emcken.dk/weblog/files/2009/03/pidgin-gnome-do-after.png" alt="pidgin-gnome-do-after" width="396" height="221" class="alignnone size-full wp-image-259" />
+<img src="/public/media/pidgin-gnome-do-after.png" alt="pidgin-gnome-do-after" width="396" height="221" class="alignnone size-full wp-image-259" />
 
 YAY :D
 

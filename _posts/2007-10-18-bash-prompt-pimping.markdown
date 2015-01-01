@@ -27,7 +27,7 @@ It inspired me to try different stuff out. I often missed an indication on when 
 
     export PS1='\[\e[0;34m\][\@\e[1D]\[33[0m\] \u@\h:\w\$ '
 
-<a class='serendipity_image_link' href='/weblog/uploads/prompt.png'><!-- s9ymdb:43 --><img width='110' height='73' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/prompt.thumb.png" alt="" /></a> This is how it looks like.
+{% include image-caption.html src="/public/media/prompt.png" description="This is how it looks like." %}
 
 To make it permanent put it in your `.bashrc` file in your home directory. Remember that this variable is propably already set so you either need to replace the line or instert closer to the bottom of the file.
 

@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: false
 ---
-<img border='0' hspace='5' align='right' src='/weblog/uploads/sun.thumb.png' alt='' />Today I made a sun i <abbr title="Scalable Vector Graphics">SVG</abbr> very simple but also cool IMO.
+<img border='0' hspace='5' align='right' src='/public/media/sun.thumb.png' alt='' />Today I made a sun i <abbr title="Scalable Vector Graphics">SVG</abbr> very simple but also cool IMO.
 Well you can see a small sample to the right or download it i my <a href="http://www.emcken.dk/files/">files section</a>.
 
 The other day I also found this link to a few <a href="http://programmer-art.org/?page=inkscape">tutorials for Inkscape</a>.

@@ -47,8 +47,7 @@ comments:
     it is good idea to have these wallpapers.
 
 ---
-<a href='/weblog/uploads/debian_true_freedom.png'><img border='0' hspace='5' align='left' src='/weblog/uploads/debian_true_freedom.thumb.png' alt='' /></a>
-**Update:** It seems a lot find my wallpaper through this entry, so I just want to point you the the site [debianart.dk][1] where you can find a few more wallpapers.
+<a href='/public/media/debian_true_freedom.png' style="float:left; padding-right:10px; padding-bottom:10px;"><img src='/public/media/debian_true_freedom.thumb.png' alt='' /></a> **Update:** It seems a lot find my wallpaper through this entry, so I just want to point you the the site [debianart.dk][1] where you can find a few more wallpapers.
 
 I have made my first wallpaper and ofcourse it is a Debian wallpaper. :)
 You can see a thumb of it to the left. It is made with Inkscape which have dramaticaly increased in useability in the last few versions. This means that I have the source in a scaleable format (<abbr title="Scalable Vector Graphics">SVG</abbr>) so if you have a screen resolution bigger than 1600x1200 then contact me and I can render a bigger one for you.

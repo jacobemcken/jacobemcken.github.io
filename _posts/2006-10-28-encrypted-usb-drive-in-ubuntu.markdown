@@ -375,11 +375,11 @@ This is how I did it:
 
 8.  Now remove the your usbdisk from the USB plug, and reinsert it and Ubuntu should find it and ask for the passphrase.
 
-<img width='441' height='171' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Screenshot-Encryptedvolumedetected.png" alt="" />
+<img width='441' height='171' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Screenshot-Encryptedvolumedetected.png" alt="" />
 
 **Update:** I tried to insert my USB pen into a Ubuntu Dapper (which this guide also would work on I guess). I just thought it was cool that is atcually told me which package it needed to for it to work:
 
-<img width='425' height='151' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Encrypteddevicesnotsupported.png" alt="" />
+<img width='425' height='151' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Encrypteddevicesnotsupported.png" alt="" />
 
 [1]: http://bof.linuxforum.dk/2006/
 [2]: http://blog.fubar.dk/?p=64

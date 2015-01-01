@@ -64,7 +64,7 @@ comments:
 Today I got dual screen in Ubuntu working... I have been fiddling around with it a few times before but nothing seriously. Never got it working the way I wanted. Earlier I edited the `xorg.conf` by hand while following guides from the internet and yesterday I stumbled upon a graphical Nvidia X configuration tool by accident... the solution was a bit of both.
 
 The tool is called `nvidia-settings` and looks something like the image below.
-<!-- s9ymdb:42 --><img width='758' height='729' style="padding:5px" src="/weblog/uploads/NVIDIAXServerSettings.png" alt="" />
+<img width='758' height='729' style="padding:5px" src="/public/media/NVIDIAXServerSettings.png" alt="" />
 
 As far as I know there are 2 ways of doing dual screen in Linux. Either you can use Xinerama or the Nvidia built-in feature called TwinView (I might be wrong here :D). Anyways I chose TviewView because that was the default in the Nvidia config tool. After making X aware of my second monitor with the Nvidia tool I saved the X configuration and restarted the X server with the new (Nvidia generated) configuration. The Nvidia generated configuration had 2 problems:
 
@@ -112,7 +112,7 @@ To force the DVI to be the primary monitor I used the following:
 First I don't want to see the Nvidia Logo when X is started... it is a nice logo though :)
 `TwinViewXineramaInfoOrder` is the important part because this makes sure that the DVI is the default monitor. You can read more about all the possible [options for the Nvidia driver][1] on Nvidias homepage.
 
-<a class='serendipity_image_link' href='/weblog/uploads/Dualscreen.png'><!-- s9ymdb:41 --><img width='110' height='46' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Dualscreen.thumb.png" alt="" /></a> My only "problem" is that the background image is streched out on both monitors, but I guess I have to make a custom background image for my dual screen setup. Now I can play World of Warcraft in a dual screen setup in Linux as well which was one of the only things that kept me booting into Windows. To bad performance drops a bit in Linux :( But I have a strong feeling that we are to blame Nvidia for that rather than Wine... but its just a gut feeling. :D
+<a href="/public/media/Dualscreen.png"><img width='110' height='46' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Dualscreen.thumb.png" alt="" /></a> My only "problem" is that the background image is streched out on both monitors, but I guess I have to make a custom background image for my dual screen setup. Now I can play World of Warcraft in a dual screen setup in Linux as well which was one of the only things that kept me booting into Windows. To bad performance drops a bit in Linux :( But I have a strong feeling that we are to blame Nvidia for that rather than Wine... but its just a gut feeling. :D
 
 [1]: http://us.download.nvidia.com/XFree86/Linux-x86/1.0-9755/README/appendix-d.html
 

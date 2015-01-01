@@ -39,7 +39,7 @@ Init script (/etc/init.d/teamspeak):
     TEAMSPEAK_USER=teamspeak
 
     # Make sure that Teamspeak starts even though it wasn't closed nicely last time (ie. by a power cut)
-    if [ $(su - $TEAMSPEAK_USER -c "ps ux" |grep tsserver2.pid|grep -v grep|wc -l) -eq 0 ] &amp;&amp; [ -f ${TEAMSPEAK_DIR}/tsserver2.pid ]
+    if [ $(su - $TEAMSPEAK_USER -c "ps ux" |grep tsserver2.pid|grep -v grep|wc -l) -eq 0 ] && [ -f ${TEAMSPEAK_DIR}/tsserver2.pid ]
     then
         rm ${TEAMSPEAK_DIR}/tsserver2.pid
     fi

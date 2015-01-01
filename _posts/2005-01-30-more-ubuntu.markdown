@@ -33,7 +33,6 @@ comments:
 I have migratet my Debian user profilen to Ubuntu and it is now officially my primary home workstation distribution.
 Since my last post I have installed Flash support, NVIDIA drivers, gstreamer MP3 encoder (used by Sound-Juicer) and WINE.
 
-<a href='/weblog/uploads/IE_under_Ubuntu.png'><img width='110' height='88' border='0' hspace='5' align='left' src='/weblog/uploads/IE_under_Ubuntu.thumb.png' alt='' /></a> And just now I have installed Internet Explorer with <a href="http://sidenet.ddo.jp/winetips/config.html">a script</a> which did it all itself.
+<a href="/public/media/IE_under_Ubuntu.png" style="float:left; padding-right:5px; padding-bottom:5px;"><img src='/public/media/IE_under_Ubuntu.thumb.png' alt='' /></a> And just now I have installed Internet Explorer with <a href="http://sidenet.ddo.jp/winetips/config.html">a script</a> which did it all itself.
 As you might allready have noticed I have made a
-<a href='/weblog/uploads/IE_under_Ubuntu.png'>screenshot</a> of this isolated manifistation of "web designers hell" that I have allowed to be present on my Linux system.
-
+<a href='/public/media/IE_under_Ubuntu.png'>screenshot</a> of this isolated manifistation of "web designers hell" that I have allowed to be present on my Linux system.

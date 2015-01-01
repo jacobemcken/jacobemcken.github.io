@@ -22,11 +22,11 @@ comments: false
 ---
 After hours of bitching over bad free SVG tools for Linux (talking about Sodipodi and Inkscape), I decided that it was time to find myself a weblog. And here it is freshly installed on my Debian server.
 
-<a href="/weblog/uploads/Debian_Sarge_dvd_cover_0.1.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: left;vertical-align: top' src='/weblog/uploads/Debian_Sarge_dvd_cover_0.1.thumb.png' alt='' /></a> I think I will get back to my SVG production trying to make a DVD cover for Debian Sarge. The things I think is bad about Sodipodi and Inkscape is the lack of support for filters. Filters makes it possible to add good looking shadows, glows and stuff like that and Sodipodi and Inkscape dosn't even display them.
+<a href="/public/media/Debian_Sarge_dvd_cover_0.1.png"><img style='border: 0px;padding-left: 5px;padding-right: 5px;float: left;vertical-align: top' src='/public/media/Debian_Sarge_dvd_cover_0.1.thumb.png' alt='' /></a> I think I will get back to my SVG production trying to make a DVD cover for Debian Sarge. The things I think is bad about Sodipodi and Inkscape is the lack of support for filters. Filters makes it possible to add good looking shadows, glows and stuff like that and Sodipodi and Inkscape dosn't even display them.
 
 To display filters I use <a href="http://xml.apache.org/batik/index.html">batik</a> (squiggle) which works okay.
 
-Yesterday I also found a few good links for thoose who want to use to learn SVG.
-<a href="http://www.protocol7.com/svg-wiki/">SVG Wiki</a>
-<a href="http://www.w3.org/TR/SVG/filters.html">W3 about filters</a>
+Yesterday I also found a few good links for thoose who want to use to learn SVG:
 
+  * <a href="http://www.protocol7.com/svg-wiki/">SVG Wiki</a>
+  * <a href="http://www.w3.org/TR/SVG/filters.html">W3 about filters</a>

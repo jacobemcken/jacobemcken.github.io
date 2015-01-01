@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   version="1.0"
+   x="0"
+   y="0"
+   width="270mm"
+   height="184mm"
+   viewBox="0 0 1600 1200"
+   id="svg574"
+   sodipodi:version="0.32"
+   inkscape:version="0.37"
+   sodipodi:docname="Debian DVD cover.svg"
+   sodipodi:docbase="/mnt/storage1/development/graphics/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="382.677155"
+     inkscape:cy="260.787415"
+     inkscape:window-width="1544"
+     inkscape:window-height="1146"
+     inkscape:window-x="48"
+     inkscape:window-y="27"
+     snaptoguides="true"
+     showgrid="true"
+     snaptogrid="false"
+     vertgrid="true"
+     horizgrid="true"
+     guidetolerance="5mm"
+     borderlayer="top"
+     gridspacingx="1mm"
+     gridspacingy="1mm" />
+  <defs
+     id="defs577">
+    <linearGradient
+       id="linearGradient783">
+      <stop
+         style="stop-color:#f3f3f3;stop-opacity:1;"
+         offset="0.00000000"
+         id="stop784" />
+      <stop
+         style="stop-color:#dedede;stop-opacity:1;"
+         offset="1.00000000"
+         id="stop785" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient672" />
+    <linearGradient
+       id="linearGradient669">
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0.00000000"
+         id="stop670" />
+      <stop
+         style="stop-color:#f1f1f1;stop-opacity:1;"
+         offset="1.00000000"
+         id="stop671" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient591">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.00000000"
+         id="stop592" />
+      <stop
+         style="stop-color:#211a1a;stop-opacity:1;"
+         offset="1.00000000"
+         id="stop593" />
+    </linearGradient>
+    <linearGradient
+       id="backSwirlBackground"
+       x1="0.85"
+       y1="0.7"
+       x2="0.1"
+       y2="0.2">
+      <stop
+         style="stop-color:#472464;stop-opacity:1;"
+         offset="0"
+         id="stop760" />
+      <stop
+         style="stop-color:#2b1d49;stop-opacity:1;"
+         offset="1"
+         id="stop761" />
+    </linearGradient>
+    <linearGradient
+       id="frontSwirlBackground"
+       x1="0"
+       y1="0"
+       x2="0.9"
+       y2="0.75">
+      <stop
+         style="stop-color:#472464;stop-opacity:1;"
+         offset="0"
+         id="stop763" />
+      <stop
+         style="stop-color:#2b1d49;stop-opacity:1;"
+         offset="1"
+         id="stop764" />
+    </linearGradient>
+    <linearGradient
+       id="yellowGradientDirection"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         style="stop-color:#ffce00;stop-opacity:1;"
+         offset="0"
+         id="stop766" />
+      <stop
+         style="stop-color:#fdff8a;stop-opacity:1;"
+         offset="1"
+         id="stop767" />
+    </linearGradient>
+    <filter
+       id="DropShadow">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="6"
+         result="ActualShadow" />
+      <feOffset
+         in="ActualShadow"
+         dx="7"
+         dy="4"
+         result="ShadowWithOffset" />
+      <feMerge>
+        <feMergeNode
+           in="ShadowWithOffset" />
+        <feMergeNode
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="glowShadowFilter">
+      <feGaussianBlur
+         stdDeviation="6"
+         result="ActualGlow" />
+      <feColorMatrix
+         in="ActualGlow"
+         type="matrix"
+         values="0.81 0.78 0.84 1 0                  0.81 0.78 0.84 1 0                  0.81 0.78 0.84 1 0                  0 0 0 1 0"
+         result="GlowColor" />
+      <feOffset
+         dx="0"
+         dy="0" />
+      <feMerge>
+        <feMergeNode
+           in="GlowColor" />
+        <feMergeNode
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient669"
+       id="linearGradient685"
+       x1="0.62234044"
+       y1="0.60937494"
+       x2="0.15425532"
+       y2="0.13281249" />
+    <linearGradient
+       xlink:href="#linearGradient783"
+       id="linearGradient782"
+       x1="0.82758617"
+       y1="0.39999998"
+       x2="0.32758620"
+       y2="-0.99999994" />
+  </defs>
+  <rect
+     style="fill:url(#linearGradient685);fill-opacity:1;"
+     id="rect780"
+     x="0"
+     y="0"
+     width="1600"
+     height="1200" />
+  <ellipse
+     cx="1014"
+     cy="1072"
+     rx="681"
+     ry="400"
+     style="fill:url(#backSwirlBackground);"
+     id="ellipse1256"
+     transform="matrix(1.390345,0.000000,0.000000,1.475105,-128.4443,-506.1004)" />
+  <path
+     sodipodi:type="arc"
+     style="font-size:12;fill:url(#frontSwirlBackground);fill-opacity:0.75;fill-rule:evenodd;stroke:none;stroke-width:1pt;"
+     id="path646"
+     sodipodi:cx="1037.98498535"
+     sodipodi:cy="1072.33996582"
+     sodipodi:rx="596.86859131"
+     sodipodi:ry="201.97856140"
+     d="M 1634.853577 1072.339966 A 596.868591 201.978561 0 1 0 441.116394,1072.339966 A 596.869 201.979 0 1 0 1634.85 1072.34 L 1037.984985 1072.339966 z"
+     transform="matrix(1.536782,0.000000,0.000000,2.868081,-319.9609,-1956.730)" />
+  <path
+     d="M 1251.3651 824.80115 C 1246.494 786.03881 1160.6477 794.51882 1160.6477 794.51882 C 1160.6477 794.51882 1185.7326 797.50386 1199.0021 801.17997 C 1097.3235 842.36106 1116.1984 902.92573 1116.1984 902.92573 C 1116.1984 902.92573 1108.2847 902.32104 1097.933 894.44572 C 1199.6116 1062.8126 1301.2902 962.88091 1307.3802 957.43393 C 1424.2815 784.82943 1293.3764 692.16838 1286.6769 688.53546 C 1132.0306 624.33787 1029.7426 714.57538 1029.7426 714.57538 C 1029.7426 714.57538 1029.1331 704.886 1033.3947 690.9542 C 903.70855 859.32109 980.42699 1037.982 980.42699 1037.982 C 980.42699 1037.982 986.51226 1025.8691 990.77386 1020.4173 C 1111.3273 1193.6265 1235.5377 1158.4971 1235.5377 1158.4971 C 1236.3007 1159.5529 1197.1785 1159.7113 1186.2173 1148.8077 C 1186.2173 1148.8077 1233.0997 1136.0901 1258.6693 1113.6831 C 1023.6525 1215.4289 980.42699 899.29281 980.42699 892.63166 C 987.12174 897.47395 996.25443 905.34927 996.25443 905.34927 C 996.25443 905.34927 964.59476 752.12355 1179.5226 698.22484 C 1179.5226 698.22484 1161.8619 717.60361 1161.2572 726.68831 C 1161.2572 726.68831 1338.4304 672.7896 1330.5167 844.78461 C 1330.5167 844.78461 1333.9001 994.21904 1211.9501 969.09574 C 1074.8445 937.51285 1124.1169 790.8859 1251.3651 824.80115 z "
+     style="font-size:12;fill:#a7053f;filter:url(#glowShadowFilter);"
+     id="Swirl" />
+  <path
+     sodipodi:type="arc"
+     style="font-size:12;fill:#8f689f;fill-opacity:0.483871;fill-rule:evenodd;stroke:none;stroke-width:1pt;"
+     id="path647"
+     sodipodi:cx="218.72656250"
+     sodipodi:cy="1016.91864014"
+     sodipodi:rx="625.37310791"
+     sodipodi:ry="288.18362427"
+     d="M 844.099670 1016.918640 A 625.373108 288.183624 0 1 0 -406.646545,1016.918640 A 625.373 288.184 0 1 0 844.1 1016.92 L 218.726562 1016.918640 z"
+     transform="matrix(0.983280,0.200410,-0.165465,0.983280,20.37645,81.73125)" />
+  <rect
+     style="font-size:12.000;fill:#ffffff;fill-rule:evenodd;stroke-width:1;fill-opacity:0.6;"
+     id="firm"
+     width="764.44445801"
+     height="1199.99994241"
+     x="0.00000000"
+     y="0.00005759" />
+  <text
+     xml:space="preserve"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:18;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;text-anchor:start;writing-mode:lr;"
+     x="1447.69553"
+     y="1173.54163"
+     id="text863"
+     sodipodi:linespacing="100%"><tspan
+       x="1447.69556"
+       y="1173.54163"
+       sodipodi:role="line"
+       id="tspan868">Version 3.1</tspan></text>
+  <path
+     style="fill:url(#linearGradient782);fill-rule:evenodd;stroke:#d9d9d9;stroke-opacity:1;stroke-width:1.24334;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:0.75;stroke-dasharray:none;"
+     d="M 839.74549 8.1015952 L 1588.9884 10.648412 L 1588.9884 189.13044 C 1451.8519 174.58781 1451.9539 93.728122 1333.4354 61.119427 C 1155.6576 10.33245 920.47616 24.875074 890.84652 24.875074 C 863.90231 24.131456 852.37448 28.23538 839.74549 8.1015952 z "
+     id="path781"
+     sodipodi:nodetypes="cccccc" />
+  <text
+     xml:space="preserve"
+     style="fill:none;fill-opacity:0.145161;stroke:#000000;filter:url(#DropShadow);font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:72;stroke-opacity:1;stroke-width:3.10835;stroke-linejoin:round;stroke-linecap:butt;text-anchor:start;writing-mode:lr;stroke-dasharray:none;"
+     x="1001.85789"
+     y="128.187569"
+     id="debian_sarge"
+     sodipodi:linespacing="100%"><tspan
+       x="1001.85791"
+       y="128.187576"
+       sodipodi:role="line"
+       id="tspan875">Debian Sarge</tspan></text>
+  <text
+     xml:space="preserve"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:20;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;text-anchor:start;writing-mode:lr;"
+     x="1290.50728"
+     y="149.762161"
+     id="text860"
+     sodipodi:linespacing="100%"><tspan
+       x="1290.50732"
+       y="149.762161"
+       sodipodi:role="line"
+       id="tspan877">GNU/Linux</tspan></text>
+  <g
+     id="Sarge">
+    <path
+       style="font-size:12;fill-opacity:0.677419;fill-rule:evenodd;stroke:#fffff1;stroke-width:6.2167;stroke-linejoin:round;stroke-opacity:1;"
+       d="M 163.66466 401.65957 L 163.66466 293.09926 C 163.63759 292.98273 237.34446 255.66721 291.89986 195.39498 C 345.85116 255.66721 419.06956 292.03177 419.95434 292.74265 L 420.6024 402.01618 C 419.5016 401.06756 345.85116 364.22753 291.89986 303.95529 C 237.34446 364.22753 164.39961 401.08237 163.66466 401.65957 z "
+       id="path579"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(0.643122,0.000000,0.000000,0.643122,1175.592,580.7815)" />
+    <path
+       style="fill:url(#yellowGradientDirection);"
+       d="M 169.3165 297.02198 L 169.64054 324.79642 C 169.94657 324.25195 247.2087 277.37928 292.22389 235.41071 C 335.98692 277.37928 413.92248 322.06902 414.62652 322.65675 L 414.30249 295.95215 C 413.59845 295.80755 335.98692 255.66721 291.89986 205.49661 C 247.2087 255.66721 169.65554 296.58506 169.3165 297.02198 z "
+       id="path582"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(0.643122,0.000000,0.000000,0.643122,1175.592,580.7815)" />
+    <path
+       style="fill:url(#yellowGradientDirection);"
+       d="M 845.17016 385.9629 L 844.78083 403.92218 C 845.0537 403.71405 885.74451 381.8606 919.10254 350.12632 C 950.92969 381.8606 991.73017 402.16626 992.32478 402.73663 L 992.3962 384.72652 C 991.85054 384.38348 945.00377 355.77365 918.90788 332.7982 C 891.67043 355.77365 845.52366 385.81367 845.17016 385.9629 z "
+       id="path584"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(1.070535,0.000000,0.000000,1.070535,380.0132,378.3020)" />
+    <path
+       style="fill:url(#yellowGradientDirection);"
+       d="M 169.80475 360.63368 L 169.48071 388.7455 C 170.29827 388.17893 237.34446 353.3715 292.22389 296.26757 C 345.85116 353.3715 413.47734 386.65482 414.3025 387.59405 L 413.97847 359.10638 C 413.24822 358.59936 345.85116 320.8034 292.87195 271.34601 C 237.34446 320.8034 170.50119 360.37405 169.80475 360.63368 z "
+       id="path585"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(0.643122,0.000000,0.000000,0.643122,1175.592,580.7815)" />
+  </g>
+  <g
+     id="g648"
+     transform="translate(16.33764,10.78817)">
+    <rect
+       style="font-size:12;fill:#ffffff;fill-opacity:0.798387;fill-rule:evenodd;stroke:#c6d2e5;stroke-width:4.97022;stroke-opacity:0.74902;"
+       id="rect883"
+       width="530.76391602"
+       height="246.33203931"
+       x="98.00412750"
+       y="466.21534753" />
+    <text
+       x="148.099570"
+       y="519.692106"
+       style="font-size:22;font-weight:normal;stroke-width:1pt;font-family:Bitstream Vera Sans;"
+       id="text578"
+       xml:space="preserve"><tspan
+         x="148.099570"
+         y="519.692106"
+         id="www.debian.org">http://www.debian.org/</tspan></text>
+    <text
+       x="148.099570"
+       y="557.531248"
+       style="font-size:22;font-weight:normal;stroke-width:1pt;font-family:Bitstream Vera Sans;font-style:normal;text-anchor:start;writing-mode:lr;"
+       id="text832"
+       xml:space="preserve"
+       sodipodi:linespacing="100%"><tspan
+         x="148.099564"
+         y="557.531250"
+         sodipodi:role="line"
+         id="tspan835">http://www.debianguiden.dk/</tspan></text>
+    <text
+       x="148.099570"
+       y="595.499388"
+       style="font-size:22;font-weight:normal;stroke-width:1pt;font-family:Bitstream Vera Sans;font-style:normal;text-anchor:start;writing-mode:lr;"
+       id="text837"
+       xml:space="preserve"
+       sodipodi:linespacing="100%"><tspan
+         x="148.099564"
+         y="595.499390"
+         sodipodi:role="line"
+         id="tspan840">http://www.debianforum.dk/</tspan></text>
+    <text
+       x="148.099570"
+       y="633.338560"
+       style="font-size:22;font-weight:normal;stroke-width:1pt;font-family:Bitstream Vera Sans;font-style:normal;text-anchor:start;writing-mode:lr;"
+       id="text842"
+       xml:space="preserve"
+       sodipodi:linespacing="100%"><tspan
+         x="148.099564"
+         y="633.338562"
+         sodipodi:role="line"
+         id="tspan845">http://www.dpdk.dk/</tspan></text>
+    <text
+       x="148.099570"
+       y="671.177794"
+       style="font-size:22;font-weight:normal;stroke-width:1pt;font-family:Bitstream Vera Sans;font-style:normal;text-anchor:start;writing-mode:lr;"
+       id="text847"
+       xml:space="preserve"
+       sodipodi:linespacing="100%"><tspan
+         x="148.099564"
+         y="671.177795"
+         sodipodi:role="line"
+         id="tspan850">http://planet.debian.net/</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:18;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;text-anchor:start;writing-mode:lr;"
+     x="84.9142676"
+     y="-862.997434"
+     id="text1753"
+     transform="matrix(-1.836910e-16,1.100543,-0.908642,-1.836910e-16,0.000000,0.000000)"
+     sodipodi:linespacing="100%"><tspan
+       x="84.9142685"
+       y="-862.997437"
+       sodipodi:role="line"
+       id="tspan1762">Debian Sarge GNU/Linux</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#888888;stroke-opacity:1;stroke-width:0.657934;stroke-linejoin:round;stroke-linecap:butt;fill-opacity:0.75;stroke-dasharray:none;"
+     d="M 812.52553 7.3075988 L 805.99047 1202.3974 "
+     id="path1760" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#888888;stroke-opacity:1;stroke-width:0.657934;stroke-linejoin:round;stroke-linecap:butt;fill-opacity:0.75;stroke-dasharray:none;"
+     d="M 767.8693 3.7115413 L 761.33424 1198.8013 "
+     id="path1761" />
+</svg>

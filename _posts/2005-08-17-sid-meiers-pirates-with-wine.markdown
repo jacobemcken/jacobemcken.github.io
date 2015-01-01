@@ -105,11 +105,11 @@ A few days ago i tried to make [Sid Meiers Pirates][2] run again with [WINE][3].
 
 As usual when trying to install the game I got the following:
 
-<a href="/weblog/uploads/Pirates/Piratesinstallerror.png"><img width='110' height='70' src="/weblog/uploads/Pirates/Piratesinstallerror.thumb.png" alt="" /></a>
+<img src="/public/media/Pirates/Piratesinstallerror.png" alt="" />
 
 Well that didn't stop me this time. I started to copy Pirates from my Windows XP partition to my fake WINE Windows drive (notice the cool new GNOME 2.12 copy dialog.
 
-<img width='410' height='226' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Pirates/Screenshot-Copyingfiles.png" alt="" />
+<img width='410' height='226' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Pirates/Screenshot-Copyingfiles.png" alt="" />
 
 Now I tried to start Pirates again but this time I got a message about missing 2 dll files:
 
@@ -128,18 +128,18 @@ I'm telling you - it's still there ;)
 
 Then finally I was presented with the title menu. YEAH!
 
-<a href='/weblog/uploads/Pirates/Piratesrunning.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Pirates/Piratesrunning.thumb.png" alt="" /></a>
+<a href='/public/media/Pirates/Piratesrunning.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Pirates/Piratesrunning.thumb.png" alt="" /></a>
 
 I think I fiddled a little with some settings before I dared try starting the game.
 Now a long waiting time again. But you don't wanna go fetch coffe because you want to see this ;)
 
 Woah, I see an ingame movie... cool. I was so quickly taking the screenshot, that the menu didn't get time to disappear. They call my Lucky Luke ;-)
 
-<a href='/weblog/uploads/Pirates/Gotpastthetitlemenu-w00t.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Pirates/Gotpastthetitlemenu-w00t.thumb.png" alt="" /></a>
+<a href='/public/media/Pirates/Gotpastthetitlemenu-w00t.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Pirates/Gotpastthetitlemenu-w00t.thumb.png" alt="" /></a>
 
 I'm actaully able to choose with whom I want to got to the new world. The grey man was a little to creepy so England it was.
 
-<a href='/weblog/uploads/Pirates/Selectingcountry.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/Pirates/Selectingcountry.thumb.png" alt="" /></a>
+<a href='/public/media/Pirates/Selectingcountry.png'><img width='110' height='83' style="border: 0px;padding-left: 5px;padding-right: 5px" src="/public/media/Pirates/Selectingcountry.thumb.png" alt="" /></a>
 
 Long wait time.... again, and no movie of me fighting the captain - perhaps I accidentally hit a key, dunno.
 Well suddenly I saw a little ship sailing and joy filled my body - YES!... and before I knew it the game had crashed. :-( Perhaps tweaking with the video setting and stuff might make the game somewhat playable :-)

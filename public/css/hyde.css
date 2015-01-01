@@ -81,6 +81,24 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
   }
 }
 
+figure.image {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px;
+  border: 10px solid white;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+figure.image img {
+  display: block;
+}
+
+figure.image figcaption {
+  text-align: center;
+  margin-top: 8px;
+}
 
 /*
  * Contents
