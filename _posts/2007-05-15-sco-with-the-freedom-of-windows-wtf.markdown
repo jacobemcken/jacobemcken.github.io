@@ -28,5 +28,5 @@ At work today I found an old SCO evaluation CD. A paragraph at the back of the C
 
 The "freedom" of Windows... what is that? :-O Click on the link below for full image.
 
-<a class='serendipity_image_link' href='/weblog/uploads/sco-windows.jpg'><!-- s9ymdb:40 --><img width='122' height='50' style="float: left;border: 0px;padding-left: 5px;padding-right: 5px" src="/weblog/uploads/sco-windows.thumb.jpg" alt="" /></a>
+<a href="/public/media/sco-windows.jpg" style="float: left;border: 0px;padding-left: 5px;padding-right: 5px"><img src="/public/media/sco-windows.thumb.jpg" alt="" /></a>
 
