@@ -39,5 +39,5 @@ I'm a happy owner of a new Samsung 172X.... WITH NO PIXEL ERRORS.
 Did I mention that I'm very happy.
 
 <i>Update: I have added a few low quality pictures</i>
-<a href='/weblog/uploads/samsung172x_1.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/samsung172x_1.thumb.jpg' alt='' /></a> <a href='/weblog/uploads/samsung172x_2.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/samsung172x_2.thumb.jpg' alt='' /></a>
+<a href='/public/media/samsung172x_1.jpg'><img width='110' height='83' border='0' hspace='5' src='/public/media/samsung172x_1.thumb.jpg' alt='' /></a> <a href='/public/media/samsung172x_2.jpg'><img width='110' height='83' border='0' hspace='5' src='/public/media/samsung172x_2.thumb.jpg' alt='' /></a>
 

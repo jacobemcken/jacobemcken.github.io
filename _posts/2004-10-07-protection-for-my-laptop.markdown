@@ -26,5 +26,5 @@ The bag is designed for PowerBook's but it fits my IBM X40 okay, even though I h
 
 Here are som pictures:
 
-<a href='/weblog/uploads/tucano1.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/tucano1.thumb.jpg' alt='' /></a> <a href='/weblog/uploads/tucano2.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/tucano2.thumb.jpg' alt='' /></a> <a href='/weblog/uploads/tucano3.jpg'><img width='110' height='83' border='0' hspace='5' src='/weblog/uploads/tucano3.thumb.jpg' alt='' /></a>
+<a href='/public/media/tucano1.jpg'><img width='110' height='83' border='0' hspace='5' src='/public/media/tucano1.thumb.jpg' alt='' /></a> <a href='/public/media/tucano2.jpg'><img width='110' height='83' border='0' hspace='5' src='/public/media/tucano2.thumb.jpg' alt='' /></a> <a href='/public/media/tucano3.jpg'><img width='110' height='83' border='0' hspace='5' src='/public/media/tucano3.thumb.jpg' alt='' /></a>
 

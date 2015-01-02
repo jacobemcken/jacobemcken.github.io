@@ -29,6 +29,6 @@ I was surprised that they are so bad at speeking english, until I learned that e
 Besides that the trip was a normal "go see as many worth-seeing things as possible" (including Disneyland).
 To finish things my girlfriend and I sat down and saw [EuroTrip][2] when we came home... it just kinda felt right.
 
-[1]: /weblog/uploads/St.SulpiceChurch.jpg
+[1]: /public/media/St.SulpiceChurch.jpg
 [2]: http://imdb.com/title/tt0356150/
 
