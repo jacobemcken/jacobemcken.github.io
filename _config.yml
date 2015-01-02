@@ -11,6 +11,7 @@ title:            Jacob Emcken
 tagline:          'There is no silver bullet'
 url:              http://emcken.dk
 baseurl:          /
+disqus_short_name: jacobemcken
 
 author:
   name:           'Jacob Emcken'
