@@ -11,7 +11,7 @@ post. The result being that I didn't get any posts published (I have a few
 drafts which I never finished).
 
 My own [Clojure blog adventure][2] was more about my trying to learn the Clojure
-language, and would propably have some of the same issues I experienced with
+language, and would probably have some of the same issues I experienced with
 Wordpress. Also when I stumbled on [Jekyll][3] my own blog project got
 subconsciously shelved, because it already implemented all my ideas so much
 better.
