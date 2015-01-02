@@ -21,7 +21,8 @@ Apart from Markdown being a first class citizen, the blog can now be hosted on
 
 Anyways all my old blog posts have now been migrated to Jekyll and the revamped
 layout now looks sufficiently good and works on mobile devices so I feel
-confident making a first release.
+confident making a first release. I have "cheated" and based the design on the
+Jekyll theme called [Hyde][5].
 
 You are now looking at the result... lets see if this actually help on my post
 frequency :)
@@ -30,4 +31,4 @@ frequency :)
 [2]: {% post_url 2012-07-20-a-blog-in-clojure %}
 [3]: http://jekyllrb.com/
 [4]: https://pages.github.com/
-
+[5]: http://hyde.getpoole.com/
