@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What's so cool about Clojure
-publish: false
 categories:
 - Programming
 tags:
@@ -28,11 +27,8 @@ out of my narrow comfort zone and [commit to the learning process][learning].
 So I decided to take the plunge and I felt good about it. After all I knew I
 still had a lot to learn - in retrospect that was an understatement.
 
-Now nearing the end of the first milestone on my Clojure journey (which have
-actually been more about programming in a broad sense than Clojure), I have
-this need to share my thoughts. Mostly because trying to describe / teach
-something to others lets you understand it better yourself. But I also hope
-that it can help others who are in the same situation as I was:
+> The more you know, the more you know you don't know.
+> - Aristotle
 
 There was a gap in my knowledge about programming, sometimes entire concepts
 was unfamiliar other times I had "invented" similar concepts myself without
@@ -40,8 +36,14 @@ knowing that it was "text book stuff" and it already had a name. To close this
 gap I needed to start out on familiar ground with something I could relate to
 and work my way up from there.
 
-Initially I will write a post about "Lazy sequences", and we'll see where it
-goes from there. So stay tuned if you want to know what all the fuzz is about.
+I now see that my journey to answer my own question has actually been more about
+programming in a broad sense than about Clojure as a programming language. The
+"buzzwords" is starting to make sense and it has got me thinking about how I
+would have introduced these to my not-knowing-self a few years back.
+Lately specifically "Lazy sequences".
+
+I have some notes which might become a blog post in the near future...
+so stay tuned if you want to know what all the fuzz is about.
 
 [Eureka]: http://en.wikipedia.org/wiki/Eureka_%28word%29
 [learning]: http://michaelrbernste.in/2014/12/11/you-are-learning-haskell-right-now.html
