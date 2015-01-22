@@ -81,6 +81,16 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
   }
 }
 
+.license {
+  text-align: right;
+  font-size: 75%;
+}
+
+.license img {
+  display: inline;
+  border-radius: 0;
+}
+
 figure.image {
   display: inline-block;
   margin: 10px auto;
