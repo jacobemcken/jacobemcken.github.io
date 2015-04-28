@@ -28,7 +28,7 @@ technical details will automatically fall into place once there.
 
 First [lazy][lazy-evaluation] means that the program carries around a formula
 (function) to calculate a result, instead of the actual result. The result wont
-be executed/computed/realized/evaluated until it is actually needed.
+be realized until it is actually needed.
 
 This is good for 2 reasons:
 
@@ -92,6 +92,15 @@ we can take advantage of describing our intentions in the code without making
 the computer actually calculate it - this is my definition of "lazy".
 
 
+### The producer
+
+Lazy sequenzes needs to come from somewhere
+Clojure have several functions which produces a lazy sequenze.
+Iterate/inc -> range
+Illustration
+Finite vs. infinite
+
+
 ### So what about sequences...
 
 A lazy sequence is a sequence from which only a small part of its elements are
@@ -99,7 +108,7 @@ realized at a time. What makes a sequence lazy is that the amount of elements
 produced, is automatically throttled by the demand in the end.
 
 Imagine an assembly line with workers along it. The assembly line carries the
-elements of a sequence through a chain workers (functions) manipulating the
+elements of a sequence through a chain of workers (functions) manipulating the
 sequence along the way. That which produces elements to supply the input of the
 assembly line directly affects the **possible max amount** of elements which the
 assembly line can output. While the demand off the assembly lines end, controls
@@ -228,6 +237,7 @@ The numbers to the right are the max possible elements that can pass a point.
 
 <div style="clear:both;">&nbsp;</div>
 
+Ekempler på
 
   - **Assembly line 1** - is just a simple (boring) example turning 3 lumps of
     clay into 3 boxed lumps of clay to present how the assembly line is visually
@@ -335,8 +345,8 @@ need 1 "lump of clay" or a billion.
 <div style="clear:both;">&nbsp;</div>
 
 
-Okay - we've established that **lazy sequences are awesome**, lets take a closer
-look on some actual Clojure code.
+Okay - this post has already gotten too long but at least we've established that **lazy sequences are awesome**.
+I have some ideas for a bit more on Clojures lazy sequences which involves code instead of t
 
 
 ## Lazy sequences in Clojure
@@ -389,3 +399,8 @@ TODO: Transformation "Take last name" capitalize first name
 http://clojure.org/sequences
 http://theatticlight.net/posts/Lazy-Sequences-in-Clojure/
 [repeatedly]: https://clojuredocs.org/clojure.core/repeatedly
+
+Beskrivelse af lazy sequences
+behøvere ikke joins og forks
+Snak om en simpel producer i stedet
+Tekst beskriver et og visualiseringer noget andet
