@@ -7,8 +7,6 @@ tags:
 - Clojure
 comments: true
 ---
-## Not quite like partition-by ... but still
-
 I had a problem where I needed to partition a collection when ever a specific
 element occurred.
 
