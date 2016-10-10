@@ -24,14 +24,16 @@ I have started rewriting [debianart.dk][] to use the Smarty template engine. I g
 
 Here is my ugly workaround. Notice the 'src' and 'extra' parameter:
 
-    {* It have to be possible to do this better... but for now it will suffice *}
-    {* It seems to impossible to call modifiers / functions from within a function
-       and at the same time concat with a string, with default modifies / functions *}
-    {* concat is a custom plugin *}
-    {assign var="thumb_title" value=$submission.file_size|filesizeSize}
-    {png_image src="`$thumb_path``$submission.thumb`" Height="0" width="0"
-     alt="Thumb for `$submission.file_name`"
-     extra='class=\"thumb" title="File size '|concat:$thumb_title|concat:'"'}
+```
+{* It have to be possible to do this better... but for now it will suffice *}
+{* It seems to impossible to call modifiers / functions from within a function
+   and at the same time concat with a string, with default modifies / functions *}
+{* concat is a custom plugin *}
+{assign var="thumb_title" value=$submission.file_size|filesizeSize}
+{png_image src="`$thumb_path``$submission.thumb`" Height="0" width="0"
+ alt="Thumb for `$submission.file_name`"
+ extra='class=\"thumb" title="File size '|concat:$thumb_title|concat:'"'}
+```
 
 [debianart.dk]: http://www.debianart.dk/
 
