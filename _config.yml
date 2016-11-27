@@ -2,6 +2,10 @@
 markdown:         kramdown
 highlighter:      rouge
 
+# Social handles
+social:
+  googleplus: JacobEmcken
+
 # Permalinks
 permalink:        pretty
 
