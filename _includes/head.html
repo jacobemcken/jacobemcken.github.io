@@ -6,6 +6,16 @@
 
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- Twitter cards metadatas -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.social.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.social.twitter }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}">{% else %}{{ site.description }}">{% endif %}
+
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
