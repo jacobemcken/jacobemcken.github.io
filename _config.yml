@@ -12,6 +12,7 @@ permalink:        pretty
 # Setup
 title:            Jacob Emcken
 tagline:          'There is no silver bullet'
+description:      "Blogging about a software developer's findings"
 url:              http://emcken.dk
 baseurl:          /
 disqus_short_name: jacobemcken
