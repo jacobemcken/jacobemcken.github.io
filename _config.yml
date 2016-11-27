@@ -6,6 +6,7 @@ highlighter:      rouge
 social:
   twitter: jacobemcken
   googleplus: JacobEmcken
+  disqus_short_name: jacobemcken
 
 # Permalinks
 permalink:        pretty
@@ -16,7 +17,6 @@ tagline:          'There is no silver bullet'
 description:      "Blogging about a software developer's findings"
 url:              http://www.emcken.dk
 baseurl:          /
-disqus_short_name: jacobemcken
 
 # Google Analytics
 google_analytics_tracking_id: UA-896990-1
