@@ -6,6 +6,16 @@
 
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- Facebook Open Graph metadatas -->
+  <meta content="{{ site.title }}" property="og:site_name">
+{% if page.title == "Home" %}
+  <meta content="{{ site.title }} - {{ site.tagline }}" property="og:title">
+  <meta content="website" property="og:type">
+{% else %}
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="article" property="og:type">
+{% endif %}
+
   <!-- Twitter cards metadatas -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.social.twitter }}">
