@@ -1,15 +1,14 @@
-# Dependencies
+# Build settings
 markdown:         kramdown
 highlighter:      rouge
+permalink:        pretty
+paginate:         5
 
 # Social handles
 social:
   twitter: jacobemcken
   googleplus: JacobEmcken
   disqus_short_name: jacobemcken
-
-# Permalinks
-permalink:        pretty
 
 # Setup
 title:            Jacob Emcken
@@ -24,5 +23,3 @@ google_analytics_tracking_id: UA-896990-1
 author:
   name:           'Jacob Emcken'
   url:            https://twitter.com/mdo
-
-paginate:         5
