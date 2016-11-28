@@ -2,7 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 permalink:        pretty
-paginate:         5
+paginate:         5 # jekyll-paginate plugin is enabled by default
+gems:
+  - jekyll-sitemap
 
 # Social handles
 social:
