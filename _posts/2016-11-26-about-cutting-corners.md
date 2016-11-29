@@ -6,16 +6,15 @@ categories:
 comments: true
 ---
 
-I takes time to understand a problem, because before you can
-understand it fully you need to also understand its context. As a code
-base grows, depending on how well the code i structured, the context
-in which you need to understand the problem can (and often will) grow
-as well.
+It takes time to understand a problem, because before you can fully
+understand it, you need to also understand its context. As a code base
+grows, depending on how well the code is structured, the context in
+which you need to understand the problem can (and often will) grow.
 
 When a problem or its context is misunderstood there is a tendency to
 oversimplify the problem. I'm all for finding a simple and elegant
 solution but not at the cost of correctness. Oversimplified solutions
-will not be able to handle all special cases, and special cases leads
+will not be able to handle all special cases, and special cases lead
 to crashes or data corruption... or both. This in turn leads to
 maintenance and clean up by the programmer which I would much rather
 have coding on this next big thing.
@@ -37,5 +36,5 @@ the software, then it is okay.
 It is NOT okay (and very short sighted) when the pressure doesn't
 allow collecting the necessary information to make that decision.
 
-So by all means cut corners - but only do them together with proper
-risk assessment.
+So by all means cut corners - but only do so together with proper risk
+assessment.
