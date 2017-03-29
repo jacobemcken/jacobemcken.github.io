@@ -7,7 +7,6 @@ tags:
 - links
 comments: true
 ---
-## Sources of inspiration
 
 I find work related inspiration many places, among others, colleagues
 meetups and conferences. But most inspiration comes while purposeless
