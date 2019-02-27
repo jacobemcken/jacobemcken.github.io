@@ -133,10 +133,10 @@ slightly different implementation to handle time precision:
        " "
        (str/join "," (key-val->str fields))
        (when time
-         (str " " (adjust-inst time precision)))))
+         (str " " (adjust-precision time precision)))))
 ```
 
-The reason why `adjust-inst` is so important, is due to the following
+The reason why `adjust-precision` is so important, is due to the following
 recommendation in the official InfluxDB documentation:
 
 > We recommend using the least precise precision possible as this can result
