@@ -177,6 +177,7 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
+  white-space: pre;
 }
 
 /* Pygments via Jekyll */
@@ -186,6 +187,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  overflow-x: auto;
 }
 
 /* Gist via GitHub Pages */
