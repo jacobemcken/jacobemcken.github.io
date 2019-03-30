@@ -15,7 +15,7 @@ social:
 title:            Jacob Emcken
 tagline:          'There is no silver bullet'
 description:      "Blogging about a software developer's findings"
-url:              http://www.emcken.dk
+url:              https://www.emcken.dk
 baseurl:          /
 
 # Google Analytics
