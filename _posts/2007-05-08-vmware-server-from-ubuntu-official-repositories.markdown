@@ -32,7 +32,10 @@ After that you run:
     sudo apt-get update
     sudo apt-get install vmware-server
 
-A colleague pointed me a page about adding [Adding Canonical Commercial Repositories][1] in Ubuntu, which is actually referenced from the [page about  Installtion VMware Server in Ubuntu][2]
+A colleague pointed me a page about adding [Adding Canonical Commercial
+Repositories][1] in Ubuntu, which is actually referenced from the [page about
+Installtion VMware Server in Ubuntu][2].
+
 [1]: https://help.ubuntu.com/community/Repositories/Ubuntu#head-b75a0c6c7e357640731529980d3f3ad3614b9a76
 [2]: https://help.ubuntu.com/community/VMware/Server
 
