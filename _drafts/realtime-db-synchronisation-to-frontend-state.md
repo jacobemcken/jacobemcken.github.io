@@ -2,36 +2,42 @@
 layout: post
 title: Realtime DB synchronisation to frontend
 categories:
-- Programming, Database
+- Programming
+- Database
 tags:
+- Clojure
+- Graph database
 comments: true
 ---
 
-I've set out to solve: How to synchronize parts of a database to a frontend in
-realtime for reads on "low volume" data. In this scenario "low volume" means up
-to a few hundred and maybe even few thousand entries with a fairly low update
-frequency (5-10 updates a minute). On top, add the fact that the backend
-database uses a "write-only" pattern which means an entry is always given a new
-internal id on every change to its properties.
+I've set out to solve: How to synchronize "low volume" parts of a database to a
+frontend in realtime exclusively for reads. In this scenario "low volume" means
+few entries with a low update frequency. Just to put some numbers on my needs:
+Less than a thousand entries affected by fewer than 10 updates every minute
+across all entries.
+
+The backend database will use a "write-only" pattern, causing a single entry to
+take up an extra row (relational DB) or node (graph DB) for every change. The
+"write-only" pattern also hinders using internal database ids (like auto
+increment) for referencing an entry, since new ids will be issued on every
+"update". Instead use an application managed entry id like an UUID or for a
+human recognizable id, a slug.
 
 TODO: Link to why write only databases are interesting.
 
-Neo4J (a graph database) is assumed to be the backend database in the following
-examples, but synchronization should follow the same pattern for a relational
-database.
+The frontend is only concerned about the newest version of an entry, throwing
+away the old version on an update. Availability of entries in the frontend can
+be compared to a database "View", from which data can only be `Read`. The rest
+of the `CRUD` operations (`Create`, `Update` and `Delete`), must go to the
+backend from where changes will be propagated to all connected frontends.
 
-The synchronisation isn't allowed to use internal database id's for a better
-decoupling. Instead an application managed id is used which is perfect to expose
-outside the application i.e. for API's. An UUID would work great for such an
-external id, but a slug is also an option when looking for something that should
-be recognizable by humans (i.e. in URL's).
+Only caring for "low volume" data, disregarding "historic data" and a one-way
+data flow, requirements for the frontend "database" storage naturally becomes
+easy to meet.
 
-The data in the frontend is essentially a both smaller and simpler "read-only
-view" of the backend database. Smaller because it only contains some selected
-"low volume" parts and simpler because history is thrown away. The frontend
-cannot manipulate "the view" directly, instead all data changes (create, update
-and delete) are directed to the backend database, which propagates changes to
-all connected frontends including the one that caused the change.
+The following example will assume the backend database being a [graph
+database][3], but the same pattern should work with a relational database. The
+frontend will assume use of a state management pattern like Redux or Vuex.
 
 
 ## Initial state
@@ -149,9 +155,9 @@ Causing new state in UI:
 ## Syncing the frontend
 
 Now that an overview of how data changes have been established, it is time to
-look at how to implement this. All above cases can be handled using a single
-event representing a change to a single node. The event should carry the new
-data along with the id of the node that is now obsolete.
+look at the data flow between backend and frontend. All above cases can be
+handled using a single event representing a change to a single entry. The event
+should carry the new data along with the id of the entry that is now obsolete.
 
 ### Create
 
@@ -177,7 +183,7 @@ data along with the id of the node that is now obsolete.
 
 ### Delete
 
-Since two nodes was deleted it will trigger, two `changed` events.
+Since two entries were deleted it will trigger, two `changed` events.
 
 ```json
 {
@@ -207,12 +213,12 @@ Since two nodes was deleted it will trigger, two `changed` events.
 
 ## Implementation
 
-The following implementation is made with Clojure but the majority of the code
-below is the change events. The function with all the juicy stuff is
-`change-state` (function body with 4 lines of code). This function takes the
-current state along with event that is changing the state and calculates a new
-state in an atomic way. Leveraging Clojure Atoms for state changes ensures
-atomic changes (comparable to database transactions).
+The following implementation is made with Clojure to simulate "state
+management", but the majority of the code below is the data for `change`-events.
+The function with all the juicy stuff is `change-state` (function body with 4
+lines of code). This function takes the current state along with event that is
+changing the state and calculates a new state. Leveraging [Clojure Atoms][2] for
+state changes ensures atomic changes (comparable to database transactions).
 
 [Run and play with the code on repl.it.][1]
 
@@ -269,10 +275,14 @@ atomic changes (comparable to database transactions).
 
 ## Conclusion
 
-The above pattern can easily be applied to keep several parts of a database in
-sync. Either several read views each representing a part, or a single view
-containing multiple parts. The frontend only needing a single event listener for
-each part of the data that it needs to keep in sync.
+The above pattern can easily be applied to keep several parts of a backend
+database in sync with a "read view" in the frontend. The frontend only needing a
+single event listener for an entry type for both create, update and delete
+actions to keep data in sync.
+
+This was definitely simpler that I expected, when I set out to figure this out.
 
 
 [1]: https://repl.it/@JacobEmcken/DarkturquoiseShinyParallelalgorithm#main.clj
+[2]: https://clojure.org/reference/atoms
+[3]: https://en.wikipedia.org/wiki/Graph_database
