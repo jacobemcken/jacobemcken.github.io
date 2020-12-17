@@ -39,7 +39,8 @@ easy to meet.
 
 The following example will assume the backend database being a [graph
 database][3], but the same pattern should work with a relational database. The
-frontend will assume the use of a state management pattern like Redux or Vuex.
+frontend will assume the use of a state management pattern like Redux or Vuex,
+and data changes will be transferred using a WebSocket.
 
 
 ## Initial state
@@ -217,7 +218,7 @@ The deletion of two entries will trigger two `changed` events.
 ## Implementation
 
 The following implementation is made with Clojure to simulate "state
-management," but most of the code below is the data for `change`-events. The
+management," but most of the code below is the data for `changed` events. The
 function with all the juicy stuff is `change-state` (function body with four
 lines of code). This function takes the current state and event that is changing
 the state and calculates a new state. Leveraging [Clojure Atoms][2] for state
