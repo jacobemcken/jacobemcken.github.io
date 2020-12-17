@@ -11,33 +11,35 @@ comments: true
 ---
 
 I've set out to solve: How to synchronize "low volume" parts of a database to a
-frontend in realtime exclusively for reads. In this scenario "low volume" means
-few entries with a low update frequency. Just to put some numbers on my needs:
-Less than a thousand entries affected by fewer than 10 updates every minute
-across all entries.
+frontend in realtime exclusively for reads. In this scenario, "low volume" means
+few entries with a low update frequency. Let's say we're talking about less than
+a thousand entries affected by fewer than ten updates every minute across all
+entries.
 
 The backend database will use a "write-only" pattern, causing a single entry to
 take up an extra row (relational DB) or node (graph DB) for every change. The
 "write-only" pattern also hinders using internal database ids (like auto
-increment) for referencing an entry, since new ids will be issued on every
-"update". Instead use an application managed entry id like an UUID or for a
-human recognizable id, a slug.
+increment) for referencing an entry since every "update" will generate new ids.
+Instead, use an application managed entry id like a UUID or, for a
+human-recognizable id, a slug.
 
-TODO: Link to why write only databases are interesting.
+[Watch this video for a bit of background of why I find a "write-only" pattern
+interesting.][4]
 
 The frontend is only concerned about the newest version of an entry, throwing
-away the old version on an update. Availability of entries in the frontend can
-be compared to a database "View", from which data can only be `Read`. The rest
-of the `CRUD` operations (`Create`, `Update` and `Delete`), must go to the
-backend from where changes will be propagated to all connected frontends.
+away the old version on an update. When it comes to the availability of entries
+in the frontend, we can compare it to a "database view," from which data can
+only be `Read`. The rest of the `CRUD` operations (`Create`, `Update`, and
+`Delete`) must go to the backend, from where changes will propagate to all
+connected frontends.
 
-Only caring for "low volume" data, disregarding "historic data" and a one-way
+Only caring for "low volume" data, disregarding "historical data" and a one-way
 data flow, requirements for the frontend "database" storage naturally becomes
 easy to meet.
 
 The following example will assume the backend database being a [graph
 database][3], but the same pattern should work with a relational database. The
-frontend will assume use of a state management pattern like Redux or Vuex.
+frontend will assume the use of a state management pattern like Redux or Vuex.
 
 
 ## Initial state
@@ -130,7 +132,7 @@ Causing new state in UI:
 
 ## Update external id
 
-The external id "bike" is replaced with "ball", and changing properties at the
+The external id "bike" is replaced with "ball," and changing properties at the
 same time works just the same:
 
 | Node | Properties                           | Relation(s)            |
@@ -154,10 +156,11 @@ Causing new state in UI:
 
 ## Syncing the frontend
 
-Now that an overview of how data changes have been established, it is time to
-look at the data flow between backend and frontend. All above cases can be
-handled using a single event representing a change to a single entry. The event
-should carry the new data along with the id of the entry that is now obsolete.
+Now that we have an overview of the data operations, let's look at the data flow
+between the back- and the frontends. A single event representing a change to a
+single entry can handle all the cases above. The event should carry the new data
+along with the id of the entry that is now obsolete.
+
 
 ### Create
 
@@ -183,7 +186,7 @@ should carry the new data along with the id of the entry that is now obsolete.
 
 ### Delete
 
-Since two entries were deleted it will trigger, two `changed` events.
+The deletion of two entries will trigger two `changed` events.
 
 ```json
 {
@@ -214,11 +217,11 @@ Since two entries were deleted it will trigger, two `changed` events.
 ## Implementation
 
 The following implementation is made with Clojure to simulate "state
-management", but the majority of the code below is the data for `change`-events.
-The function with all the juicy stuff is `change-state` (function body with 4
-lines of code). This function takes the current state along with event that is
-changing the state and calculates a new state. Leveraging [Clojure Atoms][2] for
-state changes ensures atomic changes (comparable to database transactions).
+management," but most of the code below is the data for `change`-events. The
+function with all the juicy stuff is `change-state` (function body with four
+lines of code). This function takes the current state and event that is changing
+the state and calculates a new state. Leveraging [Clojure Atoms][2] for state
+changes ensures atomic changes (comparable to database transactions).
 
 [Run and play with the code on repl.it.][1]
 
@@ -255,7 +258,7 @@ state changes ensures atomic changes (comparable to database transactions).
    "replace" "bike"})
 
 (defn change-state
-  "Takes the current state along with a \"change\"-event and returns the new state."
+  "Takes the current state along with a \"changed\"-event and returns the new state."
   [state event]
   (-> state
       (dissoc (get event "replace"))
@@ -275,14 +278,15 @@ state changes ensures atomic changes (comparable to database transactions).
 
 ## Conclusion
 
-The above pattern can easily be applied to keep several parts of a backend
-database in sync with a "read view" in the frontend. The frontend only needing a
-single event listener for an entry type for both create, update and delete
-actions to keep data in sync.
+We can easily apply the pattern above to keep several parts of a backend
+database in sync with a "read view" in the frontend. The frontend will only need
+a single event listener for an entry type to create, update, and delete actions
+to keep data in sync.
 
-This was definitely simpler that I expected, when I set out to figure this out.
+This was definitely simpler than I expected when I set out to figure this out.
 
 
 [1]: https://repl.it/@JacobEmcken/DarkturquoiseShinyParallelalgorithm#main.clj
 [2]: https://clojure.org/reference/atoms
 [3]: https://en.wikipedia.org/wiki/Graph_database
+[4]: https://www.youtube.com/watch?v=I3uH3iiiDqY
