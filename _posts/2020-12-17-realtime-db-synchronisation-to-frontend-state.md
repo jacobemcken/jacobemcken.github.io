@@ -16,14 +16,14 @@ few entries with a low update frequency. Let's say we're talking about less than
 a thousand entries affected by fewer than ten updates every minute across all
 entries.
 
-The backend database will use a "write-only" pattern, causing a single entry to
+The backend database will use a "insert-only" pattern, causing a single entry to
 take up an extra row (relational DB) or node (graph DB) for every change. The
-"write-only" pattern also hinders using internal database ids (like auto
+"insert-only" pattern also hinders using internal database ids (like auto
 increment) for referencing an entry since every "update" will generate new ids.
 Instead, use an application managed entry id like a UUID or, for a
 human-recognizable id, a slug.
 
-[Watch this video for a bit of background of why I find a "write-only" pattern
+[Watch this video for a bit of background of why I find a "insert-only" pattern
 interesting.][4]
 
 The frontend is only concerned about the newest version of an entry, throwing
