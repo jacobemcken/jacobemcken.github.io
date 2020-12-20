@@ -25,3 +25,7 @@ google_analytics_tracking_id: UA-896990-1
 author:
   name:           'Jacob Emcken'
   url:            https://twitter.com/jacobemcken
+
+# https://github.com/jekyll/jekyll-feed
+feed:
+  tags: true
