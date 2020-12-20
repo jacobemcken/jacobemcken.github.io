@@ -3,8 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 permalink:        pretty
 paginate:         5 # jekyll-paginate plugin is enabled by default
-gems:
+plugins: # https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
   - jekyll-sitemap
+  - jekyll-feed
 
 # Social handles
 social:
