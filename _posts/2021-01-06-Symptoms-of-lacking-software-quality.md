@@ -151,9 +151,9 @@ and will never guarantee high-quality software on its own.
 The common denominator of all the symptoms above is that they usually appear
 when we cut corners, not taking the required time.
 
-The actual code is only a small piece in the big puzzle of software quality. A
-change in processes like planning and review, communication, documentation,
-available tools, tooling usage, culture, and prioritizing time can significantly
-affect the quality of software, both for better and worse.
+The actual code base is only a small piece in the big puzzle of software
+quality. A change in processes like planning and review, communication,
+documentation, available tools, tooling usage, culture, and prioritizing time
+can significantly affect the quality of software, both for better and worse.
 
 Avoid symptom treatment. Look for the real problem.
