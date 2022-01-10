@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jacobemcken
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.emcken.dk
+  * I am jacobemcken (https://keybase.io/jacobemcken) on keybase.
+  * I have a public key ASCtFqvnYH8NCQckSRsSdM91ySGnEYOJtfXIY-17ErYNTgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ad16abe7607f0d090724491b1274cf75c921a7118389b5f5c863ed7b12b60d4e0a",
+      "host": "keybase.io",
+      "kid": "0120ad16abe7607f0d090724491b1274cf75c921a7118389b5f5c863ed7b12b60d4e0a",
+      "uid": "2d1ed27980ed80472801f76fef0d5c19",
+      "username": "jacobemcken"
+    },
+    "merkle_root": {
+      "ctime": 1641807692,
+      "hash": "1ce16fe8be0e8d6858d65484201a47bb47403840542ca6942409828a41f4c67f23f01ff2c31cb17c0a633dd8b076960697bb1a52d598877126622b9ab39900ac",
+      "hash_meta": "0463d56e43a25cf12443f1e4f93c8b9c67cd87d3ecd0ad4d0c12980382ed6455",
+      "seqno": 21599648
+    },
+    "service": {
+      "entropy": "jqHAR7a95OYHfX4w1/rXdKVW",
+      "hostname": "www.emcken.dk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1641807777,
+  "expire_in": 504576000,
+  "prev": "10bb1c80735f7c86998755e9a14a294a2f931cbbf43c41f4cc7ab304d6a389f9",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrRar52B/DQkHJEkbEnTPdckhpxGDibX1yGPtexK2DU4Kp3BheWxvYWTESpcCCMQgELscgHNffIaZh1XpoUopSi+THLv0PEH0zHqzBNajifnEIKtLC5qZpf3TLPKICDFDHMnhZRGCWOEnsN12beLDt6xMAgHCo3NpZ8RAXAnmuj+GHBrmSU/DY4BiTJRsdETR3AYO/pGR5M9Jov5tYiFd+8XzYYG53cfM5+/pTL0OQZygQu1HNHkE8veAAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDVg/TuIexR8XpPo+UCmKp1ClaGZdIdQFL4L6jWmEJGJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jacobemcken
+
+==================================================================
