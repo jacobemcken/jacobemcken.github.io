@@ -5,6 +5,7 @@ categories:
 - Programming
 tags:
 - cljs
+- Clojure
 - ClojureScript
 - Heroicons
 - Tailwind
@@ -15,10 +16,10 @@ In my opinion Clojure and ClojureScript is lacking in the documentation
 department, especially when it comes to integrations with things outside the
 Clojure eco system.
 
-I want to share how using [Heroicons][1] from within a ClojureScript [Reagent][2]
-(including Re-frame) application works. Some might find the following obvious
-but if you aren't using ClojureScript for frontend development everyday (like
-me) it might not be.
+I want to share how using [Heroicons][1] from within a ClojureScript
+[Reagent][2] (including Re-frame) application works. Some might find the
+following obvious. But if you (like me) aren't using ClojureScript for frontend
+development everyday... it might not be.
 
 Which is sad because it is actually quite easy... when you already have
 [Shadow-cljs][3] configured 😎
