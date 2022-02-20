@@ -12,6 +12,10 @@ tags:
 comments: true
 ---
 
+**Update 2022-02-20:** Requiring single icons using `:refer` causes ALL Hero
+icons to be included in builds (even optimized). Instead use `:as` (multiple
+times). Examples below have been updated.
+
 In my opinion Clojure and ClojureScript is lacking in the documentation
 department, especially when it comes to integrations with things outside the
 Clojure eco system.
@@ -57,7 +61,7 @@ component (e.g. the icon `CheckIcon`):
 ```clojure
 (ns my-app.core
   (:require
-   ["@heroicons/react/solid" :refer [CheckIcon]] ; <- new stuff
+   ["@heroicons/react/solid/CheckIcon" :as CheckIcon] ; <- new stuff
    [reagent.core ...]
    ...))
 
@@ -74,9 +78,36 @@ component (e.g. the icon `CheckIcon`):
 
 Notice `:>` which means "[creating a Reagent component from a React one][5]."
 
-The *"having to convert a React component to Reagent"* was the thing I was missing.
+The *"having to convert a React component to Reagent"* was the thing I was
+missing.
 
-If Tailwind is thrown into the mix it will be possible to style Heroicons like `[:> CheckIcon {:class "h-5 w-5"}]`.
+If Tailwind is thrown into the mix it will be possible to style Heroicons like
+`[:> CheckIcon {:class "h-5 w-5"}]`.
+
+If build sizes are a concern, then avoid using `:refer` which otherwise could
+seem like the obvious way to reference multiple icons.
+
+**DON'T DO THIS - builds will include ALL icons from `@heroicons/react/solid`**:
+
+```clojure
+(ns my-app.core
+  (:require
+   ["@heroicons/react/solid" :refer [ChatIcon CheckIcon]] ; NOT optimizeable
+   ...
+```
+
+
+To allow build tools (like Shadow-cljs) to propperly optimize builds instead
+require icons individually, even though it is more verbose:
+
+```clojure
+(ns my-app.core
+  (:require
+   ["@heroicons/react/solid/ChatIcon" :as ChatIcon]
+   ["@heroicons/react/solid/CheckIcon" :as CheckIcon]]
+   ...
+```
+
 
 Now go enjoy the JavaScript and React eco system from the comfort of
 ClojureScript.
