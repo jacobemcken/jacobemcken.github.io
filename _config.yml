@@ -4,6 +4,7 @@ highlighter:      rouge
 permalink:        pretty
 paginate:         5 # jekyll-paginate plugin is enabled by default
 plugins: # https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
 
