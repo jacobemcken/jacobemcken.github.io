@@ -13,17 +13,17 @@ comments: true
 ---
 
 **Update 2022-02-20:** Requiring single icons using `:refer` causes ALL Hero
-icons to be included in builds (even optimized). Instead use `:as` (multiple
+icons to be included in builds (even optimized). Instead, use `:as` (multiple
 times). Examples below have been updated.
 
-In my opinion Clojure and ClojureScript is lacking in the documentation
+In my opinion, Clojure and ClojureScript is lacking in the documentation
 department, especially when it comes to integrations with things outside the
-Clojure eco system.
+Clojure ecosystem.
 
 I want to share how using [Heroicons][1] from within a ClojureScript
 [Reagent][2] (including Re-frame) application works. Some might find the
 following obvious. But if you (like me) aren't using ClojureScript for frontend
-development everyday... it might not be.
+development every day... it might not be.
 
 Which is sad because it is actually quite easy... when you already have
 [Shadow-cljs][3] configured 😎
@@ -81,7 +81,7 @@ Notice `:>` which means "[creating a Reagent component from a React one][5]."
 The *"having to convert a React component to Reagent"* was the thing I was
 missing.
 
-If Tailwind is thrown into the mix it will be possible to style Heroicons like
+If Tailwind is thrown into the mix, it will be possible to style Heroicons like
 `[:> CheckIcon {:class "h-5 w-5"}]`.
 
 If build sizes are a concern, then avoid using `:refer` which otherwise could
@@ -97,7 +97,7 @@ seem like the obvious way to reference multiple icons.
 ```
 
 
-To allow build tools (like Shadow-cljs) to propperly optimize builds instead
+To allow build tools (like Shadow-cljs) to properly optimize builds instead
 require icons individually, even though it is more verbose:
 
 ```clojure
@@ -109,7 +109,7 @@ require icons individually, even though it is more verbose:
 ```
 
 
-Now go enjoy the JavaScript and React eco system from the comfort of
+Now go enjoy the JavaScript and React ecosystem from the comfort of
 ClojureScript.
 
 [1]: https://heroicons.com/
