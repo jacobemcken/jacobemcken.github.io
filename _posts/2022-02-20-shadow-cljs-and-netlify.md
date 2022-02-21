@@ -13,14 +13,14 @@ comments: true
 ---
 
 Building ClojureScript Single Page Applications (SPA) on [Netlify][1] just
-works. The following instructions requires no prior knowledge of neither Netlify
+works. The following instructions require no prior knowledge of neither Netlify
 nor build tools (like Shadow-cljs, WebPack etc.), but some knowledge about HTML
 and Git is expected.
 
 
 ## Setup a ClojureScript SPA project
 
-SPA projects comes in all shapes and sizes, causing equal diversity in paths for
+SPA projects come in all shapes and sizes, causing equal diversity in paths for
 compiled code and build commands. Most of the time, differences are small even
 subtle. But for an automatic build service (including Netlify) these things
 needs to be exactly right. The following description assumes a ClojureScript
@@ -33,7 +33,7 @@ The result of the "Quick Start" guide summed up:
 1. Run `npx create-cljs-project <project-name>` to create a new ClojureScript project
 2. Add "Hello World" code
 3. Setup a Shadow-cljs build named `frontend`. The same name is used in the
-   examples blow
+   examples below
 4. Add `index.html` page that uses the "Hello World" code
 
 Notice: The link to the "Quick Start" guide is a snapshot to ensure the
@@ -41,7 +41,7 @@ instructions found on this page will remain correct. But do checkout the newest
 version of the guide as well.
 
 Wrap up the project by pushing the code to a Git repo (Netlify supports GitHub
-and GitLab among others).
+and GitLab among others.)
 
 
 ## Setup Netlify
@@ -63,7 +63,7 @@ that the ["script" section of `package.json`][script] should be leveraged
 instead of calling `shadow-cljs` directly.
 
 
-By default Shadow-cljs puts all JavaScript files it builds in the `public/js`
+By default, Shadow-cljs puts all JavaScript files it builds in the `public/js`
 directory. Files for publishing needs to stay in the same directory, which is
 why the "Quick Start" guide gave detailed instructions for `index.html` content
 and location. Netlify requires the following as its *Publish directory* to match
@@ -73,7 +73,7 @@ the SPA project setup:
 
 
 Often several things need to be aligned to get the publishing directory content
-just right. Luckily the above setup is simple 😅 
+just right. Luckily, the above setup is simple 😅
 
 Netlify should now look something like this:
 
@@ -87,7 +87,7 @@ in the *Browser Console* `Hello World` will be printed.
 
 ## Put the URL in control
 
-For more advanced Single Page Applications it is normal to use a routing library
+For more advanced Single Page Applications, it's normal to use a routing library
 (e.g. Reitit) and put the URL in control of which "page" is being shown. While
 staying in the comfort of the local developer experience, this just works
 because the Shadow-cljs webserver will...
@@ -100,7 +100,7 @@ Source: [Shadow-cljs User Guide][5]
 
 But when the SPA is published on Netlify this is no longer the default behavior.
 
-Luckily it is easy to add "Rewrite rules" for a Netlify app by adding a file in
+Luckily, it is easy to add "Rewrite rules" for a Netlify app by adding a file in
 the *Publish directory* (`public/_redirects`) with the following content:
 
 ```
@@ -110,7 +110,7 @@ the *Publish directory* (`public/_redirects`) with the following content:
 See [Netlify documentation about "Rewrites and proxies"][6].
 
 
-Now there is no excuse for that awsome ClojureScript SPA not being available
+Now there is no excuse for that awesome ClojureScript SPA not being available
 online 😉
 
 
