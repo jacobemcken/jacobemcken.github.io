@@ -6,4 +6,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-gem "github-pages", "~> 223"
+gem "github-pages", "~> 226"

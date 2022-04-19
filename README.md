@@ -7,7 +7,7 @@ locally on Fedora. Docker to the rescue.
     bundler init
     bundler add github-pages
 
-Mixing up `bundle` and `bundler` had me chasing my own tail for hoursm giving me
+Mixing up `bundle` and `bundler` had me chasing my own tail for hours, giving me
 a backtrace starting with:
 
     Errno::EACCES: Permission denied @ rb_sysopen - /srv/jekyll/Gemfile
@@ -15,3 +15,12 @@ a backtrace starting with:
 When "serving" Jekyll will automatically watch for file changes and rebuild.
 
     docker run -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle -p 4000:4000 jekyll/jekyll:3 jekyll serve -I
+
+
+## Address security issues
+
+Update the `Gemfile` with the newest version og `github-pages` from https://rubygems.org/gems/github-pages
+
+Start the Docker container with the command from above, and run the following inside:
+
+    bundler update
