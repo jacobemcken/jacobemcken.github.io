@@ -345,3 +345,24 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+.read-more {
+  background-color: transparent;
+  border-color: #2b2d32;
+  border-style: solid;
+  border-width: 2px;
+  color: #2b2d32;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 4px 4px;
+  font-size: 1rem;
+  float: right;
+  margin-top: -0.4rem;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #2b2d32;
+  color: #FFFFFF;
+  text-decoration: none;
+}

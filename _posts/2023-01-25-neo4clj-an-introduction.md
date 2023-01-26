@@ -10,6 +10,7 @@ tags:
 - Neo4J
 - Unit test
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 It started with a business idea a few years ago... a business idea that would
@@ -17,6 +18,8 @@ require a graph database, specifically [Neo4j][].
 
 We did explore the existing libraries at the time, but decided to "roll our own"
 for reasons that now eludes me... and work began on [Neo4clj][].
+
+<!--more-->
 
 At first, we were trying to create a library that placed Clojure data structures
 first and center. Not only for return values, but also for the input (querying).

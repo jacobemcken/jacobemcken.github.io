@@ -5,6 +5,7 @@ categories:
 - Programming
 tags:
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 
@@ -16,6 +17,8 @@ computer, and colleagues. The entire toolchain like editor, CI/CD, project
 management, etc., is a big part of this environment. Regardless of these tools
 being virtual or not countless hours are spent here. Sadly, we often neglect one
 of the most critical parts of our work environment: The software itself.
+
+<!--more-->
 
 I've experienced people mistake a refactoring for "just aesthetics" or "gold
 plating," but a tidy piece of software is simply more maintainable. It is easier
