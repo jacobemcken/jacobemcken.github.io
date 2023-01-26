@@ -25,7 +25,7 @@ software is actually hard*. I've experience this lack of respect from
 all involved parties (including the programmer).
 
 Even though I strive to "do things right", I also think it is okay and
-often necessary no to. *But it should be a conscious decision*.
+often necessary not to. *But it should be a conscious decision*.
 
 I.e. making sure to handle two use cases (corner cases) will increase
 development time but at the same time those a very unlikely to happen
