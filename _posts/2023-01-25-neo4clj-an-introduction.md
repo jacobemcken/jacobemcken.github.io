@@ -51,7 +51,7 @@ exception.
 ```
 
 > 📌 Notice: The keyword `:first-name` corresponds to a property with the name
-> `firstName` in Neo4J due to [Neo4J naming recommandations][].
+> `firstName` in Neo4J due to [Neo4J naming recommendations][].
 
 I the end, we circled back to Cypher. Embracing the many hours someone smarter
 than us had put into creating the Cypher query language, which also has the
@@ -128,8 +128,8 @@ An actual test case would be structured like the following:
 ```
 
 
-Using [Mount][] for managing application state (lifecycle) aka. "dependency
-injection", it would look something along the lines:
+Using [Mount][] for managing application state (lifecycle) aka. "Dependency
+Injection", it would look something along the lines:
 
 ```clojure
 (deftest complext-cypher
@@ -148,4 +148,4 @@ I hope you enjoy using the library as much as we do.
 [Neo4J]: https://neo4j.com/
 [Neo4clj]: https://github.com/full-spectrum/neo4clj
 [Mount]: https://github.com/tolitius/mount/
-[Neo4J naming recommandations]: https://neo4j.com/docs/cypher-manual/5/syntax/naming/
+[Neo4J naming recommendations]: https://neo4j.com/docs/cypher-manual/5/syntax/naming/
