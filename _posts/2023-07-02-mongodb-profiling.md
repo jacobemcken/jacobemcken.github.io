@@ -14,7 +14,8 @@ comments: true
 
 When running MongoDB in Docker, diagnostics logs are sent to `STDOUT` by
 default. Since MongoDB version 4.4 these logs have been in a structured JSON
-format.
+format, which makes it a little cumbersome to use the profiling tool in
+`mtools`.
 
 Use the Docker command to export Docker container logs (including the MongoDB
 ones) and `jq` to sanitize all non JSON logs (from potential other processes in
