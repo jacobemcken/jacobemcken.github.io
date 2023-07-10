@@ -45,7 +45,7 @@ following to avoid premature (silent) terminations:
     (try
       (do-stuff msg)
       (catch Exception e ; Consider if catching Throwable is needed
-        ;; Replace println with faveorite logging library
+        ;; Replace println with favorite logging library
         (println (str "ERROR: " (ex-message e))))
     (recur)))
 ```
@@ -57,4 +57,4 @@ file system watcher ([Beholder][2]) among others.
 [2]: https://github.com/nextjournal/beholder
 
 
-`core.async` is very versetile.
+`core.async` is very versatile.
