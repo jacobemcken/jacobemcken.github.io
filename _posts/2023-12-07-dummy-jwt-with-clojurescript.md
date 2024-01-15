@@ -29,8 +29,10 @@ This is the code:
 ```clojure
 (ns jwt
   "Generate JTW using ClojureScript in browser.
-   **NEVER** use in production because signing key / secret isn't safe client side (in browser).
-   I am using this to play around with different tokens scenarios in my local environment,
+   **WARNING** Never store signing key / secret client side (in browser).
+   It isn't safe.
+
+   Play around with different tokens scenarios in a local environment,
    without round-tripping 3. party services like Auth0 for every combination.
   
    Implementation reference: https://jwt.io/introduction
@@ -67,7 +69,9 @@ This is the code:
                        "typ" "JWT")
          token-base (unsigned-token header payload)
          signature (sign token-base secret)]
-     (str token-base "." (base64/encodeByteArray (js/Uint8Array. signature) base64/Alphabet.WEBSAFE_NO_PADDING)))))
+     (str token-base "." (base64/encodeByteArray
+                          (js/Uint8Array. signature)
+                          base64/Alphabet.WEBSAFE_NO_PADDING)))))
 
 (comment
   (println (get-jwt {"sub" "1234567890"
