@@ -25,7 +25,7 @@ notifications about updates will be published.
 
 ## Address security issues
 
-Update the `Gemfile` with the newest version og `github-pages` from https://rubygems.org/gems/github-pages
+Update the `Gemfile` with the newest version of `github-pages` from https://rubygems.org/gems/github-pages
 
 Start the Docker container with the command from above, and run the following inside:
 
