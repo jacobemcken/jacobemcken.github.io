@@ -46,7 +46,7 @@ that would still get the point across but without being a douchebag.
 Another interesting idea I would love to see explored,
 is limiting the amount of "publishing" likes, re-posts, etc., each day (or some other interval).
 It would nudge users to reflect by questioning themselves:
-Is Donalds latest crazy comment important enough for me to use my limited amount of interactions?
+Is Donald's latest crazy comment important enough for me to use my limited amount of interactions?
 ... or should I save it for the cat video
 ... or my sister's bachelor party tonight.
 
