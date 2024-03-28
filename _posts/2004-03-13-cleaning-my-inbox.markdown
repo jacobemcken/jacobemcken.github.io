@@ -41,7 +41,7 @@ Second I have a javascript:
 
 I have made a change to the weblog system (Serendipity) so now I have a button named <i>"Code"</i> which inserts the following:
 
-<div class='code'></div>
+    <div class='code'></div>
 
 I have used it to create the 3 code examples in this entry of my blog.
 
