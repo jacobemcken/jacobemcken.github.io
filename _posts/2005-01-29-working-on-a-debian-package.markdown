@@ -21,5 +21,6 @@ categories:
 tags: []
 comments: false
 ---
-I have packaged the TIFF CMYK GIMP plugin <a href="http://www.emcken.dk/weblog/archives/88-Lack-of-CMYK-support-in-GIMP-2.0.html">i found a while back</a>. I got Frank, a collauge, to help me take te first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)
+I have packaged the TIFF CMYK GIMP plugin [I found a while back][1]. I got Frank, a collauge, to help me take the first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)
 
+[1]: {% post_url 2004-11-22-lack-of-cmyk-support-in-gimp-20 %}

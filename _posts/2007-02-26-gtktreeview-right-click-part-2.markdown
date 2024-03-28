@@ -93,5 +93,4 @@ Notes I found in Monodoc:
 
 Whatever that means :)
 
-[1]: http://www.emcken.dk/weblog/archives/179-Mono-coding-Capturing-right-clicks-in-a-Gtk.TreeView.html
-
+[1]: {% post_url 2007-01-25-mono-coding-capturing-right-clicks-in-a-gtktreeview %}

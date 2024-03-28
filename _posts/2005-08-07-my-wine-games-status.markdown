@@ -53,5 +53,4 @@ Here is a few good reads:
 
 [1]: http://frankscorner.org/
 [2]: http://www.linux-gamers.net/modules/wfsection/article.php?articleid=2
-[3]: http://www.emcken.dk/weblog/archives/128-World-of-Warcraft-under-WINE-with-kernel-2.6.12.html
-
+[3]: {% post_url 2005-08-12-world-of-warcraft-under-wine-with-kernel-2612 %}

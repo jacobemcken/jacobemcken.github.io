@@ -26,9 +26,8 @@ Hope it gets fixed soon :)
 
 **Update:** I found out why VMware wouldn't start and made [a post about it][5].
 
-[1]: http://www.emcken.dk/weblog/archives/147-A-few-problems-with-my-newly-installed-Edgy.html
+[1]: {% post_url 2006-09-25-a-few-problems-with-my-newly-installed-edgy %}
 [2]: https://launchpad.net/distros/ubuntu/+source/hal/+bug/59232/
 [3]: http://www.vmware.com/community/thread.jspa?messageID=480563
 [4]: http://ubuntuforums.org/showthread.php?t=247350&amp;page=7
-[5]: http://www.emcken.dk/weblog/archives/149-My-VMware-problem.html
-
+[5]: {% post_url 2006-09-29-my-vmware-problem %}

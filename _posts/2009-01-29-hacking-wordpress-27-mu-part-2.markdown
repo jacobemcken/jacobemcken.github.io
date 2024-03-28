@@ -37,8 +37,8 @@ With the following I was able to make the admin user site admin for the new doma
 
 The number two (2) refers to the site_id your domain got in the table `wp_site`. If you want another user than admin to be the site admin you'll have to modify the strange string. Its not as hard as it might look. You can read about how to interpret the string on the [Wordpress MU forum - capabilities explanation][3] and the [PHP function serialize][4]
 
-[1]: http://www.emcken.dk/weblog/archives/212-Hacking-Wordpress-2.7-MU-pre-release.html
+
+[1]: {% post_url 2009-01-21-hacking-wordpress-27-mu-pre-release %}
 [2]: http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/
 [3]: http://mu.wordpress.org/forums/topic.php?id=4915
 [4]: http://dk2.php.net/serialize 
-

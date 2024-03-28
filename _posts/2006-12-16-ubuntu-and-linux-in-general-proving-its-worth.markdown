@@ -33,6 +33,5 @@ I can confirm that this is now fixed... YAY!
 Anyways... im now gonna put [an encrypted file system on the SD card][3] for my gpg key, ssh key, VPN keys etc. I hope I can give it another label as well.
 
 [1]: https://launchpad.net/distros/ubuntu/+source/linux-source-2.6.17/+bug/61758
-[2]: http://www.emcken.dk/weblog/archives/169-Large-SD-card-hangs-Ubuntu-Edgy.html
-[3]: http://www.emcken.dk/weblog/archives/164-Encrypted-USB-drive-in-Ubuntu.html
-
+[2]: {% post_url 2006-11-03-large-sd-card-hangs-ubuntu-edgy %}
+[3]: {% post_url 2006-10-28-encrypted-usb-drive-in-ubuntu %}

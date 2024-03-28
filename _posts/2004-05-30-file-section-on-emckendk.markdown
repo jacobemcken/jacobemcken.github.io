@@ -33,5 +33,7 @@ For the file section I have found some code on <a href="http://www.phpclasses.or
 The <a href="http://www.phpclasses.org/browse.html/package/930.html">FileDB</a> class stores and retrives files from a database and the class uses the <a href="http://www.phpclasses.org/browse/package/846.html">AnyDB</a> class which is a compatibility layer which allows you to use all sorts of databases (I use MySQL).
 
 To celebrate the opening of my new section I have posted my first file...
-The OpenOffice.org logo in svg. After spending many hours looking for this logo in the SVG format I got the EPS version taken from <a href="http://www.ooodocs.org/graphics/1.1/index.html">Version 1.1 Logos and CD Materials</a> converted by a friend in Adobe Illustrator (AI). AI was capeable of doing this without errors unlike pstoedit. Se my post: <a href="http://www.emcken.dk/weblog/archives/17_OpenOffice.org_logo.html">OpenOffice.org logo</a>.
+The OpenOffice.org logo in svg. After spending many hours looking for this logo in the SVG format I got the EPS version taken from <a href="http://www.ooodocs.org/graphics/1.1/index.html">Version 1.1 Logos and CD Materials</a> converted by a friend in Adobe Illustrator (AI). AI was capable of doing this without errors unlike pstoedit. Se my post: [OpenOffice.org logo][1].
 
+
+[1]: {% post_url 2004-03-19-openofficeorg-logo %}

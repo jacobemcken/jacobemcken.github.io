@@ -48,5 +48,4 @@ To sum up this would ease the pain moving between several devices. Also when upg
 
 [Tasque]: http://live.gnome.org/Tasque/Screenshots
 [Tomboy]: http://projects.gnome.org/tomboy/
-[1]: <thttp://www.rememberthemilk.com/
-
+[1]: http://www.rememberthemilk.com/

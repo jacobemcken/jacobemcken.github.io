@@ -51,7 +51,7 @@ Starting the game I was greeted with the well know login screen (a least for peo
 
 When I logged in a patch was downloaded with a peer-to-peer program which also just worked. The patch was applied without any trouble (again only some bottons was missing their text).
 
-At my second login I was forced to patch again... but this time the patch program crashed and after e few tries I gave up :-( This morning I saw that the WINE release 20050310 had ben packaged for Debian in WINEs Debian repository, see <a href="http://www.emcken.dk/weblog/archives/97-WINE-repository-for-Debian-Ubuntu.html">my earlier post</a>.
+At my second login I was forced to patch again... but this time the patch program crashed and after e few tries I gave up :-( This morning I saw that the WINE release 20050310 had ben packaged for Debian in WINEs Debian repository, see [my earlier post][1].
 
 I tried again and now it just worked. I experience a few problems though:
 
@@ -61,6 +61,7 @@ I tried again and now it just worked. I experience a few problems though:
 
 Are you still reading... go play your farvorite game on your farvorite OS :-D
 
+[1]: {% post_url 2005-02-10-wine-repository-for-debian-ubuntu %}
 [World of Warcraft]: http://www.worldofwarcraft.com/
 [WINE]: http://www.winehq.org/
 [Cadega]: http://www.transgaming.com/
