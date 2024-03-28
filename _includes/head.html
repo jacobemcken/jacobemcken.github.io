@@ -36,6 +36,9 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  {% if paginator contains "page" and paginator.page != 1 %}
+  <meta name="robots" content="noindex,nofollow">
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/poole.css">
