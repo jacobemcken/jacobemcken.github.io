@@ -9,12 +9,12 @@ tags:
 comments: true
 ---
 
-I've release a small [Clojure InfluxDB client library][1] since my [last
+I've released a small [Clojure InfluxDB client library][1] since my [last
 post][2] on the same subject, and as I mentioned I wanted to explore ways to
 leverage the `/write` endpoint.
 
 [1]: https://github.com/jacobemcken/clj-influxdb-client
-[2]: http://www.emcken.dk/programming/2019/02/19/clojure-influxdb-client/
+[2]: /programming/2019/02/19/clojure-influxdb-client/
 
 Though that didn't require much:
 
