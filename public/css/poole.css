@@ -250,6 +250,18 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 
 /*
  * Custom type
@@ -330,6 +342,10 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+}
+
+.posts .post h2 { /* Use H1 layout on 'index' page but honor h1 not inside h1 */
+  font-size: 2rem;
 }
 
 /* Blog post or page title */
