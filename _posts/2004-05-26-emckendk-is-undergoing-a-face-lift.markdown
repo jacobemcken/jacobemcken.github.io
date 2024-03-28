@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: false
 ---
-I have been playing with different layouts of for emcken.dk and I think I have settled with the current top which you can see on the <a href="http://www.emcken.dk/">main page</a>.
+I have been playing with different layouts of for emcken.dk and I think I have settled with the current top which you can see on the <a href="https://www.emcken.dk/">main page</a>.
 
 This design will eventually find its way to my blog also.
 
