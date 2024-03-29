@@ -10,6 +10,14 @@ layout: default
     {{ page.date | date_to_string: "ordinal" }}
   </time>
 
+  {% if page.image %}
+  <img
+    src="{{- page.image -}}"
+    alt="{% if page.image_alt %}{{- page.image_alt -}}{% else %}featured image{% endif %}"
+    class="featured-image-post"
+  />
+  {% endif %}
+
   {{ content }}
 
   <div class="license">
