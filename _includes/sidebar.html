@@ -7,11 +7,11 @@
   <div class="container sidebar-sticky">
 
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ "/" | relative_url }}">
+      {% if paginator contains "page" %}<h1>{% endif %}
+        <a class="blog-title" href="{{ "/" | relative_url }}">
           {{ site.title }}
         </a>
-      </h1>
+      {% if paginator contains "page" %}</h1>{% endif %}
       <p class="lead">{{ site.tagline }}</p>
     </div>
 

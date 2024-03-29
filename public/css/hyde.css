@@ -172,10 +172,14 @@ html {
 }
 
 /* About section */
-.sidebar-about h1 {
+.sidebar-about a.blog-title {
+  display: block;
   color: #fff;
   margin-top: 0;
+  margin-bottom: .5rem;
   font-family: "Abril Fatface", serif;
+  font-weight: bold;
+  line-height: 1.25;
   font-size: 3.25rem;
 }
 
