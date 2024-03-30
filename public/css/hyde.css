@@ -370,3 +370,10 @@ a.sidebar-nav-item:focus {
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.cc-icon {
+  height: 22px !important;
+  margin-left: 3px;
+  margin-bottom: 0;
+  vertical-align: text-bottom;
+}
