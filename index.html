@@ -45,3 +45,26 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+{% if paginator contains "page" and paginator.page == 1 %}
+
+{% assign tags = site.pages | map: "tag" | compact %}
+
+{% if tags %}
+<div>
+  <h2>Browse posts by tags</h2>
+  <p>
+    The posts touch a lot of different topics in no particular order.
+    It might be more convenient to browse by tags if you have a topic of specific interest.
+  </p>
+</div>
+
+<ul>
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag | downcase }}/">#{{ tag | downcase }}</a>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+{% endif %}

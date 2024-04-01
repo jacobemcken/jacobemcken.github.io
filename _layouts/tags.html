@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">Posts for the tag #{{ page.tag | downcase }}</h1>
+
+  <ul>
+  {% for post in site.tags[page.tag] %}
+    <li>
+    {{ post.date | date_to_string: "ordinal" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
