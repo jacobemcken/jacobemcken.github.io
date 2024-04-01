@@ -5,7 +5,8 @@ categories:
 - Programming
 tags:
 - Clojure
-- Unit tests
+- Test
+- Unit test
 comments: true
 ---
 

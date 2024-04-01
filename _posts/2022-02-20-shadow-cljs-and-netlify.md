@@ -8,6 +8,7 @@ tags:
 - Clojure
 - ClojureScript
 - Shadow-cljs
+- Cloud
 - Netlify
 comments: true
 ---

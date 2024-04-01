@@ -6,6 +6,7 @@ categories:
 tags:
 - Clojure
 - Test
+- Mongo
 comments: true
 ---
 I've been programming Clojure for several years, and yet I've managed to avoid

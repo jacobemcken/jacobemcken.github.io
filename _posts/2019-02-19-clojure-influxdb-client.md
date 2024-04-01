@@ -5,6 +5,9 @@ categories:
 - Programming
 tags:
 - Clojure
+- Database
+- Time series
+- InfluxDB
 comments: true
 ---
 
