@@ -30,6 +30,6 @@ comments:
 ---
 This is who I am... I wonder if anyone ended up beeing Darth Vader.
 
-<a href="http://www.tk421.net/character/"><img src="http://www.tk421.net/character/samwise.jpg" width="262" height="211" border="2" alt="Which Fantasy/SciFi Character Are You?" /></a>
+<a href="https://www.tk421.net/character/"><img src="https://www.tk421.net/ character/samwise.jpg" width="262" height="211" border="2" alt="Which Fantasy/SciFi Character Are You?" /></a>
 
 
