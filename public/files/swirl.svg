@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.38.1"
+   width="100.00000mm"
+   height="100.00000mm"
+   sodipodi:docname="swirl.svg"
+   sodipodi:docbase="/mnt/Storage 1/development/graphics/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3299723"
+     inkscape:cx="141.73228"
+     inkscape:cy="141.73228"
+     inkscape:window-width="841"
+     inkscape:window-height="786"
+     showguides="false"
+     snaptoguides="true"
+     borderlayer="top"
+     snaptogrid="true"
+     inkscape:window-x="0"
+     inkscape:window-y="33" />
+  <path
+     d="M 235.51876,122.90742 C 232.51238,98.983804 179.52906,104.21754 179.52906,104.21754 C 179.52906,104.21754 195.01117,106.05988 203.20094,108.32872 C 140.44611,133.74517 152.09548,171.12491 152.09548,171.12491 C 152.09548,171.12491 147.21124,170.75170 140.82229,165.89115 C 203.57712,269.80505 266.33195,208.12848 270.09062,204.76667 C 342.24072,98.237384 261.44764,41.048172 257.31278,38.805976 C 161.86693,-0.81595834 98.735988,54.877484 98.735988,54.877484 C 98.735988,54.877484 98.359808,48.897327 100.99002,40.298796 C 20.949266,144.21269 68.298978,254.47992 68.298978,254.47992 C 68.298978,254.47992 72.054731,247.00399 74.684939,243.63921 C 149.08909,350.54174 225.75028,328.86033 225.75028,328.86033 C 226.22120,329.51196 202.07544,329.60972 195.31032,322.88015 C 195.31032,322.88015 224.24558,315.03101 240.02683,301.20170 C 94.977248,363.99791 68.298978,168.88271 68.298978,164.77154 C 72.430899,167.76014 78.067484,172.62068 78.067484,172.62068 C 78.067484,172.62068 58.527511,78.051734 191.17842,44.786141 C 191.17842,44.786141 180.27845,56.746473 179.90523,62.353431 C 179.90523,62.353431 289.25444,29.087832 284.37019,135.24095 C 284.37019,135.24095 286.45839,227.46997 211.19229,211.96419 C 126.57234,192.47164 156.98269,101.97536 235.51876,122.90742 z "
+     style="fill:#a7053f;"
+     id="Swirl" />
+</svg>

@@ -52,7 +52,7 @@ comments:
 I have made my first wallpaper and ofcourse it is a Debian wallpaper. :)
 You can see a thumb of it to the left. It is made with Inkscape which have dramaticaly increased in useability in the last few versions. This means that I have the source in a scaleable format (<abbr title="Scalable Vector Graphics">SVG</abbr>) so if you have a screen resolution bigger than 1600x1200 then contact me and I can render a bigger one for you.
 
-The wallpaper can be found in my <a href="/files/">files section</a> in 1600x1200 resolution.
+The wallpaper can be found in my <a href="/public/files/">files section</a> in 1600x1200 resolution.
 
 [1]: http://www.debianart.dk/
 

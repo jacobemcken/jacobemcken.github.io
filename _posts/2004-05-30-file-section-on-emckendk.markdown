@@ -27,7 +27,11 @@ comments:
   date_gmt: '2004-08-06 05:00:15 +0200'
   content: Thanks again for the feedback to FileDB
 ---
-I have been planing to put a file section on my website for some time now. Earlier I just posted files in my weblog but evntually they dissapear into the archives of the weblog and therefore not easily accessable. From now on I will put files in my new <a href="http://www.emcken.dk/files/">file section</a> if their relevance is beyond a single post in my blog.
+I have been planing to put a file section on my website for some time now.
+Earlier I just posted files in my weblog,
+but evntually they dissapear into the archives of the weblog and therefore not easily accessable.
+From now on I will put files in my new <a href="/public/files/">file section</a>,
+if their relevance is beyond a single post in my blog.
 
 For the file section I have found some code on <a href="http://www.phpclasses.org/">phpclasses</a>.
 The <a href="http://www.phpclasses.org/browse.html/package/930.html">FileDB</a> class stores and retrives files from a database and the class uses the <a href="http://www.phpclasses.org/browse/package/846.html">AnyDB</a> class which is a compatibility layer which allows you to use all sorts of databases (I use MySQL).
