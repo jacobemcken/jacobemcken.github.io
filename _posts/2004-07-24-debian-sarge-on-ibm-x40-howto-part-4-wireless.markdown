@@ -17,7 +17,9 @@ date: '2004-07-24 00:34:26 +0200'
 date_gmt: '2004-07-24 00:34:26 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments:
 - id: 8
   author: Jacob's Weblog

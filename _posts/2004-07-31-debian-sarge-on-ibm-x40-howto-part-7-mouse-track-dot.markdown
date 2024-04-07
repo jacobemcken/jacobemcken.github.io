@@ -17,7 +17,9 @@ date: '2004-07-31 10:39:25 +0200'
 date_gmt: '2004-07-31 10:39:25 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 I have experienced that my mouse isn't working after a reboot a few times. I think it happens after a system update... and this morning I was hit again. When starting X the mouse pointer wouldn't move.

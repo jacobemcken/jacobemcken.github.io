@@ -17,7 +17,9 @@ date: '2004-09-26 16:17:00 +0200'
 date_gmt: '2004-09-26 16:17:00 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 Today, while I was fiddeling around with my laptop, I tried transfering a file from my <a href="http://www.nokia.com/nokia/0,,47665,00.html">Nokia 6630</a> mobile phone to my laptop. I didn't expect it to work becauce last time it didn't.

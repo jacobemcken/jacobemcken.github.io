@@ -17,7 +17,9 @@ date: '2004-11-04 00:16:10 +0100'
 date_gmt: '2004-11-04 00:16:10 +0100'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 I have just installed a <a href="http://kernel.org/">2.6.9 kernel</a> and now my laptop wakes after suspend with acpi. But as soon it has awoken it stats to shutdown :(

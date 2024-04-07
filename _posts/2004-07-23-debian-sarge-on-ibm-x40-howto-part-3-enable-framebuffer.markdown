@@ -17,7 +17,9 @@ date: '2004-07-23 23:55:54 +0200'
 date_gmt: '2004-07-23 23:55:54 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 The IBM X40 seems to like using framebuffer so might find it usefull to put the following in you grub /boot/grub/menu.lst

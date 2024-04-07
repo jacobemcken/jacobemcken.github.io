@@ -17,7 +17,9 @@ date: '2004-09-02 14:41:38 +0200'
 date_gmt: '2004-09-02 14:41:38 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments:
 - id: 416
   author: Brian Hughes

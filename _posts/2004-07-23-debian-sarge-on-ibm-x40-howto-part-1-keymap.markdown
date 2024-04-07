@@ -17,7 +17,9 @@ date: '2004-07-23 23:09:48 +0200'
 date_gmt: '2004-07-23 23:09:48 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 After installing a clean Sarge system from an USB key with some of the nightly builds of the new Debian installer I ran into the first troubles.

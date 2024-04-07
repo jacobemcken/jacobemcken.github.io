@@ -17,7 +17,9 @@ date: '2004-07-30 22:33:00 +0200'
 date_gmt: '2004-07-30 22:33:00 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- thinkpad
 comments: false
 ---
 As I mentioned in [an earlier post][1], I found out that I had been using a completly wrong driver for my wireless card. The juice for my card is a [Multiband Atheros Driver for WiFi (MADWIFI)][2]. I found a [Debian specific driver compile guide][3] on their homepage.
