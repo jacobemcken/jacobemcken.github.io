@@ -19,7 +19,9 @@ categories:
 - Linux
 - Ubuntu
 - Games
-tags: []
+tags:
+- wine
+- games
 comments: false
 ---
 To night I tried to play a few games with WINE (NOT Cadega) on my Ubuntu Hoary system.

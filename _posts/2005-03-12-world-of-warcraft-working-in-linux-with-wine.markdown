@@ -18,7 +18,9 @@ date_gmt: '2005-03-12 22:40:00 +0100'
 categories:
 - Linux
 - Ubuntu
-tags: []
+tags:
+- games
+- wine
 comments:
 - id: 63
   author: Alex badcock

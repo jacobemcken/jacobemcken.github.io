@@ -19,7 +19,9 @@ categories:
 - Linux
 - Ubuntu
 - Games
-tags: []
+tags:
+- games
+- wine
 comments:
 - id: 53
   author: sait

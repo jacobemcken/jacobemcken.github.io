@@ -18,7 +18,9 @@ date_gmt: '2005-03-25 16:56:00 +0100'
 categories:
 - Linux
 - Games
-tags: []
+tags:
+- games
+- wine
 comments: false
 ---
 After the World of Warcraft patch update today WINE 20050310 no longer runs WoW. Though it seems that there are already patches out there to correct the problem.

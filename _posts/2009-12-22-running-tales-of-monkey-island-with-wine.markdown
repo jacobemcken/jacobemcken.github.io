@@ -17,7 +17,9 @@ date: '2009-12-22 21:54:10 +0100'
 date_gmt: '2009-12-22 20:54:10 +0100'
 categories:
 - Uncategorized
-tags: []
+tags:
+- games
+- wine
 comments: false
 ---
 I'm a proud adventure game fan boy and have enjoyed countless hours in the company of Monkey Island, Day of the Tentacle, Legend of Kyrandia among others. ScummVm have helped to re enjoy many of these titles after replacing my preferred desktop system with Linux.

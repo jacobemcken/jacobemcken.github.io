@@ -17,7 +17,8 @@ date: '2004-09-19 22:43:18 +0200'
 date_gmt: '2004-09-19 22:43:18 +0200'
 categories:
 - Computer
-tags: []
+tags:
+- games
 comments:
 - id: 12
   author: Kristoffer
