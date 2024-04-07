@@ -17,7 +17,8 @@ date: '2005-01-13 20:55:50 +0100'
 date_gmt: '2005-01-13 20:55:50 +0100'
 categories:
 - Other
-tags: []
+tags:
+- games
 comments: false
 ---
 I have been busy lately unpacking boxes and trying to keep up at work. My computer and cable TV is ofcourse up and running, and the last two days I played a little <a href="http://www.worldofwarcraft.com/">World of Warcraft</a> to take my mind of work. Work and getting settled have taken all my time, and when you finally have som spare time you feel guilty not unpacking, cleaning or some other meaningfull moving-to-new-appartment releated stuff. I havn't even played the new Pirates by Sid Meier more than a few hours and I miss having time to write guides to the <a href="http://www.debianguiden.dk/">danish Debian guide</a>, generaly just play around with Debian.

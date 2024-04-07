@@ -17,7 +17,8 @@ date: '2009-04-03 21:34:19 +0200'
 date_gmt: '2009-04-03 20:34:19 +0200'
 categories:
 - Uncategorized
-tags: []
+tags:
+- gnome
 comments: false
 ---
 After reading the the Gnome 3.0 announcements ([Vincent Untz][1], [Andre Klapper][2]) yesterday and reading [The Plan][3], I don't really know if I got exited or dissapointed :)

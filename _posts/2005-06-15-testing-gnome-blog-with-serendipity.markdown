@@ -18,7 +18,8 @@ date_gmt: '2005-06-15 09:29:00 +0200'
 categories:
 - Linux
 - Ubuntu
-tags: []
+tags:
+- gnome
 comments:
 - id: 20
   author: starryalley

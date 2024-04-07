@@ -21,6 +21,7 @@ categories:
 tags:
 - gnome-shell
 - gnome3
+- gnome
 comments: false
 ---
 I've just installed Gnome 3.6 (some packages might still be 3.5.9x) on my laptop by upgrading to Ubuntu 12.10 beta2 together with the Gnome 3 PPA for a few missing things like the updated Nautilus.

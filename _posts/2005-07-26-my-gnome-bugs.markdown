@@ -17,7 +17,8 @@ date: '2005-07-26 18:56:28 +0200'
 date_gmt: '2005-07-26 18:56:28 +0200'
 categories:
 - Linux
-tags: []
+tags:
+- gnome
 comments: false
 ---
 [My GNOME bugs][1] - only 2 so far... not much.

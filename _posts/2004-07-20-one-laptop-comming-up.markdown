@@ -17,7 +17,8 @@ date: '2004-07-20 23:45:04 +0200'
 date_gmt: '2004-07-20 23:45:04 +0200'
 categories:
 - Computer
-tags: []
+tags:
+- thinkpad
 comments:
 - id: 5
   author: Daniel Kokott
@@ -39,5 +40,5 @@ After working alot on-site I found it necessary to buy a laptop. My top demands 
 <li>style</li></ul>
 I had a hard time choosing between an Apple Powerbook and IBM Thinkpad but I ended up with a IBM X40 Thinkpad with 512MB RAM 8 cell battery (7.5 hours working time). It also has a build in wireless card supporting the a, b, and g standard, a 10/100/1000 ethernet card and bluetooth. What more can a geek like me wish for :)
 
-Apple is also cool and I relly - I mean RELLY like the look and feel of a Power Book and OSX. Apple have great taste in style, and I just love the eye-candy. Now GNU/Linux and GNOME have to do... not that thats going to be a problem, me beeing a Linux and GNOME lover ;)
+Apple is also cool and I really - I mean REALLY like the look and feel of a Power Book and OSX. Apple have great taste in style, and I just love the eye-candy. Now GNU/Linux and GNOME have to do... not that thats going to be a problem, me beeing a Linux and GNOME lover ;)
 
