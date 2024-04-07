@@ -17,7 +17,9 @@ date: '2004-06-15 23:16:18 +0200'
 date_gmt: '2004-06-15 23:16:18 +0200'
 categories:
 - Graphics
-tags: []
+tags:
+- debian
+- wallpaper
 comments:
 - id: 497
   author: hello

@@ -17,7 +17,8 @@ date: '2004-05-22 14:04:53 +0200'
 date_gmt: '2004-05-22 14:04:53 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
 comments: false
 ---
 Yesterday I worked with <a href="http://www.mbrix.dk/">Morten Brix Petersen</a> to implement user comments on the <a href="http://www.debianguiden.dk/">Danish Debian guide</a>. User comment functionality like the one found on PHP's documentation. While we where at make enhancements we also redesigned the frontpage to look like the rest of the guide.

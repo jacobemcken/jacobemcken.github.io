@@ -17,7 +17,9 @@ date: '2004-06-25 21:27:34 +0200'
 date_gmt: '2004-06-25 21:27:34 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- wallpaper
 comments: false
 ---
 Last night I bought the domain debianart.dk. I'm hoping to put a site togeter which only focus on graphics for the Debian GNU/Linux distribution. Like wallpapers, splashscreens, icons etc.

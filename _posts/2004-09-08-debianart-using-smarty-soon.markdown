@@ -17,7 +17,8 @@ date: '2004-09-08 14:00:00 +0200'
 date_gmt: '2004-09-08 14:00:00 +0200'
 categories:
 - Computer
-tags: []
+tags:
+- debian
 comments: false
 ---
 I have started rewriting [debianart.dk][] to use the Smarty template engine. I gives me better overview of the coding and it also provides me with tools which helps me create a better website. Although I have already encountered a few quirks with it. I had trouble concating smarty variables with smarty variables and text strings with smarty variables within a smarty function. I use the <a href="http://smarty.incutio.com/?page=PNGImagePlugin">Smarty plugin: PNG image with Alpha Transparency</a> to display PNG images with transparency in IE.

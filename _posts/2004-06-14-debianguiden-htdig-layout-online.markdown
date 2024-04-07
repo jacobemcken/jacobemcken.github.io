@@ -17,7 +17,8 @@ date: '2004-06-14 23:33:00 +0200'
 date_gmt: '2004-06-14 23:33:00 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
 comments: false
 ---
 I have been working on layout templates for the htdig search engine used on the <a href="http://www.debianguiden.dk/">danish Debian guide</a>. I have tried to make it look much like google but still make it a part of the guide. Try make a search on ex. "<i>mysql</i>".

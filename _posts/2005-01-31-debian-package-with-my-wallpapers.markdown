@@ -18,7 +18,9 @@ date_gmt: '2005-01-31 01:10:55 +0100'
 categories:
 - Debian
 - Graphics
-tags: []
+tags:
+- debian
+- wallpaper
 comments: false
 ---
 I have been battling with Ubuntu to create a Debian package with my wallpapers from <a href="http://www.debianart.dk/">Debian Art</a>.

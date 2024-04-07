@@ -18,7 +18,9 @@ date_gmt: '2007-04-28 21:59:43 +0200'
 categories:
 - Debian
 - Graphics
-tags: []
+tags:
+- debian
+- wallpaper
 comments:
 - id: 130
   author: Nate

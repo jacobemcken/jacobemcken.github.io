@@ -17,7 +17,9 @@ date: '2004-06-20 20:06:25 +0200'
 date_gmt: '2004-06-20 20:06:25 +0200'
 categories:
 - Graphics
-tags: []
+tags:
+- debian
+- wallpaper
 comments: false
 ---
 <a href='/public/media/debian_first_love.png'><img border='0' style="margin:5px;float:left" src='/public/media/debian_first_love.thumb.png' alt='' /></a>

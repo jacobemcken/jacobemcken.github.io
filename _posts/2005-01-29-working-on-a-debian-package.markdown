@@ -18,7 +18,8 @@ date_gmt: '2005-01-29 00:04:09 +0100'
 categories:
 - Debian
 - Graphics
-tags: []
+tags:
+- debian
 comments: false
 ---
 I have packaged the TIFF CMYK GIMP plugin [I found a while back][1]. I got Frank, a collauge, to help me take the first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)

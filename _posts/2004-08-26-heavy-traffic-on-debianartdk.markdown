@@ -17,7 +17,8 @@ date: '2004-08-26 22:21:01 +0200'
 date_gmt: '2004-08-26 22:21:01 +0200'
 categories:
 - Debian
-tags: []
+tags:
+- debian
 comments: false
 ---
 The last two days traffic have increased heavily on <a href="http://www.debianart.dk/">Debianart</a>. Downloads have doubled the last days. After investigating the log files I found that a <a href="http://www.esdebian.org/">Spanish Debian news site</a> had a link to my site. Cool :-)

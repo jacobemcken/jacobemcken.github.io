@@ -18,7 +18,9 @@ date_gmt: '2005-06-25 09:55:19 +0200'
 categories:
 - Debian
 - Ubuntu
-tags: []
+tags:
+- debian
+- ubuntu
 comments: false
 ---
 At work we have several servers running Debian anb because we are multiple persones maintaining them we end up having software (packages) installed that no one remember the reason for. I thought I would be of great if apt/dpkg had some build-in preference you could enable so people had to ad a comment why they install the software which they are about to, and the comment would be saved along with a list of the packages installed.

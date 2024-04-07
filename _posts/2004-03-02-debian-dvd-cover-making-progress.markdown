@@ -17,7 +17,9 @@ date: '2004-03-02 01:17:55 +0100'
 date_gmt: '2004-03-02 01:17:55 +0100'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- svg
 comments:
 - id: 1
   author: Jacob Emcken

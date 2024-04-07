@@ -17,7 +17,9 @@ date: '2004-03-17 14:03:14 +0100'
 date_gmt: '2004-03-17 14:03:14 +0100'
 categories:
 - Debian
-tags: []
+tags:
+- debian
+- gnome
 comments: false
 ---
 A new beta of the Sarge <a href="http://www.debian.org/devel/debian-installer/">Debian-Installer</a> has been released and I must say that I'm impressed :) Soon I will be able to make all my friends try it!
