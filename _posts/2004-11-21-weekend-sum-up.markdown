@@ -29,5 +29,5 @@ It wasn't that hard because I have solved the puzzles before, though never compl
 
 Now I only need to complete Grim Fandango to have completed all Lucas Arts adventure games back to The Loom.
 
-[1]: http://www.pixar.com/featurefilms/incredibles/
+[1]: https://www.pixar.com/feature-films/the-incredibles/
 
