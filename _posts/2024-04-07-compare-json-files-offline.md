@@ -2,7 +2,7 @@
 layout: post
 title: How to compare JSON files offline
 image: /assets/img/woman_comparing_piles_of_pebble_variation_2.png
-image_alt: A woman with long hair sitting on the ground alone outside, thoughtfully observing two piles of pebble further away in front of her in a grassy scene. The woman is looking slightly to the side. The style is cartoon. --v 6.0
+image_alt: "Midjourney prompt: A woman with long hair sitting on the ground alone outside, thoughtfully observing two piles of pebble further away in front of her in a grassy scene. The woman is looking slightly to the side. The style is cartoon. --v 6.0"
 categories:
 - Programming
 tags:

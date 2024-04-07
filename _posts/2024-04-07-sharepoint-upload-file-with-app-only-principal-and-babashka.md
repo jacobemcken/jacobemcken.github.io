@@ -2,7 +2,7 @@
 layout: post
 title: Upload files to SharePoint using Babashka
 image: /assets/img/pipeline_putting_things_in_the_cloud.png
-image_alt: A long factory pipeline with conveyor bands and pipes automatically delivers into the sky/clouds using a single pipe. The image is using a simple futuristic cartoon style, mainly using green and orange colors.
+image_alt: "Midjourney prompt: A long factory pipeline with conveyor bands and pipes automatically delivers into the sky/clouds using a single pipe. The image is using a simple futuristic cartoon style, mainly using green and orange colors."
 categories:
 - Programming
 tags:
