@@ -106,7 +106,7 @@ which was acquiring an access token from `accounts.accesscontrol.windows.net`:
 ## Interacting with SharePoint REST API
 
 The rest fell into place easily, with the [SharePoint API documentation][5] in hand,
-and file was quickly uploaded.
+and a file was quickly uploaded.
 
 ```clojure
 (defn percent-encode
