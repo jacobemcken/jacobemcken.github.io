@@ -8,18 +8,18 @@ tags:
 comments: true
 ---
 
-I find work related inspiration many places, among others, colleagues
-meetups and conferences. But most inspiration comes while purposeless
-roaming the internet. I've always been interested in more that just
+I find work-related inspiration in many places, among others, colleagues
+meetups and conferences. But most inspiration comes while purposelessly
+roaming the internet. I've always been interested in more than
 writing the code for the software. Whether it be participating in
 meetings and discussions that would help me better understand the
 business. Gathering data to predict how a UI should be formed for
 optimal user experience. Learning how to avoid making poor software
 design decisions that would bring the nice people in operations in
 trouble. But also the softer things like how culture and circumstances
-affects us as developers and individuals.
+affect us as developers and individuals.
 
-Prior getting the responsibility for a team, all the above would just
+Prior to getting the responsibility for a team, all the above would just
 be archived mentally as "work/software development". These days, stuff
 related to work culture and people have earned its own archive
 label. Suddenly these things have a slightly different meaning to me.
