@@ -6,6 +6,7 @@ categories:
 tags:
 - Clojure
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 This rant is about a bad habit some developers pick up and seem to have a hard
@@ -13,10 +14,12 @@ time ditching again... even after gaining lots of experience.
 
 I guess it is to be expected. After having been burned one too many times by
 missing error handling, in the software they work on, they become
-overprotective. But it often overcomplicates the code and leave room (extra
+overprotective. But it often overcomplicates the code and leaves room (extra
 lines of code) to place "a fix", where "the fix" does not belong. Of course,
 there are plenty of gray areas, murky waters and personal opinions of ...
 exactly where to slice the cake.
+
+<!--more-->
 
 The "empty list" is a great example of overprotective code.
 
@@ -135,5 +138,5 @@ Considering "empty lists" as an error, usually falls in the category of
 "business errors". Postponing the "empty check" until right before the loop, can
 be a sign that business logic is placed wrongly (too late).
 
-I urge you to think twice when you are tempted to a do an "empty check".
+I urge you to think twice when you are tempted to do an "empty check".
 Stop micromanaging your code - learn to let go.
