@@ -5,6 +5,8 @@ categories:
 - Programming
 tags:
 - Clojure
+- php
+- software-musings
 comments: true
 excerpt_separator: <!--more-->
 ---

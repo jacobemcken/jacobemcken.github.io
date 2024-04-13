@@ -5,6 +5,7 @@ categories:
 - Programming
 tags:
 - Clojure
+- software-musings
 - Git
 - Test
 comments: true

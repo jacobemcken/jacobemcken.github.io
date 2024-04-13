@@ -3,13 +3,15 @@ layout: post
 title: What makes software stable
 categories:
 - Programming
+tags:
+- software-musings
 comments: true
 ---
 
 Having been given a new area of responsibility as team lead inspired
 me to think about aspects of coding beyond just typing it.
 
-I've experienced we where chasing our own tail. Trying to close issues
+I've experienced our team chasing our tail. Trying to close issues
 "fast" and hurry on to the next in line. But something wasn't working.
 Every time we changed a comma in one end, something in the other end
 would break horribly. Bug fixing was feeling like killing a
@@ -21,8 +23,8 @@ told me that we needed to become better at "decoupling" and "breaking
 the code into smaller pieces".
 
 But I was missing the direct link between my gut feeling and how it
-would translate into "stable software" until I saw a tweet which
-brought the things together:
+would translate into "stable software"
+until I saw a tweet that brought the things together:
 
 Source [@frankvilhelmsen][1]
 

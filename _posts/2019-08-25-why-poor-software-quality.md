@@ -4,6 +4,7 @@ title: Why do we allow poor software quality?
 categories:
 - Programming
 tags:
+- software-musings
 comments: true
 excerpt_separator: <!--more-->
 ---
@@ -13,10 +14,12 @@ excerpt_separator: <!--more-->
 
 As a professional, you need to have a good work environment for optimal
 performance. As a software developer, this goes beyond the desk, chair,
-computer, and colleagues. The entire toolchain like editor, CI/CD, project
-management, etc., is a big part of this environment. Regardless of these tools
-being virtual or not countless hours are spent here. Sadly, we often neglect one
-of the most critical parts of our work environment: The software itself.
+computer, and colleagues. The entire toolchain like <abbr title="Integrated development environment">IDE</abbr>, CI/CD, project
+management, etc., is a big part of this environment.
+Regardless of whether these tools are virtual or not
+countless hours are spent here.
+Sadly, we often neglect one of the most critical parts of our work environment:
+The software itself.
 
 <!--more-->
 

@@ -3,6 +3,8 @@ layout: post
 title: About cutting corners
 categories:
 - Programming
+tags:
+- software-musings
 comments: true
 ---
 

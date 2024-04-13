@@ -5,6 +5,7 @@ categories:
 - Programming
 tags:
 - links
+- software-musings
 comments: true
 ---
 
