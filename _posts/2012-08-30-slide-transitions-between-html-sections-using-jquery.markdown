@@ -36,5 +36,5 @@ Both the html and js is clean... styles for body and h1 can safely be removed to
 
 [clojure-blog]: https://github.com/jacobemcken/clojure-blog
 [2]: http://www.youtube.com/watch?feature=player_embedded&v=rsSV33XxePk
-[3]: http://jsfiddle.net/er8be/3/
+[3]: https://jsfiddle.net/er8be/3/
 
