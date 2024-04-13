@@ -17,7 +17,8 @@ date: '2012-07-21 22:48:46 +0200'
 date_gmt: '2012-07-21 21:48:46 +0200'
 categories:
 - Random hacks
-tags: []
+tags:
+- Clojure
 comments: false
 ---
 In order to support different syntax for posts, smileys and hook-ins in general I searched the web for inspiration and found the following link which have some cool info:

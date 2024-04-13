@@ -17,7 +17,9 @@ date: '2012-07-20 22:08:53 +0200'
 date_gmt: '2012-07-20 21:08:53 +0200'
 categories:
 - Random hacks
-tags: []
+tags:
+- Clojure
+- markdown
 comments: false
 ---
 I decided to write a blog in [Clojure][1] - my reasons:

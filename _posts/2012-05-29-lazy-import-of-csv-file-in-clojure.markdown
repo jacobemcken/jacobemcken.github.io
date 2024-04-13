@@ -17,7 +17,8 @@ date: '2012-05-29 20:17:23 +0200'
 date_gmt: '2012-05-29 19:17:23 +0200'
 categories:
 - Random hacks
-tags: []
+tags:
+- Clojure
 comments: false
 ---
 I've been looking at Clojure now and then for a while... really wanna learn this stuff :)
