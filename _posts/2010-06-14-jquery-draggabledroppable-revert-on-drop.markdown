@@ -113,17 +113,17 @@ comments:
     entry to constantly quickly.
 \n"
 ---
-# Background:
+## Background:
 At work we are currently in the process of creating a general data hub which is easily expendable and configurable. It's already in use exchanging EDI messages (EDIFACT) for a supplier on the danish electricity market.
 
 For the configuration we settled on a GUI where you could drag different kinds of data manipulations into the data flow and this is all implemented in HTML with jQuery.
 
-# The problem:
+## The problem:
 Upon drop I had to use Ajax to ask the server if it was ok to drop the draggable. Since Ajax is asynchronous the drop event would return before the Ajax actually had finished. I decided that I didn't want to force the request to the server to be synchronous instead I wanted the ajax success callback to be able to do the reverting.
 
 Upon searching the net, the closest thing I came to a solution was defining a [callback function for revert on the draggable][1], and this functionality isn't even documented by the time of this writing.
 
-# The solution:
+## The solution:
 After playing a bit around I found an acceptable solution. I've created a small [example reverting a drop][2] using a confirm where you can test it (and see the code).
 
 [1]: http://www.agilepro.com/blog/2009/12/while-this-functionality-is-built-into.html

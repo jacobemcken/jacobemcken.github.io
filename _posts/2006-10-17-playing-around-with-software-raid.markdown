@@ -61,7 +61,7 @@ Now you can see you raid status with:
 
 Now play around with it all you want
 
-# Cleanup
+## Cleanup
 
 When you are done you stop the raid and remove it with the following:
 

@@ -33,7 +33,8 @@ Besides from that SLES10 have so far made a good impression on me.
 
 I usually turn off the services `slpd` and `portmap`.
 
-# Preparing server for VMware
+
+## Preparing server for VMware
 
 Extra packages needed:
 
@@ -44,4 +45,3 @@ Extra packages needed:
 Now install the the free `VMware Server` from [www.vmware.com][1]:
 
 [1]: http://www.vmware.com/download/server/
-

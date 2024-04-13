@@ -79,15 +79,15 @@ The I made a php script on my Ubuntu server somewhat like the following:
 
     #!/usr/bin/php
 
-# Trouble shooting
+## Trouble shooting
 
-## 49: Invalid credentials
+### 49: Invalid credentials
 
 Remember when you tell PHP script which user you want to connect with, also supply the realm in which the user resides. In my test setup I used my own user `je` (Jacob Emcken), and my realm `testdomain.com` which means I'm connecting with to LDAP with the following user:
 
     je@testdomain.com
 
-## 1: Operations error
+### 1: Operations error
 
 This error can come from to things:
 

@@ -82,7 +82,7 @@ In the future I might want the following:
 [2]: http://wiki.slimdevices.com/index.cgi?SlimServer
 [3]: http://www.teamspeak.org/
 <a id="more"></a><a id="more-166"></a>
-# Wireless
+## Wireless
 
 My first wireless was a Zyxel 2000. Spec's was what I needed and the design of the actual access point was good. Random disconnects and the need for power cycling the acces point made me look for something new. Then I bought a [Linksys WRT54GL][1] on [Fon][2]'s website and tried that one out. FON is a really cool wireless community. Go read about them... you might like it.
 
@@ -90,7 +90,7 @@ I wasn't able to open port ranges in the firewall on the Linksys using the FON f
 
 For some reason I had a high latency when playing World of Warcraft on the wireless... I never got the time to look into this before I stumbled upon another project using the OpenWRT project as base: [Coova][4]. Coova is a really cool project even though I had some issuses with it. Before I found the solution to the problem, which I later learned was caused by mysellf my colleague [Tomas Krag][5] had already introduced me to "La Fonera", the latest access point from [Fon][3]. It is small, looks really slick and the wireless connections is very stable... so I'm gonna stick with this one for now.
 
-# The server
+## The server
 
 I have been looking a various possible server alternatives to my current "slim desktop PC" server.
 
@@ -98,7 +98,7 @@ First I thought about building a micro-atx machine. Though I would really like t
 
 I'm not sure if the processor is powerful enough. One of my mates reminded me that might be able to use alternatives to Apache which is more lightweight. Anyways I think I'm gonna buy one and find out for my self. For disk space I'd buy a laptop disk (2,5"). Perhaps a Seagate disk in a [RaidSonic Icybox closure][9]. It seems people have made the slimserver run on it which is cool. Don't know if it can run a Teamspeak and it can't run as a MythTV box for sure. But I might wanna make a separate box for all that multimedia stuff later on, perhaps based on micro or nano ATX motherboard.
 
-# The other stuff
+## The other stuff
 
 I already go an IP telephone, or an [IP2analog][10] converter. Which works okay, good enough for me anyway.
 About the firewall I might want to use my current Linksys WRT54GL as firewall behind my Zyxel 650 router provided by ISP. The Zyxel 650 doesn't use a normal RJ45 plug for the wan interface. I hope I will be able to find a device with a decent firewall and QoS / traffic shaping that can replace my Zyxel 650. So I don't have to use 2 devices to get router and firewall functionality.

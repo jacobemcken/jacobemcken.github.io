@@ -202,10 +202,10 @@ when it comes to configuring applications,
 it is far from optimal
 when dealing with sensitive information like passwords, private keys and other "secrets".
 
-Instead secrets can be injected into the container as a file mounted upon container start. Very handy.
+Instead, secrets can be injected into the container as a file mounted upon container start. Very handy.
 
 
-# Final thoughts
+## Final thoughts
 
 It is really hard to avoid the JavaScript feel,
 when interop'ing with JavaScript libraries or Node.js itself.

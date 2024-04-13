@@ -46,7 +46,7 @@ function encodeList($text) {
 **Note:** Your browser might split up the code lines, so make a double check.
 
 
-# Example
+## Example
 
 txt:
 

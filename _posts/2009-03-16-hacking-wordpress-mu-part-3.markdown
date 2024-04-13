@@ -29,7 +29,7 @@ I also tried to move the upload directory away from the central Wordpress instal
 
 The last issue I found with my solution to the multiple domains with Wordpress MU is that the site admin might not be able to see the blogs on the other domains but if you know the id of the blog you can just change that in the URL and gain edit access to the blog anyway.
 
-# Example:
+## Example:
 
 The user `domain1_admin` is site admin for domain1.com. On the domain domain2.com the a blog with the id 3 is attached. So admin logs in on domain1.com and uses this url:
 
