@@ -25,7 +25,7 @@ Every time I make a homepage I try to use tableless design and css and every tim
 Just needed to get needed to get my anger out :)
 Sorry!
 
-<i>UPDATE: The thing I was fiddeling with was a proposal for a <a href="http://debianguiden.emcken.dk/">new frontpage</a> for <a href="http://www.debianguiden.dk/">debianguiden.dk</a></i>
+<i>UPDATE: The thing I was fiddeling with was a proposal for a new frontpage for <a href="http://www.debianguiden.dk/">debianguiden.dk</a></i>
 
-BTW. try download <a href="http://www.mozilla.org/products/firefox/">Mozilla FireFox</a>, which is a great browser. You can find it in Debians testing and unstable repository with the package name <i>mozilla-firefox</i>.
+BTW. try download <a href="https://www.mozilla.org/en-US/firefox/">Mozilla FireFox</a>, which is a great browser. You can find it in Debians testing and unstable repository with the package name <i>mozilla-firefox</i>.
 
