@@ -21,7 +21,7 @@ affect us as developers and individuals.
 
 Prior to getting the responsibility for a team, all the above would just
 be archived mentally as "work/software development". These days, stuff
-related to work culture and people have earned its own archive
+related to work culture and people has earned its own archive
 label. Suddenly these things have a slightly different meaning to me.
 
 Before I was laughing when seeing/reading things like these (and I
