@@ -30,13 +30,3 @@ author:
 # https://github.com/jekyll/jekyll-feed
 feed:
   tags: true
-
-# GLOB patterns cannot match partial directory names like "page*" (see defaults > scope)
-# Therefore default paginate_path must be overwritten to split page and number
-paginate_path: "/page/:num/"
-
-defaults:
-  - scope: # related to paginate_path
-      path: "page"
-    values:
-      sitemap: false

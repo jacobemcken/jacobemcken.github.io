@@ -32,15 +32,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
+    {% if paginator contains "page" and paginator.page != 1 %}
+      Page {{ paginator.page }} - 
+    {% endif %}
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  {% if paginator contains "page" and paginator.page != 1 %}
-  <meta name="robots" content="noindex,follow">
-  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/poole.css">
