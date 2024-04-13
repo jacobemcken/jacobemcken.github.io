@@ -11,27 +11,7 @@ author:
 author_login: je
 author_email: jacob@emcken.dk
 author_url: http://www.emcken.dk/
-excerpt: "Trough the last year I have been really wanting to do something to my home
-  infrastructure :)\r\nI got wires running all over, and my little trusty server makes
-  to much noice. I would like to hook up all my clients (2 workstations and a laptop)
-  to a wireless network, maybe even my server, to get rid of all the wires cluttering
-  my floor. I have been playing around with the thought of of trashing my current
-  server totally, and find a new one wich is more home friendly (less power and noise).
-  Even though webalizer tells me I have 1.5G traffic to emcken.dk each month, its
-  not like I need a 2.0GHz processor and 1GB ram for it.\r\n\r\nI have searched the
-  net for devices which could help me do what I want with a minimum of devices. Beneath
-  I have gathered all I found out so far but first I want to sum up my list of my
-  requirements.\r\n\r\nHere is what I want my home network and computers to do:\r\n\r\n*
-  \  Linux server\r\n    *   Minimum noise\r\n    *   Minimum power consumption\r\n
-  \   *   Fair amount of disk space (minimum 60GB)\r\n    *   Apache / PHP /
-  MySQL (for my website / blog)\r\n    *   Samba server (to share files to my
-  Windows machines)\r\n*   Wireless access\r\n*   IP telephony\r\n*   A firewall\r\n
-  \   *   Preferable Linux\r\n    *   With the possibility for QoS / traffic shaping
-  to make IP phone work under heavy network load.\r\n    \r\n\r\nIn the future I might
-  want the following:\r\n\r\n*   Support for [Slimdevices][1] and their [slimserver][2]\r\n*
-  \  Support for multimedia streaming server like MythTV and stuff\r\n*   Have a running
-  [Teamspeak][3] server\r\n\r\n[1]: http://slimdevices.com/\r\n[2]: http://wiki.slimdevices.com/index.cgi?SlimServer\r\n[3]:
-  http://www.teamspeak.org/\n"
+excerpt_separator: <!--more-->
 wordpress_id: 166
 wordpress_url: http://emcken.dk/wp/archives/166-new-infrastructure-at-home.html
 date: '2006-10-31 09:15:29 +0100'
@@ -56,6 +36,8 @@ comments:
 Trough the last year I have been really wanting to do something to my home infrastructure :)
 I got wires running all over, and my little trusty server makes to much noice. I would like to hook up all my clients (2 workstations and a laptop) to a wireless network, maybe even my server, to get rid of all the wires cluttering my floor. I have been playing around with the thought of of trashing my current server totally, and find a new one wich is more home friendly (less power and noise). Even though webalizer tells me I have 1.5G traffic to emcken.dk each month, its not like I need a 2.0GHz processor and 1GB ram for it.
 
+<!--more-->
+
 I have searched the net for devices which could help me do what I want with a minimum of devices. Beneath I have gathered all I found out so far but first I want to sum up my list of my requirements.
 
 Here is what I want my home network and computers to do:
@@ -74,21 +56,22 @@ Here is what I want my home network and computers to do:
 
 In the future I might want the following:
 
-*   Support for [Slimdevices][1] and their [slimserver][2]
+*   Support for [Slimdevices][11] and their [slimserver][12]
 *   Support for multimedia streaming server like MythTV and stuff
-*   Have a running [Teamspeak][3] server
+*   Have a running [Teamspeak][13] server
 
-[1]: http://slimdevices.com/
-[2]: http://wiki.slimdevices.com/index.cgi?SlimServer
-[3]: http://www.teamspeak.org/
-<a id="more"></a><a id="more-166"></a>
+[11]: http://slimdevices.com/
+[12]: http://wiki.slimdevices.com/index.cgi?SlimServer
+[13]: http://www.teamspeak.org/
+
+
 ## Wireless
 
-My first wireless was a Zyxel 2000. Spec's was what I needed and the design of the actual access point was good. Random disconnects and the need for power cycling the acces point made me look for something new. Then I bought a [Linksys WRT54GL][1] on [Fon][2]'s website and tried that one out. FON is a really cool wireless community. Go read about them... you might like it.
+My first wireless was a Zyxel 2000. Spec's was what I needed and the design of the actual access point was good. Random disconnects and the need for power cycling the access point made me look for something new. Then I bought a [Linksys WRT54GL][1] on [Fon][2]'s website and tried that one out. FON is a really cool wireless community. Go read about them... you might like it.
 
 I wasn't able to open port ranges in the firewall on the Linksys using the FON firmware. So I tried a firmware from the [OpenWRT project][3] which FON actually builds upon for their Linksys WRT54GL devices. Linux on small devices rocks.
 
-For some reason I had a high latency when playing World of Warcraft on the wireless... I never got the time to look into this before I stumbled upon another project using the OpenWRT project as base: [Coova][4]. Coova is a really cool project even though I had some issuses with it. Before I found the solution to the problem, which I later learned was caused by mysellf my colleague [Tomas Krag][5] had already introduced me to "La Fonera", the latest access point from [Fon][3]. It is small, looks really slick and the wireless connections is very stable... so I'm gonna stick with this one for now.
+For some reason I had a high latency when playing World of Warcraft on the wireless... I never got the time to look into this before I stumbled upon another project using the OpenWRT project as base: [Coova][4]. Coova is a really cool project even though I had some issuses with it. Before I found the solution to the problem, which I later learned was caused by myself, my colleague [Tomas Krag][5] had already introduced me to "La Fonera", the latest access point from [Fon][3]. It is small, looks really slick and the wireless connections is very stable... so I'm gonna stick with this one for now.
 
 ## The server
 
