@@ -23,6 +23,7 @@ tags:
 - encryption
 - s3fs
 - encfs
+- cloud
 comments: false
 ---
 I have a lot of digital photos which I would be very sad to loose. I was recommended [Amazon S3][1] as a cheap storage solution and even though it is possible to use https to transfer your data to S3 in a secure way the data itself isn't encryptet within Amazon. I'm looking for a solution where my photos of my son in the bathtub are secured from all prying eyes including the Amazon tech staff.
