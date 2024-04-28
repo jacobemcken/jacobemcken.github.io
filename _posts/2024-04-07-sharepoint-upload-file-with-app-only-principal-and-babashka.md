@@ -14,8 +14,9 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-My team and I were publishing some files several times weekly
-and we were obligated to put them on Microsoft SharePoint for non-technical people to be able to find them.
+My team and I were publishing a specific set of files several times weekly
+and we were obligated to put them on Microsoft SharePoint
+for non-technical people to be able to find them.
 After all, it is fair to not assume everyone knows their way around GitHub
 or how to run small pieces of code.
 
