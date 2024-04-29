@@ -6,6 +6,8 @@ categories:
 tags:
 - Clojure
 - ClojureScript
+- jwt
+- Test
 comments: true
 excerpt_separator: <!--more-->
 ---
