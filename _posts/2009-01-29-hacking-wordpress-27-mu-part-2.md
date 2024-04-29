@@ -30,10 +30,12 @@ It was possible to login on the new domain with the admin user but the user woul
 
 With the following I was able to make the admin user site admin for the new domain as well:
 
-    INSERT INTO `wp_sitemeta`
-        ( `site_id` , `meta_key` , `meta_value` )
-    VALUES
-        ('2', 'site_admins', 'a:1:{i:0;s:5:"admin";}');
+```sql
+INSERT INTO `wp_sitemeta`
+    ( `site_id` , `meta_key` , `meta_value` )
+VALUES
+    ('2', 'site_admins', 'a:1:{i:0;s:5:"admin";}');
+```
 
 The number two (2) refers to the site_id your domain got in the table `wp_site`. If you want another user than admin to be the site admin you'll have to modify the strange string. Its not as hard as it might look. You can read about how to interpret the string on the [Wordpress MU forum - capabilities explanation][3] and the [PHP function serialize][4]
 
