@@ -46,4 +46,4 @@ I've bumped into several other wishes but these was the ones I could remember on
 [3]: http://packages.ubuntu.com/intrepid/open-vm-tools
 [4]: http://bugzilla.gnome.org/show_bug.cgi?id=76524
 [5]: http://bugzilla.gnome.org/show_bug.cgi?id=413841
-[6]: {% post_url 2006-10-10-using-ath0-as-bridge-in-vmware-or-almost %}
+[6]: 2006-10-10-using-ath0-as-bridge-in-vmware-or-almost.md

@@ -56,6 +56,6 @@ Ubuntu Edgy uses kernel 2.6.17 which seems to be affected by this bug. It should
 
 I'll try to patch my kernel module... god I hoped those days where over. Exciting to see if I can even remember how to do it. I hope this gets fixed soon, life is to short to compile kernel modules. My laptop should just work.
 
-[1]: {% post_url 2006-10-28-encrypted-usb-drive-in-ubuntu %}
+[1]: 2006-10-28-encrypted-usb-drive-in-ubuntu.md
 [2]: https://launchpad.net/distros/ubuntu/+source/linux-source-2.6.17/+bug/61758
 

@@ -28,7 +28,7 @@ You are now looking at the result... lets see if this actually help on my post
 frequency :)
 
 [1]: https://wordpress.org/
-[2]: {% post_url 2012-07-20-a-blog-in-clojure %}
+[2]: 2012-07-20-a-blog-in-clojure.md
 [3]: http://jekyllrb.com/
 [4]: https://pages.github.com/
 [5]: http://hyde.getpoole.com/

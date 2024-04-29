@@ -93,4 +93,4 @@ Notes I found in Monodoc:
 
 Whatever that means :)
 
-[1]: {% post_url 2007-01-25-mono-coding-capturing-right-clicks-in-a-gtktreeview %}
+[1]: 2007-01-25-mono-coding-capturing-right-clicks-in-a-gtktreeview.md

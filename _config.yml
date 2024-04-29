@@ -7,6 +7,7 @@ plugins: # https://docs.github.com/en/free-pro-team@latest/github/working-with-g
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-relative-links
 
 # Social handles
 social:
@@ -30,3 +31,7 @@ author:
 # https://github.com/jekyll/jekyll-feed
 feed:
   tags: true
+
+relative_links:
+  enabled:     true
+  collections: true

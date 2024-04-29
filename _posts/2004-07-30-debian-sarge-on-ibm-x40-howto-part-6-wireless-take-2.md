@@ -40,7 +40,7 @@ Instead use (look in guide to know where and when):
 
 Writing this post in my weblog on my laptop sitting in my bed without any wires connected at all - Now everything is forgiven and forgotten.
 
-[1]: {% post_url 2004-07-24-debian-sarge-on-ibm-x40-howto-part-4-wireless %}
+[1]: 2004-07-24-debian-sarge-on-ibm-x40-howto-part-4-wireless.md
 [2]: http://sourceforge.net/projects/madwifi
 [3]: http://www.marlow.dk/site.php/tech/madwifi/simple
 

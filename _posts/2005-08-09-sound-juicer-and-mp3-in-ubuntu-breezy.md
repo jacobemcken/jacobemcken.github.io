@@ -196,8 +196,8 @@ You also need the package `liblame0`, which is in multiverse:
 In the Sound-Juicer in Breezy you can add a MP3 profil from within Sound-Juicer preferences.
 You might wanna take a look at an [earlier entry about MP3 ripping in Sound-Juicer][4] in my blog.
 
-[1]: {% post_url 2005-08-09-installed-ubuntu-breezy-with-success %}
+[1]: 2005-08-09-installed-ubuntu-breezy-with-success.md
 [2]: http://www.las.ic.unicamp.br/pub/debian-marillat/
 [3]: http://www.las.ic.unicamp.br/pub/debian-marillat/pool/main/g/gst-plugins0.8/gstreamer0.8-lame_0.8.10-0.1_i386.deb
-[4]: {% post_url 2005-03-07-mp3-encoding-with-sound-juicer %}
+[4]: 2005-03-07-mp3-encoding-with-sound-juicer.md
 

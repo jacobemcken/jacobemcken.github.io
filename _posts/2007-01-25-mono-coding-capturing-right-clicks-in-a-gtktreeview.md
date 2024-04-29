@@ -116,4 +116,4 @@ The main difference is that the TreeView is no longer setup in the main class bu
 
 **Update:** I wrote a [new "right click in Gtk.TreeView" example][1].
 
-[1]: {% post_url 2007-02-26-gtktreeview-right-click-part-2 %}
+[1]: 2007-02-26-gtktreeview-right-click-part-2.md

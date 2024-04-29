@@ -68,4 +68,4 @@ I really cant figure out why it doesn't work.
 But besides these 2 things, Edgy is looking great. I feel suspend and resume is a bit faster than with Dapper. Startup and login is faster. All other things looks the same to me... and that isn't a bad thing :)
 
 [1]: https://launchpad.net/distros/ubuntu/+source/network-manager/+bug/59981
-[2]: {% post_url 2006-09-29-my-vmware-problem %}
+[2]: 2006-09-29-my-vmware-problem.md

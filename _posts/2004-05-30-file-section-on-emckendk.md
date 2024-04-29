@@ -40,4 +40,4 @@ To celebrate the opening of my new section I have posted my first file...
 The OpenOffice.org logo in svg. After spending many hours looking for this logo in the SVG format I got the EPS version taken from <a href="http://www.ooodocs.org/graphics/1.1/index.html">Version 1.1 Logos and CD Materials</a> converted by a friend in Adobe Illustrator (AI). AI was capable of doing this without errors unlike pstoedit. Se my post: [OpenOffice.org logo][1].
 
 
-[1]: {% post_url 2004-03-19-openofficeorg-logo %}
+[1]: 2004-03-19-openofficeorg-logo.md

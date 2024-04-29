@@ -26,4 +26,4 @@ I had like 4000 spam messages which I had to dig through first :(
 
 I'm planning on updating my weblog software soon, perhaps it becomes easier to manage.
 
-[1]: {% post_url 2005-03-07-mp3-encoding-with-sound-juicer %}
+[1]: 2005-03-07-mp3-encoding-with-sound-juicer.md

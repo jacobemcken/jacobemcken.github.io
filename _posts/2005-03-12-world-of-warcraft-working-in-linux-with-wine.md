@@ -63,7 +63,7 @@ I tried again and now it just worked. I experience a few problems though:
 
 Are you still reading... go play your farvorite game on your farvorite OS :-D
 
-[1]: {% post_url 2005-02-10-wine-repository-for-debian-ubuntu %}
+[1]: 2005-02-10-wine-repository-for-debian-ubuntu.md
 [World of Warcraft]: http://www.worldofwarcraft.com/
 [WINE]: http://www.winehq.org/
 [Cadega]: http://www.transgaming.com/

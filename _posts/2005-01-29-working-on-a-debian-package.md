@@ -24,4 +24,4 @@ comments: false
 ---
 I have packaged the TIFF CMYK GIMP plugin [I found a while back][1]. I got Frank, a collauge, to help me take the first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)
 
-[1]: {% post_url 2004-11-22-lack-of-cmyk-support-in-gimp-20 %}
+[1]: 2004-11-22-lack-of-cmyk-support-in-gimp-20.md
