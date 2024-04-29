@@ -144,7 +144,7 @@ with the Shadow-cljs config file I'm using for my project.
 
 ## SHA & crypt with Google Closure Tools
 
-For signature verification the [Google Closure compiler][] comes out of the box with functionality for exactly this purpose.
+For signature verification, the [Google Closure compiler][] comes out of the box with functionality for exactly this purpose.
 There is no need to install third party libraries.
 
 Unlike Clojure on the JVM,
@@ -152,7 +152,7 @@ where [Buddy][] (and all its transitive dependencies),
 seems to be the go-to for such things.
 
 Implementing signature verification in ClojureScript was also fairly easy,
-because several good examples appears on Google searches.
+because several good examples appear on Google searches.
 
 [Google Closure compiler]: https://www.clojurescript.org/about/closure
 [Buddy]: https://github.com/funcool/buddy-core
@@ -160,13 +160,13 @@ because several good examples appears on Google searches.
 
 ## Build using Docker
 
-It was the first time I stumbled upon a `Dockerfile` with multi-stage build,
+It was the first time I stumbled upon a `Dockerfile` with multi-stage build
 when going through the files in [`hello-secret`][1].
 
 Pretty neat.
 
 I tweaked the `Dockerfile` to reduce the number of steps,
-that required rebuilding (unnecessarily) everytime the code changed.
+that required rebuilding (unnecessarily) every time the code changed.
 I bumped the Java version (from 11 LTS to 17 LTS),
 and also added a cache for the Java dependencies,
 to avoid re-downloading dependencies on every re-build.
@@ -197,7 +197,7 @@ To store the built Docker images (`docker push ...`),
 with the webhook application, an *Artifact Registry* is required.
 Without it, I wasn't able to choose the image from *Cloud Run*.
 
-Even though environment variables seems to be best practic
+Even though environment variables seem to be best practice
 when it comes to configuring applications,
 it is far from optimal
 when dealing with sensitive information like passwords, private keys and other "secrets".
@@ -207,20 +207,20 @@ Instead, secrets can be injected into the container as a file mounted upon conta
 
 ## Final thoughts
 
-It is really hard to avoid the JavaScript feel,
+It is really hard to avoid the JavaScript-feel,
 when interop'ing with JavaScript libraries or Node.js itself.
-The way `async` and `await` is used everywhere in JS
+The way `async` and `await` are used everywhere in JS
 forces you to use promises or `core.async` in places
 where you probably wouldn't have under other circumstances.
 
 An example of how JS Promises affect the ClojureScript code,
-can bee seen in the [handler `handle-webhook`][8].
+can be seen in the [handler `handle-webhook`][8].
 
 The project is still missing a `README.md`.
-One one hand I want this code to be public
+On one hand, I want this code to be public
 because I think the Clojure community benefit from the availability of examples like
 this.
-But on the other hand I need the documentation to match my personal needs.
+But on the other hand, I need the documentation to match my personal needs.
 I guess we'll find out if I crack it.
 
 [5]: https://github.com/full-spectrum/hubspot-webhooks
