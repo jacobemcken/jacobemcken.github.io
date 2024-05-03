@@ -11,16 +11,6 @@ author:
 author_login: je
 author_email: jacob@emcken.dk
 author_url: http://www.emcken.dk/
-excerpt: "Alright... my blog is now officially migrated from [Serendipity][1] (s9y)
-  to [Wordpress][2]. I created the new webdesign a while back and made a few small
-  changes tonight just before the switch... let me know if you find any problems with
-  it. The design was inspired by a Wordpress theme by [webdemar.com][3].\r\n\r\nA
-  while back I found a s9y importer on [Michael Tysons weblog][4] which worked pretty
-  well. Since my last visit [a german guy][5] had made a few small changes to it to
-  import extended posts. I had a few of those so I grabbed his script. I had to make
-  a small change to the import script in order to get drafts imported as drafts (and
-  not published).\r\nI also had to insert an extra newline before and after the more-tag
-  ("
 wordpress_id: 214
 wordpress_url: http://emcken.dk/wp/?p=214
 date: '2009-02-07 10:02:40 +0100'
