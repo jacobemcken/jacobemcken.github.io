@@ -18,7 +18,8 @@ date_gmt: '2009-01-21 23:18:51 +0100'
 categories:
 - Computer
 - Random hacks
-tags: []
+tags:
+- wordpress
 comments:
 - id: 193
   author: kapil

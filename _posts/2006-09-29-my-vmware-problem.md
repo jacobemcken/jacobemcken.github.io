@@ -17,7 +17,8 @@ date: '2006-09-29 20:50:47 +0200'
 date_gmt: '2006-09-29 20:50:47 +0200'
 categories:
 - Linux
-tags: []
+tags:
+- vmware
 comments:
 - id: 57
   author: Josh
