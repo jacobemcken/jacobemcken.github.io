@@ -26,7 +26,7 @@ At work today I found an old SCO evaluation CD. A paragraph at the back of the C
 
 > SCO - a tightly integrated set of products which give you the best of both worlds - the power and reliability of UNIX and the freedom of Windows.
 
-The "freedom" of Windows... what is that? :-O Click on the link below for full image.
+The "freedom" of Windows... what is that? 😮 Click on the link below for the full image.
 
-<a href="/public/media/sco-windows.jpg" style="float: left;border: 0px;padding-left: 5px;padding-right: 5px"><img src="/public/media/sco-windows.thumb.jpg" alt="" /></a>
+<a href="/public/media/sco-windows.jpg" style="float: left;border: 0px;padding-left: 5px;padding-right: 5px"><img src="/public/media/sco-windows.thumb.jpg" alt="A thumbnail of the SCO CD cover" /></a>
 

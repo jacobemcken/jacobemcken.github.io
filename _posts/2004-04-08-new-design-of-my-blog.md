@@ -20,7 +20,11 @@ categories:
 tags: []
 comments: false
 ---
-<img style='border:0px;margin:5px;float:left;vertical-align: top' src='/public/media/Emcken.dk_logo.thumb.png' alt='' /> I have be thinking og making a new layout for my blog (and my emcken.dk) homepage. I have drawed a draft for a logo. The face should resemble me and if it looks okay ins SVG I'll use it as a "signature" / "trademark" / "I-was-here" thing. I'll try make it in SVG later this week. Perhapes I will soon update my blog to the 0.6(RC1) version. Who know?!
+<img style='border:0px;margin:5px;float:left;vertical-align: top' src='/public/media/Emcken.dk_logo.thumb.png' alt='Hand drawn sketch of a logo' />
+I have been thinking of making a new layout for my blog (and my emcken.dk) homepage.
+
+I have drawn a draft for a logo. The face should resemble me and if it looks okay in SVG, I'll use it as a "signature" / "trademark" / "I-was-here" thing.
+I'll try make it in SVG later this week. Perhaps, I will soon update my blog to the 0.6(RC1) version. Who knows?!
 
 The next few days I will be at a net party with a lot of my friends :)
 
