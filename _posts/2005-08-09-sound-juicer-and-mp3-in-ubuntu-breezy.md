@@ -182,8 +182,9 @@ comments:
     many thanks for starting this up. This web site is \none thing that's needed on
     the web, someone with a bit of originality!
 \n"
+excerpt: After my success with installing Ubuntu Breezy, I wanted to rip two new CDs I got today. But the gstreamer MP3 encoder isn't in the Ubuntu repositories.
 ---
-After my [success with installing Ubuntu Breezy][1] I wanted to rip 2 new CD's I got today. But the gstreamer MP3 encoder (`gstreamer0.8-lame`) isn't in the Ubuntu repositories.
+After my [success with installing Ubuntu Breezy][1] I wanted to rip 2 new CDs I got today. But the gstreamer MP3 encoder (`gstreamer0.8-lame`) isn't in the Ubuntu repositories.
 
 I found it at [Marillat's Debian repository][2] ([direct link][3]) where I downloaded it and installed it with:
 
@@ -193,7 +194,7 @@ You also need the package `liblame0`, which is in multiverse:
 
     rivendell:~# apt-get install liblame0
 
-In the Sound-Juicer in Breezy you can add a MP3 profil from within Sound-Juicer preferences.
+In the Sound-Juicer in Breezy you can add a MP3 profile from within Sound-Juicer preferences.
 You might wanna take a look at an [earlier entry about MP3 ripping in Sound-Juicer][4] in my blog.
 
 [1]: 2005-08-09-installed-ubuntu-breezy-with-success.md

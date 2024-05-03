@@ -17,10 +17,14 @@ date: '2006-09-27 17:22:53 +0200'
 date_gmt: '2006-09-27 17:22:53 +0200'
 categories:
 - Ubuntu
-tags: []
+tags:
+- vmware
 comments: false
+excerpt: My recent VMware problems in Ubuntu Edgy Eft is a known problem - might even have a workaround.
 ---
-The bug I blogged about in a [previous post][1] seems to [be known][2]. I googled on the the problem and found a [few][3] [links][4] which seems to describe my exact problem. The good thing is that there is a work around. I'll try this later.
+The bug I blogged about in a [previous post][1] seems to [be known][2].
+I googled the the problem and found a [few][3] [links][4], which seems to describe my exact problem.
+The good thing is that there is a workaround. I'll try this later.
 
 Hope it gets fixed soon :)
 

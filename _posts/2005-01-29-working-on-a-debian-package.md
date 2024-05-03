@@ -20,8 +20,10 @@ categories:
 - Graphics
 tags:
 - debian
+- gimp
 comments: false
+excerpt: I have packaged the TIFF CMYK GIMP plugin, that I found a while back, with some help from a colleague.
 ---
-I have packaged the TIFF CMYK GIMP plugin [I found a while back][1]. I got Frank, a collauge, to help me take the first steps. He has fiddled with it before. Now lets se if I ever get it out there :-)
+I have packaged the TIFF CMYK GIMP plugin [I found a while back][1]. I got Frank, a colleague, to help me take the first steps. He has fiddled with it before. Now lets see if I ever get it out there :-)
 
 [1]: 2004-11-22-lack-of-cmyk-support-in-gimp-20.md

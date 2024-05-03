@@ -56,7 +56,9 @@ comments:
     I'm sorry its a long time since I did any Mono coding - I'm not able to help sorry.
 
 ---
-I had a hard time figuring out how to capture a right click on a TreeView, which I needed to be able to make a context menu or popup menu or what ever you wanna call it.
+I had a hard time figuring out how to capture a right click on a TreeView,
+which I needed to be able to make a context menu or popup menu or whatever you wanna call it.
+
 The way I expected it would work didn't... I think it have something to do with [a change in Mono some time ago][1] (Why don't I get ButtonPressEvents from my Button/Treeview?).
 
 [1]: http://gtk-sharp.sourceforge.net/faq.html#3.3

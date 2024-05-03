@@ -17,14 +17,21 @@ date: '2009-01-29 22:49:50 +0100'
 date_gmt: '2009-01-29 22:49:50 +0100'
 categories:
 - Random hacks
-tags: []
+tags:
+- wordpress
 comments: false
+excerpt: This is part 2 of my pursuit on howto host multiple Wordpress blogs spreading over multiple different domains (not only sub-domains) on the same Wordpress MU installation.
 ---
-This is my part 2 of my pursuit on howto host multiple Wordpress blogs spreading over multiple different domains (not only sub-domains) on the same Wordpress MU installation. You can read the [first part here][1]. It seems to be possible without using the [Domain Mapping plugin][2] which also creates the extra table to provide the functionality (which seems unnecessary).
+This is part 2 of my pursuit on howto host multiple Wordpress blogs spreading over multiple different domains (not only sub-domains) on the same Wordpress MU installation.
+You can read the [first part here][1].
+It seems to be possible without using the [Domain Mapping plugin][2]
+which also creates the extra table to provide the functionality (which seems unnecessary).
 
-So far my research shows that it possible using what's already inside the Wordpress MU 2.7 release. There is no web interface for some of these things but with a few manual inserts into the database it seems to work like a charm.
+So far my research shows that it is possible using what's already inside the Wordpress MU 2.7 release.
+There is no web interface for some of these things
+but with a few manual inserts into the database, it seems to work like a charm.
 
-After my last post I was able to create multiple blogs spread over mulitple domains. But before the blog was moved to its own domain you had to attach the users for the blog because the blog would disappear from the admin webinterface as soon as the site id changed (as soon as the blog was bound to another domain).
+After my last post I was able to create multiple blogs spread over multiple domains. But before the blog was moved to its own domain you had to attach the users for the blog because the blog would disappear from the admin webinterface as soon as the site id changed (as soon as the blog was bound to another domain).
 
 It was possible to login on the new domain with the admin user but the user would only serve as a blog admin and not as a site admin on that domain.
 

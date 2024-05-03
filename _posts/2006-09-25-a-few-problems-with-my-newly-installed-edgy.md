@@ -17,8 +17,10 @@ date: '2006-09-25 10:53:51 +0200'
 date_gmt: '2006-09-25 10:53:51 +0200'
 categories:
 - Ubuntu
-tags: []
+tags:
+- vmware
 comments: false
+excerpt: 'Installing Ubuntu Edgy Eft left me with two problems: Wireless acting up and VMware not wanting to run.'
 ---
 ## Wireless
 

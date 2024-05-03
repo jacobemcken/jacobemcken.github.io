@@ -22,6 +22,7 @@ comments: false
 ---
 While on my winter vacation I played around with the Gtk.TreeView and the right click challanges.
 I found a way to extract the row which is clicked on and the data within.
+
 The following example shows how (it builds upon my last [Gtk.TreeView right click example][1]:
 
     public class TreeViewExample {
