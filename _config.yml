@@ -49,3 +49,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .clj-kondo/
+  - .calva/
+  - optimize_img.clj
