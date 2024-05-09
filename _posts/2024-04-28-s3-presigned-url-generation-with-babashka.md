@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S3 presigned URL generation with Babashka
-image: /assets/img/steampunk_rabbit_signing_documents_in_could.webp
+image: /assets/img/steampunk_rabbit_signing_documents_in_cloud.png
 image_alt: "Midjourney prompt: A cute steampunk rabbit with googles holding a worn feather pen in its paw signing old documents in colourful cloud surroundings. The image is in water color style --ar 2:1 --v 6.0 - Upscaled (Creative)"
 description: Generating presigned URLs for S3 in AWS using Babashka (Clojure scripting) wasn't straightforward - but it is now 😉
 categories:

@@ -11,11 +11,9 @@ layout: default
   </time>
 
   {% if page.image %}
-  <img
-    src="{{- page.image -}}"
-    alt="{% if page.image_alt %}{{- page.image_alt -}}{% else %}featured image{% endif %}"
-    class="featured-image-post"
-  />
+    {% include featured_image.html
+       src=page.image
+       alt=page.image_alt %}
   {% endif %}
 
   {{ content }}
