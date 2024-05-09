@@ -35,3 +35,6 @@ feed:
 relative_links:
   enabled:     true
   collections: true
+
+incremental: true
+livereload: true

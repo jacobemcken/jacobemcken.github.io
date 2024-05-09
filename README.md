@@ -20,7 +20,7 @@ notifications about updates will be published.
                -v $PWD/vendor/bundle:/usr/local/bundle \
                -p 4000:4000 \
                -p 35729:35729 \
-               jekyll/jekyll:3 jekyll serve --livereload
+               jekyll/jekyll:3 jekyll serve
 
 
 ## Address security issues
