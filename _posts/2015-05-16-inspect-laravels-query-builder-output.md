@@ -4,15 +4,15 @@ title: Inspect Laravels query builder output
 categories:
 - Programming
 tags:
-- PHP
+- php
 - Laravel
 - Eloquent
 comments: true
 ---
 When learning something new (in this case Laravel and it's ORM Eloquent) it is
 always nice to be able to "look behind the curtains" to see what actually
-happens. This both help you understand the internals of the things you are
-using and can sometime make bug squashing a lot easier.
+happens. This both helps you understand the internals of the things you are
+using and can sometimes make bug squashing a lot easier.
 
 I wanted to be able to see the SQL that Eloquents query builder was producing,
 because SQL is something I'm fairly proficient with.
@@ -25,7 +25,7 @@ with the prepared statement and its bindings. But creating SQL queries from
 this still required some manual labor because I needed to replace all the
 question marks with the binding in order.
 
-So to close this gab further I had the prepared SQL and bindings crunched by
+So to close this gap further I had the prepared SQL and bindings crunched by
 `sprintf` before writing it to a log file or stdout, like so:
 
 ``` php

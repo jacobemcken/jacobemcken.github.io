@@ -9,7 +9,7 @@ categories:
 tags:
 - Clojure
 - Babashka
-- cloud
+- Cloud
 - aws
 - s3
 comments: true
