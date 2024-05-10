@@ -15,7 +15,7 @@
 
 {% capture description %}
   {% if page.description %}
-    {{ page.description }}
+    {{ page.description | escape }}
   {% else %}
     {% if page.excerpt %}
       {{ page.excerpt | strip_html | truncatewords: 25 }}
