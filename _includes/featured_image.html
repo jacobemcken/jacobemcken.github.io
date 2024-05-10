@@ -1,14 +1,15 @@
-{% assign sizes = "464,720,930,1440" | split: "," %}
+{% assign widths = "464,720,930,1440" | split: "," %}
 {% assign ext = include.src | split: "." | last | prepend: "." %}
 <img
-src="{{- include.src -}}"
-srcset="{% for size in sizes %}
-{{ include.src | replace: ext, '_' | append: size | append: ext }} {{ size }}w,
-{% endfor %}"
-sizes="(max-width:767px) calc(100vw - 2rem),
-(max-width:1024px) calc(100vw - 24rem),
-(max-width:1280px) calc(100vw - 28rem),
-720px"
-alt="{% if include.alt %}{{- include.alt -}}{% else %}featured image{% endif %}"
-class="featured-image-post"
+  src="{{ include.src }}"
+  srcset="
+  {% for width in widths %}
+    {{ include.src | replace: ext, '_' | append: width | append: ext }} {{ width }}w,
+  {% endfor %}"
+  sizes="(max-width:767px) calc(100vw - 2rem),
+         (max-width:1024px) calc(100vw - 24rem),
+         (max-width:1280px) calc(100vw - 28rem),
+         720px"
+  alt="{% if include.alt %}{{ include.alt }}{% else %}featured image{% endif %}"
+  class="featured-image-post"
 />
