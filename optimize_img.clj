@@ -72,19 +72,24 @@
    "image/webp" "webp"
    "image/png" "png"})
 
+(def variant-header
+  {:width "image-width"
+   :height "image-height"})
+
 (defn save-response
   "Takes a base file name (without extension), and variants order (width, height) and the TinyPNG output response.
    Saves the image file in the reponse body (inputstream) to a file."
-  [base-name variants response]
-  (let [resized? (-> (get-in response [:request :body])
-                     (json/parse-string true)
-                     :resize) ; only original HTTP request reveals if resizing was requested
+  [base-name response]
+  (let [variants (some-> (get-in response [:request :body]) ; only original HTTP request reveals if resizing was requested
+                         (json/parse-string true)
+                         :resize
+                         (select-keys [:width :height])
+                         keys
+                         reverse) ; ensure width is always first when defined (width x height)
         ext (image-extension (get-in response [:headers "content-type"]))
-        name-postfix (->> variants
-                          (map (fn [variant]
-                                 (when resized? ; only postfix resized file names with size
-                                   (str "_" (get-in response [:headers variant])))))
-                          (str/join ""))]
+        name-postfix (some->> variants ; only postfix resized file names with size
+                              (map #(str "_" (get-in response [:headers (variant-header %)])))
+                              (str/join ""))]
 
     (println "Saving" (str base-name name-postfix "." ext))
     (io/copy
@@ -132,7 +137,7 @@
       (->> options
            (request-bodies)
            (map (partial output api-key url))
-           (map (partial save-response base-name ["image-width"]))
+           (map (partial save-response base-name))
            doall))))
 
 (apply main *command-line-args*)
