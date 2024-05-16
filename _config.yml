@@ -52,3 +52,4 @@ exclude:
   - .clj-kondo/
   - .calva/
   - optimize_img.clj
+  - assets/img/orig/
