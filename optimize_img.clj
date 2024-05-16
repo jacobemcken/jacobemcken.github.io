@@ -98,10 +98,10 @@
 
 (defn usage
   []
-  (->> '("Usage: ./optimize_img.clj <img file> -k <keyfile|key> \\"
+  (->> '("Usage: ./optimize_img.clj <img file> [<out path>] -k <keyfile|key> \\"
          "                          [-t <image type>] \\"
          "                          [-m <resize method>] [-w <widths>] [-h <heights>]"
-         "Example: ./optimize_img.clj unoptimized.jpg -k tinypng_api.txt \\"
+         "Example: ./optimize_img.clj unoptimized.jpg out-dir -k tinypng_api.txt \\"
          "                            -t image/webp -m scale -w 1280,920")
       (str/join "\n")
       println))
@@ -109,7 +109,7 @@
 (defn main
   [& args]
   (let [{:keys [options arguments _summary]} (cli/parse-opts args cli-options)
-        [img-source-path] arguments
+        [img-source-path out-path] arguments
         img-source (io/file img-source-path)
         api-key (when-let [key-file (:api-key options)]
                   (if (.exists (io/file key-file))
@@ -130,10 +130,16 @@
     (println "Optimizing" img-source-path)
     (let [[_ name ext] (->> (.getName img-source)
                             (re-find #"^(.+)(\.[^.]+)$"))
-          base-name (str (.getParent img-source) "/" name)
+          destination (io/file (or out-path "."))
+          base-name (str (.getPath destination) "/" name)
           url (-> (shrink api-key img-source) (get-in [:headers "location"]))]
-      (fs/move img-source
-               (io/file (str base-name "_orig" ext)))
+
+      (when (= (.getCanonicalPath (.getParentFile img-source))
+               (.getCanonicalPath destination))
+        (println "Avoid overwrite by moving original to" (str base-name "_orig" ext))
+        (fs/move img-source
+                 (io/file (str base-name "_orig" ext))))
+
       (->> options
            (request-bodies)
            (map (partial output api-key url))
