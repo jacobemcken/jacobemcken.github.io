@@ -59,7 +59,11 @@
     (request-bodies {:width "1440,930", :resize-method "scale", :type "image/webp"})
 )
 
-(defn output
+(defn get-image-output
+  "Takes an API key, an output URL from the TinyPNG shrink operation
+   and a request body, optionally specifying resizing and type convertion.
+   Returns a HTTP response with the output result.
+   See: https://tinypng.com/developers/reference#resizing-images"
   [api-key url body]
   (http/post url
              {:basic-auth ["api" api-key]
@@ -76,9 +80,9 @@
   {:width "image-width"
    :height "image-height"})
 
-(defn save-response
+(defn save-output-response
   "Takes a base file name (without extension), and variants order (width, height) and the TinyPNG output response.
-   Saves the image file in the reponse body (inputstream) to a file."
+   Saves the image file from reponse body (InputStream) to a file."
   [base-name response]
   (let [variants (some-> (get-in response [:request :body]) ; only original HTTP request reveals if resizing was requested
                          (json/parse-string true)
@@ -142,8 +146,8 @@
 
       (->> options
            (request-bodies)
-           (map (partial output api-key url))
-           (map (partial save-response base-name))
+           (map (partial get-image-output api-key url))
+           (map (partial save-output-response base-name))
            doall))))
 
 (apply main *command-line-args*)
