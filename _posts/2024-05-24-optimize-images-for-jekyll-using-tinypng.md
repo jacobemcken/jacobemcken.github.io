@@ -47,9 +47,9 @@ First I needed to know a bit more about images,
 and via [<abbr title="Mozilla Developer Network">MDN</abbr>s article about Responsive images][5],
 I found an excellent series of blog posts named ["Responsive Images 101" by Jason Grigsby][6].
 
-It took a while for me to wrap my head around it, but it boils down to
-`srcset` describes which resolutions are available,
-and `sizes` help the browser choose which resolution is the best option.
+It took a while for me to wrap my head around how the `img`-tag supports responsiveness.
+Two of its attributes play a key role and it boils down to `srcset` describing available resolutions,
+while `sizes` help the browser choose which resolution is the best option.
 
 Both `srcset` (`widths`) and `sizes` are closely coupled with the layout in which the image is used.
 Thus blindly copy-pasting the following code
@@ -99,7 +99,7 @@ I tried to reuse the values (of `max-width`) and units (`rem`)
 that I found in my (slightly adapted) Jekyll theme.
 
 The above `featured_image.html` is only guaranteed to work in the context of a post,
-but I decided to leave it as an include to reduce the amount of code in `post.html`:
+but I decided to leave it as an "include" to reduce the amount of code in `post.html`:
 
 `_layouts/post.html`:
 ```liquid {% raw %}
