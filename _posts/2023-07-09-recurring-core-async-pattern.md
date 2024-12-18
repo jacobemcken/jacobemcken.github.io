@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A recurring core.async pattern
+image: /assets/img/hand_grabbing_virtual_baton.png
+image_alt: "Midjourney prompt: Grabbing a virtual baton in a ray of light in sketch style in vibrant colors. Background is brimming with tech vibes, circuits and pulses."
 categories:
 - Programming
 tags:
