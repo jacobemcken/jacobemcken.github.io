@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Sources of inspiration
+image: /assets/img/open_mind_with_clouds_of_knowledge_floating_around.png
+image_alt: "Midjourney prompt: connected sources of inspiration into mind."
+description: 'I find most of my work-related inspiration while purposelessly roaming the internet.'
 categories:
 - Programming
 tags:
 - links
+- stumbleupon
 - software-musings
 comments: true
 ---
@@ -40,11 +44,11 @@ my view on matters:
 
 - [The Psychology of Programming][4]
 - [The First Rule of Programming: It's Always Your Fault][5]
-- [How terrible code gets written by perfectly sane people][6]
+- [How terrible code gets written by perfectly sane people][6] (now from the Internet Archive)
 
 [1]: http://twitpic.com/dj27dh
 [2]: https://twitter.com/SoManyHs/status/754067169453846528
-[3]: https://blog.toggl.com/2017/02/seven-circles-of-developer-hell/
-[4]: https://blog.dmbcllc.com/the-psychology-of-programming/
+[3]: https://toggl.com/blog/seven-levels-developer-hell
+[4]: https://davembush.github.io/the-psychology-of-programming/
 [5]: https://blog.codinghorror.com/the-first-rule-of-programming-its-always-your-fault/
-[6]: http://chrismm.com/blog/how-terrible-code-gets-written-by-perfectly-sane-people/
+[6]: https://web.archive.org/web/20220815032750/https://chrismm.com/blog/how-terrible-code-gets-written-by-perfectly-sane-people/
