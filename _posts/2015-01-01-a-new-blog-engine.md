@@ -3,6 +3,7 @@ layout: post
 title: A new blog engine
 tags:
 - Blog
+- Jekyll
 comments: true
 ---
 For a long time I have wanted to find an alternative to [Wordpress][1]. It felt
