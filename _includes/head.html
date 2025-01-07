@@ -63,8 +63,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap">
   <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/poole.css">
   <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/hyde.css">
-  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/syntax.css">
-  
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/syntax.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/syntax.css">
+  </noscript>
+
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ "/" | relative_url }}public/apple-touch-icon-152-precomposed.png">
   <link rel="shortcut icon" href="{{ "/" | relative_url }}public/favicon.ico">
