@@ -28,19 +28,8 @@
 }
 
 .sidebar {
-  background-image: url('/public/vertical_cloth.png');
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (   -min-moz-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 48em),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 48em),
-only screen and (                min-resolution: 192dpi) and (min-width: 48em),
-only screen and (                min-resolution: 2dppx)  and (min-width: 48em) {
-  .sidebar {
-    background-image: url('/public/vertical_cloth_@2X.png');
-  }
+  /* https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
+  background-image: url('/public/subtle-prism3.svg');
 }
 
 .logo {
