@@ -17,22 +17,6 @@
  * Specifics for emcken.dk
  */
 
-@font-face {
-    font-family: 'socicon';
-    src: url('../font/socicon-webfont.eot');
-    src: url('../font/socicon-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/socicon-webfont.woff') format('woff'),
-         url('../font/socicon-webfont.ttf') format('truetype'),
-         url('../font/socicon-webfont.svg#sociconregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.social-icons {
-    font-family: 'socicon' !important;
-    font-size: 1.5em !important;
-}
-
 .social-icons a {
     margin: 0.3em;
 }
@@ -169,6 +153,12 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+}
+
+.sidebar a img {
+  display:inline;
+  max-width:none;
+  margin:0;
 }
 
 /* About section */
