@@ -214,6 +214,7 @@ As I am starting to feel at home in the Wet library,
 it is also time to move on to other parts of this adventure.
 
 I am leaving a couple of loose ends, that I can come back to later:
+
 - Whitespace control.
 - Explore why the "compress" template doesn't fully remove unnecessary whitespace.
 - Explore why `split` empty string works differently than Jekyll.
@@ -247,7 +248,7 @@ The next post will most likely be about my experiences using Babashka.
 Don't hesitate to reach out.
 
 
-[0]: 2025-01-03-how-my-jekyll-blog-became-a-clojure-adventure.md
+[0]: /programming/2025/01/03/how-my-jekyll-blog-became-a-clojure-adventure/
 [1]: https://shopify.github.io/liquid/
 [2]: https://github.com/flocktory/wet
 [3]: https://shopify.github.io/liquid/tags/template/
