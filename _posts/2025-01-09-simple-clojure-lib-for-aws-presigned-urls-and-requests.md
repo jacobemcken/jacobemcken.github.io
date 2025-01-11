@@ -33,15 +33,15 @@ A summary of changes in version 2.0.0
 - **No dependencies** (no forced ones anyway).
 - **Improved [documentation][4]**.
 - **Credentials resolution outsourced**. You can do it manually,
-  but most likely you want to use a *"client"* from either
-  [`awyeah-api`][2] or [Cognitect `aws-api`][3].
+  but you will most likely want to use a *"client"*
+  from either [`awyeah-api`][2] or [Cognitect `aws-api`][3].
 - **"Container credential provider" supported** (indirectly).
   Use one of the external *"clients"*
   when used in an environment that rotates credentials like:
   Amazon <abbr title="Elastic Container Service">ECS</abbr>
   or Amazon <abbr title="Elastic Kubernetes Service">EKS</abbr>.
-- **Minor API breakage** 🫣 but for a more sane function signature
-  with these new *"clients"*.
+- **Minor API breakage** 🫣 for a more sane function signature
+  with these new *"clients"*. But honestly: It is a trivial change.
 - **Change license** to MIT, and actually included the license now.
 
 If you are using `2.0.0-alpha1`, you can just update without breakage.
