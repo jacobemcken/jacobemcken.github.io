@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A very small PDF for testing
+image: /assets/img/tiny_document_in_grass.webp
+image_alt: "Midjourney prompt: Zoomed in between grass is a simple vector document icon in 3d. The document is white with a red simple three-petaled flower. Next to the icon is a huge ant. Blurred surroundings."
 categories:
 - Programming
 tags:
