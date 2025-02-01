@@ -50,6 +50,7 @@
   <meta name="twitter:creator" content="@{{ site.social.twitter }}">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{- page.image -}}{% else %}/public/brand_open_graph.png{% endif %}">
   <meta name="twitter:description" content="{{ description | strip }}">
 
   <!-- Enable responsiveness on mobile devices-->
