@@ -36,7 +36,7 @@ The gap between business specifications and the limitations of the technical sol
 New developers fall into this trap almost inevitably,
 and even seasoned developers would occasionally forget that letters aren't allowed.
 
-So today I found the team
+So of course I found the team
 ~~fixing the sorting to account for letter postfixes 🚀~~
 creating a test case that blocks "merge to main branch"
 when letters are mistakenly introduced. 🥺 😭
@@ -69,7 +69,7 @@ weren't used for anything other than sorting.
 My gut feeling told me that `sorted-map-by` was the way to go.
 Even if the "converted to float" keys would be expected later in the call chain,
 it seemed likely that a trivial code change would be enough
-to support the original keyword keys.
+to support the original keyword keys instead.
 
 Not having sorted things for a while, I needed to refresh my understanding.
 A vector representation proved to get the job done:
@@ -79,8 +79,8 @@ A vector representation proved to get the job done:
 ; ([29 "b"] [137 "a"] [1108 "x"])
 ```
 
-All that was left was a function that could
-convert the special keyword to this vector format:
+All that was missing,
+was a function that could convert the special keyword to this vector format:
 
 ```clojure
 (defn make-sortable
