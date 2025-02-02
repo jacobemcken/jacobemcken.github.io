@@ -127,10 +127,9 @@ the above would allow "sorting code" to look like the following:
                                     (make-sortable %2)))))
 ```
 
-So instead of adding 30 lines of test suite code to help us avoid using letters,
-we have 12 lines of code that allow us to use letters in the keys
-while retaining functionality
-— 12 lines that were even faster to implement.
+Instead of adding 30 lines of test suite code to prevent using letters,
+we wrote 12 lines that allow letters in keys while maintaining functionality — implemented slightly faster.
+Most importantly, the software behavior is now more intuitive, leading to less confusion.
 
 Way too often, we avoid exploring the unknown,
 and instead reach for an empty bucket.
