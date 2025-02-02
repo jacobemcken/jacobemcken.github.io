@@ -17,7 +17,7 @@ social:
 # Setup
 title:            Jacob Emcken
 tagline:          'There is no silver bullet'
-description:      "Blogging about a software developer's findings"
+description:      "A programmer's blog sharing personal insights on problem-solving, software development, and programming philosophies, with a focus on Clojure."
 url:              https://www.emcken.dk
 baseurl:          /
 
