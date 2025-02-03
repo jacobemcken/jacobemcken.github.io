@@ -53,3 +53,6 @@ exclude:
   - .calva/
   - optimize_img.clj
   - assets/img/orig/
+  - public/css/hyde.css
+  - public/css/poole.css
+  - public/css/tailwind.css

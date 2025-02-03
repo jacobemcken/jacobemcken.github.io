@@ -23,6 +23,20 @@ notifications about updates will be published.
                jekyll/jekyll:3 jekyll serve
 
 
+## Build CSS
+
+CSS files are optimized using Tailwind:
+
+    npx @tailwindcss/cli --cwd public/css/ -m -i tailwind.css -o main.css
+
+Jekyll 3.9 is rigid when it comes to include/exclude.
+All CSS files except two are excluded:
+`main.css` (site layout) and `syntax.css` (syntax highlighting).
+
+The GitHub Pages build actions doesn't allow for building CSS,
+so the minifed version needs to be tracked in the repo.
+
+
 ## Address security issues
 
 Update the `Gemfile` with the newest version of `github-pages` from https://rubygems.org/gems/github-pages
