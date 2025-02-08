@@ -4,6 +4,7 @@ title: Home
 ---
 <div class="posts">
   <h2 class="sr-only">Blog posts index page {{ paginator.page }}</h2>
+  {% assign loading = "eager" %}
   {% for post in paginator.posts %}
   <article class="post">
     <h2 class="post-title">
@@ -17,6 +18,16 @@ title: Home
       class="post-date">
       {{ post.date | date_to_string: "ordinal" }}
     </time>
+
+    {% if post.image %}
+      {% if forloop.index > 1 %}
+        {% assign loading = "lazy" %}
+      {% endif %}
+      {% include featured_image.html
+         loading=loading
+         src=post.image
+         alt=post.image_alt %}
+    {% endif %}
 
     {{ post.excerpt }}
       <a

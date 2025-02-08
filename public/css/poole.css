@@ -443,3 +443,8 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+/* Featured images */
+.featured-image-post {
+  aspect-ratio: 2 / 1;
+}
