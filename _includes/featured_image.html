@@ -1,7 +1,9 @@
 {% assign widths = "464,720,930,1440" | split: "," %}
+{% assign loading_values = "auto,lazy,eager" | split: "," %}
 {% assign ext = include.src | split: "." | last | prepend: "." %}
 <img
   src="{{ include.src }}"
+  {% if loading_values contains include.loading %}loading="{{ include.loading }}"{% endif %}
   srcset="
   {% for width in widths %}
     {{ include.src | replace: ext, '_' | append: width | append: ext }} {{ width }}w{% unless forloop.last %},{% endunless %}
