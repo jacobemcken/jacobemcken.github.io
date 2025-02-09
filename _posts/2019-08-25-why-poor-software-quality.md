@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Why do we allow poor software quality?
+
+image: /assets/img/wooden_table_half_clean_half_messy.webp
+image_alt: "Midjourney prompt: Top down view of a wooden table top with one half clean and with neatly stacked papers while the other half is a mess. The mess consist of pensils, curled paper, coffee stains and trash. Colorful oil painting. Midjourney edit prompt several: 1. Clean wooden table top with neatly stacked paper and a single pencil. 2. Messy wooden table top with trash like curled paper, stains half eaten fruit and a broken pencil. 3. Colorful wooly yarn on table."
+description: Not prioritizing quality leads to inefficiencies like slow delivery and higher costs. Investing in maintainability ensures long-term success.
+excerpt: Poor software quality stems from inexperience, time constraints, and software decay, but these can be countered by prioritizing quality. Not prioritizing quality leads to inefficiencies like slow delivery and higher costs. Investing in maintainability ensures long-term success.
 categories:
 - Programming
 tags:
