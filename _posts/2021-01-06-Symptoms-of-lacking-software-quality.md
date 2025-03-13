@@ -140,7 +140,7 @@ enough.
 navigating code reviews)][5] on how to embrace code reviews.
 
 [4]: https://twitter.com/techgirl1908
-[5]: https://techbeacon.com/app-dev-testing/10-commandments-navigating-code-reviews
+[5]: https://angiejones.tech/ten-commandments-code-reviews/
 
 
 ## Conclusion
