@@ -188,7 +188,7 @@ as I was only using *Whitespace control* sparsely in trivial cases.
 The `empty` type was only used by the ["compression" template][11],
 which is supposed to remove unecessary extra whitespace (such as indentation) from the final files.
 Though implementing `empty` resolved the exceptions,
-the Wet library is still leaving some whitespace which Jekyll does not.
+the Wet library is still leaving some whitespace which [`liquid-c`][14], used by Jekyll, does not.
 
 Also, while writing test cases for the newly implemented `empty` type,
 I noticed something that is most likely a bug.
@@ -262,3 +262,4 @@ Don't hesitate to reach out.
 [11]: https://github.com/penibelst/jekyll-compress-html
 [12]: https://shopify.github.io/liquid/basics/types/#emptydrop
 [13]: https://github.com/Engelberg/instaparse
+[14]: https://github.com/Shopify/liquid-c
