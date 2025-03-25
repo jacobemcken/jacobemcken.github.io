@@ -20,7 +20,7 @@
         <h3>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small style="white-space: nowrap;">{{ post.date | | date_to_string: "ordinal" }}</small>
+            <small style="white-space: nowrap;">{{ post.date | date_to_string: "ordinal" }}</small>
           </a>
         </h3>
       </li>
@@ -54,7 +54,7 @@
         <h3>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small style="white-space: nowrap;">{{ post.date | | date_to_string: "ordinal" }}</small>
+            <small style="white-space: nowrap;">{{ post.date | date_to_string: "ordinal" }}</small>
           </a>
         </h3>
       </li>
