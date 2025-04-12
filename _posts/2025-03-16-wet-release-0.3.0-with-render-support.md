@@ -59,5 +59,5 @@ Plus, I get to create another awesome picture for it with Midjourney. 🖼️
 
 [1]: https://github.com/jacobemcken/wet
 [2]: /programming/2025/01/03/how-my-jekyll-blog-became-a-clojure-adventure/
-[3]: 2025-01-06-getting-my-feet-wet-with-liquid-template.md
+[3]: /programming/2025/01/06/getting-my-feet-wet-with-liquid-template/
 [4]: https://github.com/jacobemcken/wet/pull/2
