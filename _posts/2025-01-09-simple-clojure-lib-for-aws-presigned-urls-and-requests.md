@@ -11,6 +11,7 @@ tags:
 - AWS
 - Cloud
 comments: true
+support: true
 excerpt_separator: <!--more-->
 ---
 

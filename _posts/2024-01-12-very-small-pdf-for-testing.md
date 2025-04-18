@@ -9,6 +9,7 @@ tags:
 - PDF
 - Test
 comments: true
+support: true
 excerpt_separator: <!--more-->
 ---
 

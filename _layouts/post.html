@@ -21,6 +21,14 @@ layout: default
   <div class="license">
     {% include cc_attribution_sharealike.html %}
   </div>
+
+  {% if page.support %}
+  <a href="https://www.buymeacoffee.com/jacobemcken" target="_blank">
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+  </a>
+  {% endif %}
 </article>
 
 {% if page.comments == true %}

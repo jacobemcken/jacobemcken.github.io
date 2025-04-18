@@ -8,6 +8,7 @@ tags:
 - Test
 - Mongo
 comments: true
+support: true
 ---
 I've been programming Clojure for several years, and yet I've managed to avoid
 protocols during all that time (I've also avoided macros, but that is another

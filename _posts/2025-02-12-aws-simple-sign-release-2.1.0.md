@@ -11,6 +11,7 @@ tags:
 - AWS
 - Cloud
 comments: true
+support: true
 ---
 
 With a little help, [aws-simple-sign now supports PUT URLs][1]

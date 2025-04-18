@@ -18,6 +18,7 @@ date_gmt: '2004-03-30 15:39:00 +0200'
 categories:
 - Graphics
 tags: []
+support: true
 comments:
 - id: 321
   author: Ben White
