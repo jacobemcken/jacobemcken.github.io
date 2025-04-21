@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Heroicons from ClojureScript
+description: It is easy to use Heroicons from Reagent in ClojureScript - I will show you how.
 categories:
 - Programming
 tags:
@@ -10,6 +11,7 @@ tags:
 - Heroicons
 - Tailwind
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 **Update 2022-02-20:** Requiring single icons using `:refer` causes ALL Hero
@@ -19,6 +21,7 @@ times). Examples below have been updated.
 In my opinion, Clojure and ClojureScript is lacking in the documentation
 department, especially when it comes to integrations with things outside the
 Clojure ecosystem.
+<!--more-->
 
 I want to share how using [Heroicons][1] from within a ClojureScript
 [Reagent][2] (including Re-frame) application works. Some might find the
