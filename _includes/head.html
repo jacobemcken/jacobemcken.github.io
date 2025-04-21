@@ -8,7 +8,7 @@
     {% if page.tag %}
       Posts with the tag #{{ page.tag }} &middot; {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }}
     {% endif %}
   {% endif %}
 {% endcapture %}
@@ -37,7 +37,7 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}{% if page.image %}{{- page.image -}}{% else %}/public/brand_open_graph.png{% endif %}">
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ title | strip }}">
 {% if page.title == "Home" %}
   <meta property="og:type" content="website">
 {% else %}
@@ -48,7 +48,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.social.twitter }}">
   <meta name="twitter:creator" content="@{{ site.social.twitter }}">
-  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:title" content="{{ title | strip }}">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{- page.image -}}{% else %}/public/brand_open_graph.png{% endif %}">
   <meta name="twitter:description" content="{{ description | strip }}">
@@ -56,7 +56,7 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>{{ title }}</title>
+  <title>{{ title | strip }}</title>
 
   <!-- CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
