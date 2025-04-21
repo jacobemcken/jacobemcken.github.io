@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stumble upon in April 2025
-image: /assets/img/two_people_walking_into_each_other.png
-image_alt: "Midjourney prompt: Two people walking towards each other and bumping into each other. One person is looking down at their smartphone the other person is looking at the sky. Subtle highlight. concept art, oil on canvas painting."
+image: /assets/img/man_stumbling_into_sign_on_sidewalk.webp
+image_alt: "Midjourney prompt: Walking while looking at phone with all attention stumbles into a sign standing in the middle of the sidewalk."
 description: "On occasion, I come across content worth sharing. This time: An essay comparing U.S. with past fascist regimes and an article by a fellow Clojure enthusiast."
 categories:
 - Other
