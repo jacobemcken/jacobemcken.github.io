@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A very small PDF for testing
-image: /assets/img/tiny_document_in_grass.webp
-image_alt: "Midjourney prompt: Zoomed in between grass is a simple vector document icon in 3d. The document is white with a red simple three-petaled flower. Next to the icon is a huge ant. Blurred surroundings."
+image: /assets/img/tiny_document_in_grass2.webp
+image_alt: "Midjourney prompt: Zoomed in on an extruded 'PDF' document icon standing in the grass with a huge ant next to the icon. There are a few red flowers in the grass and a tree in the background. It is golden morning light."
 categories:
 - Programming
 tags:
@@ -13,16 +13,16 @@ support: true
 excerpt_separator: <!--more-->
 ---
 
-For testing, I often find myself prioritizing having small data sets because I find they are easier to comprehend.
+For testing, I often find myself prioritizing having small data sets because they are easier to comprehend.
 Also, the small size helps emphasize what is being tested
-when data isn't filled with many irrelevant data points.
+when irrelevant data is absent.
 
-Today I needed a PDF for testing.
+Today, I needed a PDF for testing.
 Following the same principles, I sought out "the smallest (valid) PDF" and ended up on StackOverflow.
 
 <!--more-->
 
-In most cases, the size of the PDF, probably doesn't matter much
+In most cases, the PDF size probably doesn't matter much,
 but I needed a PDF base64 encoded in a JSON file.
 A huge PDF would not fit on my screen and force me to scroll
 making it harder to get an overview of the JSON file in its entirety.
@@ -35,7 +35,7 @@ AND work with the default PDF viewer (Evince) on my Linux Fedora laptop.
 
 Having my test PDF contain visible text was important to me.
 A blank page can easily be a symptom of something not working,
-so using a blank page for testing could potentially hide actual errors.
+so using a blank page for testing potentially hides actual errors.
 
 I started searching for the PDF specification,
 pondering if I could write one by hand.
@@ -46,17 +46,17 @@ I stumbled over [PrintMyFolders][2] and its owner: Steve.
 
 He provided a [PDF sample][3] from which I was able to easily
 create an A4 document with the (almost) centered text "Dummy PDF".
-Not only was the test PDF useable by my application
-but also worked flawlessly in both Firefox, Chrome and Evince.
+Not only was the test PDF useable by my application,
+but it also worked flawlessly in both Firefox, Chrome, and Evince.
 
-For a similar file, Inkscape would create a 5.2 kilo byte PDF file,
+Inkscape would create a 5.2 kilo byte file for a similar PDF,
 while LibreOffice Writer would create a 7.8 kilo byte file.
 
 630 bytes is of course more than the other StackOverflow examples, but still very small.
 The slightly larger size seems like a small price
 for the satisfaction of well working test PDF - worth the compromise.
 
-It is even fairly easy to edit the text by just using a normal text editor.
+It is even fairly easy to edit the text by using a standard text editor.
 Though PDF viewers doesn't seem picky about it
 `startxref` is supposed to mark
 where `xref` (cross-reference table) is supposed to "start",
