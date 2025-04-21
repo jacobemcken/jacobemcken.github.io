@@ -18,18 +18,19 @@ layout: default
 
   {{ content }}
 
+  {% if page.support %}
+  <p>
+    <a href="https://www.buymeacoffee.com/jacobemcken" target="_blank">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+           alt="Buy Me A Coffee" style="height:60px !important; width:217px !important;">
+    </a>
+  </p>
+  {% endif %}
+
   <footer class="license">
     <hr>
     {% include cc_attribution_sharealike.html %}
   </footer>
-
-  {% if page.support %}
-  <a href="https://www.buymeacoffee.com/jacobemcken" target="_blank">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
-  </a>
-  {% endif %}
 </article>
 
 {% include related_posts.html %}
