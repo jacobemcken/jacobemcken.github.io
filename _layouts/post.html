@@ -32,11 +32,11 @@ layout: default
   {% endif %}
 </article>
 
+{% include related_posts.html %}
+
 {% if page.comments == true %}
-<section class="related">
+<section>
   <h2>Comments</h2>
   <div id="disqus_thread" aria-live="polite">{% include disqus.html %}</div>
 </section>
 {% endif %}
-
-{% include related_posts.html %}

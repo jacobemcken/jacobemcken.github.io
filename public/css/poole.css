@@ -367,12 +367,14 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
-/* Related posts */
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+section + section,
+section + article,
+article + section,
+article + article {
+  margin-top: 3rem;
 }
+
+/* Related posts */
 .related-posts {
   padding-left: 0;
   list-style: none;
