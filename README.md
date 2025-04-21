@@ -36,6 +36,18 @@ All CSS files except two are excluded:
 The GitHub Pages build actions doesn't allow for building CSS,
 so the minifed version needs to be tracked in the repo.
 
+## Code highlighting
+
+Using Rouge theme: `thankful_eyes`:
+
+    rougify style thankful_eyes > thankful_eyes.css
+
+With background color changed to match Jekyll theme and dailed down the screaming green.
+
+Also tested the Pygments theme called `lightbulb`:
+
+    pygmentize -S lightbulb -f html -a .highlight > pygments-lightbulb.css
+
 
 ## Address security issues
 
