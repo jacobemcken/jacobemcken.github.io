@@ -39,6 +39,10 @@
   float: left;
 }
 
+.logo img {
+  width: 100%;
+}
+
 .sidebar-sticky {
   margin: 0;
   padding: 0;
