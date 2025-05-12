@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How to write concise code in Clojure
+image: /assets/img/butterfly_in_virtual_environment.webp
+image_alt: "Midjourney prompt: A simple, small unicolor winged butterfly shrinking in size in a ray of light on the lower right side of the picture. The illustration is in sketch style and in vibrant colors. Background is brimming with tech vibes, circuits and pulses. Using image from core.async post as style reference."
+description: "Learn how to write concise Clojure code by leveraging namespaces to reduce redundancy and enhance clarity."
 categories:
 - Programming
 tags:
