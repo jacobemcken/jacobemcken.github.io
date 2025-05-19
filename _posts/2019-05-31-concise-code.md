@@ -9,6 +9,7 @@ categories:
 tags:
 - Clojure
 comments: true
+support: true
 ---
 
 During code reviews I've seen the following repetition pattern a lot. I am going
