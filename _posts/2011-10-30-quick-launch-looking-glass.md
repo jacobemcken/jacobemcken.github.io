@@ -58,5 +58,5 @@ If you haven't bound it already - here is an example on how to bind it to the ke
 
 If the extension is enabled then Looking Glass will open when you press F12 (just close it by hitting Escape like normal).
 
-[1]: http://www.emcken.dk/quick-launch-looking-glass@gnome.emcken.dk.zip
+[1]: https://www.emcken.dk/quick-launch-looking-glass@gnome.emcken.dk.zip
 
