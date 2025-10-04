@@ -23,10 +23,12 @@ title: Home
       {% if forloop.index > 1 %}
         {% assign loading = "lazy" %}
       {% endif %}
-      {% include featured_image.html
-         loading=loading
-         src=post.image
-         alt=post.image_alt %}
+      <a href="{{ post.url }}">
+        {% include featured_image.html
+           loading=loading
+           src=post.image
+           alt=post.image_alt %}
+      </a>
     {% endif %}
 
     {{ post.excerpt }}
