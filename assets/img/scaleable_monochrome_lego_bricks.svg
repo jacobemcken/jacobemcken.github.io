@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1440 720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="b" x1="71.909" x2="79.909" y1="109.78" y2="109.78" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+  <linearGradient id="d">
+   <stop stop-color="#c5c5c5" offset="0"/>
+   <stop stop-color="#333" offset="1"/>
+  </linearGradient>
+  <linearGradient id="h" x1="71.909" x2="79.909" y1="109.78" y2="109.78" gradientUnits="userSpaceOnUse" xlink:href="#g"/>
+  <linearGradient id="g">
+   <stop stop-color="#333" offset="0"/>
+   <stop stop-color="#c5c5c5" offset="1"/>
+  </linearGradient>
+  <linearGradient id="f" x1="78.692" x2="72.437" y1="106.24" y2="108.07" gradientUnits="userSpaceOnUse" xlink:href="#g"/>
+  <linearGradient id="e" x1="72.722" x2="79.237" y1="107.59" y2="107.59" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+  <linearGradient id="c" x1="71.709" x2="80.3" y1="110.32" y2="110.01" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+  <linearGradient id="i" x1="53.579" x2="58.379" y1="143.63" y2="143.63" gradientTransform="scale(1.3573 .73677)" gradientUnits="userSpaceOnUse" xlink:href="#d">
+   <stop stop-color="#333" offset="0"/>
+   <stop stop-color="#c5c5c5" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="53.579" x2="58.379" y1="143.63" y2="143.63" gradientTransform="scale(1.3573 .73677)" gradientUnits="userSpaceOnUse" xlink:href="#i"/>
+  <linearGradient id="k" x1="71.709" x2="80.3" y1="110.32" y2="110.01" gradientTransform="matrix(.32315 .011705 -.011713 .32293 -4.152 23.632)" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+  <linearGradient id="j" x1="50.618" x2="50.794" y1="106.49" y2="106.28" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#c5c5c5" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="l" x1="1229.1" x2="210.88" y1="-149.12" y2="869.12" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffa348" offset="0"/>
+   <stop stop-color="#9141ac" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="1.2346e-13" y="1.4211e-14" width="1440" height="720" fill="url(#l)" style="paint-order:fill markers stroke"/>
+ <g transform="matrix(1.382 0 0 1.382 -288.3 -141.81)">
+  <g transform="matrix(4.8169 0 0 4.8169 350.72 -281.34)" stroke="#000" stroke-linejoin="round" stroke-width=".75591">
+   <g>
+    <path d="m66.591 108.41-0.090909 13.364 6.7727 6.7273 0.09091-13.364z" fill="#c5c5c5"/>
+    <path d="m73.364 115.14 23.364-7.7727 0.04545 13.591-23.5 7.5454z" fill="#333"/>
+    <path d="m66.591 108.41 6.7727 6.7273 23.364-7.7727-6.9091-6.7727z" fill="#fff"/>
+   </g>
+   <g stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="translate(11.546 -3.7954)" stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+  </g>
+  <g transform="matrix(4.8169 0 0 4.8169 -9731.6 -1114.1)" stroke="#000" stroke-linejoin="round">
+   <g stroke-width=".75591">
+    <path d="m2164.3 316 10.318-3.6818 12.318 12.136-10.455 3.5z" fill="#fff"/>
+    <path d="m2164.3 316-0.2273 11.682 12.318 12.182 0.091-11.909z" fill="#c5c5c5"/>
+    <path d="m2176.5 327.95-0.091 11.909 10.5-3.3636 0.045-12.045z" fill="#333"/>
+   </g>
+   <g transform="translate(2103 213.64)" stroke-linecap="square" stroke-miterlimit="2" stroke-width=".75591">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="rotate(255 1209.1 -584.73)" stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#h)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="url(#f)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+    <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#e)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="rotate(255 1203.8 -585.39)" stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#h)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="url(#f)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+    <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#e)" stroke-width=".56693" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="translate(2096.7 207.64)" stroke-linecap="square" stroke-miterlimit="2" stroke-width=".75591">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+  </g>
+  <g transform="matrix(4.8169 0 0 4.8169 95.569 -72.983)" stroke="#000" stroke-linejoin="round" stroke-width=".75591">
+   <g>
+    <path d="m66.591 108.41-0.09091 4.1818 6.7727 6.7273 0.09091-4.1818z" fill="#c5c5c5"/>
+    <path d="m73.364 115.14 23.364-7.7727 0.04545 4.4091-23.5 7.5454z" fill="#333"/>
+    <path d="m66.591 108.41 6.7727 6.7273 23.364-7.7727-6.9091-6.7727z" fill="#fff"/>
+   </g>
+   <g stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="translate(11.546 -3.7954)" stroke-linecap="square" stroke-miterlimit="2">
+    <path d="m79.909 109.7c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4-1.0481-4-2.3409v-2.1818h8v2.1818z" fill="url(#b)" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" style="paint-order:fill markers stroke"/>
+   </g>
+  </g>
+  <g transform="matrix(18.206 0 0 18.206 399.34 -512.89)" stroke-linejoin="round">
+   <path d="m29.035 43.753 1.6961 1.6847 6.1267-1.9757" fill="none" stroke="#333" stroke-linecap="round" stroke-width=".26458"/>
+   <g stroke="#000" stroke-width=".2">
+    <path d="m28.964 42.65-0.02405 0.90791 1.792 1.7799 0.02405-0.90791z" fill="#c5c5c5"/>
+    <path d="m30.756 44.43 6.1816-2.0565 0.01203 0.96804-6.2177 1.9964z" fill="#333"/>
+    <path d="m28.964 42.65 1.792 1.7799 6.1816-2.0565-1.828-1.792z" fill="#fff"/>
+   </g>
+  </g>
+  <g transform="matrix(18.206 0 0 18.206 62.613 -784.88)" stroke="#000">
+   <path d="m28.875 57.197s-0.14642 0.92365-1.0565 0.93031l-0.50054 0.0037-0.07846-0.85569z" fill="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width=".15"/>
+   <path d="m20.385 60.508c-0.01514 0.4175-0.60613 0.73499-1.32 0.70913-0.71388-0.02586-1.2739-0.38509-1.2652-0.80278l0.02555-1.2188 2.5852 0.09365z" fill="url(#k)" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width=".15" style="paint-order:fill markers stroke"/>
+   <g transform="matrix(.24993 .0090533 -.0090593 .24977 2.3184 28.69)" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2">
+    <path d="m79.967 111.29c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-3.9802-1.0482-4-2.3409l-0.05765-3.7722h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+   </g>
+   <g transform="matrix(.24993 .0090533 -.0090593 .24977 5.096 27.755)" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2">
+    <path d="m79.967 111.29c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-3.9802-1.0482-4-2.3409l-0.05765-3.7722h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+   </g>
+   <g stroke-width=".15">
+    <path d="m20.87 57.182 0.0032 0.48496 2.4292 0.39456 3.5162-1.3917-3.1877-0.35352-0.02455 0.43206s1.7191 0.22369 1.6333 0.25709l-1.5706 0.61129z" fill="#bbb"/>
+    <path d="m20.402 59.7 6.1922-2.126s2.5373 0.69082 2.4079-1.0718l-0.85595-0.62758-8.0171 3.1202z" fill="#333"/>
+    <path d="m20.87 57.182s0.40118-0.20597 0.43627-0.33465c0.0351-0.12868 0.04337-0.40235 0.04337-0.40235l3.3224 0.52643 1.0763-0.39775-2.1174-0.25737c0.44718-0.23044 0.44948-0.33997 0.45782-0.73864l2.2124 0.30166c-0.01134-0.63381 2.7375-0.60198 2.7183 0.44302-0.0192 1.045-1.2823 1.0234-1.2823 1.0234l-0.49599 0.93075-1.1412-0.36482 0.38551-0.71802-1.2634 0.39775-0.80987 1.6148-1.1533-0.3458 0.45407-0.73084-3.299 1.0646c0.04999 1.0862-2.6374 1.1244-2.5938 0.0016 0.04415-0.52936 1.3197-0.47503 1.3197-0.47503l3.8712-1.1878z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="1.0583">
+    <g transform="matrix(.24993 .0090533 -.0090593 .24977 9.6314 28.313)">
+     <path d="m79.899 109.42c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4.0069-1.0481-4-2.3409l0.01017-1.9012h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    </g>
+    <g transform="matrix(.24993 .0090533 -.0090593 .24977 1.1416 31.178)">
+     <path d="m79.899 109.42c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-4.0069-1.0481-4-2.3409l0.01017-1.9012h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    </g>
+    <g transform="matrix(.24993 .0090533 -.0090593 .24977 8.3255 30.945)">
+     <path d="m79.967 111.29c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-3.9802-1.0482-4-2.3409l-0.05765-3.7722h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    </g>
+    <g transform="matrix(.24993 .0090533 -.0090593 .24977 5.5087 31.891)">
+     <path d="m79.967 111.29c-1e-6 1.2928-1.7909 2.3409-4 2.3409s-3.9802-1.0482-4-2.3409l-0.05765-3.7722h8z" fill="url(#c)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse cx="75.909" cy="107.52" rx="4" ry="2.3409" fill="#fff" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+     <ellipse transform="matrix(1 -.00093113 -.00092813 1 0 0)" cx="75.98" cy="107.59" rx="2.9742" ry="1.4849" fill="url(#a)" stroke-width=".59997" style="paint-order:fill markers stroke"/>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(18.206 0 0 18.206 23.731 -1499.7)" stroke="#000" stroke-linejoin="round" stroke-width=".2">
+   <path d="m51.907 109.27 4.7239-1.5706 0.0092 1.0256-4.7515 1.5247z" fill="#333"/>
+   <path d="m50.794 108.18 1.1131 1.0865 4.7239-1.5706-1.1406-1.0957z" fill="#fff"/>
+   <path d="m55.103 104.67-4.3176 1.4268c-0.26841 0.0766-0.2744 0.19482-0.2744 0.19482l0.0083 2.5952 1.3694 1.3596 0.0186-0.97978-1.1131-1.0864 4.6964-1.5798 0.0072-1.6596s-0.24086-0.32172-0.39481-0.27084z" fill="url(#j)" stroke-linecap="round"/>
+   <path d="m50.794 108.18 4.6964-1.5798 0.03049-1.5888s0.01705-0.1262-0.1819-0.11576c-0.01702 8.9e-4 -4.2829 1.4263-4.2829 1.4263-0.26841 0.0766-0.2741 0.19484-0.2741 0.19484z" fill="#333" stroke-linecap="round"/>
+  </g>
+ </g>
+</svg>
