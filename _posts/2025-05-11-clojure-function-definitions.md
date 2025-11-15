@@ -122,12 +122,12 @@ The same multiline pattern emerges when working with multi-arity functions:
    ...
 ```
 
-The code for single and multi arity functions
-will have the same "shape".
+The code for single arity function defined using a multi-line definition,
+will have the same "shape" as a multi arity function.
 
 Personally, I find the code easier on the eyes
 (easier to read) when the code follows a similar pattern.
-I have a better reading flow when the content is predictable.
+I have a better reading flow when the shape of the content is predictable.
 
 
 Though I may be more sensitive to messiness than the average person
