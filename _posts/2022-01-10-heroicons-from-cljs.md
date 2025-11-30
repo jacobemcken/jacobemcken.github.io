@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heroicons from ClojureScript
-description: It is easy to use Heroicons from Reagent in ClojureScript - I will show you how.
+description: It is easy to use Heroicons for React from Reagent in ClojureScript - I will show you how using Shadow-cljs.
 categories:
 - Programming
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How my Jekyll blog became a Clojure adventure
-description: Exploring what it would take for Clojure to replace Ruby apparently takes you unexpected places.
+description: Exploring what it would take for Clojure to replace Ruby apparently takes you unexpected places. Could Clojure be used to replace Jekyll?
 image: /assets/img/a_clojure_adventure.png
 image_alt: "Midjourney prompt: A blogging adventure in the programming language Clojure. A scientific approach. Post-processing (GIMP): Overlaying a Clojure logo on top of the moon."
 categories:

@@ -3,7 +3,7 @@ layout: post
 title: Sources of inspiration
 image: /assets/img/open_mind_with_clouds_of_knowledge_floating_around.png
 image_alt: "Midjourney prompt: connected sources of inspiration into mind."
-description: 'I find most of my work-related inspiration while purposelessly roaming the internet.'
+description: 'While aimlessly roaming the internet, I found a potpourri of sources relevant for insights into developers and their teams.'
 categories:
 - Programming
 tags:
@@ -13,8 +13,9 @@ tags:
 comments: true
 ---
 
+
 I find work-related inspiration in many places, among others, colleagues
-meetups and conferences. But most inspiration comes while purposelessly
+meetups and conferences. But most inspiration comes while aimlessly
 roaming the internet. I've always been interested in more than
 writing the code for the software. Whether it be participating in
 meetings and discussions that would help me better understand the

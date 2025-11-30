@@ -1,7 +1,7 @@
 ---
 layout: post
 title: De-stressing with Lego
-description: "When work is too stressful, Lego helps me take my mind of work."
+description: "Lego helps me take my mind off work when it is too stressful. Sometimes the resulting MOC is worth sharing: Skater girl on sidewalk."
 image: /assets/img/pink_legos_by_alexandra_koch.webp
 image_alt: "Pink Lego bricks (Stock photo from Pixabay by Alexandra_Koch: https://pixabay.com/users/alexandra_koch-621802/)"
 categories:
