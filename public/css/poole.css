@@ -159,6 +159,11 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
+
+a code {
+  color: #1d6ba2;
+}
+
 pre {
   display: block;
   margin-top: 0;
