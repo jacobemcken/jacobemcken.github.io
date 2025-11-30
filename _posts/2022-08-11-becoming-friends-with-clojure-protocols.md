@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Becoming friends with Clojure protocols
+description: An elaborate example of how to use protocols in Clojure, resembling real-life usage, and which swaps out implementations during test.
+image: /assets/img/woman_walking_from_digital_into_anonymous_crowd.webp
+image_alt: "Midjourney prompt: protocol."
 categories:
 - Programming
 tags:
