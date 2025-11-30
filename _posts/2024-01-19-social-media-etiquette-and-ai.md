@@ -6,7 +6,7 @@ categories:
 tags:
 - Trust
 - Philosophical
-- AI
+- ai
 comments: true
 excerpt_separator: <!--more-->
 ---
