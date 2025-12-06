@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Expanding idempotency superpower to application interfaces (like REST APIs)
+title: Using idempotency for application interfaces like REST APIs
 image: /assets/img/cloth_submerged_in_water_by_harbor_with_bus.webp
 image_alt: "Midjourney prompt: A hand is submerging a small beige cloth into water. In the background drives a bus by the harbor promenade. Simple picture. Teal is the primary color. - Did a few edits to remove 'noise'."
-description: "With idempotency, fault-tolerant REST APIs are possible, even though retry strategies needed to mitigate outages, expose the 'exactly once delivery' problem."
+description: "Fault-tolerant REST APIs are possible with idempotency, even though retry strategies needed to mitigate outages, expose the 'exactly once delivery' problem."
 categories:
 - Programming
 tags:
@@ -152,7 +152,8 @@ also applies when consuming messages from a queue.
 You will probably start seeing the benefits of idempotency in even more places.
 It is not for nothing, that idempotent data structures are a cornerstone in Clojure.
 
-I hope this will help you build impeccable application interfaces. 🚀
+I hope this will help you build impeccable application interfaces.
+Idempotency is a superpower. 🚀
 
 
 [1]: https://exactly-once.github.io/posts/exactly-once-delivery/
