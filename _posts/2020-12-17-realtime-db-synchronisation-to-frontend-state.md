@@ -1,29 +1,34 @@
 ---
 layout: post
-title: Realtime DB synchronisation to frontend
+title: Realtime DB synchronization to frontend
+image: /assets/img/database_silo_connected_to_dashboard.webp
+image_alt: "Midjourney prompt: A database silo on the left and with minimalist simple modern UI frontend dashboard with sparse data points on the right. Between them flows sparks of data."
+description: Easily synchronize database changes live to several connected frontends by leveraging an insert-only pattern and one-way data flow.
 categories:
 - Programming
 - Database
 tags:
 - Clojure
 - Graph database
+- CRUD
+- insert-only
 comments: true
 ---
 
 I've set out to solve: How to synchronize "low volume" parts of a database to a
-frontend in realtime exclusively for reads. In this scenario, "low volume" means
+frontend in real-time, exclusively for reads. In this scenario, "low volume" means
 few entries with a low update frequency. Let's say we're talking about less than
 a thousand entries affected by fewer than ten updates every minute across all
 entries.
 
-The backend database will use a "insert-only" pattern, causing a single entry to
+The backend database will use an "insert-only" pattern, causing a single entry to
 take up an extra row (relational DB) or node (graph DB) for every change. The
-"insert-only" pattern also hinders using internal database ids (like auto
-increment) for referencing an entry since every "update" will generate new ids.
-Instead, use an application managed entry id like a UUID or, for a
-human-recognizable id, a slug.
+"insert-only" pattern also hinders using internal database IDs (like auto
+increment) for referencing an entry since every "update" will generate new IDs.
+Instead, use an application-managed entry ID like a UUID or, for a
+human-recognizable ID, a slug.
 
-[Watch this video for a bit of background of why I find a "insert-only" pattern
+[Watch this video for a bit of background on why I find an "insert-only" pattern
 interesting.][4]
 
 The frontend is only concerned about the newest version of an entry, throwing
@@ -34,7 +39,7 @@ only be `Read`. The rest of the `CRUD` operations (`Create`, `Update`, and
 connected frontends.
 
 Only caring for "low volume" data, disregarding "historical data" and a one-way
-data flow, requirements for the frontend "database" storage naturally becomes
+data flow, requirements for the frontend "database" storage naturally become
 easy to meet.
 
 The following example will assume the backend database being a [graph
@@ -131,9 +136,9 @@ Causing new state in UI:
 ```
 
 
-## Update external id
+## Update external ID
 
-The external id "bike" is replaced with "ball," and changing properties at the
+The external ID "bike" is replaced with "ball," and changing properties at the
 same time works just the same:
 
 | Node | Properties                           | Relation(s)            |
@@ -160,7 +165,7 @@ Causing new state in UI:
 Now that we have an overview of the data operations, let's look at the data flow
 between the back- and the frontends. A single event representing a change to a
 single entry can handle all the cases above. The event should carry the new data
-along with the id of the entry that is now obsolete.
+along with the ID of the entry that is now obsolete.
 
 
 ### Create
@@ -204,7 +209,7 @@ The deletion of two entries will trigger two `changed` events.
 ```
 
 
-### Update external id
+### Update external ID
 
 ```json
 {

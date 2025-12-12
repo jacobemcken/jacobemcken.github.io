@@ -11,6 +11,7 @@ tags:
 - idempotency
 - exactly-once
 - API
+- CRUD
 comments: true
 support: true
 excerpt_separator: <!--more-->
