@@ -68,7 +68,7 @@ to hide the implementation detail from the caller:
 ```clojure
 (try
   (->> coll
-       (pmap #(occationally throw-exception %))
+       (pmap #(occasionally throw-exception %))
        doall)) ; realize lazy seq to trigger exceptions
   (catch Exception e
     ; Unwrap potentially wrapped exception by `pmap`
