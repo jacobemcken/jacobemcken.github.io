@@ -152,4 +152,16 @@ RailsConf 2014 - ["All the Little Things"][1]
 
 Sandi Metz is a genius.
 
+
+**Update 18. Dec 2025**
+
+## Further reading
+
+I suspect many Clojurists reflect on type systems from time to time.
+Today, I found the blog post
+[The Wrong Question About Type Systems][2] by *Furkan Bayraktar*,
+where he does precisely that (really well written).
+
+
 [1]: https://www.youtube.com/watch?v=8bZh5LMaSmE
+[2]: https://furkan3ayraktar.github.io/blog/the-wrong-question-about-type-systems.html
