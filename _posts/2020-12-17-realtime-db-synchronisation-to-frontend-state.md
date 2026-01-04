@@ -9,6 +9,7 @@ categories:
 - Database
 tags:
 - Clojure
+- Database
 - Graph database
 - CRUD
 - insert-only
