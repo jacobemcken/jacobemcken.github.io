@@ -34,11 +34,10 @@ The operating system would crash because the hard disk
 (Samsung NVMe SSD 990 PRO) would suddenly get detached,
 causing <abbr title="Input/Output">I/O</abbr> errors.
 
-I would find something like the following when attaching a monitor to the server.
-I've emphasized the lines which I suspect are unique for this kind of problem:
+I would find something like the following when attaching a monitor to the server:
 
 ```
-**[118436.628670] nvme nvme0: Device not ready; aborting reset, CSTS=0x1**
+[118436.628670] nvme nvme0: Device not ready; aborting reset, CSTS=0x1
 [118456.644680] nvme nvme0: Device not ready; aborting reset, CSTS=0x1
 [118456.650372] Buffer I/O error on dev dm-0, logical block 3670071, lost async page write
 [118456.650381] Buffer I/O error on dev dm-1, logical block 348127422, lost async page write
@@ -56,7 +55,7 @@ I've emphasized the lines which I suspect are unique for this kind of problem:
 [118456.650431] Aborting journal on device dm-1-8.
 [118456.650438] EXT4-fs (dm-1): Delayed block allocation failed for inode 86776714 at logical offset 2375
 [118456.650438] EXT4-fs error (device dm-1) in ext4_new_inode:1139: Journal has aborted
-**[118456.650441] EXT4-fs (dm-1): This should not happen!! Data will be lost**
+[118456.650441] EXT4-fs (dm-1): This should not happen!! Data will be lost
 [118456.650443] Buffer I/O error on dev dm-1, logical block 289159200, lost sync page write
 [118456.650443] EXT4-fs error (device dm-0) in ext4_orphan_add:1885: Journal has aborted
 [118456.650445] JBD2: I/O error when updating journal superblock for dm-0-8.
@@ -76,14 +75,14 @@ I've emphasized the lines which I suspect are unique for this kind of problem:
 [118456.650478] Buffer I/O error on dev dm-1, logical block 0, lost sync page write
 [118456.650489] Buffer I/O error on dev dm-0, logical block 0, lost sync page write
 [118456.650493] EXT4-fs (dm-0): I/O error while writing superblock
-**[118456.650495] EXT4-fs (dm-0): Remounting filesystem read-only**
+[118456.650495] EXT4-fs (dm-0): Remounting filesystem read-only
 [118456.650502] Buffer I/O error on dev dm-0, logical block 0, lost sync page write
 [118456.650504] EXT4-fs (dm-1): I/O error while writing superblock
 [118456.650523] EXT4-fs (dm-1): Remounting filesystem read-only
 [118456.650530] Buffer I/O error on dev dm-1, logical block 0, lost sync page write
 [118456.670725] systemd[1]: systemd-journald.service: Failed to spawn executor: Input/output error
 [118456.692247] systemd[1]: Failed to start systemd-journald.service - Journal Service.
-**[118456.692260] EXT4-fs (nvme0n1p2): shut down requested (2)**
+[118456.692260] EXT4-fs (nvme0n1p2): shut down requested (2)
 [118456.692275] Aborting journal on device nvme0n1p2-8.
 [118456.692287] Buffer I/O error on dev nvme0n1p2, logical block 262144, lost sync page write
 [118456.669560] JBD2: I/O error when updating journal superblock for nvme0n1p2-8.
