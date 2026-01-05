@@ -132,7 +132,7 @@ Their support chatbot was a bit limited but it did manage to redirect me to a pa
 But the ISO only worked with some freeware software (UNetbootin),
 because it does some magic after the files are written to the USB stick - ⛔ fail 3.  
 For decades, it has been possible to write ISOs directly to USB sticks (and CDs) and boot from them without postprocessing.
-It does require you to create the ISOs correctly 😉
+It does require you to create the ISOs correctly, though 😉
 
 To be fair, I was able to update the firmware without using Windows - ✅ success 2.  
 But with the excellent piece of [software, for updating firmware][3] on all sorts of hardware,
@@ -142,12 +142,13 @@ To wrap up this rant:
 
 > Dear Samsung,
 >
-> Please provide information about firmware history of you products publicly.
+> Please provide information about firmware history of your products publicly.
 >
-> Please also distributre your firmware via `fwupdmgr` which works with ALL major Linux distributiohs.
+> Please also distribute your firmware via `fwupdmgr`,
+> which works with ALL major Linux distributions.
 > But if that is impossible for whatever reason, then create bootable firmware ISOs
-> that does not require me to install some third party (freeware) software.  
-> ― it should simply not be needed in this day and age.
+> that do not require me to install any third-party (freeware) software.  
+> ― It should simply not be needed in this day and age.
 >
 > Best regards,
 > Jacob
