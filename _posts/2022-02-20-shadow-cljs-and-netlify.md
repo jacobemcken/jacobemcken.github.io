@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Hosting ClojureScript SPA using Shadow-cljs on Netlify
+image: /assets/img/netlify_loves_shadow-cljs.webp
+image_alt: "The Netlify logo, a heart (with an asterix), and Shadow-cljs logo on a gradient background. I've used Inkscape to create the featured image."
+description: "Building a ClojureScript Single-Page Application (SPA) on Netlify (almost) just works. Follow this simple, step-by-step guide and see for yourself."
 categories:
 - Programming
 tags:
@@ -11,8 +14,10 @@ tags:
 - Cloud
 - Netlify
 comments: true
+support: true
 ---
 
+**Updated 2026-01-18.**
 Building ClojureScript Single Page Applications (SPA) on [Netlify][1] just
 works. The following instructions require no prior knowledge of neither Netlify
 nor build tools (like Shadow-cljs, WebPack etc.), but some knowledge about HTML
@@ -28,6 +33,12 @@ needs to be exactly right. The following description assumes a ClojureScript
 project setup matching the [Shadow-cljs "Quick Start" guide][2] (snapshot from
 Feb. 17. 2022 - Shadow-cljs v2.17.3).
 
+**Updated 2026-01-18:**
+Newer versions of `shadow-cljs` (since `2.19.7`) require Java versions
+which isn't included out of the box by Netlify.
+The [problem was reported on GitHub in the now archived build-image repository][8],
+and [I've documented a workaround][7] that downloads, (caches,) and installs
+a newer Java version automatically during builds.
 
 The result of the "Quick Start" guide summed up:
 
@@ -122,3 +133,5 @@ online 😉
 [4]: https://github.com/metosin/reitit
 [5]: https://shadow-cljs.github.io/docs/UsersGuide.html#dev-http
 [6]: https://docs.netlify.com/routing/redirects/rewrites-proxies/#history-pushstate-and-single-page-apps
+[7]: https://answers.netlify.com/t/java-11-support/67078/19
+[8]: https://github.com/netlify/build-image/issues/788
