@@ -13,11 +13,20 @@ title: Home
       </a>
     </h2>
 
-    <time
-      datetime="{{ post.date | date: "%Y-%m-%d" }}"
-      class="post-date">
-      {{ post.date | date_to_string: "ordinal" }}
-    </time>
+    <div class="dates">
+      <time
+        datetime="{{ post.date | date: "%Y-%m-%d" }}">
+        {{ post.date | date_to_string: "ordinal" }}
+      </time>
+
+      {% if post.updated_date %}
+      <time
+        datetime="{{ post.updated_date | date: "%Y-%m-%d" }}"
+        class="updated-date">
+        (updated on {{ post.updated_date | date_to_string: "ordinal" }})
+      </time>
+      {% endif %}
+    </div>
 
     {% if post.image %}
       {% if forloop.index > 1 %}

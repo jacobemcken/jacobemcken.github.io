@@ -4,11 +4,20 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <time
-    datetime="{{ page.date | date: "%Y-%m-%d" }}"
-    class="post-date">
-    {{ page.date | date_to_string: "ordinal" }}
-  </time>
+  <div class="dates">
+    <time
+      datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {{ page.date | date_to_string: "ordinal" }}
+    </time>
+
+    {% if page.updated_date %}
+    <time
+      datetime="{{ page.updated_date | date: "%Y-%m-%d" }}"
+      class="updated-date">
+      (updated on {{ page.updated_date | date_to_string: "ordinal" }})
+    </time>
+    {% endif %}
+  </div>
 
   {% if page.image %}
     {% include featured_image.html

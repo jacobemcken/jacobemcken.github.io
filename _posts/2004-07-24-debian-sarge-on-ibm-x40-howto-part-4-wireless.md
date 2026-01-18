@@ -29,6 +29,7 @@ comments:
   date_gmt: '2004-07-30 21:39:39 +0200'
   content: As I mentioned in an earlier post, I found out that I had been using a
     completly wrong driver for my wireless card. The juice for my card
+updated_date: 2004-07-24 12:00:00 +0200
 ---
 I was really nerveus about getting wireless to work...
 
@@ -51,7 +52,7 @@ There is a few requirements for the driver to work:
 *   <a href="http://sourceforge.net/projects/ipw2200/">Source code for the driver</a> downloadable from SourceForge
 *   <a href="http://ipw2200.sourceforge.net/firmware.php">Firmware for the wireless card</a> downloadable from the projects website
 
-To compile the source code you also need the packages gcc and make.
+To compile the source code you also need the packages `gcc` and `make`.
 For a more detailed howto consult the project website.
 
 Now compile the source code:
@@ -60,7 +61,7 @@ Now compile the source code:
     debian:~# cd ipw2200-0.2
     debian:~# make
 
-Unpack the firmware files to /usr/lib/hotplug/firmware:
+Unpack the firmware files to `/usr/lib/hotplug/firmware`:
 
     moprobe firmware_class
 
@@ -73,5 +74,6 @@ and finally run :
 Well I didn't get any errors... now I have to figure out how this works :)
 Step 2... test that it is actually working.
 
-dmesg dosn't detect any new ahrdware when I load the modules, so I don't think that it is working?!
+`dmesg` dosn't detect any new hardware when I load the modules,
+so I don't think that it is working?!
 

@@ -12,6 +12,7 @@ tags:
 - Tailwind
 comments: true
 excerpt_separator: <!--more-->
+updated_date: 2022-02-20 08:30:44 +0100
 ---
 
 **Update 2022-02-20:** Requiring single icons using `:refer` causes ALL Hero

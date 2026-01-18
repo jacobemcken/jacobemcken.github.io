@@ -15,9 +15,9 @@ tags:
 - Netlify
 comments: true
 support: true
+updated_date: 2026-01-18 14:29:00 +0100
 ---
 
-**Updated 2026-01-18.**
 Building ClojureScript Single Page Applications (SPA) on [Netlify][1] just
 works. The following instructions require no prior knowledge of neither Netlify
 nor build tools (like Shadow-cljs, WebPack etc.), but some knowledge about HTML

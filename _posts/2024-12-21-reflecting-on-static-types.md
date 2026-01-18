@@ -11,6 +11,7 @@ tags:
 - software-musings
 comments: true
 excerpt_separator: <!--more-->
+updated_date: 2025-12-18 22:16:30 +0100
 ---
 
 Every time I heard people praise static types,
