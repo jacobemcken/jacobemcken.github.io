@@ -89,12 +89,12 @@ just right. Luckily, the above setup is simple 😅
 
 Netlify should now look something like this:
 
-<img src="/public/media/Netlify build settings for Shadow-cljs.png" alt="Screenshot of build settings in Netlify" height="465" width="377" style="height:auto" />
+<img src="/public/media/Netlify build settings for Shadow-cljs.png" alt="Screenshot of build settings in Netlify" height="465" width="377" style="height:auto" loading="lazy" />
 
 Now deploy the SPA and open it in a browser. It will just be a blank page, but
 in the *Browser Console* `Hello World` will be printed.
 
-<img src="/public/media/Hosted cljs SPA on Netlify.png" alt="Screenshot of browser with console open showing cljs SPA" height="336" width="801" style="height:auto" />
+<img src="/public/media/Hosted cljs SPA on Netlify.png" alt="Screenshot of browser with console open showing cljs SPA" height="336" width="801" style="height:auto" loading="lazy" />
 
 
 ## Put the URL in control
