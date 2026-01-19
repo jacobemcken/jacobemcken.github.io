@@ -8,6 +8,7 @@ plugins: # https://docs.github.com/en/free-pro-team@latest/github/working-with-g
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-relative-links
+  - jekyll-redirect-from
 
 # Social handles
 social:

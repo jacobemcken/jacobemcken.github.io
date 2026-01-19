@@ -319,7 +319,9 @@ comments:
     Really nice,
     very cool sharing.
     better on Ubuntu 10.04 lts
-
+redirect_from:
+  - /weblog/archives/164-Encrypted-USB-drive-in-Ubuntu.html
+  - /weblog/archives/164-encrypted-usb-drive-in-ubuntu.html
 ---
 Today I went to the [Linuxforum BOF day][1] where I attended a session about encrypting your personal files. This made me remember [a post][2] read some time ago (check out the screen cast). I guessed that this functionality would be in Ubuntu Edgy by now so I just went ahead and tried to make my USB pen drive encrypted.
 
