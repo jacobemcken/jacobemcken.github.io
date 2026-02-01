@@ -66,7 +66,8 @@ comments:
   date_gmt: '2014-07-22 02:03:16 +0200'
   content: |
     For most recent information you have to visit world-wide-web and on web I found this web site as a best web site for most up-to-date updates.
-
+redirect_from:
+  - /weblog/archives/167-using-php-to-connect-to-an-active-directory.html
 ---
 I am looking into authenticating users on Solaris 9 via Active Directory (AD) as an LDAP server. To chop the problem into smaller problems I started to try and connect to the LDAP interface of the AD from a platform which I know. I'm no Solaris expert :)
 

@@ -21,6 +21,8 @@ tags:
 - vmware
 comments: false
 excerpt: 'Installing Ubuntu Edgy Eft left me with two problems: Wireless acting up and VMware not wanting to run.'
+redirect_from:
+  - /weblog/archives/147-A-few-problems-with-my-newly-installed-Edgy.html
 ---
 ## Wireless
 

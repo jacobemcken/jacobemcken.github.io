@@ -21,6 +21,8 @@ tags:
 - games
 - wine
 comments: false
+redirect_from:
+  - /weblog/archives/297-running-tales-of-monkey-island-with-wine.html
 ---
 I'm a proud adventure game fan boy and have enjoyed countless hours in the company of Monkey Island, Day of the Tentacle, Legend of Kyrandia among others. ScummVm have helped to re enjoy many of these titles after replacing my preferred desktop system with Linux.
 

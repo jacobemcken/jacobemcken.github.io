@@ -54,7 +54,8 @@ comments:
   date_gmt: '2011-08-07 16:15:26 +0200'
   content: |
     it causes redirect stderr to the same file handle as stdout.
-
+redirect_from:
+  - /weblog/archives/36-Show-progress-of-dd.html
 ---
 Here is a perl code example which shows progress of dd made by my friend <a href="http://www.dreier.nu/">Thor Dreier</a>:
 

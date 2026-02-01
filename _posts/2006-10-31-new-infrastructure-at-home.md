@@ -32,6 +32,8 @@ comments:
     file servings (http,ssh2,samba,nfs), teamspeak, works as a mythtv backend, and
     let's me startx to play wow every now and then.  I use an XBOX as the media front
     end for televisions, as well as stream to my laptop.  Quite handy.
+redirect_from:
+  - /weblog/archives/166-New-infrastructure-at-home.html
 ---
 Trough the last year I have been really wanting to do something to my home infrastructure :)
 I got wires running all over, and my little trusty server makes to much noice. I would like to hook up all my clients (2 workstations and a laptop) to a wireless network, maybe even my server, to get rid of all the wires cluttering my floor. I have been playing around with the thought of of trashing my current server totally, and find a new one wich is more home friendly (less power and noise). Even though webalizer tells me I have 1.5G traffic to emcken.dk each month, its not like I need a 2.0GHz processor and 1GB ram for it.
