@@ -17,30 +17,29 @@ support: true
 excerpt_separator: <!--more-->
 ---
 
-Blazing fast webservers make no difference
-if the work exposed via their APIs is very CPU-intensive.
-The slow response times will totally cripple the service
-when coupled with an API gateway
-that (for good reasons) refuses to wait for a response for more than 29 seconds.
+Even the fastest web servers become bottlenecks
+when handling CPU-intensive API work.
+Slow response times can cripple your service,
+especially when paired with an API gateway that times out after 29 seconds.
 
-A simple middleware helped me avoid `504 - Gateway Timeout` responses
-and reduce most unnecessary load on a service API.
+I solved this using a simple middleware
+that eliminated `504 - Gateway Timeout` responses
+and significantly reduced unnecessary load on my service API.
 
 <!--more-->
 
-If a single request on average takes 5 seconds to calculate a response,
-I assumed that at least five responses would be able to make it through
-before hitting a timeout of 29 seconds
-(which is the maximum of Amazon's API gateway):
+I assumed that if a single request takes 5 seconds on average,
+at least five requests could complete
+before hitting Amazon API Gateway's 29-second timeout:
 
 <img src="/public/media/assumed concurrent connections.svg"
      alt="Visualization of how I assumed concurrent HTTP connections would put load on the CPU."
      loading="lazy" />
 
-But to my surprise, it behaved entirely differently in reality.
-In retrospect, it makes sense, of course.
-
-Resources are divided equally, causing all the responses to become equally slow:
+In practice, the behavior was completely different
+(though in retrospect, it makes perfect sense).
+CPU resources are divided equally among all concurrent requests,
+causing **all responses to slow down proportionally**:
 
 <img src="/public/media/actual concurrent connections.svg"
      alt="Visualization of how the concurrent HTTP connections actually put load on the CPU."
@@ -68,9 +67,8 @@ maybe involving a queue or some async response mechanism,
 would probably have been a better solution.
 But sometimes, we need to work with what we've got.
 
-Since my CPU load is fairly similar for all different requests,
-it was easy to predict the number of concurrent connections
-that could make it through within the timeout limit.
+Since my CPU load was fairly consistent across requests,
+I could predict how many concurrent connections could complete within the timeout limit.
 
 With the following middleware, I limit concurrent active connections
 to ensure high CPU utilization while still responding within the timeout:
