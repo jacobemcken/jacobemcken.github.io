@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="310" version="1.1" viewBox="0 0 185.21 82.021" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <g>
+  <rect x="13.229" y="19.05" width="42.333" height="9.525" rx="1.3229" ry="1.3229" fill="#10b981" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="1.4122" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  <rect x="34.396" y="19.05" width="21.167" height="9.525" rx="1.3229" ry="1.3229" fill="#065f46" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width=".99857" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  <g fill="#10b981" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2">
+   <rect x="13.229" y="29.104" width="63.5" height="9.525" rx="1.3229" ry="1.3229" stroke-width="1.7296" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="13.229" y="39.158" width="84.667" height="9.525" rx="1.3229" ry="1.3229" stroke-width="1.9971" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="13.229" y="49.213" width="105.83" height="9.525" rx="1.3229" ry="1.3229" stroke-width="2.2329" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="13.229" y="59.267" width="127" height="9.525" rx="1.3229" ry="1.3229" stroke-width="2.446" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  </g>
+  <g fill="#065f46" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width=".99857">
+   <rect x="13.229" y="8.9958" width="21.167" height="9.525" rx="1.3229" ry="1.3229" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="55.562" y="29.104" width="21.167" height="9.525" rx="1.3229" ry="1.3229" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="97.896" y="49.212" width="21.167" height="9.525" rx="1.3229" ry="1.3229" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="76.729" y="39.158" width="21.167" height="9.525" rx="1.3229" ry="1.3229" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <rect x="119.06" y="59.267" width="21.167" height="9.525" rx="1.3229" ry="1.3229" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  </g>
+  <rect x="161.8" y="26.591" width="5.2917" height="5.2917" rx=".79375" ry=".79375" fill="#047857" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width=".99857" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  <rect x="161.67" y="18.644" width="5.2917" height="5.2917" rx=".79375" ry=".79375" fill="#10b981" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="2" stroke-width=".99857" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  <g fill="none" stroke="#000">
+   <path d="m13.229 69.321h137.58" stroke-width="1.0583"/>
+   <g stroke-width=".45829">
+    <path d="m13.458 69.85v3.9688"/>
+    <path d="m34.601 69.85v3.9688"/>
+    <path d="m55.744 69.85v3.9688"/>
+    <path d="m76.887 69.85v3.9688"/>
+    <path d="m98.03 69.85v3.9688"/>
+    <path d="m119.17 69.85v3.9688"/>
+    <path d="m140.32 69.85v3.9688"/>
+   </g>
+  </g>
+  <g font-family="sans-serif" font-size="4.2333px" stroke-width=".26458" text-anchor="middle">
+   <text x="13.179262" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="13.179262" y="78.086998" font-size="4.2333px" stroke-width=".26458">0s</tspan></text>
+   <text x="8.2539873" y="15.301393" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.2539873" y="15.301393" font-size="4.2333px" stroke-width=".26458">1</tspan></text>
+   <text x="8.3480387" y="25.383465" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.3480387" y="25.383465" font-size="4.2333px" stroke-width=".26458">2</tspan></text>
+   <text x="8.2994623" y="35.407658" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.2994623" y="35.407658" font-size="4.2333px" stroke-width=".26458">3</tspan></text>
+   <text x="8.3066969" y="45.463894" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.3066969" y="45.463894" font-size="4.2333px" stroke-width=".26458">4</tspan></text>
+   <text x="8.3128986" y="55.488087" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.3128986" y="55.488087" font-size="4.2333px" stroke-width=".26458">5</tspan></text>
+   <text x="8.2767248" y="65.57016" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="8.2767248" y="65.57016" font-size="4.2333px" stroke-width=".26458">6</tspan></text>
+   <text x="34.565105" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="34.565105" y="78.086998" font-size="4.2333px" stroke-width=".26458">5s</tspan></text>
+   <text x="172.4257" y="22.867781" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="172.4257" y="22.867781" font-size="4.2333px" stroke-width=".26458">Idle</tspan></text>
+   <text x="173.04892" y="30.777876" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="173.04892" y="30.777876" font-size="4.2333px" stroke-width=".26458">CPU</tspan></text>
+   <text x="55.708073" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="55.708073" y="78.086998" font-size="4.2333px" stroke-width=".26458">10s</tspan></text>
+   <text x="76.851036" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="76.851036" y="78.086998" font-size="4.2333px" stroke-width=".26458">15s</tspan></text>
+   <text x="97.994003" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="97.994003" y="78.086998" font-size="4.2333px" stroke-width=".26458">20s</tspan></text>
+   <text x="119.13696" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="119.13696" y="78.086998" font-size="4.2333px" stroke-width=".26458">25s</tspan></text>
+   <text x="140.27994" y="78.086998" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="140.27994" y="78.086998" font-size="4.2333px" stroke-width=".26458">30s</tspan></text>
+   <text x="150.18997" y="7.3746462" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="150.18997" y="7.3746462" font-size="4.2333px" stroke-width=".26458">29s timeout</tspan></text>
+  </g>
+  <path d="m136.24 7.9375v66.146" fill="none" stroke="#1f1f1f" stroke-dasharray="1.05832, 3.175" stroke-width=".52917"/>
+ </g>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+</svg>
