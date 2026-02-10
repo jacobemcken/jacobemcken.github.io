@@ -27,8 +27,8 @@ out of my narrow comfort zone and [commit to the learning process][learning].
 So I decided to take the plunge and I felt good about it. After all I knew I
 still had a lot to learn - in retrospect that was an understatement.
 
-> The more you know, the more you know you don't know.
-> - Aristotle
+> The more you know, the more you know you don't know.  
+> — Aristotle
 
 There was a gap in my knowledge about programming, sometimes entire concepts
 was unfamiliar other times I had "invented" similar concepts myself without
