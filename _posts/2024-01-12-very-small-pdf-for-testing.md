@@ -8,6 +8,7 @@ categories:
 tags:
 - PDF
 - Test
+- cornerstone-content
 comments: true
 support: true
 excerpt_separator: <!--more-->
