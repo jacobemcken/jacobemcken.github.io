@@ -29,14 +29,15 @@ or ask my wife if she has a better angle.
 
 But I keep coming back to: *Does this sound like me, does it feel authentic?*
 
-I've also used Midjourney for most of my *featured images*.
+I've used Midjourney for most of my *featured images*.
 It usually takes many re-runs, prompt tweaking, and edits
 to generate an image that looks good and resonates with the post.
 Fun fact, I always include the "Midjourney prompt" in the `alt` property of the image tag.
 
-I've always been using smilies (2004) and later emojies in my writing on the blog.
-But after having been exposed to AI, I've started using the m-dash as well.
-I love how it breaks up text that would otherwise have a monotone flow.
+I've been using smilies to bring emotions and life to my writing since the beginning (2004),
+And later, I was quick to adopt emojis as well.
+After being exposed to AI, I've also adopted using the m-dash on occasion.
+Like with emojis, I love how it breaks up text that would otherwise have a monotone flow.
 
 Before sharing any content on my blog,
 I spend a lot of energy evaluating its relevance and refining how to convey the topic.
