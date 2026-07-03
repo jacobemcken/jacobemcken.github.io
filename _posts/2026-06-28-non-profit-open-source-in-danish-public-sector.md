@@ -3,7 +3,7 @@ layout: post
 title: Non-profit open source in the Danish public sector
 image: /assets/img/trading_farmers_behind_a_huge_window.webp
 image_alt: "Midjourney prompt: Farmer community where everyone is sharing with each other, behind a huge window where hoarders are looking in hungrily."
-description: "I wish we were better at collaborating across silos in the public sector, and I believe both open source and not-for-profit can be a way to break down some of the barriers."
+description: "I wish collaborating across silos in the public sector worked better, but I believe both open source and not-for-profit can help improve things."
 categories:
 - Other
 tags:
