@@ -21,7 +21,7 @@ But lately things have changed...
 
 It all started with new small LEGO <abbr title="My Own Creation">MOC</abbr>:
 
-<img src="/public/media/lego/temple_or_castle_facade2.jpg"
+<img src="/public/media/lego/temple_or_castle_facade2_1440.webp"
      alt="Old temple or castle facade, showing vegetation - by Jacob Emcken."
      loading="lazy" />
 
@@ -69,7 +69,7 @@ This is how the MOC looks so far.
 Please ignore the wild mix of colors as they are placeholders
 until I settle on a final design (and buy the missing bricks):
 
-<img src="/public/media/lego/Urban Haven snapshot 1.jpg"
+<img src="/public/media/lego/Urban Haven snapshot 1_1440.webp"
      alt="Lego MOC under the working title 'Urban Haven', using a mix of colors while exploring visual balance and building techniques. Snapshot 1 - by Jacob Emcken."
      loading="lazy" />
 
