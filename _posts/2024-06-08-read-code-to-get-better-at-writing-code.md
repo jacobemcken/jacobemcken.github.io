@@ -26,7 +26,7 @@ and *if you want to be really good, you have to read A LOT.*
 Diversity was implied, different genres and different authors, to broaden our horizons. 📚
 
 The reason for this trip down memory lane is that I want to make the point:
-If you want to get better a programming (writing code), you should read code,
+If you want to get better at programming (writing code), you should read code,
 and if you want to get really good you should read A LOT of code.
 Not your own code - obviously. You need new input to avoid stagnating - some kind of creative stimulus.
 You need to see and understand alternative ways of solving the same problem.
