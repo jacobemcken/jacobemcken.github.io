@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Urban Haven — a Lego modular build
+title: Urban Haven — a LEGO modular build
 description: I recently reawakened my interest in LEGO by designing a modular 'building'.
 image: /assets/img/lego_moc_urban_haven2.webp
 image_alt: Lego Studio render of some of the initial work on my "Urban Haven" MOC
