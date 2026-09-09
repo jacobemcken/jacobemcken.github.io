@@ -2,7 +2,7 @@
 layout: post
 title: A local AI setup using llama.cpp and Open WebUI
 description: "How to set up a local AI environment using llama.cpp and OpenWebUI using Docker Compose."
-image: /assets/img/building_ai.webp
+image: /assets/img/building_ai_green_red_pixelart.webp
 image_alt: "Midjourney prompt: Electronic brain take-off using pixel art."
 categories:
 - Programming
